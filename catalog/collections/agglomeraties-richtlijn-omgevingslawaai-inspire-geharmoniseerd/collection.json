@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "agglomeraties-richtlijn-omgevingslawaai-inspire-geharmoniseerd",
   "title": "Agglomeraties gemeenten inclusief bevolkingsaantallen volgens Richtlijn Omgevingslawaai 2022 (INSPIRE geharmoniseerd)",
   "description": "Gegevens over de geluidbron 'agglomeraties' omvatten stedelijke gebieden van aangewezen gemeenten. Met deze data wordt invulling gegeven aan de eisen uit de Wet milieubeheer die voortvloeien uit de Europese richtlijn omgevingslawaai (2002/49/EG)",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/agglomeraties_thumbnail_ogc_api.png/0d3562c9-8e7a-1448-3f44-4dbfff2ac07b?t=1791931487154",
+      "href": "https://www.pdok.nl/documents/1901824/0/agglomeraties_thumbnail_ogc_api.png/0d3562c9-8e7a-1448-3f44-4dbfff2ac07b?t=1791932241654",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/agglomeraties-richtlijn-omgevingslawaai-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/ienw/agglomeraties-omgevingslawaai-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (agglomeraties-omgevingslawaai-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "AM.SensitiveArea"
+      ],
+      "wms:transparent": true
     }
   ]
 }

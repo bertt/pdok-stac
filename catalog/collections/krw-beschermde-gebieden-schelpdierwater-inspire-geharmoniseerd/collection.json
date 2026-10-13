@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "krw-beschermde-gebieden-schelpdierwater-inspire-geharmoniseerd",
   "title": "KRW Beschermde Gebieden - Schelpdierwater (INSPIRE geharmoniseerd)",
   "description": "INSPIRE geharmoniseerde dataset van de Kaderrichtlijn Water (KRW) Register Beschermde Gebieden - Schelpdierwateren.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/krw%20schelpdierwater.png/1fa4204e-2524-fc79-c393-ea8d0e8faf62?t=1791931487177",
+      "href": "https://www.pdok.nl/documents/1901824/0/krw%20schelpdierwater.png/1fa4204e-2524-fc79-c393-ea8d0e8faf62?t=1791932241685",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/krw-beschermde-gebieden-schelpdierwater-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/ihw/krw-beschermde-gebieden-schelpdierwater-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (krw-beschermde-gebieden-schelpdierwater-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "AM.WaterBodyForWFD"
+      ],
+      "wms:transparent": true
     }
   ]
 }

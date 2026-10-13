@@ -1,6 +1,7 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [],
   "id": "bro-grondwatermonitoringput-gmw",
   "title": "BRO Grondwatermonitoringput (GMW)",
   "description": "Grondwatermonitoringput is de putconstructie die gebruikt wordt om onder andere de kwantiteit (grondwaterstanden) en de kwaliteit (samenstelling) van het grondwater te meten.",
@@ -46,7 +47,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Grondwatermonitoringput.png/d0f73f9a-5353-9d38-1b40-f21ec5f319dc?t=1791931487162",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Grondwatermonitoringput.png/d0f73f9a-5353-9d38-1b40-f21ec5f319dc?t=1791932241667",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

@@ -11,6 +11,7 @@ import re
 import shutil
 import sys
 import unicodedata
+import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
@@ -29,6 +30,7 @@ SERVICE_URL = re.compile(r"https?://(?:service|api)\.pdok\.nl[^\"'\s<>)]*")
 OUT = Path(__file__).parent / "catalog"
 NL_BBOX = [3.2, 50.75, 7.22, 53.7]
 STAC_VERSION = "1.0.0"
+WEB_MAP_LINKS = "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
 
 
 def fetch(url):
@@ -110,6 +112,50 @@ def service_assets(urls):
     return assets
 
 
+def local_name(tag):
+    """Strip the XML namespace from a tag name."""
+    return tag.rsplit("}", 1)[-1]
+
+
+def first_layer(capabilities, name_tag):
+    """Return the first layer name in a WMS/WMTS capabilities document."""
+    root = ET.fromstring(capabilities)
+    for layer in root.iter():
+        if local_name(layer.tag) != "Layer":
+            continue
+        for child in layer:
+            if local_name(child.tag) == name_tag and child.text and child.text.strip():
+                return child.text.strip()
+    return None
+
+
+def map_link(kind, href, title):
+    """Build a web-map-links `wms` or `wmts` link for a service, or None on failure."""
+    base = href.split("?")[0]
+    try:
+        if kind == "wms":
+            caps = fetch(f"{base}?service=WMS&request=GetCapabilities&version=1.3.0")
+            layer = first_layer(caps, "Name")
+        else:
+            caps = fetch(f"{base}?service=WMTS&request=GetCapabilities")
+            layer = first_layer(caps, "Identifier")
+    except Exception as e:
+        print(f"skipped {kind} link {base}: {e}", file=sys.stderr)
+        return None
+    if not layer:
+        return None
+    if kind == "wms":
+        return {
+            "rel": "wms",
+            "href": base,
+            "type": "image/png",
+            "title": title,
+            "wms:layers": [layer],
+            "wms:transparent": True,
+        }
+    return {"rel": "wmts", "href": base, "title": title, "wmts:layer": layer, "wmts:encoding": "kvp"}
+
+
 def enrich(item):
     """Add description, logo and service URLs from the dataset page and its sub pages."""
     page = fetch(item["url"])
@@ -127,6 +173,13 @@ def enrich(item):
         item["pages"].append((sub_url, title))
         urls.update(html.unescape(u) for u in SERVICE_URL.findall(fetch(sub_url)))
     item["services"] = service_assets(urls)
+    item["map_links"] = [
+        link
+        for key, asset in item["services"].items()
+        if re.fullmatch(r"wm(?:s|ts)(-\d+)?", key) and "getcapabilities" in asset["href"].lower()
+        for link in [map_link(key.split("-")[0], asset["href"], asset["title"])]
+        if link
+    ]
     return item
 
 
@@ -140,7 +193,7 @@ def main():
     """Build the catalog: one STAC Collection per PDOK dataset."""
     items = parse_listing()
     print(f"{len(items)} datasets found")
-    with ThreadPoolExecutor(8) as ex:
+    with ThreadPoolExecutor(16) as ex:
         items = list(ex.map(enrich, items))
 
     if OUT.exists():
@@ -163,9 +216,11 @@ def main():
         ]
         for sub_url, sub_title in it["pages"]:
             clinks.append({"rel": "service-doc", "href": sub_url, "type": "text/html", "title": sub_title})
+        clinks.extend(it["map_links"])
         coll = {
             "type": "Collection",
             "stac_version": STAC_VERSION,
+            "stac_extensions": [WEB_MAP_LINKS] if it["map_links"] else [],
             "id": cid,
             "title": it["title"],
             "description": it["description"],

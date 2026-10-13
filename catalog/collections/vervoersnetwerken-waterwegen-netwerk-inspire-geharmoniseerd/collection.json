@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "vervoersnetwerken-waterwegen-netwerk-inspire-geharmoniseerd",
   "title": "Vervoersnetwerken - Waterwegen - Netwerk (INSPIRE geharmoniseerd)",
   "description": "Naar INSPIRE thema Vervoersnetwerken - Waterwegen geharmoniseerde datasets van alleen de vaarwegvakken en kilometermarkeringen uit het NWB - Vaarwegen. Het Nationaal Wegen Bestand (NWB) - Vaarwegen bevat informatie van alle bevaarbare waterwegen voor de beroeps- en recreatievaart in Nederland met een minimale doorvaarhoogte van 2,45 meter en een minimale diepgang van 1,10 meter.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Vervoersnetwerken%20-%20Waterwegen.png/11c959ed-bd80-237d-25f5-dcadd8fb4977?t=1791931487188",
+      "href": "https://www.pdok.nl/documents/1901824/0/Vervoersnetwerken%20-%20Waterwegen.png/11c959ed-bd80-237d-25f5-dcadd8fb4977?t=1791932241706",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/vervoersnetwerken-waterwegen-netwerk-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rws/vervoersnetwerken-waterwegen-netwerk/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vervoersnetwerken-waterwegen-netwerk/wms/v1_0)",
+      "wms:layers": [
+        "TN.WaterTransportNetwork.Buoy"
+      ],
+      "wms:transparent": true
     }
   ]
 }

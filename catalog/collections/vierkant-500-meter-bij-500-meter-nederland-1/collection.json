@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "vierkant-500-meter-bij-500-meter-nederland-1",
   "title": "Vierkant 500 meter bij 500 meter Nederland",
   "description": "Het bestand vierkant 500 meter bij 500 meter Nederland bevat alle vierkanten op land van Nederland, aangevuld met groter wateren.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Vierkant%20500%20meter%20bij%20500%20meter%20Nederland.png/530186b0-72f3-f46f-e6bc-71b55384af29?t=1791931487189",
+      "href": "https://www.pdok.nl/documents/1901824/0/Vierkant%20500%20meter%20bij%20500%20meter%20Nederland.png/530186b0-72f3-f46f-e6bc-71b55384af29?t=1791932241708",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -111,6 +114,16 @@
       "href": "https://www.pdok.nl/ogc-apis/-/article/vierkant-500-meter-bij-500-meter-nederland-1",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkant-500m/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkant-500m/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_500m"
+      ],
+      "wms:transparent": true
     }
   ]
 }

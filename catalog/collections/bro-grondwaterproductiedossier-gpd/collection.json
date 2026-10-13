@@ -1,6 +1,7 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [],
   "id": "bro-grondwaterproductiedossier-gpd",
   "title": "BRO Grondwaterproductiedossier (GPD)",
   "description": "Het registratieobject grondwaterproductiedossier  (GPD) omvat de productiecijfers van een grondwatergebruiksysteem.",
@@ -46,7 +47,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRT-A.png/a801f935-671d-66ef-4751-17c21fcb4dde?t=1791931487162",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRT-A.png/a801f935-671d-66ef-4751-17c21fcb4dde?t=1791932241667",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

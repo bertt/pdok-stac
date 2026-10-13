@@ -1,6 +1,7 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [],
   "id": "location-api-1",
   "title": "Location API",
   "description": "Het Kadaster heeft een nieuwe PDOK Location API ontwikkeld.",
@@ -46,7 +47,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Thumbnail%20voor%20website.jpg/6e28f43d-c170-207d-a23b-c6b151f4e05e?t=1791931487179",
+      "href": "https://www.pdok.nl/documents/1901824/0/Thumbnail%20voor%20website.jpg/6e28f43d-c170-207d-a23b-c6b151f4e05e?t=1791932241688",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "basisregistratie-topografie-achtergrondkaarten-brt-a",
   "title": "Basisregistratie Topografie (BRT) BRT Achtergrondkaart (BRT-A)",
   "description": "De BRT Achtergrondkaart is afgeleid uit TOP10NL uit de Basisregistratie Topografie (BRT) met de straatnamen uit de Basisregistraties Adressen en Gebouwen (BAG). De BRT-A bestaat in vijf thema's: standaard, grijs, pastel, water en labels.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/brta.png/b50003d0-c722-a491-bf51-de94bfa023f7?t=1791931487155",
+      "href": "https://www.pdok.nl/documents/1901824/0/brta.png/b50003d0-c722-a491-bf51-de94bfa023f7?t=1791932241657",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -127,6 +130,13 @@
       "href": "https://www.pdok.nl/ogc-apis/-/article/basisregistratie-topografie-achtergrondkaarten-brt-a-",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://service.pdok.nl/kadaster/brt-achtergrondkaart/wmts/v2_0",
+      "title": "WMTS (brt-achtergrondkaart/wmts/v2_0)",
+      "wmts:layer": "standaard",
+      "wmts:encoding": "kvp"
     }
   ]
 }

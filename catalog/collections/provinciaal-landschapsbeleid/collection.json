@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "provinciaal-landschapsbeleid",
   "title": "Provinciaal Landschapsbeleid - Provincies (INSPIRE geharmoniseerd)",
   "description": "Nationale landschappen zijn gebieden met internationaal zeldzame of unieke en nationaal kenmerkende landschapskwaliteiten, en in samenhang daarmee bijzondere natuurlijke, cultuurhistorische en recreatieve kwaliteiten.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Provinciaal%20landschapsbeleid.jpg/71da8cd1-e6b5-b053-9192-bef5dfc46544?t=1791931487184",
+      "href": "https://www.pdok.nl/documents/1901824/0/Provinciaal%20landschapsbeleid.jpg/71da8cd1-e6b5-b053-9192-bef5dfc46544?t=1791932241697",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/provinciaal-landschapsbeleid",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/provincies/provinciaal-landschapsbeleid/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (provinciaal-landschapsbeleid/wms/v1_0)",
+      "wms:layers": [
+        "PS.ProtectedSite"
+      ],
+      "wms:transparent": true
     }
   ]
 }

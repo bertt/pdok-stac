@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bro-geotechnisch-sondeeronderzoek-cpt-geologie-inspire-geharmoniseerd",
   "title": "BRO - Geotechnisch sondeeronderzoek (CPT) – Geologie (INSPIRE geharmoniseerd)",
   "description": "Deze dataset bevat de gegevens over geotechnische sondeeronderzoeken welke in de BRO (Basisregistratie Ondergrond) zijn opgenomen. De dataset is geharmoniseerd naar het INSPIRE thema Geologie.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Geotechnisch%20sondeeronderzoek.jpg/7a851e34-dd2e-2c8a-dfb6-1a4e873b9e08?t=1791931487160",
+      "href": "https://www.pdok.nl/documents/1901824/0/Geotechnisch%20sondeeronderzoek.jpg/7a851e34-dd2e-2c8a-dfb6-1a4e873b9e08?t=1791932241663",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-geotechnisch-sondeeronderzoek-cpt-geologie-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/tno/bro-geotechnisch-sondeeronderzoek-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bro-geotechnisch-sondeeronderzoek-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "GE.ConePenetrationTest"
+      ],
+      "wms:transparent": true
     }
   ]
 }

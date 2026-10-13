@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "cbs-gebiedsindelingen",
   "title": "CBS Gebiedsindelingen",
   "description": "Het bestand CBS gebiedsindelingen geeft de gebiedsindelingen die het CBS hanteert.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Gebiedsindelingen.png/0488a5ce-4312-550b-7d6c-efe38118d3d6?t=1791931487168",
+      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Gebiedsindelingen.png/0488a5ce-4312-550b-7d6c-efe38118d3d6?t=1791932241673",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -285,6 +288,116 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/cbs-gebiedsindelingen",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2016/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2016/wms/v1_0)",
+      "wms:layers": [
+        "arbeidsmarktregio_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2017/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2017/wms/v1_0)",
+      "wms:layers": [
+        "arbeidsmarktregio_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2018/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2018/wms/v1_0)",
+      "wms:layers": [
+        "arbeidsmarktregio_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2019/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2019/wms/v1_0)",
+      "wms:layers": [
+        "arbeidsmarktregio_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2020/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2020/wms/v1_0)",
+      "wms:layers": [
+        "arbeidsmarktregio_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2021/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2021/wms/v1_0)",
+      "wms:layers": [
+        "arbeidsmarktregio_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2022/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2022/wms/v1_0)",
+      "wms:layers": [
+        "arbeidsmarktregio_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2023/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2023/wms/v1_0)",
+      "wms:layers": [
+        "arbeidsmarktregio_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2024/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2024/wms/v1_0)",
+      "wms:layers": [
+        "arbeidsmarktregio_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2025/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2025/wms/v1_0)",
+      "wms:layers": [
+        "arbeidsmarktregio_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2026/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2026/wms/v1_0)",
+      "wms:layers": [
+        "coropgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bro-model-grondwaterspiegeldiepte-wdm",
   "title": "BRO Model Grondwaterspiegeldiepte (WDM)",
   "description": "Het model Grondwaterspiegeldiepte (WDM) is een tweedimensionaal ruimtelijk model dat de diepte tot de grondwaterspiegel weergeeft met een resolutie van 50 bij 50 meter. Het model geeft aan tussen welke gemiddelde dieptes, in centimeters beneden maaiveld, de grondwaterspiegel jaarlijks varieert.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/WDM.jpg/d4fdc7b7-48fe-8fff-b3c8-e27437ebc846?t=1791931487163",
+      "href": "https://www.pdok.nl/documents/1901824/0/WDM.jpg/d4fdc7b7-48fe-8fff-b3c8-e27437ebc846?t=1791932241669",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-model-grondwaterspiegeldiepte-wdm-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/tno/bro-model-grondwaterspiegeldiepte/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (bro-model-grondwaterspiegeldiepte/wms/v2_0)",
+      "wms:layers": [
+        "bro-grondwaterspiegeldieptemetingen"
+      ],
+      "wms:transparent": true
     }
   ]
 }

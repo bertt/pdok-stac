@@ -1,6 +1,7 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [],
   "id": "bro-grondwatersamenstellingsonderzoek-gar",
   "title": "BRO Grondwatersamenstellingsonderzoek (GAR)",
   "description": "Het registratieobject grondwatersamenstellingsonderzoek (GAR) bevat de definitieve resultaten van onderzoek dat gericht is op grondwaterkwaliteit. Daarbij is een grondwatermonster gebruikt uit een buis in een bekende   grondwatermonitoringput. Dit onderzoek is onder de verantwoordelijkheid van een laboratorium uitgevoerd.",
@@ -46,7 +47,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/bro.jpg/5e0e886e-deb7-887c-49e0-68f991d1256b?t=1791931487162",
+      "href": "https://www.pdok.nl/documents/1901824/0/bro.jpg/5e0e886e-deb7-887c-49e0-68f991d1256b?t=1791932241667",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

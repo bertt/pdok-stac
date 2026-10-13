@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "regionale-woondeals",
   "title": "Regionale Woondeals",
   "description": "In de regionale woondeals staan, naast de afspraken over het aantal te bouwen en transformeren woningen, ook de locaties, het aandeel betaalbare woningen, het percentage sociale huur en afspraken over de huisvesting van aandachtsgroepen.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Regionale%20Woondeals.jpg/0077481b-1f12-e3cf-9443-e923fa41e70f?t=1791931487186",
+      "href": "https://www.pdok.nl/documents/1901824/0/Regionale%20Woondeals.jpg/0077481b-1f12-e3cf-9443-e923fa41e70f?t=1791932241701",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/regionale-woondeals",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/bzk/woondeals/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (woondeals/wms/v1_0)",
+      "wms:layers": [
+        "woondeals"
+      ],
+      "wms:transparent": true
     }
   ]
 }

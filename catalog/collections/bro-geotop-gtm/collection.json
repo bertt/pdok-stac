@@ -1,6 +1,7 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [],
   "id": "bro-geotop-gtm",
   "title": "BRO GeoTOP (GTM)",
   "description": "GeoTOP (GTM) is een 3D-model dat de ondergrond tot maximaal 50 meter onder NAP in blokken (voxels) van 100 x 100 x 0,5 meter weergeeft. Het model geeft informatie over de laagopbouw en grondsoort (zand, grind, klei of veen) van de ondiepe ondergrond van Nederland.",
@@ -46,7 +47,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/GTM.jpg/b15fdabb-e3ad-1c72-aa1c-5af21362cdf9?t=1791931487160",
+      "href": "https://www.pdok.nl/documents/1901824/0/GTM.jpg/b15fdabb-e3ad-1c72-aa1c-5af21362cdf9?t=1791932241664",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

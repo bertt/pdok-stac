@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "natura2000-inspire-geharmoniseerd",
   "title": "Natura 2000 (INSPIRE geharmoniseerd)",
   "description": "Natura 2000 is het samenhangend netwerk van beschermde natuurgebieden in de Europese Unie bestaande uit Vogelrichtlijn- en Habitatrichtlijngebieden. De Natura 2000-gebieden zijn een samenvoeging van beide.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Beschermde%20gebieden%20Natura2000.png/34a89922-cb5e-76b1-fb19-1d49523daa3e?t=1791931487182",
+      "href": "https://www.pdok.nl/documents/1901824/0/Beschermde%20gebieden%20Natura2000.png/34a89922-cb5e-76b1-fb19-1d49523daa3e?t=1791932241692",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/natura2000-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/natura2000-geharmoniseerd/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (natura2000-geharmoniseerd/wms/v2_0)",
+      "wms:layers": [
+        "PS.ProtectedSite"
+      ],
+      "wms:transparent": true
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "krw-monitoringlocaties-inspire-geharmoniseerd",
   "title": "KRW Monitoringlocaties (INSPIRE geharmoniseerd)",
   "description": "INSPIRE geharmoniseerde dataset van het landelijke bestand monitoringlocaties in KRW oppervlaktewaterlichamen en KRW grondwaterlichamen.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/krw%20monitoringlocaties.png/5d6536ca-cb52-c645-505a-7532bed5b724?t=1791931487178",
+      "href": "https://www.pdok.nl/documents/1901824/0/krw%20monitoringlocaties.png/5d6536ca-cb52-c645-505a-7532bed5b724?t=1791932241685",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/krw-monitoringlocaties-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/ihw/krw-monitoringlocaties-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (krw-monitoringlocaties-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "EF.EnvironmentalMonitoringFacilities"
+      ],
+      "wms:transparent": true
     }
   ]
 }

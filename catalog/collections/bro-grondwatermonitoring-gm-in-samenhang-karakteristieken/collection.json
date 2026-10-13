@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bro-grondwatermonitoring-gm-in-samenhang-karakteristieken",
   "title": "BRO - Grondwatermonitoring (GM) in samenhang - karakteristieken",
   "description": "De dataset Grondwatermonitoring (GM) in samenhang - karakteristieken bevat de samenvattende/karakteristieke gegevens van registratieobjecten in het grondwatermonitoring domein, inclusief onderlinge relaties tussen deze registratieobjecten. Deze kenset GM in samenhang bevat dus niet de volledige inhoud van de registratieobjecten.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BROGrondwatermonitoring%20%281%29.jpg/9be4c1ef-5f93-a63e-d2eb-26e76ff13571?t=1791931487161",
+      "href": "https://www.pdok.nl/documents/1901824/0/BROGrondwatermonitoring%20%281%29.jpg/9be4c1ef-5f93-a63e-d2eb-26e76ff13571?t=1791932241666",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -117,6 +120,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-grondwatermonitoring-gm-in-samenhang-karakteristieken",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/tno/bro-grondwatermonitoring-in-samenhang-karakteristieken/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bro-grondwatermonitoring-in-samenhang-karakteristieken/wms/v1_0)",
+      "wms:layers": [
+        "gm_gmw"
+      ],
+      "wms:transparent": true
     }
   ]
 }

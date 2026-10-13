@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "basisregistratie-adressen-en-gebouwen-ba-1",
   "title": "Basisregistratie Adressen en Gebouwen (BAG)",
   "description": "Deze service wordt dagelijks geactualiseerd. De gegevens bestaan uit BAG-panden, een deelselectie van BAG-gegevens van deze panden en de verblijfsobjecten die zich hierin bevinden. De ligplaatsen en standplaatsen zijn hierin ook opgenomen met een deelselectie van BAG-gegevens.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Adressen%20en%20Gebouwen.png/f84c4d23-c8a6-c06b-c368-fd7ae83b927f?t=1791931487154",
+      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Adressen%20en%20Gebouwen.png/f84c4d23-c8a6-c06b-c368-fd7ae83b927f?t=1791932241655",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -149,6 +152,26 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/basisregistratie-adressen-en-gebouwen-ba-1",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/bag/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (bag/wms/v2_0)",
+      "wms:layers": [
+        "pand"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/lv/bag/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (bag/wms/v2_0)",
+      "wms:layers": [
+        "pand"
+      ],
+      "wms:transparent": true
     }
   ]
 }

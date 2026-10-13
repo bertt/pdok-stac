@@ -1,6 +1,7 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [],
   "id": "pdok-locatieserver-1",
   "title": "PDOK Locatieserver",
   "description": "De Locatieserver is een gratis zoekservice die voor iedereen beschikbaar is. Men kan zoeken op BAG-data zoals adres, straat, woonplaats etc. en op kadastrale gegevens (alleen perceelnummers en de perceel-adres koppeling). De nieuwe service kan eenvoudig opgenomen worden in viewers en put uit de meest actuele en betrouwbare overheidsdata.",
@@ -46,7 +47,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Locatieserver%20%283%29.jpg/7865697b-e4c2-589c-b829-1cd01de45186?t=1791931487183",
+      "href": "https://www.pdok.nl/documents/1901824/0/Locatieserver%20%283%29.jpg/7865697b-e4c2-589c-b829-1cd01de45186?t=1791932241695",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

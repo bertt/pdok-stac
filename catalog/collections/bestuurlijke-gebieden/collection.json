@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bestuurlijke-gebieden",
   "title": "Bestuurlijke Gebieden",
   "description": "Overzicht van de bestuurlijke indeling van Nederland in gemeenten en provincies alsmede de landsgrens. Gegevens zijn afgeleid uit de Basisregistratie Kadaster (BRK).",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Bestuurlijke%20Gebieden.png/8c633165-7a4f-f690-13f4-0b7cb83c48e1?t=1791931487156",
+      "href": "https://www.pdok.nl/documents/1901824/0/Bestuurlijke%20Gebieden.png/8c633165-7a4f-f690-13f4-0b7cb83c48e1?t=1791932241658",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -149,6 +152,26 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bestuurlijke-gebieden",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/bestuurlijkegebieden/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bestuurlijkegebieden/wms/v1_0)",
+      "wms:layers": [
+        "Gemeentegebied"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/brk-bestuurlijke-gebieden/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (brk-bestuurlijke-gebieden/wms/v1_0)",
+      "wms:layers": [
+        "Gemeentegebied"
+      ],
+      "wms:transparent": true
     }
   ]
 }

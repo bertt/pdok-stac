@@ -1,6 +1,7 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [],
   "id": "luchtfoto-landelijke-voorziening-beeldmateriaal",
   "title": "Luchtfoto / Landelijke Voorziening Beeldmateriaal (Gesloten)",
   "description": "De orthofotomozaïeken zijn een samenstelling van afzonderlijke orthofoto's, in principe van de centrale gedeelten van iedere orthofoto. Daardoor is de omvalling in de mozaïeken zo klein mogelijk gehouden. De orthomozaïeken zijn landsdekkend.",
@@ -46,7 +47,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/luchtfoto.jpg/8dba382d-57bf-731e-54dd-c71d0916ea7d?t=1791931487179",
+      "href": "https://www.pdok.nl/documents/1901824/0/luchtfoto.jpg/8dba382d-57bf-731e-54dd-c71d0916ea7d?t=1791932241688",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

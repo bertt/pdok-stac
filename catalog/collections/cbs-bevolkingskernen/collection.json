@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "cbs-bevolkingskernen",
   "title": "CBS Bevolkingskernen 2011",
   "description": "Het bestand bevolkingskernen 2011 bevat statistische kerncijfers per bevolkingskern.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Bevolkingskernen%202011.png/e7031f13-1ecc-58cf-7f5b-8ae062b75458?t=1791931487164",
+      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Bevolkingskernen%202011.png/e7031f13-1ecc-58cf-7f5b-8ae062b75458?t=1791932241672",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/cbs-bevolkingskernen",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/bevolkingskernen-2011/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bevolkingskernen-2011/wms/v1_0)",
+      "wms:layers": [
+        "cbsbevolkingskernen2011"
+      ],
+      "wms:transparent": true
     }
   ]
 }

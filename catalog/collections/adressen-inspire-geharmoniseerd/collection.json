@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "adressen-inspire-geharmoniseerd",
   "title": "Adressen (INSPIRE geharmoniseerd)",
   "description": "INSPIRE Adressen themalaag, geharmoniseerd. Gevuld met relevante objecten uit de Basisregistratie Adressen en Gebouwen (BAG), beheerd door het Kadaster.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Adressen.png/56a96ab4-909f-e062-2bc0-bc70bc1ddc85?t=1791931487154",
+      "href": "https://www.pdok.nl/documents/1901824/0/Adressen.png/56a96ab4-909f-e062-2bc0-bc70bc1ddc85?t=1791932241654",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -111,6 +114,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/adressen-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/ad/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (ad/wms/v1_0)",
+      "wms:layers": [
+        "AD.Address"
+      ],
+      "wms:transparent": true
     }
   ]
 }

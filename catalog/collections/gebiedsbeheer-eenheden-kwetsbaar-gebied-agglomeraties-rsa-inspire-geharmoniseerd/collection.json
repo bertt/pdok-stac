@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "gebiedsbeheer-eenheden-kwetsbaar-gebied-agglomeraties-rsa-inspire-geharmoniseerd",
   "title": "Gebiedsbeheer eenheden - Kwetsbaar gebied - Agglomeraties - RSA (INSPIRE geharmoniseerd)",
   "description": "Naar INSPIRE thema Gebiedsbeheer, gebieden waar beperkingen gelden, gereguleerde gebieden en rapportage-eenheden geharmoniseerde agglomeraties zoals gerapporteerd naar de Europese Commissie tbv EU rapportage Stedelijk Afvalwater.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Gebiedsbeheer%20eenheden.png/4b044df6-c551-d052-98fd-a92a6f33ad40?t=1791931487172",
+      "href": "https://www.pdok.nl/documents/1901824/0/Gebiedsbeheer%20eenheden.png/4b044df6-c551-d052-98fd-a92a6f33ad40?t=1791932241677",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/gebiedsbeheer-eenheden-kwetsbaar-gebied-agglomeraties-rsa-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rws/kwetsbaar-gebied-agglomeraties/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (kwetsbaar-gebied-agglomeraties/wms/v1_0)",
+      "wms:layers": [
+        "AM.SensitiveArea"
+      ],
+      "wms:transparent": true
     }
   ]
 }

@@ -1,6 +1,7 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [],
   "id": "3d-geluid-1",
   "title": "3D Geluid",
   "description": "3D Omgevingsmodel voor Geluid is een digitaal topografisch bestand met driedimensionale objecten. De dataset is specifiek bedoeld voor de opbouw van een model voor berekeningen van geluid door de omgeving van weg- en railverkeer en industrie.",
@@ -46,7 +47,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Nederland_3D_kl.jpg/60018064-3abe-ed4c-be2e-58239cc6fcd8?t=1791931487153",
+      "href": "https://www.pdok.nl/documents/1901824/0/Nederland_3D_kl.jpg/60018064-3abe-ed4c-be2e-58239cc6fcd8?t=1791932241652",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

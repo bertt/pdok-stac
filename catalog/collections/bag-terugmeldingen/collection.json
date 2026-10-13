@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bag-terugmeldingen",
   "title": "BAG Terugmeldingen",
   "description": "De dataset BAG Terugmeldingen bevat recente meldingen op informatie uit Basisregistratie Adressen en Gebouwen (BAG).",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BAG%20Terugmeldingen.png/fb73a901-9cd5-4691-ca11-e6edc241e74a?t=1791931487154",
+      "href": "https://www.pdok.nl/documents/1901824/0/BAG%20Terugmeldingen.png/fb73a901-9cd5-4691-ca11-e6edc241e74a?t=1791932241654",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -111,6 +114,16 @@
       "href": "https://www.pdok.nl/ogc-apis/-/article/bag-terugmeldingen",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/bag-terugmeldingen/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bag-terugmeldingen/wms/v1_0)",
+      "wms:layers": [
+        "bagterugmeldingen"
+      ],
+      "wms:transparent": true
     }
   ]
 }

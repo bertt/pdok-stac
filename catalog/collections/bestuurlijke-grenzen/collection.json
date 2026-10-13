@@ -1,6 +1,7 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [],
   "id": "bestuurlijke-grenzen",
   "title": "Bestuurlijke Grenzen",
   "description": "Bestuurlijke Grenzen bestaan uit de gemeente-, provincie- en rijksgrenzen. Deze worden vervaardigd op basis van de kadastrale registratie (BRK). Deze dataset bevat de historie.",
@@ -46,7 +47,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Bestuurlijke%20grenzen.png/7637622d-b753-15bc-ae75-382f7e1cf014?t=1791931487156",
+      "href": "https://www.pdok.nl/documents/1901824/0/Bestuurlijke%20grenzen.png/7637622d-b753-15bc-ae75-382f7e1cf014?t=1791932241658",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

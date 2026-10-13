@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "verkeersscheidingsstelsel",
   "title": "Scheepvaart Verkeersscheidingsstelsel Noordzee",
   "description": "Het Scheepvaart verkeersscheidingsstelsel bevat kilometerpunten op de as van de vaargeulen op het Nederlands Continentaal Plat, Ankergebieden, vaargeulen, begrenzing en zonering. Deze dataset is aangemerkt als INSPIRE As-Is bron voor EU-doelen.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/scheepvaart.jpg/245e5d1d-469a-6a4e-470e-cea93d22aab1?t=1791931487188",
+      "href": "https://www.pdok.nl/documents/1901824/0/scheepvaart.jpg/245e5d1d-469a-6a4e-470e-cea93d22aab1?t=1791932241706",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/verkeersscheidingsstelsel",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rws/scheepvaart-verkeersscheidingsstelsel-noordzee/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (scheepvaart-verkeersscheidingsstelsel-noordzee/wms/v1_0)",
+      "wms:layers": [
+        "kilometreringlabels"
+      ],
+      "wms:transparent": true
     }
   ]
 }

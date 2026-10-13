@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "vogelrichtlijn-verspreidingsgebied-van-soorten",
   "title": "Vogelrichtlijn verspreidingsgebied van soorten",
   "description": "Kaart met het verspreidingsgebied van soorten voor de Artikel 12 Vogelrichtlijn rapportage periode 2007 – 2012",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Vogelrichtlijn%20verspreidingsgebied%20van%20soorten.png/6c0124f0-d5f4-f70c-d3aa-ecfad4a542f7?t=1791931487189",
+      "href": "https://www.pdok.nl/documents/1901824/0/Vogelrichtlijn%20verspreidingsgebied%20van%20soorten.png/6c0124f0-d5f4-f70c-d3aa-ecfad4a542f7?t=1791932241709",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/vogelrichtlijn-verspreidingsgebied-van-soorten",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/vogelrichtlijn-verspreidingsgebied-soorten/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vogelrichtlijn-verspreidingsgebied-soorten/wms/v1_0)",
+      "wms:layers": [
+        "vogelrichtlijnverspreidingsgebiedsoorten"
+      ],
+      "wms:transparent": true
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "natuurmeting-op-kaart-nok",
   "title": "Natuurmeting Op Kaart 2014 (NOK)",
   "description": "De Natuurmeting Op Kaart 2014 (NOK2014) geeft een landelijk beeld van de realisatie van de Ecologische Hoofdstructuur (EHS) en Recreatie om de Stad (RodS) op 1 januari 2014. Het betreft realisatie van de begrenzing, verwerving en inrichting.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Natuurmeting%20Op%20Kaart.png/5ad37879-3bba-b5f1-dd12-8fc6f72b5b68?t=1791931487182",
+      "href": "https://www.pdok.nl/documents/1901824/0/Natuurmeting%20Op%20Kaart.png/5ad37879-3bba-b5f1-dd12-8fc6f72b5b68?t=1791932241692",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/natuurmeting-op-kaart-nok-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/natuurmeting-op-kaart-2014/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (natuurmeting-op-kaart-2014/wms/v1_0)",
+      "wms:layers": [
+        "begrenzing"
+      ],
+      "wms:transparent": true
     }
   ]
 }

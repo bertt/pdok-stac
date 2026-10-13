@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "maatschappij",
   "title": "Overheidsdiensten (INSPIRE geharmoniseerd)",
   "description": "Het handelsregister is een door de overheid gehouden register, waarin rechtspersonen en ondernemingen vermeld staan met hun gegevens. Dit betreft een geharmoniseerde subset in het kader van INSPIRE annex III, thema Administratieve en sociale en overheidsdiensten.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/map%20%281%29.png/30b8f4eb-bc52-4f72-0182-422d7ddd9024?t=1791931487179",
+      "href": "https://www.pdok.nl/documents/1901824/0/map%20%281%29.png/30b8f4eb-bc52-4f72-0182-422d7ddd9024?t=1791932241688",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/maatschappij",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kvk/overheidsdiensten-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (overheidsdiensten-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "US.PublicOrderAndSafety"
+      ],
+      "wms:transparent": true
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "kaderrichtlijn-stedelijk-afvalwater",
   "title": "Richtlijn Stedelijk Afvalwater (RSA)",
   "description": "Richtlijn Stedelijk Afvalwater riool water zuiveringsinstallaties (RWZI's) zoals gerapporteerd naar de Europese Commissie in EU rapportage Stedelijk Afvalwater.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Richtlijn%20Stedelijk%20Afvalwater.png/02ad8827-db8d-9629-a9e8-7a1c8d71e431?t=1791931487177",
+      "href": "https://www.pdok.nl/documents/1901824/0/Richtlijn%20Stedelijk%20Afvalwater.png/02ad8827-db8d-9629-a9e8-7a1c8d71e431?t=1791932241684",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/kaderrichtlijn-stedelijk-afvalwater",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rws/richtlijn-stedelijk-afvalwater/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (richtlijn-stedelijk-afvalwater/wms/v2_0)",
+      "wms:layers": [
+        "rsa_kwetsbaargebied"
+      ],
+      "wms:transparent": true
     }
   ]
 }

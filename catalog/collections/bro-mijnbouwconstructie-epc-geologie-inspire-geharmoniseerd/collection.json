@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bro-mijnbouwconstructie-epc-geologie-inspire-geharmoniseerd",
   "title": "BRO - Mijnbouwconstructie (EPC) - Geologie (INSPIRE geharmoniseerd)",
   "description": "Deze dataset bevat de naar het INSPIRE thema Geologie geharmoniseerde gegevens uit de BRO (Basisregistratie ondergrond) over Mijnbouwconstructies, specifiek Boorgaten. Het gaat om gegevens over de locatie op het aardoppervlak van een boorgat, in de Mijnbouwwet omschreven als een werk ten behoeve van het opsporen, winnen en opslaan van stoffen. (EPC: Exploration Production Construction) in Nederland.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Mijnbouwconstructie.png/cb2693ef-6ca1-f9a5-da86-62d0874104f8?t=1791931487162",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Mijnbouwconstructie.png/cb2693ef-6ca1-f9a5-da86-62d0874104f8?t=1791932241669",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-mijnbouwconstructie-epc-geologie-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/tno/bro-mijnbouwconstructie-geologie/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bro-mijnbouwconstructie-geologie/wms/v1_0)",
+      "wms:layers": [
+        "GE.Borehole"
+      ],
+      "wms:transparent": true
     }
   ]
 }

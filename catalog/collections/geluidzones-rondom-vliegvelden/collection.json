@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "geluidzones-rondom-vliegvelden",
   "title": "Geluidzones rondom vliegvelden (INSPIRE geharmoniseerd)",
   "description": "Het bestand bevat gegevens over de grenzen van geluidszones rond vliegvelden waarvoor de provincie vergunningen verleent en toezicht houdt.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/geluidzones%20%281%29.png/b90e83a7-cac9-e5d6-8fe8-57ee79ceddc6?t=1791931487172",
+      "href": "https://www.pdok.nl/documents/1901824/0/geluidzones%20%281%29.png/b90e83a7-cac9-e5d6-8fe8-57ee79ceddc6?t=1791932241678",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/geluidzones-rondom-vliegvelden",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/provincies/geluidzones-rondom-vliegvelden/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (geluidzones-rondom-vliegvelden/wms/v1_0)",
+      "wms:layers": [
+        "AM.NoiseRestrictionZone"
+      ],
+      "wms:transparent": true
     }
   ]
 }

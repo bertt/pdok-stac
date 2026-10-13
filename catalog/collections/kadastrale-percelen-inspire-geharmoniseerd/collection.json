@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "kadastrale-percelen-inspire-geharmoniseerd",
   "title": "Kadastrale Percelen (INSPIRE geharmoniseerd)",
   "description": "De dataset Kadastrale Percelen (INSPIRE geharmoniseerd) betreft een overzicht van de ligging van de kadastrale percelen in Nederland. Het is onderdeel van de Basisregistratie Kadaster (BRK) en voldoet aan de INSPIRE-eisen.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Kadastrale%20percelen.png/d7df5275-4d93-11c2-c47b-bae4336131a6?t=1791931487176",
+      "href": "https://www.pdok.nl/documents/1901824/0/Kadastrale%20percelen.png/d7df5275-4d93-11c2-c47b-bae4336131a6?t=1791932241683",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/kadastrale-percelen-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/brk-kadastrale-percelen/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (brk-kadastrale-percelen/wms/v1_0)",
+      "wms:layers": [
+        "CP.CadastralParcel"
+      ],
+      "wms:transparent": true
     }
   ]
 }

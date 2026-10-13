@@ -1,6 +1,7 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [],
   "id": "3d-basisvoorziening-1",
   "title": "3D Basisvoorziening",
   "description": "De 3D Basisvoorziening is een verzameling van ruimtelijke bestanden die hoogte informatie bevatten. Deze bestanden (collecties) worden op verschillende manieren gegenereerd. Er zijn acht collecties beschikbaar.",
@@ -46,7 +47,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Nederland_3D_gr.jpg/118e4e5a-649c-36f2-5ac0-b16e6aaaab85?t=1791931487152",
+      "href": "https://www.pdok.nl/documents/1901824/0/Nederland_3D_gr.jpg/118e4e5a-649c-36f2-5ac0-b16e6aaaab85?t=1791932241652",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

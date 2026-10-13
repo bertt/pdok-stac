@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "gepland-landgebruik-dso-lv-omgevingswet-inspire-geharmoniseerd",
   "title": "Gepland landgebruik DSO LV Omgevingswet (INSPIRE geharmoniseerd)",
   "description": "De INSPIRE dataset ‘Gepland landgebruik DSO-LV Omgevingswet’ biedt inzicht in hoe de ruimte in Nederland nu en in de toekomst gebruikt gaat worden. De informatie is gebaseerd op door gemeenten en andere overheden gepubliceerde omgevingsdocumenten in het Digitaal Stelsel Omgevingswet.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Gepland%20landgebruik%20DSO-LV%20Omgevingswet.png/3be7d775-8890-b537-550b-faa8c5b7e649?t=1791931487173",
+      "href": "https://www.pdok.nl/documents/1901824/0/Gepland%20landgebruik%20DSO-LV%20Omgevingswet.png/3be7d775-8890-b537-550b-faa8c5b7e649?t=1791932241678",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/gepland-landgebruik-dso-lv-omgevingswet-inspire-geharmoniseerd",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/omgevingswet-planned-land-use/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (omgevingswet-planned-land-use/wms/v1_0)",
+      "wms:layers": [
+        "LU.SpatialPlan"
+      ],
+      "wms:transparent": true
     }
   ]
 }

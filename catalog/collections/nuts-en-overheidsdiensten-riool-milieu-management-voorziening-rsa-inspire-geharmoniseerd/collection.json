@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "nuts-en-overheidsdiensten-riool-milieu-management-voorziening-rsa-inspire-geharmoniseerd",
   "title": "Nuts- en Overheidsdiensten - Riool - Milieu management voorziening - RSA (INSPIRE geharmoniseerd)",
   "description": "Naar INSPIRE thema Nutsdiensten en overheidsdiensten geharmoniseerde riool water zuiveringsinstallaties (RWZI's) zoals gerapporteerd naar de Europese Commissie tbv EU rapportage Stedelijk Afvalwater 2020.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/map.png/ecaf43b9-8b1f-b5ce-f7e1-8d75dde1273e?t=1791931487183",
+      "href": "https://www.pdok.nl/documents/1901824/0/map.png/ecaf43b9-8b1f-b5ce-f7e1-8d75dde1273e?t=1791932241694",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/nuts-en-overheidsdiensten-riool-milieu-management-voorziening-rsa-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rws/rioolnetwerk-milieumanagementvoorziening/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (rioolnetwerk-milieumanagementvoorziening/wms/v1_0)",
+      "wms:layers": [
+        "US.EnvironmentalManagementFacility"
+      ],
+      "wms:transparent": true
     }
   ]
 }

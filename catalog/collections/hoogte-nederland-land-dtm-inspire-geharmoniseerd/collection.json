@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "hoogte-nederland-land-dtm-inspire-geharmoniseerd",
   "title": "Hoogte Nederland - land - DTM (INSPIRE geharmoniseerd)",
   "description": "De services Hoogte Nederland DTM bevatten de hoogtes van het maaiveld in Nederland. De services Hoogte Nederland DTM bevatten de hoogtes van het maaiveld in Nederland.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Hoogte%20Nederland%20DTM.jpg/d774a1e3-72ea-a62a-d842-8afcfe75ea08?t=1791931487175",
+      "href": "https://www.pdok.nl/documents/1901824/0/Hoogte%20Nederland%20DTM.jpg/d774a1e3-72ea-a62a-d842-8afcfe75ea08?t=1791932241682",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -111,6 +114,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/hoogte-nederland-land-dtm-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rws/hoogte-nederland-land-dtm/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (hoogte-nederland-land-dtm/wms/v1_0)",
+      "wms:layers": [
+        "EL.GridCoverage"
+      ],
+      "wms:transparent": true
     }
   ]
 }

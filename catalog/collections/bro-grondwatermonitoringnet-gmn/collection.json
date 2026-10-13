@@ -1,6 +1,7 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [],
   "id": "bro-grondwatermonitoringnet-gmn",
   "title": "BRO Grondwatermonitoringnet (GMN)",
   "description": "Een grondwatermonitoringnet is een verzameling locaties waar onderzoek wordt gedaan om de toestand van het grondwater te kunnen bepalen en veranderingen erin te kunnen monitoren. Onderzoek in een grondwatermonitoringnet wordt gedaan naar de kwaliteit of de kwantiteit van het grondwater.",
@@ -46,7 +47,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Grondwatermonitoringnet.png/59659e32-8369-8100-b3f8-fc0ea6c1a32c?t=1791931487161",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Grondwatermonitoringnet.png/59659e32-8369-8100-b3f8-fc0ea6c1a32c?t=1791932241666",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

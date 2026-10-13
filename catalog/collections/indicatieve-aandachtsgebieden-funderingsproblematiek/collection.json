@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "indicatieve-aandachtsgebieden-funderingsproblematiek",
   "title": "Indicatieve aandachtsgebieden funderingsproblematiek",
   "description": "Kaart met indicatieve aandachtsgebieden funderingsproblematiek. Deze kaart toont het aantal woningen met een bouwjaar van voor 1970 in regio’s met een minder draagkrachtige bodem.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Indicatieve%20aandachtsgebieden%20funderingsproblematiek.png/cf49fed4-a300-924e-c05f-b9c0482eaa6c?t=1791931487175",
+      "href": "https://www.pdok.nl/documents/1901824/0/Indicatieve%20aandachtsgebieden%20funderingsproblematiek.png/cf49fed4-a300-924e-c05f-b9c0482eaa6c?t=1791932241683",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/indicatieve-aandachtsgebieden-funderingsproblematiek",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/indicatieve-aandachtsgebieden-funderingsproblematiek/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (indicatieve-aandachtsgebieden-funderingsproblematiek/wms/v1_0)",
+      "wms:layers": [
+        "indgebfunderingsproblematiek"
+      ],
+      "wms:transparent": true
     }
   ]
 }

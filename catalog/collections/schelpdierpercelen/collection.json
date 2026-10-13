@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "schelpdierpercelen",
   "title": "Schelpdierpercelen",
   "description": "Schelpdierpercelen, in rijkseigendom, in de Kustwateren en het Grevelingenmeer, waar de huurder mosselen dan wel oesters mag kweken en oogsten.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Schelpdierpercelen.png/282ef879-e60e-cfe0-4f35-e96a402eedd8?t=1791931487186",
+      "href": "https://www.pdok.nl/documents/1901824/0/Schelpdierpercelen.png/282ef879-e60e-cfe0-4f35-e96a402eedd8?t=1791932241701",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/schelpdierpercelen",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/schelpdierpercelen/wms/v3_0",
+      "type": "image/png",
+      "title": "WMS (schelpdierpercelen/wms/v3_0)",
+      "wms:layers": [
+        "schelpdierpercelen"
+      ],
+      "wms:transparent": true
     }
   ]
 }

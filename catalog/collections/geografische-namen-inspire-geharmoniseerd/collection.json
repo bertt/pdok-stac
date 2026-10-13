@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "geografische-namen-inspire-geharmoniseerd",
   "title": "Geografische Namen (INSPIRE geharmoniseerd)",
   "description": "INSPIRE Geografische Namen themalaag, geharmoniseerd, gevuld met relevante objecten uit TOP10NL (onderdeel van de Basisregistratie Topografie BRT), geproduceerd en beheerd door het Kadaster.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Geografische%20Namen.png/59d80089-4182-d723-1202-5e66dd61483c?t=1791931487173",
+      "href": "https://www.pdok.nl/documents/1901824/0/Geografische%20Namen.png/59d80089-4182-d723-1202-5e66dd61483c?t=1791932241678",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -141,6 +144,26 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/geografische-namen-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/brt-geografische-namen/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (brt-geografische-namen/wms/v1_0)",
+      "wms:layers": [
+        "GN.GeographicalNames"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/gn/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gn/wms/v1_0)",
+      "wms:layers": [
+        "GN.GeographicalNames"
+      ],
+      "wms:transparent": true
     }
   ]
 }

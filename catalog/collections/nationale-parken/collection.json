@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "nationale-parken",
   "title": "Nationale Parken",
   "description": "In dit bestand zijn de grenzen opgenomen van de 21 Nationale Parken, zoals die op diverse momenten zijn gepubliceerd in de Staatscourant.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Nationale%20Parken.png/ecfc3cfe-42bf-5d59-7fb4-4cb7c2d40b13?t=1791931487181",
+      "href": "https://www.pdok.nl/documents/1901824/0/Nationale%20Parken.png/ecfc3cfe-42bf-5d59-7fb4-4cb7c2d40b13?t=1791932241691",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/nationale-parken",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/nationale-parken/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (nationale-parken/wms/v2_0)",
+      "wms:layers": [
+        "nationaleparken"
+      ],
+      "wms:transparent": true
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "basisregistratie-grootschalige-topografie-bgt",
   "title": "Basisregistratie Grootschalige Topografie (BGT)",
   "description": "De Basisregistratie Grootschalige Topografie (BGT) is dé gedetailleerde grootschalige basiskaart (digitale kaart) van heel Nederland.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/bgt.png/98688448-0b53-6f0e-018d-1a22b00dcc94?t=1791931487155",
+      "href": "https://www.pdok.nl/documents/1901824/0/bgt.png/98688448-0b53-6f0e-018d-1a22b00dcc94?t=1791932241655",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -111,6 +114,13 @@
       "href": "https://www.pdok.nl/ogc-apis/-/article/basisregistratie-grootschalige-topografie-bgt-",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://service.pdok.nl/kadaster/bgt/wmts/v1_0",
+      "title": "WMTS (bgt/wmts/v1_0)",
+      "wmts:layer": "standaardvisualisatie",
+      "wmts:encoding": "kvp"
     }
   ]
 }

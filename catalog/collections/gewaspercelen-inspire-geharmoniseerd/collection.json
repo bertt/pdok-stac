@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "gewaspercelen-inspire-geharmoniseerd",
   "title": "Gewaspercelen (INSPIRE geharmoniseerd)",
   "description": "De Gewaspercelen bestaan uit de locatie van landbouwpercelen in Nederland met daaraan gekoppeld het geteelde gewas. Het bestand is een selectie van informatie uit de Basisregistratie Percelen (BRP) van Rijksdienst voor Ondernemend Nederland.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Gewaspercelen%20inspire%20geharmoniseerd.png/294c5f43-3127-ecbe-9f04-ea1744a5af20?t=1791931487174",
+      "href": "https://www.pdok.nl/documents/1901824/0/Gewaspercelen%20inspire%20geharmoniseerd.png/294c5f43-3127-ecbe-9f04-ea1744a5af20?t=1791932241679",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/gewaspercelen-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/gewaspercelen-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gewaspercelen-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "LU.ExistingLandUse"
+      ],
+      "wms:transparent": true
     }
   ]
 }

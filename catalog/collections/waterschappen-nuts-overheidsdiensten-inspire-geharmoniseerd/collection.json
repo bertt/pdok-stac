@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "waterschappen-nuts-overheidsdiensten-inspire-geharmoniseerd",
   "title": "Waterschappen Nuts-Overheidsdiensten (INSPIRE geharmoniseerd)",
   "description": "Deze dataset is gebaseerd op (niet geharmoniseerde) data van alle waterschappen in Nederland conform INSPIRE. De dataset bevat de volgende INSPIRE objecten:  ElectricityCable, EnvironmentalmanagementFacility, Manhole, SewerPipe en TelecommunicationsCable.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Waterschappen%20Nuts-en%20Overheidsdiensten.png/f31475db-ebf2-83b6-2e6c-4ba1d53136ff?t=1791931487190",
+      "href": "https://www.pdok.nl/documents/1901824/0/Waterschappen%20Nuts-en%20Overheidsdiensten.png/f31475db-ebf2-83b6-2e6c-4ba1d53136ff?t=1791932241712",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/waterschappen-nuts-overheidsdiensten-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/hwh/waterschappen-nutsdiensten-en-overheidsdiensten/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (waterschappen-nutsdiensten-en-overheidsdiensten/wms/v1_0)",
+      "wms:layers": [
+        "US.ElectricityNetwork"
+      ],
+      "wms:transparent": true
     }
   ]
 }

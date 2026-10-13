@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "nationaal-hydrologisch-instrumentarium-nhi",
   "title": "Nationaal Hydrologisch Instrumentarium (NHI)",
   "description": "De dataset bestaat uit een netwerk van knopen en takken van het waterverdelingsnetwerk. Dit netwerk bestaat uit het Nederlandse oppervlaktewater in het hoofdwatersysteem van rijkswaterstaat en een deel van het regionale watersysteem in beheer bij waterschappen en provincies.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Nationaal%20Hydrologisch%20Instrumentarium.png/ef55f933-0bac-e5b6-2565-98b6e2420a1b?t=1791931487180",
+      "href": "https://www.pdok.nl/documents/1901824/0/Nationaal%20Hydrologisch%20Instrumentarium.png/ef55f933-0bac-e5b6-2565-98b6e2420a1b?t=1791932241690",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/nationaal-hydrologisch-instrumentarium-nhi-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rws/nationaal-hydrologisch-instrumentarium-netwerkschematisatie/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (nationaal-hydrologisch-instrumentarium-netwerkschematisatie/wms/v1_0)",
+      "wms:layers": [
+        "Dmlinks"
+      ],
+      "wms:transparent": true
     }
   ]
 }

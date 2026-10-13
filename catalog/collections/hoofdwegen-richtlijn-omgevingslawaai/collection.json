@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "hoofdwegen-richtlijn-omgevingslawaai",
   "title": "Hoofdwegen volgens Richtlijn Omgevingslawaai 2022 (INSPIRE geharmoniseerd)",
   "description": "Het gaat om gegevens over de geluidbron 'Hoofdwegen'. Met deze data wordt invulling gegeven aan de eisen uit de Wet milieubeheer die voortvloeien uit de Europese richtlijn omgevingslawaai (2002/49/EG)",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Hoofdwegen.jpg/702bb93c-95e9-09f8-9504-d751b94e4c2f?t=1791931487175",
+      "href": "https://www.pdok.nl/documents/1901824/0/Hoofdwegen.jpg/702bb93c-95e9-09f8-9504-d751b94e4c2f?t=1791932241682",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/hoofdwegen-richtlijn-omgevingslawaai-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/ienw/hoofdwegen-omgevingslawaai-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (hoofdwegen-omgevingslawaai-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "TN.RoadTransportNetwork.RoadLink"
+      ],
+      "wms:transparent": true
     }
   ]
 }

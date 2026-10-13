@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "krw-deelstroomgebieddistricten-inspire-geharmoniseerd",
   "title": "KRW Deelstroomgebieddistricten (INSPIRE geharmoniseerd)",
   "description": "INSPIRE geharmoniseerde dataset van de KRW Stroomgebieddistricten. In de Kaderrichtlijn Water is een stroomgebieddistrict een belangrijke rapportage eenheid.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/krw%20deelstroomgebieddistricten.png/36d2d0fb-85d1-da28-a859-0c31fe8c3cfe?t=1791931487177",
+      "href": "https://www.pdok.nl/documents/1901824/0/krw%20deelstroomgebieddistricten.png/36d2d0fb-85d1-da28-a859-0c31fe8c3cfe?t=1791932241685",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/krw-deelstroomgebieddistricten-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/ihw/krw-deelstroomgebieddistricten-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (krw-deelstroomgebieddistricten-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "AM.RiverBasinDistrict"
+      ],
+      "wms:transparent": true
     }
   ]
 }

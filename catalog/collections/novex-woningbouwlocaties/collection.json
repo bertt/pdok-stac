@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "novex-woningbouwlocaties",
   "title": "NOVEX woningbouwlocaties",
   "description": "Binnen de verstedelijkingsgebieden zijn 17 grootschalige NOVEX woningbouwlocaties vastgesteld.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/NOVEX%20woningbouwlocaties.jpg/5275be8e-f62b-8120-7ad4-d4829f6a4354?t=1791931487182",
+      "href": "https://www.pdok.nl/documents/1901824/0/NOVEX%20woningbouwlocaties.jpg/5275be8e-f62b-8120-7ad4-d4829f6a4354?t=1791932241694",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/novex-woningbouwlocaties",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/bzk/novexwoningbouwlocaties/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (novexwoningbouwlocaties/wms/v1_0)",
+      "wms:layers": [
+        "novex_woningbouwlocaties"
+      ],
+      "wms:transparent": true
     }
   ]
 }

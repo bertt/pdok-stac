@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "vaarweg-netwerk-data-service-vnds",
   "title": "Vaarweg Netwerk Data Service (VNDS) - bevaarbaarheid",
   "description": "Geografische bestanden met bevaarbaarheidsinformatie binnen Nederland. Vaarweg of deel van de vaarweg of haven, waaraan een bepaalde bevaarbaarheidsklasse is toegekend (Classificatie vaarwegen aan de hand van de internationale klasse-indeling 1992)",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Vaarweg%20Informatie%20Nederland.png/bc83cedc-7542-5f0b-4efe-83dc42a00a40?t=1791931487188",
+      "href": "https://www.pdok.nl/documents/1901824/0/Vaarweg%20Informatie%20Nederland.png/bc83cedc-7542-5f0b-4efe-83dc42a00a40?t=1791932241705",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/vaarweg-netwerk-data-service-vnds",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rws/vaarweg-netwerk-data-service-bevaarbaarheid/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (vaarweg-netwerk-data-service-bevaarbaarheid/wms/v2_0)",
+      "wms:layers": [
+        "l_navigability"
+      ],
+      "wms:transparent": true
     }
   ]
 }

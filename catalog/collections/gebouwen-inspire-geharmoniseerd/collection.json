@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "gebouwen-inspire-geharmoniseerd",
   "title": "Gebouwen (INSPIRE geharmoniseerd)",
   "description": "INSPIRE Gebouwen, geharmoniseerd, gevuld met relevante gebouwen, afkomstig uit de Basisregistratie Adressen en Gebouwen (BAG), beheerd door het Kadaster.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Gebouwen.png/d77743f5-8c79-af8b-6435-b956a59b126e?t=1791931487172",
+      "href": "https://www.pdok.nl/documents/1901824/0/Gebouwen.png/d77743f5-8c79-af8b-6435-b956a59b126e?t=1791932241677",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -111,6 +114,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/gebouwen-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/bu/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bu/wms/v1_0)",
+      "wms:layers": [
+        "BU.Building"
+      ],
+      "wms:transparent": true
     }
   ]
 }

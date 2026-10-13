@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bodemgebruik-inspire-geharmoniseerd",
   "title": "Bodemgebruik - Land Cover (INSPIRE geharmoniseerd)",
   "description": "INSPIRE Bodemgebruik themalaag, geharmoniseerd, gevuld met relevante objecten uit TOP10NL (onderdeel van de Basisregistratie Topografie (BRT), geproduceerd en beheerd door het Kadaster. Bodemgebruik dataset vertegenwoordigt ruimtelijke informatie over verschillende soorten fysieke bedekking van het aardoppervlak, b.v. bossen, graslanden, akkerlanden, water, bebouwd gebied, etc..",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Bodemgebruik.png/96982242-49f0-be59-356c-95a3141b1ec7?t=1791931487157",
+      "href": "https://www.pdok.nl/documents/1901824/0/Bodemgebruik.png/96982242-49f0-be59-356c-95a3141b1ec7?t=1791932241658",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -141,6 +144,26 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bodemgebruik-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/brt-bodemgebruik/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (brt-bodemgebruik/wms/v1_0)",
+      "wms:layers": [
+        "LC.LandCoverSurfaces"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/lc/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (lc/wms/v1_0)",
+      "wms:layers": [
+        "LC.LandCoverSurfaces"
+      ],
+      "wms:transparent": true
     }
   ]
 }

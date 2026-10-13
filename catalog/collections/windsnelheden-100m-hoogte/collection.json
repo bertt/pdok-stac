@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "windsnelheden-100m-hoogte",
   "title": "Windsnelheden 100m hoogte",
   "description": "Potentiekaart voor productie van duurzame elektriciteit. Deze bevat de kaart met gemiddelde windsnelheden op 100m hoogte.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Windsnelheden%20100m%20hoogte.png/ee27bc33-f92c-a0c5-5c9e-55185aafc0b4?t=1791931487192",
+      "href": "https://www.pdok.nl/documents/1901824/0/Windsnelheden%20100m%20hoogte.png/ee27bc33-f92c-a0c5-5c9e-55185aafc0b4?t=1791932241716",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/windsnelheden-100m-hoogte",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/windsnelheden/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (windsnelheden/wms/v1_0)",
+      "wms:layers": [
+        "windsnelheden100m"
+      ],
+      "wms:transparent": true
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "zeegebieden",
   "title": "Zeegebieden (INSPIRE geharmoniseerd)",
   "description": "INSPIRE Zeegebieden themalaag, geharmoniseerd, gevuld met relevante objecten uit TOP10NL (onderdeel van de Basisregistratie Topografie BRT), geproduceerd en beheerd door het Kadaster. De dataset bevat onder meer Shoreline, Coastline, en Intertidalarea.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Zeegbeieden.png/8b6201b0-11ee-2c5b-d2e4-deeca47c3d59?t=1791931487192",
+      "href": "https://www.pdok.nl/documents/1901824/0/Zeegbeieden.png/8b6201b0-11ee-2c5b-d2e4-deeca47c3d59?t=1791932241716",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -141,6 +144,26 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/zeegebieden",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/brt-zeegebieden/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (brt-zeegebieden/wms/v1_0)",
+      "wms:layers": [
+        "SR.InterTidalArea"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/sr/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (sr/wms/v1_0)",
+      "wms:layers": [
+        "SR.InterTidalArea"
+      ],
+      "wms:transparent": true
     }
   ]
 }

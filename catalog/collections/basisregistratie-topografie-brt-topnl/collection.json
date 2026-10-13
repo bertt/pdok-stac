@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "basisregistratie-topografie-brt-topnl",
   "title": "Basisregistratie Topografie (BRT) TOPNL",
   "description": "TOPNL bestanden zijn objectgerichte topografische bestanden op diverse schaalniveaus. Deze bestanden maken onderdeel uit van de Basis Registratie Topografie (BRT). De bestanden zijn uniform, consistent en bovendien landsdekkend. Dit betekent dat u ze als basis kunt gebruiken voor heel Nederland.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/TOPnl.png/6f669010-68a5-cc1b-6c9b-6cd171765768?t=1791931487155",
+      "href": "https://www.pdok.nl/documents/1901824/0/TOPnl.png/6f669010-68a5-cc1b-6c9b-6cd171765768?t=1791932241657",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -213,6 +216,40 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/basisregistratie-topografie-brt-topnl",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/brt/top10nl/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (top10nl/wms/v1_0)",
+      "wms:layers": [
+        "top10nl"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wmts",
+      "href": "https://service.pdok.nl/brt/top10nl/wmts/v1_0",
+      "title": "WMTS (top10nl/wmts/v1_0)",
+      "wmts:layer": "top10nl",
+      "wmts:encoding": "kvp"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/brt-top10nl/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (brt-top10nl/wms/v1_0)",
+      "wms:layers": [
+        "top10nl"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wmts",
+      "href": "https://service.pdok.nl/kadaster/brt-top10nl/wmts/v1_0",
+      "title": "WMTS (brt-top10nl/wmts/v1_0)",
+      "wmts:layer": "top10nl",
+      "wmts:encoding": "kvp"
     }
   ]
 }

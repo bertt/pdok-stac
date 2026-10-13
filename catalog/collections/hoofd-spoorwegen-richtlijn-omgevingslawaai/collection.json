@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "hoofd-spoorwegen-richtlijn-omgevingslawaai",
   "title": "Hoofdspoorwegen volgens Richtlijn Omgevingslawaai 2022 (INSPIRE geharmoniseerd)",
   "description": "Het gaat om gegevens over de geluidbron 'Hoofd Spoorwegen'. Met deze data wordt invulling gegeven aan de eisen uit de Wet milieubeheer die voortvloeien uit de Europese richtlijn omgevingslawaai (2002/49/EG)",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Hoofd%20spoorwegen.jpg/4104823b-a44a-043c-1306-e566b61cda00?t=1791931487174",
+      "href": "https://www.pdok.nl/documents/1901824/0/Hoofd%20spoorwegen.jpg/4104823b-a44a-043c-1306-e566b61cda00?t=1791932241681",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/hoofd-spoorwegen-richtlijn-omgevingslawaai-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/ienw/hoofdspoorwegen-omgevingslawaai-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (hoofdspoorwegen-omgevingslawaai-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "TN.RailTransportNetwork.RailwayLink"
+      ],
+      "wms:transparent": true
     }
   ]
 }

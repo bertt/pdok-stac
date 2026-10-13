@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "publiekrechtelijke-beperkingen-wkpb",
   "title": "Publiekrechtelijke Beperkingen Wkpb",
   "description": "De dataset Publiekrechtelijke Beperkingen Wkpb bevat gegevens uit de Basisregistratie Kadaster Publiekrechtelijke Beperkingen (BRK‑PB) over beperkingen die door overheden zijn opgelegd aan onroerende zaken. Het gaat om juridisch vastgelegde beperkingen die bepalen wat op een locatie wel of niet is toegestaan, inclusief het bijbehorende besluit en het geografische werkingsgebied.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Publiekrechtelijke%20Beperkingen.png/5d857b36-f927-07a1-ed3c-370ecfabd672?t=1791931487184",
+      "href": "https://www.pdok.nl/documents/1901824/0/Publiekrechtelijke%20Beperkingen.png/5d857b36-f927-07a1-ed3c-370ecfabd672?t=1791932241698",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/publiekrechtelijke-beperkingen-wkpb",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/brk-publiekrechtelijke-beperkingen-wkpb/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (brk-publiekrechtelijke-beperkingen-wkpb/wms/v2_0)",
+      "wms:layers": [
+        "pb"
+      ],
+      "wms:transparent": true
     }
   ]
 }

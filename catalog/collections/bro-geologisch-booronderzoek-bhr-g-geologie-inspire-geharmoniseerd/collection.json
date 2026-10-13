@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bro-geologisch-booronderzoek-bhr-g-geologie-inspire-geharmoniseerd",
   "title": "BRO Geologisch booronderzoek (BHR-G) - Geologie (INSPIRE geharmoniseerd)",
   "description": "Deze dataset bevat de gegevens over geologische booronderzoeken welke in de BRO (Basisregistratie Ondergrond) zijn opgenomen. Het betreft booronderzoeken tot een diepte van 500 meter met een enkele uitzondering welke dieper is. De dataset is geharmoniseerd naar het INSPIRE thema Geologie.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Geologisch%20booronderzoek%20BHR-G%20%281%29.png/a274118c-20ff-b1cd-4b9c-3385f5a76da6?t=1791931487159",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Geologisch%20booronderzoek%20BHR-G%20%281%29.png/a274118c-20ff-b1cd-4b9c-3385f5a76da6?t=1791932241662",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-geologisch-booronderzoek-bhr-g-geologie-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/tno/bro-geologisch-booronderzoek-geharmoniseerd/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (bro-geologisch-booronderzoek-geharmoniseerd/wms/v2_0)",
+      "wms:layers": [
+        "GE.Borehole"
+      ],
+      "wms:transparent": true
     }
   ]
 }

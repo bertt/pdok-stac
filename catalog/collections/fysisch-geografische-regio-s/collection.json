@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "fysisch-geografische-regio-s",
   "title": "Fysisch Geografische Regio’s",
   "description": "Indeling van Nederland in Fysisch-Geografische Regio's. Voor de omgrenzing van de Regio's is een zo consistent mogelijke lijst van beslisregels gehanteerd, vooral gebaseerd op de bodemtypen. Dit bestand is een update van de FGR-versie van 1997.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Fysisch%20Geografische%20Regio%E2%80%99s%20.png/0add5e1b-df06-ad06-302e-d7ba12a34d51?t=1791931487171",
+      "href": "https://www.pdok.nl/documents/1901824/0/Fysisch%20Geografische%20Regio%E2%80%99s%20.png/0add5e1b-df06-ad06-302e-d7ba12a34d51?t=1791932241676",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/fysisch-geografische-regio-s",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/fysisch-geografische-regios/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (fysisch-geografische-regios/wms/v1_0)",
+      "wms:layers": [
+        "fysischgeografischeregios"
+      ],
+      "wms:transparent": true
     }
   ]
 }

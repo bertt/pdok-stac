@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "visserijmaatregelen-noordzee-inspire-geharmoniseerd",
   "title": "Visserijmaatregelen Noordzee (INSPIRE geharmoniseerd)",
   "description": "Deze dataset bevat alle gebieden waar visserijmaatregelen gelden op de Noordzee (exclusief de Delta en de Waddenzee).",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Visserijmaatregelen_geharmoniseerd.png/7cd90f3f-02d3-2ef4-d386-7d50b4cfcda3?t=1791931487189",
+      "href": "https://www.pdok.nl/documents/1901824/0/Visserijmaatregelen_geharmoniseerd.png/7cd90f3f-02d3-2ef4-d386-7d50b4cfcda3?t=1791932241708",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/visserijmaatregelen-noordzee-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/visserijmaatregelen-noordzee-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (visserijmaatregelen-noordzee-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "AM.MarineRegion"
+      ],
+      "wms:transparent": true
     }
   ]
 }

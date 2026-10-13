@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bro-bodemkundig-booronderzoek-bhr-p-bodem-inspire-geharmoniseerd",
   "title": "BRO Bodemkundig Booronderzoek (BHR-P) - Bodem (INSPIRE geharmoniseerd)",
   "description": "Deze dataset bevat de naar INSPIRE thema Bodem geharmoniseerde gegevens over een bodemkundig booronderzoek, die voortkomen uit een bodemkundig georiënteerde boring. In veel gevallen bestaat het bodemkundig booronderzoek uit niet meer dan een boormonsterprofiel. In het meest uitgebreide geval omvat het booronderzoek ook de resultaten van boormonsteronderzoek en boorgatmeetgegevens. Het boormonsterprofiel komt tot stand door de samenstelling van de monsters uit een booronderzoek macroscopisch te beschrijven.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Bodemkundig%20Booronderzoek%20%28INSPIRE%29%20-%20Bodem.png/168313b3-f58e-8d32-2b53-bdd97bf1440d?t=1791931487158",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Bodemkundig%20Booronderzoek%20%28INSPIRE%29%20-%20Bodem.png/168313b3-f58e-8d32-2b53-bdd97bf1440d?t=1791932241659",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-bodemkundig-booronderzoek-bhr-p-bodem-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/tno/bro-bodemkundig-booronderzoek-bodem-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bro-bodemkundig-booronderzoek-bodem-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "SO.ObservedSoilProfile"
+      ],
+      "wms:transparent": true
     }
   ]
 }

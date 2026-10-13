@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bro-grondwatergebruik-gu-milieubewakingsvoorzieningen-inspire-geharmoniseerd",
   "title": "BRO Grondwatergebruik (GU) - Milieubewakingsvoorzieningen (INSPIRE geharmoniseerd)",
   "description": "Deze dataset bevat gegevens van Nederlands grondwatergebruik uit de Basisregistratie Ondergrond (BRO). Het betreft de gegevens van de meldingsplichtige of vergunningsplichtige grondwatergebruiksystemen en de periodiek, aan bevoegd gezag gerapporteerde onttrokken/terug ingebrachte hoeveelheden grondwater van die grondwatergebruiksystemen. Deze gebundelde gegevens zijn geharmoniseerd naar het INSPIRE thema Milieubewakingsvoorzieningen.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Brogu2.png/98c6f0b5-629e-9e61-4a95-373d5810297b?t=1791931487160",
+      "href": "https://www.pdok.nl/documents/1901824/0/Brogu2.png/98c6f0b5-629e-9e61-4a95-373d5810297b?t=1791932241665",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-grondwatergebruik-gu-milieubewakingsvoorzieningen-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/tno/bro-grondwatergebruik-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bro-grondwatergebruik-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "EF.EnvironmentalMonitoringFacilities"
+      ],
+      "wms:transparent": true
     }
   ]
 }

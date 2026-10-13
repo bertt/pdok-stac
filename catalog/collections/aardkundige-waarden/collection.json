@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "aardkundige-waarden",
   "title": "Aardkundige waarden (INSPIRE geharmoniseerd)",
   "description": "De term aardkundige waarden wordt gebruikt als een verzamelnaam voor geomorfologische, geologische, bodemkundige of geohydrologische verschijnselen in het landschap, die een bepaalde waarde vertegenwoordigen.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Aardkundige%20waarden.jpg/a3bb9dd7-7d10-2d87-c2b2-0b3ef7276667?t=1791931487153",
+      "href": "https://www.pdok.nl/documents/1901824/0/Aardkundige%20waarden.jpg/a3bb9dd7-7d10-2d87-c2b2-0b3ef7276667?t=1791932241653",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/aardkundige-waarden",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/provincies/aardkundige-waarden/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (aardkundige-waarden/wms/v1_0)",
+      "wms:layers": [
+        "PS.ProtectedSite"
+      ],
+      "wms:transparent": true
     }
   ]
 }

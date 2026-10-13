@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "potentieel-koude-en-warmte-uit-open-en-gesloten-wko-systemen-gj-ha-jaar",
   "title": "Potentieel koude en warmte uit open en gesloten WKO systemen (GJ/ha.jaar)",
   "description": "Deze kaart is een weergave van het potentieel aan koude/warmte in GJ/(ha.jaar) dat uit open en gesloten WKO systemen gehaald kan worden.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Potentieel%20koude%20en%20warmte%20uit%20open%20en%20gesloten%20WKO%20systemen%20%281%29.png/3082ccc2-2403-91e2-f233-1fc706d4e9a2?t=1791931487183",
+      "href": "https://www.pdok.nl/documents/1901824/0/Potentieel%20koude%20en%20warmte%20uit%20open%20en%20gesloten%20WKO%20systemen%20%281%29.png/3082ccc2-2403-91e2-f233-1fc706d4e9a2?t=1791932241695",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/potentieel-koude-en-warmte-uit-open-en-gesloten-wko-systemen-gj-ha-jaar-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/potentieel-warmte-koude-opslagsystemen/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (potentieel-warmte-koude-opslagsystemen/wms/v1_0)",
+      "wms:layers": [
+        "gs_koud"
+      ],
+      "wms:transparent": true
     }
   ]
 }

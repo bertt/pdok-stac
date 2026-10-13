@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bgt-terugmeldingen",
   "title": "BGT Terugmeldingen",
   "description": "De dataset BGT Terugmeldingen bevat recente meldingen op informatie uit Basisregistratie Grootschalige Topografie (BGT).",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BGT%20Terugmeldingen.png/9f53f6f7-1302-9873-c34b-aed273757b2c?t=1791931487157",
+      "href": "https://www.pdok.nl/documents/1901824/0/BGT%20Terugmeldingen.png/9f53f6f7-1302-9873-c34b-aed273757b2c?t=1791932241658",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -111,6 +114,16 @@
       "href": "https://www.pdok.nl/ogc-apis/-/article/bgt-terugmeldingen",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/bgt-terugmeldingen/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bgt-terugmeldingen/wms/v1_0)",
+      "wms:layers": [
+        "bgtterugmeldingen"
+      ],
+      "wms:transparent": true
     }
   ]
 }

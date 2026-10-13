@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "cbs-existing-landuse-inspire-geharmoniseerd",
   "title": "CBS Existing Land Use (INSPIRE geharmoniseerd)",
   "description": "Dit is de INSPIRE dataset bestaand landgebruik van Nederland. Het is gebaseerd op de topografische kaart van Nederland (BRT) en luchtfoto's van de zomer van 2015.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/map.png/45f6472b-a4dd-af5c-17d4-d92596088d0c?t=1791931487167",
+      "href": "https://www.pdok.nl/documents/1901824/0/map.png/45f6472b-a4dd-af5c-17d4-d92596088d0c?t=1791932241673",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/cbs-existing-landuse-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/landuse/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (landuse/wms/v1_0)",
+      "wms:layers": [
+        "LU.ExistingLandUse"
+      ],
+      "wms:transparent": true
     }
   ]
 }

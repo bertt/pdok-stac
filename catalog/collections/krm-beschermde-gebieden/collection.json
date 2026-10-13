@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "krm-beschermde-gebieden",
   "title": "KRM Beschermde Gebieden",
   "description": "Deze dataset bevat de gebieden die zijn beschermd op basis van de Kaderrichtlijn Mariene Strategie (KRM) ten behoeve van de bescherming van de zeebodem en het zeebodemhabitat.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/map%20%283%29.png/8002c167-e771-ff0a-133e-d0c8a905e5d7?t=1791931487177",
+      "href": "https://www.pdok.nl/documents/1901824/0/map%20%283%29.png/8002c167-e771-ff0a-133e-d0c8a905e5d7?t=1791932241684",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/krm-beschermde-gebieden",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/krm-beschermde-gebieden/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (krm-beschermde-gebieden/wms/v1_0)",
+      "wms:layers": [
+        "krm_gebieden"
+      ],
+      "wms:transparent": true
     }
   ]
 }

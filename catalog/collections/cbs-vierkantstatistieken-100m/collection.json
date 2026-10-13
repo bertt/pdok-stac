@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "cbs-vierkantstatistieken-100m",
   "title": "CBS Vierkantstatistieken 100m",
   "description": "Het bestand CBS Vierkantstatistieken 100m bevat statistische gegevens per 100m vierkant. Met ingang van november 2017 is het aantal kerncijfers aanzienlijk uitgebreid met gegevens over o.a. demografie, woningen, energie en sociale zekerheid.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Vierkantstatistieken%20100m.png/29069197-f735-c57f-0a32-473c63ca1a70?t=1791931487170",
+      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Vierkantstatistieken%20100m.png/29069197-f735-c57f-0a32-473c63ca1a70?t=1791932241675",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -509,6 +512,256 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/cbs-vierkantstatistieken-100m",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2000/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2000/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2001/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2001/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2002/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2002/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2003/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2003/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2004/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2004/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2005/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2005/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2006/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2006/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2007/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2007/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2008/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2008/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2009/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2009/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2010/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2010/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2011/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2011/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2012/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2012/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2013/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2013/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2014/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2014/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2015/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2015/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2016/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2016/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2017/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2017/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2018/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2018/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2019/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2019/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2020/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2020/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2021/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2021/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2022/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2022/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2023/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2023/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken100m/2024/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkantstatistieken100m/2024/wms/v1_0)",
+      "wms:layers": [
+        "vierkant_100m"
+      ],
+      "wms:transparent": true
     }
   ]
 }

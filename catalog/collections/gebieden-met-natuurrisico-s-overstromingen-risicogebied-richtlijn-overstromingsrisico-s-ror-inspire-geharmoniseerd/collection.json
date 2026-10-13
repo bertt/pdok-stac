@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "gebieden-met-natuurrisico-s-overstromingen-risicogebied-richtlijn-overstromingsrisico-s-ror-inspire-geharmoniseerd",
   "title": "Gebieden met natuurrisico's - Overstromingen - Risicogebied - Richtlijn Overstromingsrisico's (ROR) (INSPIRE geharmoniseerd)",
   "description": "Naar INSPIRE thema Gebieden met natuurrisico's - Overstromingen - Risicogebied geharmoniseerde data bevat gebieden met potentieel significant overstromingsrisico in Nederland uit het rapport 'Overstromingsrisico's in Nederland, 2018 in het kader van de Europese Richtlijn Overstromingsrisico’s (ROR) 2e cyclus: 2016 – 2021'.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/rws_nz_risicogebied%20%281%29.png/683dc61f-34b8-d5f1-de40-8c40f3c7628e?t=1791931487172",
+      "href": "https://www.pdok.nl/documents/1901824/0/rws_nz_risicogebied%20%281%29.png/683dc61f-34b8-d5f1-de40-8c40f3c7628e?t=1791932241677",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/gebieden-met-natuurrisico-s-overstromingen-risicogebied-richtlijn-overstromingsrisico-s-ror-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rws/overstromingen-risicogebied/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (overstromingen-risicogebied/wms/v2_0)",
+      "wms:layers": [
+        "NZ.RiskZone"
+      ],
+      "wms:transparent": true
     }
   ]
 }

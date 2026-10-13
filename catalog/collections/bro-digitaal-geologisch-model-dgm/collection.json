@@ -1,6 +1,7 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [],
   "id": "bro-digitaal-geologisch-model-dgm",
   "title": "BRO Digitaal Geologisch Model (DGM)",
   "description": "BRO Digitaal Geologisch Model (DGM) is een 3D-lagenmodel dat de ondergrond van Nederland tot ongeveer 500 meter onder NAP in blokken van 100 x 100 meter weergeeft. Er zijn ook uitschieters in DGM tot circa 1.200 meter. Het model geeft aan uit welke lithostratigrafische lagen de ondergrond bestaat. Er wordt aangegeven tot welke formatie de laag behoort.",
@@ -46,7 +47,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/DGM.jpg/d8f295b1-e91e-eec5-acc8-797bb93c831f?t=1791931487159",
+      "href": "https://www.pdok.nl/documents/1901824/0/DGM.jpg/d8f295b1-e91e-eec5-acc8-797bb93c831f?t=1791932241661",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

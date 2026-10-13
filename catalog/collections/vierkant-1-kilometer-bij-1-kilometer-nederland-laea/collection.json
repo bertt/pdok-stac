@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "vierkant-1-kilometer-bij-1-kilometer-nederland-laea",
   "title": "Vierkant 1 kilometer bij 1 kilometer Nederland LAEA",
   "description": "Het bestand Vierkant 1 kilometer bij 1 kilometer Nederland LAEA bevat alle vierkanten van 1 kilometer bij 1 kilometer gelegen boven land van Nederland, afgeleid door Eurostat.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Vierkant%201%20kilometer%20bij%201%20kilometer%20Nederland%20LAEA.png/2cbb54e1-9452-559a-33d8-0cd9ee8dd289?t=1791931487189",
+      "href": "https://www.pdok.nl/documents/1901824/0/Vierkant%201%20kilometer%20bij%201%20kilometer%20Nederland%20LAEA.png/2cbb54e1-9452-559a-33d8-0cd9ee8dd289?t=1791932241707",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -111,6 +114,16 @@
       "href": "https://www.pdok.nl/ogc-apis/-/article/vierkant-1-kilometer-bij-1-kilometer-nederland-laea",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkant-1km-laea/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkant-1km-laea/wms/v1_0)",
+      "wms:layers": [
+        "vierkant1kmlaea"
+      ],
+      "wms:transparent": true
     }
   ]
 }

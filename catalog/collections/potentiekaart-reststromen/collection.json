@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "potentiekaart-reststromen",
   "title": "Potentiekaart Reststromen",
   "description": "De WarmteAtlas Nederland is een digitale, geografische kaart waarop warmteaanbod en -vraag in ons land zijn aangegeven.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Potentiekaart%20reststromen%20%281%29.png/d085122a-c240-db40-89a4-de36302421cf?t=1791931487184",
+      "href": "https://www.pdok.nl/documents/1901824/0/Potentiekaart%20reststromen%20%281%29.png/d085122a-c240-db40-89a4-de36302421cf?t=1791932241696",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/potentiekaart-reststromen",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/potentiekaart-reststromen/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (potentiekaart-reststromen/wms/v1_0)",
+      "wms:layers": [
+        "totaalpotentieelbiogas"
+      ],
+      "wms:transparent": true
     }
   ]
 }

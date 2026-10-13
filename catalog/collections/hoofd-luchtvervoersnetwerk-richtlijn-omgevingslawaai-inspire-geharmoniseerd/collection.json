@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "hoofd-luchtvervoersnetwerk-richtlijn-omgevingslawaai-inspire-geharmoniseerd",
   "title": "Hoofd Luchtvervoersnetwerk volgens Richtlijn Omgevingslawaai 2022 (INSPIRE geharmoniseerd)",
   "description": "Het gaat om gegevens over de geluidbron 'Hoofd Luchtvervoersnetwerk'. Met deze data wordt invulling gegeven aan de eisen uit de Wet milieubeheer die voortvloeien uit de Europese richtlijn omgevingslawaai (2002/49/EG)",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/hoofdluchtvervoersnetwerk_thumbnail_ogc_api.png/c53cea2d-80fb-87a4-6e60-239104702147?t=1791931487174",
+      "href": "https://www.pdok.nl/documents/1901824/0/hoofdluchtvervoersnetwerk_thumbnail_ogc_api.png/c53cea2d-80fb-87a4-6e60-239104702147?t=1791932241681",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/hoofd-luchtvervoersnetwerk-richtlijn-omgevingslawaai-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/ienw/hoofd-luchtvervoersnetwerk-omgevingslawaai-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (hoofd-luchtvervoersnetwerk-omgevingslawaai-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "TN.AirTransportNetwork.AerodromeNode"
+      ],
+      "wms:transparent": true
     }
   ]
 }

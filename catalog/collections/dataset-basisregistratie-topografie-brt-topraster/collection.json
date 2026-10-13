@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "dataset-basisregistratie-topografie-brt-topraster",
   "title": "Basisregistratie Topografie (BRT) TOPraster",
   "description": "TOPraster omvat de digitale versies van de topografische kaarten uit de analoge kaartserie van het Kadaster. Deze digitale topografische rasterkaarten bevatten dezelfde topografische informatie als de analoge kaarten. Rasterkaarten zijn uitstekend geschikt voor toepassingen waarbij het niet nodig is het kaartbeeld te kunnen wijzigen.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/TOPraster.png/5bbed6cd-b715-70ce-dc70-7df4ef229f58?t=1791931487170",
+      "href": "https://www.pdok.nl/documents/1901824/0/TOPraster.png/5bbed6cd-b715-70ce-dc70-7df4ef229f58?t=1791932241675",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/dataset-basisregistratie-topografie-brt-topraster",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/brt-topraster/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (brt-topraster/wms/v1_0)",
+      "wms:layers": [
+        "top25raster"
+      ],
+      "wms:transparent": true
     }
   ]
 }

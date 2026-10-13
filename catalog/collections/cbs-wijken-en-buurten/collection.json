@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "cbs-wijken-en-buurten",
   "title": "CBS Wijken en Buurten",
   "description": "Het Bestand Wijk- en Buurtkaart bevat de geometrie van alle gemeenten, wijken en buurten in Nederland met als attribuut een aantal statistische kerncijfers.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Wijken%20en%20Buurten.png/97e0022e-310f-94ac-3408-3c8eb917b513?t=1791931487170",
+      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Wijken%20en%20Buurten.png/97e0022e-310f-94ac-3408-3c8eb917b513?t=1791932241675",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -389,6 +392,66 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/cbs-wijken-en-buurten",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/wijken-en-buurten-2026/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (wijken-en-buurten-2026/wms/v1_0)",
+      "wms:layers": [
+        "buurten"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2021/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (wijkenbuurten/2021/wms/v2_0)",
+      "wms:layers": [
+        "buurten"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2022/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (wijkenbuurten/2022/wms/v1_0)",
+      "wms:layers": [
+        "buurten"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2023/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (wijkenbuurten/2023/wms/v1_0)",
+      "wms:layers": [
+        "buurten"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2024/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (wijkenbuurten/2024/wms/v1_0)",
+      "wms:layers": [
+        "buurten"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2025/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (wijkenbuurten/2025/wms/v1_0)",
+      "wms:layers": [
+        "buurten"
+      ],
+      "wms:transparent": true
     }
   ]
 }

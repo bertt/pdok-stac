@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bro-grondwatermonitoringput-gmw-geologie-inspire-geharmoniseerd",
   "title": "BRO - Grondwatermonitoringput (GMW) - Geologie (INSPIRE geharmoniseerd)",
   "description": "Deze dataset bevat gegevens van Nederlandse grondwatermonitoringputten uit de Basisregistratie Ondergrond (BRO), geharmoniseerd naar de INSPIRE dataset specificaties voor hydrogeologie.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Thumbnail%20BRO%20Grondwatermonitoringput%20-%20Geologie.png/3485925a-278d-e148-60dd-85b4dffc9e09?t=1791931487162",
+      "href": "https://www.pdok.nl/documents/1901824/0/Thumbnail%20BRO%20Grondwatermonitoringput%20-%20Geologie.png/3485925a-278d-e148-60dd-85b4dffc9e09?t=1791932241667",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-grondwatermonitoringput-gmw-geologie-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/tno/bro-grondwatermonitoringput-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bro-grondwatermonitoringput-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "GE.ActiveWell"
+      ],
+      "wms:transparent": true
     }
   ]
 }

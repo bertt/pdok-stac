@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "cbs-bevolkingsspreiding-population-distribution",
   "title": "Population Distribution (INSPIRE geharmoniseerd)",
   "description": "De dataset voor de bevolkingsspreiding bevat het aantal inwoners per gemeente, NUTS2 (=provincie) en 1km2 grid volgens het Europese coördinatenstelsel ETRS89: LAEA",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Population%20Distribution.png/dea5bc09-778f-4cf7-5f57-64297355c634?t=1791931487166",
+      "href": "https://www.pdok.nl/documents/1901824/0/Population%20Distribution.png/dea5bc09-778f-4cf7-5f57-64297355c634?t=1791932241673",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -149,6 +152,26 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/cbs-bevolkingsspreiding-population-distribution-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/pd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (pd/wms/v1_0)",
+      "wms:layers": [
+        "pd_nl_grid_2012"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/population-distribution/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (population-distribution/wms/v1_0)",
+      "wms:layers": [
+        "pd_nl_grid_2012"
+      ],
+      "wms:transparent": true
     }
   ]
 }

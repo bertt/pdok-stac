@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "nationaal-wegen-bestand-nwb-wegen",
   "title": "Nationaal Wegen Bestand (NWB) - Wegen",
   "description": "Het Nationaal Wegenbestand (NWB) is een databestand met alle openbare wegen in Nederland die een straatnaam of wegnummer hebben en in beheer zijn bij het rijk, provincies, gemeenten en waterschappen. Het NWB bevat het wegennetwerk van Nederland.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/NWB-Wegen.png/fabc65c6-fd91-7cfd-af57-cfc545d42920?t=1791931487181",
+      "href": "https://www.pdok.nl/documents/1901824/0/NWB-Wegen.png/fabc65c6-fd91-7cfd-af57-cfc545d42920?t=1791932241691",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/nationaal-wegen-bestand-nwb-wegen",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rws/nationaal-wegenbestand-wegen/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (nationaal-wegenbestand-wegen/wms/v1_0)",
+      "wms:layers": [
+        "wegvakken"
+      ],
+      "wms:transparent": true
     }
   ]
 }

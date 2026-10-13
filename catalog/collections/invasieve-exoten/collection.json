@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "invasieve-exoten",
   "title": "Invasieve Exoten (INSPIRE geharmoniseerd)",
   "description": "Verspreidingskaart van soorten die op de Unielijst voor zorgwekkende invasieve uitheemse soorten staan en die in Nederland voorkomen, inclusief historie.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Invasieve%20Exoten%20%281%29.png/485e4353-01c0-a58f-65d0-6759b08c66ff?t=1791931487176",
+      "href": "https://www.pdok.nl/documents/1901824/0/Invasieve%20Exoten%20%281%29.png/485e4353-01c0-a58f-65d0-6759b08c66ff?t=1791932241683",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/invasieve-exoten",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/invasieve-exoten-geharmoniseerd/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (invasieve-exoten-geharmoniseerd/wms/v2_0)",
+      "wms:layers": [
+        "SD.AilanthusAltissima"
+      ],
+      "wms:transparent": true
     }
   ]
 }

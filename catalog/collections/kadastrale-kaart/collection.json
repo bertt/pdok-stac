@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "kadastrale-kaart",
   "title": "Kadastrale kaart",
   "description": "De Kadastrale kaart is een onderdeel van de Basisregistratie Kadaster (BRK), deze bevat ook de kadastrale registratie van onroerende zaken en zakelijke rechten.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Kadaster%20%28BRK%29%20kadastrale%20kaart.png/dfeda710-71b9-2be7-56e3-f68a07482b94?t=1791931487176",
+      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Kadaster%20%28BRK%29%20kadastrale%20kaart.png/dfeda710-71b9-2be7-56e3-f68a07482b94?t=1791932241683",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -127,6 +130,23 @@
       "href": "https://www.pdok.nl/ogc-apis/-/article/kadastrale-kaart",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/brk-kadastrale-kaart/wms/v5_0",
+      "type": "image/png",
+      "title": "WMS (brk-kadastrale-kaart/wms/v5_0)",
+      "wms:layers": [
+        "Kadastralekaart"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wmts",
+      "href": "https://service.pdok.nl/kadaster/brk-kadastrale-kaart/wmts/v5_0",
+      "title": "WMTS (brk-kadastrale-kaart/wmts/v5_0)",
+      "wmts:layer": "Kadastralekaart",
+      "wmts:encoding": "kvp"
     }
   ]
 }

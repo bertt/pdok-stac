@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "stiltegebieden",
   "title": "Stiltegebieden - Provincies (INSPIRE geharmoniseerd)",
   "description": "Het begrip stiltegebied vindt zijn oorsprong in de Wet geluidhinder (Staatsblad, 1979). Stiltegebieden waren daarin gedefinieerd als gebieden waarin de geluidbelasting door toedoen van menselijke activiteiten zo laag is, dat de in dat gebied heersende natuurlijke geluiden niet of nauwelijks worden gestoord.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Stiltegebieden.jpg/7aac0e27-6fb6-8ed0-b72a-59085d00efd2?t=1791931487187",
+      "href": "https://www.pdok.nl/documents/1901824/0/Stiltegebieden.jpg/7aac0e27-6fb6-8ed0-b72a-59085d00efd2?t=1791932241702",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/stiltegebieden",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/provincies/stiltegebieden/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (stiltegebieden/wms/v1_0)",
+      "wms:layers": [
+        "PS.ProtectedSite"
+      ],
+      "wms:transparent": true
     }
   ]
 }

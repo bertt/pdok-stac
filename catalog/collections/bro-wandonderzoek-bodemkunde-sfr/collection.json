@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bro-wandonderzoek-bodemkunde-sfr",
   "title": "BRO Wandonderzoek - bodemkunde (SFR)",
   "description": "Wandonderzoek - bodemkunde (SFR) onderzoekt de bodemkundige opbouw van de ondergrond door een ontgraving. Dit onderzoek wordt voornamelijk ingezet om de toepassing van de bodem te kunnen beoordelen voor landbouw of natuurbeheer.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Wandonderzoek%20-%20bodemkunde.jpg/7d7c1cc6-282e-27c7-66b5-b8bfd9de4cfe?t=1791931487163",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Wandonderzoek%20-%20bodemkunde.jpg/7d7c1cc6-282e-27c7-66b5-b8bfd9de4cfe?t=1791932241670",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-wandonderzoek-bodemkunde-sfr-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/tno/bro-wandonderzoek/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bro-wandonderzoek/wms/v1_0)",
+      "wms:layers": [
+        "wandonderzoek"
+      ],
+      "wms:transparent": true
     }
   ]
 }

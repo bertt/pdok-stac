@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bro-geotechnisch-sondeeronderzoek-cpt",
   "title": "BRO Geotechnisch sondeeronderzoek (CPT)",
   "description": "Gegevens van geotechnisch sondeeronderzoek zoals opgeslagen in de Basis Registratie Ondergrond (BRO). Geotechnisch sondeeronderzoek (in het Engels Cone Penetration Test, afgekort tot CPT) is onderzoek dat tot doel heeft informatie over de bodemkundige of geologische opbouw van de ondergrond te verwerven, waarbij in het veld metingen aan de ondergrond worden gedaan door een kegelvormige sonde de grond in te drukken.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Geotechnisch%20sondeeronderzoek.png/aa528a2f-ed72-58eb-3f98-fc1cea62c5f6?t=1791931487160",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Geotechnisch%20sondeeronderzoek.png/aa528a2f-ed72-58eb-3f98-fc1cea62c5f6?t=1791932241663",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-geotechnisch-sondeeronderzoek-cpt-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/tno/bro-geotechnischsondeeronderzoek/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bro-geotechnischsondeeronderzoek/wms/v1_0)",
+      "wms:layers": [
+        "cpt_kenset"
+      ],
+      "wms:transparent": true
     }
   ]
 }

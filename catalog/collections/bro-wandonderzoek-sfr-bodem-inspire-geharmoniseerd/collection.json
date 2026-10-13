@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bro-wandonderzoek-sfr-bodem-inspire-geharmoniseerd",
   "title": "BRO - Wandonderzoek (SFR) - Bodem (INSPIRE geharmoniseerd)",
   "description": "Deze dataset bevat de gegevens over wandonderzoeken (SFR) welke in de BRO (Basisregistratie Ondergrond) zijn opgenomen. Het betreft wandonderzoeken met een maximale diepte van 6 meter.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Wandonderzoek%20%282%29.jpg/69e10fff-9264-1fdb-460d-b3bc308700f5?t=1791931487164",
+      "href": "https://www.pdok.nl/documents/1901824/0/Wandonderzoek%20%282%29.jpg/69e10fff-9264-1fdb-460d-b3bc308700f5?t=1791932241670",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-wandonderzoek-sfr-bodem-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/tno/bro-wandonderzoek-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bro-wandonderzoek-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "SO.SoilSite"
+      ],
+      "wms:transparent": true
     }
   ]
 }

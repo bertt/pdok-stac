@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "nationaal-beschermde-gebieden-cdda",
   "title": "Nationaal Beschermde Gebieden (CDDA)",
   "description": "In deze dataset is de zogeheten common database of designated areas (CDDA) weergegeven. Deze database is onderdeel van de jaarlijkse rapportage vanuit Nederland aan de EEA. De CDDA bestaat uit de Natura2000 gebieden, de Nationale parken en het Natuur Netwerk Nederland",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Beschermde%20gebieden%20-%20CDDA.png/605e1bdf-d5db-a6e1-64df-fb86ec0d67cb?t=1791931487180",
+      "href": "https://www.pdok.nl/documents/1901824/0/Beschermde%20gebieden%20-%20CDDA.png/605e1bdf-d5db-a6e1-64df-fb86ec0d67cb?t=1791932241690",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/nationaal-beschermde-gebieden-cdda",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/nationaal-beschermde-gebieden-cdda/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (nationaal-beschermde-gebieden-cdda/wms/v1_0)",
+      "wms:layers": [
+        "cdda"
+      ],
+      "wms:transparent": true
     }
   ]
 }

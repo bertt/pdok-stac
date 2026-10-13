@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "grondwaterbeschermingsgebieden",
   "title": "Grondwaterbeschermingsgebieden (INSPIRE geharmoniseerd)",
   "description": "De dataset  bevat gegevens over waterwingebieden, grondwaterbeschermingsgebieden, (milieu) beschermingszones en boringsvrije zones voor grondwaterwinning.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Grondwaterbeschermingsgebieden.png/818320eb-aa3e-c779-9da0-92bb46f8f7ff?t=1791931487174",
+      "href": "https://www.pdok.nl/documents/1901824/0/Grondwaterbeschermingsgebieden.png/818320eb-aa3e-c779-9da0-92bb46f8f7ff?t=1791932241679",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/grondwaterbeschermingsgebieden",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/provincies/grondwaterbeschermingsgebieden/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (grondwaterbeschermingsgebieden/wms/v1_0)",
+      "wms:layers": [
+        "AM.DrinkingWaterProtectionArea"
+      ],
+      "wms:transparent": true
     }
   ]
 }

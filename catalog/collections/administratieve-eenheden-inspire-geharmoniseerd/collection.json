@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "administratieve-eenheden-inspire-geharmoniseerd",
   "title": "Administratieve Eenheden (INSPIRE geharmoniseerd)",
   "description": "Overzicht van de bestuurlijke indeling van Nederland in gemeenten en provincies. Gegevens zijn gebaseerd op de dataset Bestuurlijke Gebieden, welke afgeleid is uit de Basisregistratie Kadaster (BRK).",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Administratieve%20Eenheden.png/54b34765-53b0-b022-a0ba-d39ec997d5e7?t=1791931487153",
+      "href": "https://www.pdok.nl/documents/1901824/0/Administratieve%20Eenheden.png/54b34765-53b0-b022-a0ba-d39ec997d5e7?t=1791932241653",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -141,6 +144,26 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/administratieve-eenheden-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/au/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (au/wms/v2_0)",
+      "wms:layers": [
+        "AU.AdministrativeBoundary"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/brk-administratieve-eenheden/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (brk-administratieve-eenheden/wms/v2_0)",
+      "wms:layers": [
+        "AU.AdministrativeBoundary"
+      ],
+      "wms:transparent": true
     }
   ]
 }

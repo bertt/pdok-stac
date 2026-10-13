@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "cbs-bevolkingskernen-2021",
   "title": "CBS Bevolkingskernen 2021",
   "description": "Het bestand CBS bevolkingskernen 2021 bevat statistische kerncijfers per bevolkingskern. De afbakening van bevolkingskernen is enige tijd geleden voortgekomen uit een vraag naar cijfers op het niveau van bevolkingskernen in het Volkstellingprogramma 2001 van Eurostat.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Bevolkingskernen%202021%20PDOK%20Viewer.png/e45858fe-1b54-807b-c6fe-cf550223a40a?t=1791931487165",
+      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Bevolkingskernen%202021%20PDOK%20Viewer.png/e45858fe-1b54-807b-c6fe-cf550223a40a?t=1791932241672",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/cbs-bevolkingskernen-2021",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/bevolkingskernen-2021/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bevolkingskernen-2021/wms/v1_0)",
+      "wms:layers": [
+        "bevolkingskernen"
+      ],
+      "wms:transparent": true
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "cbs-gebiedsindelingen-1995-2015",
   "title": "CBS Gebiedsindelingen 1995-2015",
   "description": "Het bestand CBS gebiedsindelingen geeft de gebiedsindelingen die het CBS hanteert. De indelingen zijn gegeven van 1995 t/m 2015.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Gebiedsindelingen%201995-2015.png/d405d23a-1495-0491-9768-6828a8711366?t=1791931487169",
+      "href": "https://www.pdok.nl/documents/1901824/0/Gebiedsindelingen%201995-2015.png/d405d23a-1495-0491-9768-6828a8711366?t=1791932241673",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -445,6 +448,216 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/cbs-gebiedsindelingen-1995-2015",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/1995/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/1995/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/1996/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/1996/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/1997/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/1997/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/1998/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/1998/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/1999/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/1999/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2000/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2000/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2001/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2001/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2002/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2002/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2003/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2003/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2004/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2004/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2005/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2005/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2006/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2006/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2007/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2007/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2008/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2008/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2009/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2009/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2010/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2010/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2011/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2011/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2012/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2012/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2013/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2013/wms/v1_0)",
+      "wms:layers": [
+        "arrondissementsgebied_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2014/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2014/wms/v1_0)",
+      "wms:layers": [
+        "arbeidsmarktregio_gegeneraliseerd"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2015/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gebiedsindelingen/2015/wms/v1_0)",
+      "wms:layers": [
+        "arbeidsmarktregio_gegeneraliseerd"
+      ],
+      "wms:transparent": true
     }
   ]
 }

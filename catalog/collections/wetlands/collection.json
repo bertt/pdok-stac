@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "wetlands",
   "title": "Wetlands",
   "description": "Wetlands zijn de natte natuurgebieden in Nederland (44 gebieden). Het Wetland verdrag is op 2 februari 1971 te Ramsar in Iran ondertekend. Nederland was een van de zestien landen die het Verdrag toen ondertekende.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Wetlands%20%281%29.png/58e0d76d-4bb6-c71e-f459-019b5ca99cfe?t=1791931487192",
+      "href": "https://www.pdok.nl/documents/1901824/0/Wetlands%20%281%29.png/58e0d76d-4bb6-c71e-f459-019b5ca99cfe?t=1791932241715",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/wetlands",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/wetlands/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (wetlands/wms/v1_0)",
+      "wms:layers": [
+        "wetlands"
+      ],
+      "wms:transparent": true
     }
   ]
 }

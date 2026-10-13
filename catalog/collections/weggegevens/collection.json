@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "weggegevens",
   "title": "Weggegevens",
   "description": "De dataset Weggegevens bevat op dit moment de lagen maximum snelheden en rijstroken van de rijkswegen.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Weggegevens.png/45451aab-6135-5727-ffcc-724cda823e11?t=1791931487191",
+      "href": "https://www.pdok.nl/documents/1901824/0/Weggegevens.png/45451aab-6135-5727-ffcc-724cda823e11?t=1791932241714",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/weggegevens",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rws/weggegevens/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (weggegevens/wms/v1_0)",
+      "wms:layers": [
+        "WegvakRijstroken"
+      ],
+      "wms:transparent": true
     }
   ]
 }

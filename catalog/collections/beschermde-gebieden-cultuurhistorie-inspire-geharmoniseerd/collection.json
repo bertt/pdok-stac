@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "beschermde-gebieden-cultuurhistorie-inspire-geharmoniseerd",
   "title": "Beschermde Gebieden - Cultuurhistorie (INSPIRE geharmoniseerd)",
   "description": "In deze dataset zijn de gegevens samengevoegd van een drietal datasets.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Beschermde%20Gebieden%20-%20Cultuurhistorie.png/5fe6ea44-62a9-9990-8eff-a0a8f28afb76?t=1791931487156",
+      "href": "https://www.pdok.nl/documents/1901824/0/Beschermde%20Gebieden%20-%20Cultuurhistorie.png/5fe6ea44-62a9-9990-8eff-a0a8f28afb76?t=1791932241657",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -157,6 +160,26 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/beschermde-gebieden-cultuurhistorie-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rce/beschermde-gebieden-cultuurhistorie/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (beschermde-gebieden-cultuurhistorie/wms/v1_0)",
+      "wms:layers": [
+        "PS.ProtectedSite"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rce/ps-ch/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (ps-ch/wms/v1_0)",
+      "wms:layers": [
+        "PS.ProtectedSite"
+      ],
+      "wms:transparent": true
     }
   ]
 }

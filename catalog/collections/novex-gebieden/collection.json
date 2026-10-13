@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "novex-gebieden",
   "title": "NOVEX gebieden",
   "description": "Naast ruimtelijke regie per provincie wordt in de 16 zogeheten NOVEX-gebieden - waaronder Schiphol en Het Groene Hart- ook ingezet op gebiedsgerichte regie. In deze gebieden komen veel nationale opgaven samen, is de transitie ingrijpend of overstijgt het de grenzen van de provincie. Met het oog op de toekomstbestendigheid van de gemaakte keuzes geldt dat water en bodem een leidende en bepalende rol spelen.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Novex%20Gebieden%20%281%29.png/e44890b0-99bc-eda2-7942-7a89d1589323?t=1791931487182",
+      "href": "https://www.pdok.nl/documents/1901824/0/Novex%20Gebieden%20%281%29.png/e44890b0-99bc-eda2-7942-7a89d1589323?t=1791932241693",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/novex-gebieden",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/bzk/novexgebieden/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (novexgebieden/wms/v1_0)",
+      "wms:layers": [
+        "novex"
+      ],
+      "wms:transparent": true
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "natura-2000",
   "title": "Natura 2000",
   "description": "Natura 2000 is het samenhangend netwerk van beschermd natuurgebied in de Europese Unie bestaande uit Vogelrichtlijn- en Habitatrichtlijngebieden. Natura 2000-gebieden zijn een samenvoeging van beide en de daarin gelegen beschermde natuurmonumenten.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Natura%202000.png/9e8b1c7a-af49-148d-e2e8-cb7b0d60c53f?t=1791931487181",
+      "href": "https://www.pdok.nl/documents/1901824/0/Natura%202000.png/9e8b1c7a-af49-148d-e2e8-cb7b0d60c53f?t=1791932241692",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/natura-2000",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/natura2000/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (natura2000/wms/v1_0)",
+      "wms:layers": [
+        "natura2000"
+      ],
+      "wms:transparent": true
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "pdok-luchtfoto-infrarood-open",
   "title": "PDOK Luchtfoto Infrarood (Open)",
   "description": "In opdracht van de aan het samenwerkingsverband Beeldmateriaal deelnemende overheden worden jaarlijks twee landsdekkende opnames van CIR of Infrarood-luchtfoto's geproduceerd. Met ingang van de jaargang 2016 worden de zomer-opnames in een resolutie van 25 centimer via PDOK als open data beschikbaar gesteld. Jaargang 2021 ontbreekt in deze reeks; van dat jaar is geen 25 cm luchtfoto beschikbaar. Sinds 2025 worden ook in de winter-opnamen van de infrarood-luchtfoto's met een resolutie van 8 (en deels 5) centimeter via PDOK beschikbaar gesteld.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Luchtfoto%20Infrarood%20%281%29.jpg/03f3aff5-1885-c40d-63a9-a409636c7a96?t=1791931487183",
+      "href": "https://www.pdok.nl/documents/1901824/0/Luchtfoto%20Infrarood%20%281%29.jpg/03f3aff5-1885-c40d-63a9-a409636c7a96?t=1791932241695",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -97,6 +100,23 @@
       "href": "https://www.pdok.nl/ogc-webservices/-/article/pdok-luchtfoto-infrarood-open-",
       "type": "text/html",
       "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/hwh/luchtfotocir/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (luchtfotocir/wms/v1_0)",
+      "wms:layers": [
+        "Actueel_orthoHRIR"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wmts",
+      "href": "https://service.pdok.nl/hwh/luchtfotocir/wmts/v1_0",
+      "title": "WMTS (luchtfotocir/wmts/v1_0)",
+      "wmts:layer": "Actueel_orthoHRIR",
+      "wmts:encoding": "kvp"
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "waterschappen-keringen-imwa",
   "title": "Waterschappen Keringen IMWA",
   "description": "Deze dataset is gebaseerd op (niet geharmoniseerde) data van alle waterschappen in Nederland conform het Informatiemodel water (IMWA). De dataset bevat de volgende IMWA objecten: Aansluitconstructie, Afwerkingslaag, Basismateriaal, Bekledingsconstructie, Bodemlaag, FilterVlijlaag, FlexibeleWaterkering, Geotextiel, KenmerkendeProfiellijn, Kernopbouw, Kistdam, Referentiepunt, Referentiestelsel, Teenbestorting, Teenconstructie, Overgangsconstructie, Toplaag, Uitvullaag, Wandconstructie, Waterkering en Waterkeringsectie",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Waterschappen%20Keringen%20IMWA.png/b218d70a-3e81-9d8a-aa2d-de5b06697625?t=1791931487190",
+      "href": "https://www.pdok.nl/documents/1901824/0/Waterschappen%20Keringen%20IMWA.png/b218d70a-3e81-9d8a-aa2d-de5b06697625?t=1791932241710",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/waterschappen-keringen-imwa",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/hwh/waterschappen-keringen-imwa/wms/v3_0",
+      "type": "image/png",
+      "title": "WMS (waterschappen-keringen-imwa/wms/v3_0)",
+      "wms:layers": [
+        "kwelscherm"
+      ],
+      "wms:transparent": true
     }
   ]
 }

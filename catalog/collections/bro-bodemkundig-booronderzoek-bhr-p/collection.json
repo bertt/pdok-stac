@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bro-bodemkundig-booronderzoek-bhr-p",
   "title": "BRO Bodemkundig Booronderzoek (BHR-P)",
   "description": "Bodemkundig booronderzoek (BHR-P) is belangrijk voor inzicht in samenstelling en opbouw van de bodem. Het beschrijft de bodemkundige opbouw van het meest ondiepe deel van de bodem en ondergrond aan de hand van een boring. Dat onderzoek kan bestaan uit een bodemkundige boormonsterbeschrijving en een boormonsteranalyse .",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Bodemkundig%20Booronderzoek.png/cd9f6e76-e140-dd00-6da6-f6f724bb89dd?t=1791931487158",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Bodemkundig%20Booronderzoek.png/cd9f6e76-e140-dd00-6da6-f6f724bb89dd?t=1791932241659",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-bodemkundig-booronderzoek-bhr-p-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/tno/bro-bodemkundig-booronderzoek/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bro-bodemkundig-booronderzoek/wms/v1_0)",
+      "wms:layers": [
+        "bhr_kenset"
+      ],
+      "wms:transparent": true
     }
   ]
 }

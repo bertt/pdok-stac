@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "hydrografie-netwerk-inspire-geharmoniseerd",
   "title": "Hydrografie: Netwerk (INSPIRE geharmoniseerd)",
   "description": "De dataset Hydrografie - Netwerk (INSPIRE geharmoniseerd) is een verzameling van netwerkelementen die schematisch waterstromen vertegenwoordigd. Deze netwerkelementen kunnen worden geclassificeerd als links, linksequenties, linksets, netwerkgebieden of netwerkverbindingen (nodes).",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/hydrografie%20Netwerk.png/114b1604-1956-53dd-bbfd-1edfe36e1afa?t=1791931487175",
+      "href": "https://www.pdok.nl/documents/1901824/0/hydrografie%20Netwerk.png/114b1604-1956-53dd-bbfd-1edfe36e1afa?t=1791932241683",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/hydrografie-netwerk-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rws/hydrografie-netwerk/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (hydrografie-netwerk/wms/v1_0)",
+      "wms:layers": [
+        "HY.Network"
+      ],
+      "wms:transparent": true
     }
   ]
 }

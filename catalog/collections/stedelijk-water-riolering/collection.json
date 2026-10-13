@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "stedelijk-water-riolering",
   "title": "Stedelijk Water (Riolering) GWSW",
   "description": "Systemen voor stedelijk water met kenmerken gericht op beheeractiviteiten",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Stedelijk%20Water.png/8e70038c-1a98-826b-0a06-52c5e7100af3?t=1791931487187",
+      "href": "https://www.pdok.nl/documents/1901824/0/Stedelijk%20Water.png/8e70038c-1a98-826b-0a06-52c5e7100af3?t=1791932241702",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/stedelijk-water-riolering-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rioned/beheer-stedelijk-watersystemen-gwsw/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (beheer-stedelijk-watersystemen-gwsw/wms/v1_0)",
+      "wms:layers": [
+        "AansluitingLeiding"
+      ],
+      "wms:transparent": true
     }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bro-overheidsbesluit-bodemverontreiniging-sld",
   "title": "BRO Overheidsbesluit bodemverontreiniging (SLD)",
   "description": "Een overheidsbesluit bodemverontreiniging is een beoordeling van de bodemkwaliteit, gemaakt door het bevoegd gezag in het kader van een procedure onder de Wet Bodembescherming (Wbb), onder het 'eerbiedigend overgangsrecht saneringen’ (verder genoemd: overgangsrecht) van de Omgevingswet (Ow) (artikel 3.1 Aanvullingswet bodem ) of onder de Omgevingswet.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20SLD%20%281%29.png/00ddb397-1c3e-d972-7496-d203ef195ef3?t=1791931487163",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20SLD%20%281%29.png/00ddb397-1c3e-d972-7496-d203ef195ef3?t=1791932241669",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-overheidsbesluit-bodemverontreiniging-sld-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/tno/bro-overheidsbesluit-bodemverontreiniging/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bro-overheidsbesluit-bodemverontreiniging/wms/v1_0)",
+      "wms:layers": [
+        "sld_aftercare_area"
+      ],
+      "wms:transparent": true
     }
   ]
 }

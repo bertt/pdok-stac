@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "zwemwater-provinciaal-en-rijkswateren",
   "title": "Zwemwater (Provinciaal en Rijkswateren) uit Zwemwaterregister (INSPIRE geharmoniseerd)",
   "description": "De ongeveer 700 officiële zwemwaterlocaties worden jaarlijks, als ze geschikt bevonden zijn, door de provincies als zodanig aangewezen. Tijdens het zwemseizoen (van 1 mei tot 1 oktober) wordt het water op de zwemwaterlocaties circa elke 14 dagen gecontroleerd door de waterkwaliteitsbeheerder.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Zwemwater.png/a2a51efa-2cef-41e9-a466-4379e67f8015?t=1791931487192",
+      "href": "https://www.pdok.nl/documents/1901824/0/Zwemwater.png/a2a51efa-2cef-41e9-a466-4379e67f8015?t=1791932241717",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/zwemwater-provinciaal-en-rijkswateren-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/provincies/zwemwater-provinciaal-rijkswateren/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (zwemwater-provinciaal-rijkswateren/wms/v1_0)",
+      "wms:layers": [
+        "AM.DesignatedWaters"
+      ],
+      "wms:transparent": true
     }
   ]
 }

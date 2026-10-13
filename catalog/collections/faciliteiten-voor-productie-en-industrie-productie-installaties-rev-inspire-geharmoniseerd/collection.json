@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "faciliteiten-voor-productie-en-industrie-productie-installaties-rev-inspire-geharmoniseerd",
   "title": "Faciliteiten voor productie en industrie - Productie-installaties - REV (INSPIRE geharmoniseerd)",
   "description": "Naar INSPIRE thema Faciliteiten voor productie en industrie geharmoniseerde data vanuit het thema SEVESO-inrichtingen uit het Register Externe Veiligheidsrisico’s (REV)",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Faciliteiten%20voor%20productie%20en%20industrie%20-%20Productie-installaties%20-%20REV%20-%20PDOK%20Viewer.jpg/754545f1-50ad-77f1-e666-80fc91ae25f5?t=1791931487171",
+      "href": "https://www.pdok.nl/documents/1901824/0/Faciliteiten%20voor%20productie%20en%20industrie%20-%20Productie-installaties%20-%20REV%20-%20PDOK%20Viewer.jpg/754545f1-50ad-77f1-e666-80fc91ae25f5?t=1791932241676",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/faciliteiten-voor-productie-en-industrie-productie-installaties-rev-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rws/productie-en-industrie-productie-installaties/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (productie-en-industrie-productie-installaties/wms/v1_0)",
+      "wms:layers": [
+        "PF.ProductionInstallation"
+      ],
+      "wms:transparent": true
     }
   ]
 }

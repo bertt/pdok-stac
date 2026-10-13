@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "waterschappen-waterschapsgrenzen-imso",
   "title": "Waterschappen Waterschapsgrenzen IMSO",
   "description": "Deze dataset is gebaseerd op (geharmoniseerde) data van alle waterschappen in Nederland conform het Informatiemodel Samenhangende Objecten (IMSO). De dataset bevat het volgende object: Waterschapsgebied.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Waterschapsgrenzen.png/986a2dc8-153a-8d77-4190-549530819d54?t=1791931487191",
+      "href": "https://www.pdok.nl/documents/1901824/0/Waterschapsgrenzen.png/986a2dc8-153a-8d77-4190-549530819d54?t=1791932241713",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/waterschappen-waterschapsgrenzen-imso",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/hwh/waterschappen-waterschapsgrenzen-imso/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (waterschappen-waterschapsgrenzen-imso/wms/v2_0)",
+      "wms:layers": [
+        "waterschap"
+      ],
+      "wms:transparent": true
     }
   ]
 }

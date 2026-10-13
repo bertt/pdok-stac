@@ -17,7 +17,7 @@ All links are relative, so the catalog works under any GitHub Pages sub-path.
 
 Each collection contains the title, description, producer (e.g. Kadaster), thumbnail, a link to the PDOK dataset page and links to its service sub pages (`service-doc`). The services themselves are STAC assets with role `data`, scraped from the dataset's *(OGC) Webservices*, *(OGC) API's* and *ATOM Downloadservices* pages: `wms`, `wfs`, `wmts`, `wcs`, `atom`, `ogc-api` and `download-api` (a numeric suffix such as `wms-2` is added when a dataset has several of the same type).
 
-Limitations: the spatial extent is a generic bounding box of the Netherlands, the temporal extent is open and the license is `other`, because this information is not available on the overview page.
+The WMS and WMTS services are also added as [Web Map Links](https://github.com/stac-extensions/web-map-links) (`rel: wms` / `rel: wmts`, with the first layer of the service from its GetCapabilities as default layer), so clients like STAC Browser can show them on a map. The extension does not cover WFS, ATOM or OGC API, so those are only available as assets. In QGIS, copy the `href` of an asset and add it via the Data Source Manager (WMS/WMTS, WFS or OGC API Features). the spatial extent is a generic bounding box of the Netherlands, the temporal extent is open and the license is `other`, because this information is not available on the overview page.
 
 ## Regenerate
 

@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "basisregistratie-gewaspercelen-brp",
   "title": "Basisregistratie Gewaspercelen (BRP)",
   "description": "BRP - Gewaspercelen bestaat uit de locatie van landbouwpercelen met daaraan gekoppeld het geteelde gewas. De omgrenzingen van de landbouwpercelen zijn gebaseerd op het Agrarisch Areaal Nederland (AAN).",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Gewaspercelen.png/0571bcdf-430e-3ab0-84bb-b73942d248c7?t=1791931487155",
+      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Gewaspercelen.png/0571bcdf-430e-3ab0-84bb-b73942d248c7?t=1791932241655",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -149,6 +152,26 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/basisregistratie-gewaspercelen-brp-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/brpgewaspercelen/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (brpgewaspercelen/wms/v1_0)",
+      "wms:layers": [
+        "BrpGewas"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/gewaspercelen/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (gewaspercelen/wms/v1_0)",
+      "wms:layers": [
+        "BrpGewas"
+      ],
+      "wms:transparent": true
     }
   ]
 }

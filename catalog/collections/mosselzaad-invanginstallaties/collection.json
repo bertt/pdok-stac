@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "mosselzaad-invanginstallaties",
   "title": "Mosselzaadinvanginstallaties",
   "description": "Dit betreft een bestandsopname van het areaal mossel en oesterbanken op de droogvallende platen in de Waddenzee. Dit geschiedt jaarlijks. De opdrachtgever is de Directie Dierlijke Agroketens en Dierenwelzijn / Cluster Duurzame Visserijketens.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Mosselzaad%20invanginstallaties.png/4d8e1a4f-8b35-c499-d07e-33a788ddc6e9?t=1791931487180",
+      "href": "https://www.pdok.nl/documents/1901824/0/Mosselzaad%20invanginstallaties.png/4d8e1a4f-8b35-c499-d07e-33a788ddc6e9?t=1791932241689",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -133,6 +136,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/mosselzaad-invanginstallaties",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/mosselzaadinvanginstallaties/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (mosselzaadinvanginstallaties/wms/v1_0)",
+      "wms:layers": [
+        "Mosselzaadinvanginstallaties"
+      ],
+      "wms:transparent": true
     }
   ]
 }

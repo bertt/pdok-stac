@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bro-geomorfologische-kaart-gmm",
   "title": "BRO Geomorfologische kaart (GMM)",
   "description": "De Geomorfologische Kaart (GMM) beschrijft de ‘landvormen’ aan het aardoppervlak van Nederland gemaakt voor een schaal van 1:50.000. De kaart geeft informatie over de vorm, het reliëf en de ontstaanswijze.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Geomorfologische%20Kaart.png/ad3115f3-bd1a-57ba-d329-3125e04c66af?t=1791931487159",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Geomorfologische%20Kaart.png/ad3115f3-bd1a-57ba-d329-3125e04c66af?t=1791932241662",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-geomorfologische-kaart-gmm-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/tno/bro-geomorfologische-kaart/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (bro-geomorfologische-kaart/wms/v2_0)",
+      "wms:layers": [
+        "geomorphological_area"
+      ],
+      "wms:transparent": true
     }
   ]
 }

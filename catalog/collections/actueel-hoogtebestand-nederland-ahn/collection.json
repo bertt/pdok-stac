@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "actueel-hoogtebestand-nederland-ahn",
   "title": "Actueel Hoogtebestand Nederland (AHN)",
   "description": "Het Actueel Hoogtebestand Nederland (AHN) is de digitale hoogtekaart voor heel Nederland. Het bevat gedetailleerde en precieze hoogtegegevens met gemiddeld tien hoogtemetingen per vierkante meter. AHN is een samenwerking van de provincies, Rijksoverheid en de waterschappen.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/ahn.png/c2d19e3c-51ac-11c4-ae3d-c2a5fbf388e8?t=1791931487153",
+      "href": "https://www.pdok.nl/documents/1901824/0/ahn.png/c2d19e3c-51ac-11c4-ae3d-c2a5fbf388e8?t=1791932241653",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -111,6 +114,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/actueel-hoogtebestand-nederland-ahn",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rws/actueel-hoogtebestand-nederland/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (actueel-hoogtebestand-nederland/wms/v1_0)",
+      "wms:layers": [
+        "dtm_05m"
+      ],
+      "wms:transparent": true
     }
   ]
 }

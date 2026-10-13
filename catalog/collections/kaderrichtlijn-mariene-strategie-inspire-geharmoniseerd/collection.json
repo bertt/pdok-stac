@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "kaderrichtlijn-mariene-strategie-inspire-geharmoniseerd",
   "title": "Kaderrichtlijn Mariene Strategie (INSPIRE geharmoniseerd)",
   "description": "Deze datasetserie bevat voor Nederland de toepassingsgebieden voor de KRM en het monitoringsprogramma Mariene strategie deel II. Voor deze gebieden voert Nederland in het kader van de artikel 8, 9 en 10 van de KRM assessments uit.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/KRM%20%281%29.png/fd28281d-d48d-b9a3-fa08-0bae283fc66d?t=1791931487176",
+      "href": "https://www.pdok.nl/documents/1901824/0/KRM%20%281%29.png/fd28281d-d48d-b9a3-fa08-0bae283fc66d?t=1791932241684",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/kaderrichtlijn-mariene-strategie-inspire-geharmoniseerd",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/kaderrichtlijn-mariene-strategie-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (kaderrichtlijn-mariene-strategie-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "AM.MarineRegion"
+      ],
+      "wms:transparent": true
     }
   ]
 }

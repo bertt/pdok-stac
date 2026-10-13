@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "rdinfo",
   "title": "RD info",
   "description": "Overzicht van de ligging van de RD-punten, GNSS-referentiestations en GNSS-kernnetpunten in Nederland met de bijbehorende omschrijvingen en coordinaten in het stelsel van de Rijksdriehoeksmeting (RD) en het Europese stelsel ETRS-89.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/RD%20info.png/b23f4388-24c3-f52c-85bc-9a6de77ca529?t=1791931487185",
+      "href": "https://www.pdok.nl/documents/1901824/0/RD%20info.png/b23f4388-24c3-f52c-85bc-9a6de77ca529?t=1791932241698",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -111,6 +114,16 @@
       "href": "https://www.pdok.nl/ogc-apis/-/article/rdinfo",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/rdinfo/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (rdinfo/wms/v1_0)",
+      "wms:layers": [
+        "punten"
+      ],
+      "wms:transparent": true
     }
   ]
 }

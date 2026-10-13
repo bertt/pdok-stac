@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "begrenzingen-van-vergunde-ontgrondingsgebieden-voor-zand-en-grindwinning",
   "title": "Begrenzingen van vergunde ontgrondingsgebieden voor zand- en grindwinning (INSPIRE geharmoniseerd)",
   "description": "Het Provincie bestand bevat gegevens over de grenzen van vigerende vergunningen voor ontgronding binnen het INSPIRE thema 'Gebiedsbeheer, gebieden waar beperkingen gelden, gereguleerde gebieden en rapportage-eenheden'.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Begrenzingen%20van%20vergunde%20ontgrondingsgebieden%20voor%20zand-%20en%20grindwinning%20%282%29.png/c262555a-cf25-41cb-cfed-84046a96c18e?t=1791931487155",
+      "href": "https://www.pdok.nl/documents/1901824/0/Begrenzingen%20van%20vergunde%20ontgrondingsgebieden%20voor%20zand-%20en%20grindwinning%20%282%29.png/c262555a-cf25-41cb-cfed-84046a96c18e?t=1791932241657",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/begrenzingen-van-vergunde-ontgrondingsgebieden-voor-zand-en-grindwinning",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/provincies/begrenzingen-vergunde-ontgrondingsgebieden-zand-grindwinning/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (begrenzingen-vergunde-ontgrondingsgebieden-zand-grindwinning/wms/v1_0)",
+      "wms:layers": [
+        "AM.ProspectingAndMiningPermitArea"
+      ],
+      "wms:transparent": true
     }
   ]
 }

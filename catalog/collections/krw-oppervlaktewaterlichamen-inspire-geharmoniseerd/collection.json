@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "krw-oppervlaktewaterlichamen-inspire-geharmoniseerd",
   "title": "KRW Oppervlaktewaterlichamen (INSPIRE geharmoniseerd)",
   "description": "INSPIRE geharmoniseerde dataset van het landelijk bestand Kaderrichtlijn Water (KRW) Oppervlaktewaterlichamen.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/krw%20oppervlaktewaterlichamen.png/52f176fc-f2d7-3f3f-192d-a0e3bba87182?t=1791931487178",
+      "href": "https://www.pdok.nl/documents/1901824/0/krw%20oppervlaktewaterlichamen.png/52f176fc-f2d7-3f3f-192d-a0e3bba87182?t=1791932241686",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/krw-oppervlaktewaterlichamen-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/ihw/krw-oppervlaktewaterlichamen-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (krw-oppervlaktewaterlichamen-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "AM.WaterBodyForWFD"
+      ],
+      "wms:transparent": true
     }
   ]
 }

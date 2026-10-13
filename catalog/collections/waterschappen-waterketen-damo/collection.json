@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "waterschappen-waterketen-damo",
   "title": "Waterschappen Waterketen DAMO",
   "description": "Deze dataset is gebaseerd op (geharmoniseerde) data van alle waterschappen in Nederland conform DAMO Waterketen waarbij er zoveel mogelijk rekening is gehouden met het Gegevenswoordenboek Stedelijk Water (GWSW).",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Zuiveringseenheid.png/69e52570-7734-0c0a-d236-4196a99225a0?t=1791931487191",
+      "href": "https://www.pdok.nl/documents/1901824/0/Zuiveringseenheid.png/69e52570-7734-0c0a-d236-4196a99225a0?t=1791932241713",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/waterschappen-waterketen-damo",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/hwh/waterschappen-waterketen-damo/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (waterschappen-waterketen-damo/wms/v1_0)",
+      "wms:layers": [
+        "zuiveringseenheid"
+      ],
+      "wms:transparent": true
     }
   ]
 }

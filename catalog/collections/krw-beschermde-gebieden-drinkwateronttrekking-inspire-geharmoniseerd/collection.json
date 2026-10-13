@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "krw-beschermde-gebieden-drinkwateronttrekking-inspire-geharmoniseerd",
   "title": "KRW Beschermde Gebieden - Drinkwateronttrekking (INSPIRE geharmoniseerd)",
   "description": "INSPIRE geharmoniseerde dataset van Kaderrichtlijn Water (KRW) Register Beschermde Gebieden - Wateronttrekking ten behoeve van menselijke consumptie conform artikel 7 van de Kaderrichtlijn Water.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/krw%20drinkwateronttrekking%20%281%29.png/855a5c6b-0253-e46c-9608-e41df324ffcb?t=1791931487177",
+      "href": "https://www.pdok.nl/documents/1901824/0/krw%20drinkwateronttrekking%20%281%29.png/855a5c6b-0253-e46c-9608-e41df324ffcb?t=1791932241685",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/krw-beschermde-gebieden-drinkwateronttrekking-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/ihw/krw-beschermde-gebieden-drinkwateronttrekking-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (krw-beschermde-gebieden-drinkwateronttrekking-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "AM.WaterBodyForWFD"
+      ],
+      "wms:transparent": true
     }
   ]
 }

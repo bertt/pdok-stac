@@ -1,6 +1,7 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [],
   "id": "geometrie-c3-abn-omgevingswet",
   "title": "Geometrieën Omgevingswet",
   "description": "De Geometrieën Omgevingswet API verbeeldt met vector tiles geometrieën uit omgevingsdocumenten en vergunningen. Deze vector tiles zijn beschikbaar in RD-formaat en kennen één attribuut: de geometrie-identificatie. Op zichzelf hebben deze vector tiles geen inhoudelijke betekenis. De vector tiles krijgen inhoudelijke betekenis door deze te combineren met gegevens van andere DSO-LV API’s, met name de Omgevingsdocumenten Presenteren API. Deze combinatie van geografische verbeelding en inhoudelijke duiding is noodzakelijk, omdat dezelfde geografische verbeelding meerdere inhoudelijke betekenissen kan hebben, al naar gelang de juridische regel die ermee is verbonden.",
@@ -46,7 +47,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Omgevingswet.png/027b505c-2c32-a8cd-d921-19b06b56d810?t=1791931487173",
+      "href": "https://www.pdok.nl/documents/1901824/0/Omgevingswet.png/027b505c-2c32-a8cd-d921-19b06b56d810?t=1791932241678",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

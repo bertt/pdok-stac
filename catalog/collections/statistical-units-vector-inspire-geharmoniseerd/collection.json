@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "statistical-units-vector-inspire-geharmoniseerd",
   "title": "Statistical Units Vector (INSPIRE geharmoniseerd)",
   "description": "De dataset Statistical Units Vector is de INSPIRE geharmoniseerde dataset van de CBS gebiedsindelingen. Deze geeft de gebiedsindelingen weer die het CBS hanteert.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Statistical%20Units%20Vector.png/f061d42c-f690-ba5c-a935-5deedc741f78?t=1791931487187",
+      "href": "https://www.pdok.nl/documents/1901824/0/Statistical%20Units%20Vector.png/f061d42c-f690-ba5c-a935-5deedc741f78?t=1791932241702",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +128,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/statistical-units-vector-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/statistical-units-vector/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (statistical-units-vector/wms/v1_0)",
+      "wms:layers": [
+        "SU.VectorStatisticalUnit"
+      ],
+      "wms:transparent": true
     }
   ]
 }

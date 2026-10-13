@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "ruimtelijke-plannen",
   "title": "Ruimtelijke plannen",
   "description": "Officieel gepubliceerde ruimtelijke plannen conform de digitaliseringsaspecten van de Wro/Bro. Let op: De gegevens in deze dataset worden halfjaarlijks geactualiseerd.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Ruimtelijke%20plannen.png/2f511221-97ba-c249-0488-08e1a9ee92da?t=1791931487186",
+      "href": "https://www.pdok.nl/documents/1901824/0/Ruimtelijke%20plannen.png/2f511221-97ba-c249-0488-08e1a9ee92da?t=1791932241701",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -111,6 +114,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/ruimtelijke-plannen",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/ruimtelijke-plannen/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (ruimtelijke-plannen/wms/v1_0)",
+      "wms:layers": [
+        "enkelbestemming"
+      ],
+      "wms:transparent": true
     }
   ]
 }

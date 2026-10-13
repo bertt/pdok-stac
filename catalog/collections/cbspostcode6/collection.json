@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "cbspostcode6",
   "title": "CBS Postcode6",
   "description": "De postcode6 dataset bevat statistische gegevens voor afzonderlijke postcodes vanaf 2015. Met ingang van het tweede kwartaal 2025 zijn gegevens over het jaar 2024 toegevoegd en zijn het aantal gegevens van de jaren 2023 en 2022 uitgebreid met gegevens over demografie, woningen, energie, inkomen, sociale zekerheid, nabijheid van voorzieningen en dichtheid.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Postcode6.png/2dbed442-2912-4eea-695d-ab8524c03018?t=1791931487169",
+      "href": "https://www.pdok.nl/documents/1901824/0/Postcode6.png/2dbed442-2912-4eea-695d-ab8524c03018?t=1791932241674",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -269,6 +272,106 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/cbspostcode6",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2015/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2015/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2016/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2016/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2017/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2017/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2018/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2018/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2019/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2019/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2020/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2020/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2021/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2021/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2022/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2022/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2023/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2023/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2024/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2024/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
     }
   ]
 }

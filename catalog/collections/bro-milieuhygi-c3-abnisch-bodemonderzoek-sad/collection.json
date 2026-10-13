@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "bro-milieuhygi-c3-abnisch-bodemonderzoek-sad",
   "title": "BRO Milieuhygiënisch bodemonderzoek (SAD)",
   "description": "",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BROsad.jpg/3d0df9d8-f3e6-949e-ae99-2ac82ae90608?t=1791931487163",
+      "href": "https://www.pdok.nl/documents/1901824/0/BROsad.jpg/3d0df9d8-f3e6-949e-ae99-2ac82ae90608?t=1791932241669",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-milieuhygi%C3%ABnisch-bodemonderzoek-sad-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/tno/bro-milieuhygienisch-bodemonderzoek/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bro-milieuhygienisch-bodemonderzoek/wms/v1_0)",
+      "wms:layers": [
+        "sad"
+      ],
+      "wms:transparent": true
     }
   ]
 }

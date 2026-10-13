@@ -1,6 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "natuurnetwerk-nederland-nnn",
   "title": "Natuurnetwerk Nederland (NNN) - Provincies (INSPIRE geharmoniseerd)",
   "description": "Het NNN (voorheen EHS) is een netwerk van gebieden in Nederland waar de natuur voorrang heeft. Het netwerk helpt voorkomen dat planten en dieren in geïsoleerde gebieden uitsterven en dat natuurgebieden hun waarde verliezen.",
@@ -46,7 +49,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Natuurnetwerk%20Nederland.jpg/8a1f6d66-68c8-be61-230b-aa863cd82a3e?t=1791931487182",
+      "href": "https://www.pdok.nl/documents/1901824/0/Natuurnetwerk%20Nederland.jpg/8a1f6d66-68c8-be61-230b-aa863cd82a3e?t=1791932241692",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -103,6 +106,16 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/natuurnetwerk-nederland-nnn-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/provincies/natuurnetwerk-nederland/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (natuurnetwerk-nederland/wms/v1_0)",
+      "wms:layers": [
+        "PS.ProtectedSite"
+      ],
+      "wms:transparent": true
     }
   ]
 }
