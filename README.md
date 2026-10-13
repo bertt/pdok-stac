@@ -1,6 +1,6 @@
 # PDOK STAC catalog
 
-Unofficial static [STAC](https://stacspec.org) catalog of all datasets listed on <https://www.pdok.nl/datasets>, ready to host on GitHub Pages.
+Unofficial static [STAC](https://stacspec.org) catalog of all datasets listed on <https://www.pdok.nl/datasets>.
 
 Live catalog: <https://bertt.github.io/pdok-stac/catalog.json>
 
