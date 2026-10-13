@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Potentieel%20koude%20en%20warmte%20uit%20open%20en%20gesloten%20WKO%20systemen%20%281%29.png/3082ccc2-2403-91e2-f233-1fc706d4e9a2?t=1791930710793",
+      "href": "https://www.pdok.nl/documents/1901824/0/Potentieel%20koude%20en%20warmte%20uit%20open%20en%20gesloten%20WKO%20systemen%20%281%29.png/3082ccc2-2403-91e2-f233-1fc706d4e9a2?t=1791931487183",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/potentieel-warmte-koude-opslagsystemen/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (potentieel-warmte-koude-opslagsystemen/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rvo/potentieel-warmte-koude-opslagsystemen/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (potentieel-warmte-koude-opslagsystemen/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rvo/potentieel-warmte-koude-opslagsystemen/wfs/v1_0?request=getcapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (potentieel-warmte-koude-opslagsystemen/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rvo/potentieel-warmte-koude-opslagsystemen/wms/v1_0?request=getcapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (potentieel-warmte-koude-opslagsystemen/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/potentieel-koude-en-warmte-uit-open-en-gesloten-wko-systemen-gj-ha-jaar-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/potentieel-koude-en-warmte-uit-open-en-gesloten-wko-systemen-gj-ha-jaar-",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/potentieel-koude-en-warmte-uit-open-en-gesloten-wko-systemen-gj-ha-jaar-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

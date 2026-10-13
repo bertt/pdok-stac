@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Faciliteiten%20voor%20productie%20en%20industrie%20-%20Productie-installaties%20-%20REV%20-%20PDOK%20Viewer.jpg/754545f1-50ad-77f1-e666-80fc91ae25f5?t=1791930710782",
+      "href": "https://www.pdok.nl/documents/1901824/0/Faciliteiten%20voor%20productie%20en%20industrie%20-%20Productie-installaties%20-%20REV%20-%20PDOK%20Viewer.jpg/754545f1-50ad-77f1-e666-80fc91ae25f5?t=1791931487171",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rws/productie-en-industrie-productie-installaties/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (productie-en-industrie-productie-installaties/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rws/productie-en-industrie-productie-installaties/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (productie-en-industrie-productie-installaties/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rws/productie-en-industrie-productie-installaties/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (productie-en-industrie-productie-installaties/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rws/productie-en-industrie-productie-installaties/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (productie-en-industrie-productie-installaties/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/faciliteiten-voor-productie-en-industrie-productie-installaties-rev-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/faciliteiten-voor-productie-en-industrie-productie-installaties-rev-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/faciliteiten-voor-productie-en-industrie-productie-installaties-rev-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

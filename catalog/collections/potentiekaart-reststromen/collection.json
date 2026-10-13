@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Potentiekaart%20reststromen%20%281%29.png/d085122a-c240-db40-89a4-de36302421cf?t=1791930710793",
+      "href": "https://www.pdok.nl/documents/1901824/0/Potentiekaart%20reststromen%20%281%29.png/d085122a-c240-db40-89a4-de36302421cf?t=1791931487184",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-reststromen/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (potentiekaart-reststromen/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rvo/potentiekaart-reststromen/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (potentiekaart-reststromen/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rvo/potentiekaart-reststromen/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (potentiekaart-reststromen/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rvo/potentiekaart-reststromen/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (potentiekaart-reststromen/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/potentiekaart-reststromen",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/potentiekaart-reststromen",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/potentiekaart-reststromen",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

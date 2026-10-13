@@ -46,11 +46,27 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Geotechnisch%20Booronderzoek.png/5ca233ab-e566-78c8-3aed-c1ec9f7a1f3b?t=1791930710776",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Geotechnisch%20Booronderzoek.png/5ca233ab-e566-78c8-3aed-c1ec9f7a1f3b?t=1791931487158",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/tno/bro-geotechnisch-booronderzoek/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bro-geotechnisch-booronderzoek/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/tno/bro-geotechnisch-booronderzoek/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (bro-geotechnisch-booronderzoek/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -75,6 +91,18 @@
       "href": "https://www.pdok.nl/introductie/-/article/bro-booronderzoek-geotechnische-boormonsterbeschrijving-en-boormonsteranalyse-bhr-gt-",
       "type": "text/html",
       "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/bro-booronderzoek-geotechnische-boormonsterbeschrijving-en-boormonsteranalyse-bhr-gt-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-booronderzoek-geotechnische-boormonsterbeschrijving-en-boormonsteranalyse-bhr-gt-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

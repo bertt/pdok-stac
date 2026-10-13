@@ -46,11 +46,27 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Luchtfoto%20RGB.jpg/f0c79e6a-6f9f-1aa2-ec64-898b0274b990?t=1791930710793",
+      "href": "https://www.pdok.nl/documents/1901824/0/Luchtfoto%20RGB.jpg/f0c79e6a-6f9f-1aa2-ec64-898b0274b990?t=1791931487183",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/hwh/luchtfotorgb/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (luchtfotorgb/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wmts": {
+      "href": "https://service.pdok.nl/hwh/luchtfotorgb/wmts/v1_0?request=GetCapabilities&service=WMTS",
+      "type": "application/xml",
+      "title": "WMTS (luchtfotorgb/wmts/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -75,6 +91,12 @@
       "href": "https://www.pdok.nl/introductie/-/article/pdok-luchtfoto-rgb-open-",
       "type": "text/html",
       "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/pdok-luchtfoto-rgb-open-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
     }
   ]
 }

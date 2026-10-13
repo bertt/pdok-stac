@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Noordzee%20Vaarwegmarkeringen.png/e7aebe07-2118-dd32-a23b-d5d6ce18a6e2?t=1791930710796",
+      "href": "https://www.pdok.nl/documents/1901824/0/Noordzee%20Vaarwegmarkeringen.png/e7aebe07-2118-dd32-a23b-d5d6ce18a6e2?t=1791931487188",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rws/vaarwegmarkeringen-nederland/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (vaarwegmarkeringen-nederland/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rws/vaarwegmarkeringen-nederland/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (vaarwegmarkeringen-nederland/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rws/vaarwegmarkeringen-nederland/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vaarwegmarkeringen-nederland/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rws/vaarwegmarkeringen-nederland/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vaarwegmarkeringen-nederland/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/vaarwegmarkeringen-nederland",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/vaarwegmarkeringen-nederland",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/vaarwegmarkeringen-nederland",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

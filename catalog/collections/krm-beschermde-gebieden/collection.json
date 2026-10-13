@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/map%20%283%29.png/8002c167-e771-ff0a-133e-d0c8a905e5d7?t=1791930710788",
+      "href": "https://www.pdok.nl/documents/1901824/0/map%20%283%29.png/8002c167-e771-ff0a-133e-d0c8a905e5d7?t=1791931487177",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/krm-beschermde-gebieden/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (krm-beschermde-gebieden/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rvo/krm-beschermde-gebieden/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (krm-beschermde-gebieden/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rvo/krm-beschermde-gebieden/wfs/v1_0?request=getCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (krm-beschermde-gebieden/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rvo/krm-beschermde-gebieden/wms/v1_0?request=getCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (krm-beschermde-gebieden/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/krm-beschermde-gebieden",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/krm-beschermde-gebieden",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/krm-beschermde-gebieden",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

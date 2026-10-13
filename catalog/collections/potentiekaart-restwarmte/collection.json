@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Potentiekaart%20restwarmte.png/bc3112a0-c799-1b78-ff84-6ec3afabbfe6?t=1791930710793",
+      "href": "https://www.pdok.nl/documents/1901824/0/Potentiekaart%20restwarmte.png/bc3112a0-c799-1b78-ff84-6ec3afabbfe6?t=1791931487184",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-restwarmte/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (potentiekaart-restwarmte/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rvo/potentiekaart-restwarmte/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (potentiekaart-restwarmte/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rvo/potentiekaart-restwarmte/wfs/v1_0?request=getcapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (potentiekaart-restwarmte/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rvo/potentiekaart-restwarmte/wms/v1_0?request=getcapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (potentiekaart-restwarmte/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/potentiekaart-restwarmte",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/potentiekaart-restwarmte",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/potentiekaart-restwarmte",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

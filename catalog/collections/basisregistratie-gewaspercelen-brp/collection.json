@@ -46,11 +46,67 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Gewaspercelen.png/0571bcdf-430e-3ab0-84bb-b73942d248c7?t=1791930710773",
+      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Gewaspercelen.png/0571bcdf-430e-3ab0-84bb-b73942d248c7?t=1791931487155",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/gewaspercelen/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (gewaspercelen/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rvo/brpgewaspercelen/atom/v1_0/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (brpgewaspercelen/atom/v1_0/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rvo/brpgewaspercelen/wfs/v1_0?request=GetCapabilities",
+      "type": "application/xml",
+      "title": "WFS (brpgewaspercelen/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rvo/brpgewaspercelen/wms/v1_0?request=GetCapabilities",
+      "type": "application/xml",
+      "title": "WMS (brpgewaspercelen/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom-2": {
+      "href": "https://service.pdok.nl/rvo/gewaspercelen/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (gewaspercelen/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-2": {
+      "href": "https://service.pdok.nl/rvo/gewaspercelen/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gewaspercelen/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-2": {
+      "href": "https://service.pdok.nl/rvo/gewaspercelen/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gewaspercelen/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +134,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/basisregistratie-gewaspercelen-brp-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/basisregistratie-gewaspercelen-brp-",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/basisregistratie-gewaspercelen-brp-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

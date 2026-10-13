@@ -46,11 +46,27 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Novex%20Gebieden%20%281%29.png/e44890b0-99bc-eda2-7942-7a89d1589323?t=1791930710792",
+      "href": "https://www.pdok.nl/documents/1901824/0/Novex%20Gebieden%20%281%29.png/e44890b0-99bc-eda2-7942-7a89d1589323?t=1791931487182",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/bzk/novexgebieden/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (novexgebieden/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/bzk/novexgebieden/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (novexgebieden/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -75,6 +91,18 @@
       "href": "https://www.pdok.nl/introductie/-/article/novex-gebieden",
       "type": "text/html",
       "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/novex-gebieden",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/novex-gebieden",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

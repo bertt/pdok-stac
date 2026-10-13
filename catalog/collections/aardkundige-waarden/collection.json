@@ -46,11 +46,27 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Aardkundige%20waarden.jpg/a3bb9dd7-7d10-2d87-c2b2-0b3ef7276667?t=1791930710771",
+      "href": "https://www.pdok.nl/documents/1901824/0/Aardkundige%20waarden.jpg/a3bb9dd7-7d10-2d87-c2b2-0b3ef7276667?t=1791931487153",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/provincies/aardkundige-waarden/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (aardkundige-waarden/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/provincies/aardkundige-waarden/wms/v1_0?request=getcapabilities&service=wms",
+      "type": "application/xml",
+      "title": "WMS (aardkundige-waarden/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -75,6 +91,18 @@
       "href": "https://www.pdok.nl/introductie/-/article/aardkundige-waarden",
       "type": "text/html",
       "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/aardkundige-waarden",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/aardkundige-waarden",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

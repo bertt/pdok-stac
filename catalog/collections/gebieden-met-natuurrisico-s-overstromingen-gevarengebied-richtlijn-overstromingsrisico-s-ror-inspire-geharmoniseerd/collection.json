@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/rws_nz_overstroming_gevarengebied.png/1d872647-b7d3-21c3-35f9-5c5f6b315599?t=1791930710783",
+      "href": "https://www.pdok.nl/documents/1901824/0/rws_nz_overstroming_gevarengebied.png/1d872647-b7d3-21c3-35f9-5c5f6b315599?t=1791931487171",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rws/overstromingen-gevarengebied/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (overstromingen-gevarengebied/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rws/overstromingen-gevarengebied/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (overstromingen-gevarengebied/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rws/overstromingen-gevarengebied/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (overstromingen-gevarengebied/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rws/overstromingen-gevarengebied/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (overstromingen-gevarengebied/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/gebieden-met-natuurrisico-s-overstromingen-gevarengebied-richtlijn-overstromingsrisico-s-ror-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/gebieden-met-natuurrisico-s-overstromingen-gevarengebied-richtlijn-overstromingsrisico-s-ror-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/gebieden-met-natuurrisico-s-overstromingen-gevarengebied-richtlijn-overstromingsrisico-s-ror-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

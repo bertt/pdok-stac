@@ -46,11 +46,27 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Provinciaal%20landschapsbeleid.jpg/71da8cd1-e6b5-b053-9192-bef5dfc46544?t=1791930710794",
+      "href": "https://www.pdok.nl/documents/1901824/0/Provinciaal%20landschapsbeleid.jpg/71da8cd1-e6b5-b053-9192-bef5dfc46544?t=1791931487184",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/provincies/provinciaal-landschapsbeleid/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (provinciaal-landschapsbeleid/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/provincies/provinciaal-landschapsbeleid/wms/v1_0?request=getcapabilities&service=wms",
+      "type": "application/xml",
+      "title": "WMS (provinciaal-landschapsbeleid/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -75,6 +91,18 @@
       "href": "https://www.pdok.nl/introductie/-/article/provinciaal-landschapsbeleid",
       "type": "text/html",
       "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/provinciaal-landschapsbeleid",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/provinciaal-landschapsbeleid",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

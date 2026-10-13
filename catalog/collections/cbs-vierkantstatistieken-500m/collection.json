@@ -46,11 +46,443 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Vierkantstatistieken%20500m.png/e0b72bf7-7000-91a2-b9dc-ad2e1bf63280?t=1791930710782",
+      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Vierkantstatistieken%20500m.png/e0b72bf7-7000-91a2-b9dc-ad2e1bf63280?t=1791931487170",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/cbs/vierkantstatistieken500m/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (vierkantstatistieken500m/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/1971/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/1971/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/1971/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/1971/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-2": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2000/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2000/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-2": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2000/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2000/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-3": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2001/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2001/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-3": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2001/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2001/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-4": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2002/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2002/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-4": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2002/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2002/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-5": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2003/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2003/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-5": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2003/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2003/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-6": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2004/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2004/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-6": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2004/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2004/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-7": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2005/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2005/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-7": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2005/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2005/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-8": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2006/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2006/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-8": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2006/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2006/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-9": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2007/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2007/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-9": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2007/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2007/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-10": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2008/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2008/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-10": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2008/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2008/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-11": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2009/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2009/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-11": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2009/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2009/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-12": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2010/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2010/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-12": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2010/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2010/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-13": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2011/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2011/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-13": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2011/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2011/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-14": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2012/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2012/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-14": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2012/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2012/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-15": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2013/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2013/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-15": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2013/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2013/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-16": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2014/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2014/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-16": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2014/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2014/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-17": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2015/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2015/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-17": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2015/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2015/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-18": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2016/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2016/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-18": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2016/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2016/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-19": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2017/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2017/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-19": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2017/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2017/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-20": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2018/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2018/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-20": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2018/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2018/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-21": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2019/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2019/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-21": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2019/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2019/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-22": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2020/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2020/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-22": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2020/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2020/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-23": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2021/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2021/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-23": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2021/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2021/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-24": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2022/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2022/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-24": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2022/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2022/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-25": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2023/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2023/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-25": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2023/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2023/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-26": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2024/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkantstatistieken500m/2024/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-26": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/2024/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkantstatistieken500m/2024/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/cbs/vierkantstatistieken500m/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (vierkantstatistieken500m/atom/index.xml)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +510,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/cbs-vierkantstatistieken-500m",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/cbs-vierkantstatistieken-500m",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/cbs-vierkantstatistieken-500m",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

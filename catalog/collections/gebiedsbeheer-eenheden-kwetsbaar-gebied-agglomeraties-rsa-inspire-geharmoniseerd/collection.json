@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Gebiedsbeheer%20eenheden.png/4b044df6-c551-d052-98fd-a92a6f33ad40?t=1791930710784",
+      "href": "https://www.pdok.nl/documents/1901824/0/Gebiedsbeheer%20eenheden.png/4b044df6-c551-d052-98fd-a92a6f33ad40?t=1791931487172",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rws/kwetsbaar-gebied-agglomeraties/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (kwetsbaar-gebied-agglomeraties/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rws/kwetsbaar-gebied-agglomeraties/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (kwetsbaar-gebied-agglomeraties/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rws/kwetsbaar-gebied-agglomeraties/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (kwetsbaar-gebied-agglomeraties/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rws/kwetsbaar-gebied-agglomeraties/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (kwetsbaar-gebied-agglomeraties/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/gebiedsbeheer-eenheden-kwetsbaar-gebied-agglomeraties-rsa-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/gebiedsbeheer-eenheden-kwetsbaar-gebied-agglomeraties-rsa-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/gebiedsbeheer-eenheden-kwetsbaar-gebied-agglomeraties-rsa-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

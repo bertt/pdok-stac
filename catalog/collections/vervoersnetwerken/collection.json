@@ -46,11 +46,59 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Vervoersnetwerken%20%281%29.png/bdb7f057-0244-acb9-6e93-3f3426f10aae?t=1791930710797",
+      "href": "https://www.pdok.nl/documents/1901824/0/Vervoersnetwerken%20%281%29.png/bdb7f057-0244-acb9-6e93-3f3426f10aae?t=1791931487188",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/kadaster/brt-vervoersnetwerken/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (brt-vervoersnetwerken/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/kadaster/brt-vervoersnetwerken/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (brt-vervoersnetwerken/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/kadaster/brt-vervoersnetwerken/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (brt-vervoersnetwerken/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/kadaster/brt-vervoersnetwerken/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (brt-vervoersnetwerken/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom-2": {
+      "href": "https://service.pdok.nl/kadaster/tn/atom/v1_0/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (tn/atom/v1_0/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-2": {
+      "href": "https://service.pdok.nl/kadaster/tn/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (tn/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +126,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/vervoersnetwerken",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/vervoersnetwerken",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/vervoersnetwerken",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

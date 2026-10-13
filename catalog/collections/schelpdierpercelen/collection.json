@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Schelpdierpercelen.png/282ef879-e60e-cfe0-4f35-e96a402eedd8?t=1791930710795",
+      "href": "https://www.pdok.nl/documents/1901824/0/Schelpdierpercelen.png/282ef879-e60e-cfe0-4f35-e96a402eedd8?t=1791931487186",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/schelpdierpercelen/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (schelpdierpercelen/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rvo/schelpdierpercelen/atom/schelpdierpercelen.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (schelpdierpercelen/atom/schelpdierpercelen.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rvo/schelpdierpercelen/wfs/v3_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (schelpdierpercelen/wfs/v3_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rvo/schelpdierpercelen/wms/v3_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (schelpdierpercelen/wms/v3_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/schelpdierpercelen",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/schelpdierpercelen",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/schelpdierpercelen",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

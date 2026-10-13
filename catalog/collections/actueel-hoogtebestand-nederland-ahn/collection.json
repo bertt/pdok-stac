@@ -46,11 +46,35 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/ahn.png/c2d19e3c-51ac-11c4-ae3d-c2a5fbf388e8?t=1791930710772",
+      "href": "https://www.pdok.nl/documents/1901824/0/ahn.png/c2d19e3c-51ac-11c4-ae3d-c2a5fbf388e8?t=1791931487153",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rws/actueel-hoogtebestand-nederland/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (actueel-hoogtebestand-nederland/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wcs": {
+      "href": "https://service.pdok.nl/rws/actueel-hoogtebestand-nederland/wcs/v1_0?request=GetCapabilities&service=WCS",
+      "type": "application/xml",
+      "title": "WCS (actueel-hoogtebestand-nederland/wcs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rws/actueel-hoogtebestand-nederland/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (actueel-hoogtebestand-nederland/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -75,6 +99,18 @@
       "href": "https://www.pdok.nl/introductie/-/article/actueel-hoogtebestand-nederland-ahn",
       "type": "text/html",
       "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/actueel-hoogtebestand-nederland-ahn",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/actueel-hoogtebestand-nederland-ahn",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

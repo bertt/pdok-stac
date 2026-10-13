@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Habitatrichtlijn%20verspreiding%20van%20soorten.png/655718ae-3846-761a-d333-b98948a1325e?t=1791930710786",
+      "href": "https://www.pdok.nl/documents/1901824/0/Habitatrichtlijn%20verspreiding%20van%20soorten.png/655718ae-3846-761a-d333-b98948a1325e?t=1791931487174",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/habitatrichtlijn-verspreiding-soorten/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (habitatrichtlijn-verspreiding-soorten/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rvo/habitatrichtlijn-verspreiding-soorten/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (habitatrichtlijn-verspreiding-soorten/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rvo/habitatrichtlijn-verspreiding-soorten/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (habitatrichtlijn-verspreiding-soorten/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rvo/habitatrichtlijn-verspreiding-soorten/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (habitatrichtlijn-verspreiding-soorten/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/habitatrichtlijn-verspreiding-van-soorten",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/habitatrichtlijn-verspreiding-van-soorten",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/habitatrichtlijn-verspreiding-van-soorten",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

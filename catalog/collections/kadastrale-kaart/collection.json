@@ -46,11 +46,51 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Kadaster%20%28BRK%29%20kadastrale%20kaart.png/dfeda710-71b9-2be7-56e3-f68a07482b94?t=1791930710787",
+      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Kadaster%20%28BRK%29%20kadastrale%20kaart.png/dfeda710-71b9-2be7-56e3-f68a07482b94?t=1791931487176",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "download-api": {
+      "href": "https://api.pdok.nl/kadaster/brk-kadastrale-kaart/download/v5_0/ui/",
+      "type": "text/html",
+      "title": "Download API (brk-kadastrale-kaart/download/v5_0/ui)",
+      "roles": [
+        "data"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/kadaster/brk-kadastrale-kaart/ogc/v1/",
+      "type": "application/json",
+      "title": "OGC API (brk-kadastrale-kaart/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/kadaster/brk-kadastrale-kaart/wfs/v5_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (brk-kadastrale-kaart/wfs/v5_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/kadaster/brk-kadastrale-kaart/wms/v5_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (brk-kadastrale-kaart/wms/v5_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wmts": {
+      "href": "https://service.pdok.nl/kadaster/brk-kadastrale-kaart/wmts/v5_0?request=GetCapabilities&service=WMTS",
+      "type": "application/xml",
+      "title": "WMTS (brk-kadastrale-kaart/wmts/v5_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -75,6 +115,12 @@
       "href": "https://www.pdok.nl/introductie/-/article/kadastrale-kaart",
       "type": "text/html",
       "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/kadastrale-kaart",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
     },
     {
       "rel": "service-doc",

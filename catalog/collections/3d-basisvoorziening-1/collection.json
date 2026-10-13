@@ -46,11 +46,19 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Nederland_3D_gr.jpg/118e4e5a-649c-36f2-5ac0-b16e6aaaab85?t=1791930710771",
+      "href": "https://www.pdok.nl/documents/1901824/0/Nederland_3D_gr.jpg/118e4e5a-649c-36f2-5ac0-b16e6aaaab85?t=1791931487152",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/kadaster/3d-basisvoorziening/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (3d-basisvoorziening/ogc/v1)",
+      "roles": [
+        "data"
       ]
     }
   },

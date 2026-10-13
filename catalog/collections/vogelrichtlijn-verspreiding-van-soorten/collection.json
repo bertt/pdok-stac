@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Vogelrichtlijn%20verspreiding%20van%20soorten.png/aa0009c5-6fef-26a8-1871-b4711a45ad29?t=1791930710798",
+      "href": "https://www.pdok.nl/documents/1901824/0/Vogelrichtlijn%20verspreiding%20van%20soorten.png/aa0009c5-6fef-26a8-1871-b4711a45ad29?t=1791931487190",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/vogelrichtlijn-verspreiding-soorten/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (vogelrichtlijn-verspreiding-soorten/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rvo/vogelrichtlijn-verspreiding-soorten/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (vogelrichtlijn-verspreiding-soorten/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rvo/vogelrichtlijn-verspreiding-soorten/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vogelrichtlijn-verspreiding-soorten/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rvo/vogelrichtlijn-verspreiding-soorten/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vogelrichtlijn-verspreiding-soorten/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/vogelrichtlijn-verspreiding-van-soorten",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/vogelrichtlijn-verspreiding-van-soorten",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/vogelrichtlijn-verspreiding-van-soorten",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

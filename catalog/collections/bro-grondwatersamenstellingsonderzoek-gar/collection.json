@@ -46,11 +46,19 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/bro.jpg/5e0e886e-deb7-887c-49e0-68f991d1256b?t=1791930710778",
+      "href": "https://www.pdok.nl/documents/1901824/0/bro.jpg/5e0e886e-deb7-887c-49e0-68f991d1256b?t=1791931487162",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/tno/bro-grondwatersamenstellingsonderzoek/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bro-grondwatersamenstellingsonderzoek/atom/index.xml)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -75,6 +83,12 @@
       "href": "https://www.pdok.nl/introductie/-/article/bro-grondwatersamenstellingsonderzoek-gar-",
       "type": "text/html",
       "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-grondwatersamenstellingsonderzoek-gar-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

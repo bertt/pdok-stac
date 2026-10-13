@@ -46,11 +46,67 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Bestuurlijke%20Gebieden.png/8c633165-7a4f-f690-13f4-0b7cb83c48e1?t=1791930710774",
+      "href": "https://www.pdok.nl/documents/1901824/0/Bestuurlijke%20Gebieden.png/8c633165-7a4f-f690-13f4-0b7cb83c48e1?t=1791931487156",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/kadaster/brk-bestuurlijke-gebieden/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (brk-bestuurlijke-gebieden/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/kadaster/bestuurlijkegebieden/atom/v1_0/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bestuurlijkegebieden/atom/v1_0/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/kadaster/bestuurlijkegebieden/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (bestuurlijkegebieden/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/kadaster/bestuurlijkegebieden/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (bestuurlijkegebieden/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom-2": {
+      "href": "https://service.pdok.nl/kadaster/brk-bestuurlijke-gebieden/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (brk-bestuurlijke-gebieden/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-2": {
+      "href": "https://service.pdok.nl/kadaster/brk-bestuurlijke-gebieden/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (brk-bestuurlijke-gebieden/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-2": {
+      "href": "https://service.pdok.nl/kadaster/brk-bestuurlijke-gebieden/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (brk-bestuurlijke-gebieden/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +134,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/bestuurlijke-gebieden",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/bestuurlijke-gebieden",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/bestuurlijke-gebieden",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

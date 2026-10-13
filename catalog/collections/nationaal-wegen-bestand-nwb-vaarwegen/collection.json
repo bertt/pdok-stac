@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/NWB-Vaarwegen.png/5b29f85f-27fa-82b7-07b6-4097be3e8c2f?t=1791930710791",
+      "href": "https://www.pdok.nl/documents/1901824/0/NWB-Vaarwegen.png/5b29f85f-27fa-82b7-07b6-4097be3e8c2f?t=1791931487181",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rws/nationaal-wegenbestand-vaarwegen/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (nationaal-wegenbestand-vaarwegen/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rws/nationaal-wegenbestand-vaarwegen/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (nationaal-wegenbestand-vaarwegen/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rws/nationaal-wegenbestand-vaarwegen/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (nationaal-wegenbestand-vaarwegen/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rws/nationaal-wegenbestand-vaarwegen/wms/v1_0?request=getcapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (nationaal-wegenbestand-vaarwegen/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/nationaal-wegen-bestand-nwb-vaarwegen",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/nationaal-wegen-bestand-nwb-vaarwegen",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/nationaal-wegen-bestand-nwb-vaarwegen",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

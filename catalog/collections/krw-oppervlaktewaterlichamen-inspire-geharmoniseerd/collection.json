@@ -46,11 +46,27 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/krw%20oppervlaktewaterlichamen.png/52f176fc-f2d7-3f3f-192d-a0e3bba87182?t=1791930710789",
+      "href": "https://www.pdok.nl/documents/1901824/0/krw%20oppervlaktewaterlichamen.png/52f176fc-f2d7-3f3f-192d-a0e3bba87182?t=1791931487178",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/ihw/krw-oppervlaktewaterlichamen-geharmoniseerd/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (krw-oppervlaktewaterlichamen-geharmoniseerd/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/ihw/krw-oppervlaktewaterlichamen-geharmoniseerd/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (krw-oppervlaktewaterlichamen-geharmoniseerd/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -75,6 +91,18 @@
       "href": "https://www.pdok.nl/introductie/-/article/krw-oppervlaktewaterlichamen-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/krw-oppervlaktewaterlichamen-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/krw-oppervlaktewaterlichamen-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

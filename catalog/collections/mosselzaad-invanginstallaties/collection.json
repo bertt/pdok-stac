@@ -46,11 +46,51 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Mosselzaad%20invanginstallaties.png/4d8e1a4f-8b35-c499-d07e-33a788ddc6e9?t=1791930710790",
+      "href": "https://www.pdok.nl/documents/1901824/0/Mosselzaad%20invanginstallaties.png/4d8e1a4f-8b35-c499-d07e-33a788ddc6e9?t=1791931487180",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/mosselzaadinvanginstallaties/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (mosselzaadinvanginstallaties/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rvo/mosselzaadinvanginstallaties/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (mosselzaadinvanginstallaties/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rvo/mosselzaadinvanginstallaties/wfs/v1_0??request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (mosselzaadinvanginstallaties/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rvo/mosselzaadinvanginstallaties/wms/v1_0?LAYERS=mosselzaadinvanginstallaties&FORMAT=image%2Fpng&TRANSPARENT=TRUE&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&STYLES=mosselzaadinvanginstallaties:mosselzaadinvanginstallaties&SRS=EPSG%3A28992&BBOX=39370.82375,401913.23125,42929.06375,407951.15125&WIDTH=529&HEIGHT=898",
+      "type": "application/xml",
+      "title": "WMS (mosselzaadinvanginstallaties/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-2": {
+      "href": "https://service.pdok.nl/rvo/mosselzaadinvanginstallaties/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (mosselzaadinvanginstallaties/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +118,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/mosselzaad-invanginstallaties",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/mosselzaad-invanginstallaties",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/mosselzaad-invanginstallaties",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

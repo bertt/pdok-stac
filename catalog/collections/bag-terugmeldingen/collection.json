@@ -46,11 +46,35 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BAG%20Terugmeldingen.png/fb73a901-9cd5-4691-ca11-e6edc241e74a?t=1791930710772",
+      "href": "https://www.pdok.nl/documents/1901824/0/BAG%20Terugmeldingen.png/fb73a901-9cd5-4691-ca11-e6edc241e74a?t=1791931487154",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/kadaster/bag-terugmeldingen/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (bag-terugmeldingen/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/kadaster/bag-terugmeldingen/wfs/v1_0?request=getcapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (bag-terugmeldingen/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/kadaster/bag-terugmeldingen/wms/v1_0?request=getcapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (bag-terugmeldingen/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -75,6 +99,12 @@
       "href": "https://www.pdok.nl/introductie/-/article/bag-terugmeldingen",
       "type": "text/html",
       "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/bag-terugmeldingen",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
     },
     {
       "rel": "service-doc",

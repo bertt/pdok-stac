@@ -46,11 +46,19 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Nederland_3D_kl.jpg/60018064-3abe-ed4c-be2e-58239cc6fcd8?t=1791930710771",
+      "href": "https://www.pdok.nl/documents/1901824/0/Nederland_3D_kl.jpg/60018064-3abe-ed4c-be2e-58239cc6fcd8?t=1791931487153",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/kadaster/3d-geluid/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (3d-geluid/ogc/v1)",
+      "roles": [
+        "data"
       ]
     }
   },

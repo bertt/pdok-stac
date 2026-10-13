@@ -46,11 +46,35 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Vierkant%20500%20meter%20bij%20500%20meter%20Nederland.png/530186b0-72f3-f46f-e6bc-71b55384af29?t=1791930710798",
+      "href": "https://www.pdok.nl/documents/1901824/0/Vierkant%20500%20meter%20bij%20500%20meter%20Nederland.png/530186b0-72f3-f46f-e6bc-71b55384af29?t=1791931487189",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/cbs/vierkant-500m/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (vierkant-500m/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/cbs/vierkant-500m/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkant-500m/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/cbs/vierkant-500m/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkant-500m/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -75,6 +99,12 @@
       "href": "https://www.pdok.nl/introductie/-/article/vierkant-500-meter-bij-500-meter-nederland-1",
       "type": "text/html",
       "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/vierkant-500-meter-bij-500-meter-nederland-1",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
     },
     {
       "rel": "service-doc",

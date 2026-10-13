@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Bevolkingskernen%202021%20PDOK%20Viewer.png/e45858fe-1b54-807b-c6fe-cf550223a40a?t=1791930710780",
+      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Bevolkingskernen%202021%20PDOK%20Viewer.png/e45858fe-1b54-807b-c6fe-cf550223a40a?t=1791931487165",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/cbs/bevolkingskernen-2021/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (bevolkingskernen-2021/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/cbs/bevolkingskernen-2021/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bevolkingskernen-2021/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/cbs/bevolkingskernen-2021/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (bevolkingskernen-2021/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/cbs/bevolkingskernen-2021/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (bevolkingskernen-2021/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/cbs-bevolkingskernen-2021",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/cbs-bevolkingskernen-2021",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/cbs-bevolkingskernen-2021",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

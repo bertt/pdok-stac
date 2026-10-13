@@ -46,7 +46,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/luchtfoto.jpg/8dba382d-57bf-731e-54dd-c71d0916ea7d?t=1791930710790",
+      "href": "https://www.pdok.nl/documents/1901824/0/luchtfoto.jpg/8dba382d-57bf-731e-54dd-c71d0916ea7d?t=1791931487179",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -75,6 +75,12 @@
       "href": "https://www.pdok.nl/introductie/-/article/luchtfoto-landelijke-voorziening-beeldmateriaal",
       "type": "text/html",
       "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/luchtfoto-landelijke-voorziening-beeldmateriaal",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
     }
   ]
 }

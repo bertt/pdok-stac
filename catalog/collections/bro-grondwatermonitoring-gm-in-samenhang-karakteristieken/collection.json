@@ -46,11 +46,35 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BROGrondwatermonitoring%20%281%29.jpg/9be4c1ef-5f93-a63e-d2eb-26e76ff13571?t=1791930710778",
+      "href": "https://www.pdok.nl/documents/1901824/0/BROGrondwatermonitoring%20%281%29.jpg/9be4c1ef-5f93-a63e-d2eb-26e76ff13571?t=1791931487161",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/tno/bro-grondwatermonitoring-in-samenhang-karakteristieken/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (bro-grondwatermonitoring-in-samenhang-karakteristieken/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/tno/bro-grondwatermonitoring-in-samenhang-karakteristieken/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bro-grondwatermonitoring-in-samenhang-karakteristieken/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/tno/bro-grondwatermonitoring-in-samenhang-karakteristieken/wms/v1_0?request=getCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (bro-grondwatermonitoring-in-samenhang-karakteristieken/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +102,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/bro-grondwatermonitoring-gm-in-samenhang-karakteristieken",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/bro-grondwatermonitoring-gm-in-samenhang-karakteristieken",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-grondwatermonitoring-gm-in-samenhang-karakteristieken",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

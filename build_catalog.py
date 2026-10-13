@@ -14,9 +14,18 @@ import unicodedata
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
 BASE = "https://www.pdok.nl"
+# Sub pages of a dataset that list its services
+SECTIONS = {
+    "ogc-webservices": "PDOK (OGC) Webservices",
+    "ogc-apis": "PDOK (OGC) API's",
+    "atom-downloadservices": "PDOK ATOM Downloadservices",
+}
+OGC_SERVICES = {"wms", "wfs", "wmts", "wcs", "tms"}
+SERVICE_URL = re.compile(r"https?://(?:service|api)\.pdok\.nl[^\"'\s<>)]*")
 OUT = Path(__file__).parent / "catalog"
 NL_BBOX = [3.2, 50.75, 7.22, 53.7]
 STAC_VERSION = "1.0.0"
@@ -61,15 +70,63 @@ def parse_listing():
     return items
 
 
+def classify(url):
+    """Return (key, label, media type) for a PDOK service URL, or None if unknown."""
+    parsed = urlparse(url)
+    parts = [p for p in parsed.path.lower().split("/") if p]
+    if parsed.netloc == "api.pdok.nl" and "ogc" in parts:
+        return "ogc-api", "OGC API", "application/json"
+    if parsed.netloc == "api.pdok.nl" and "download" in parts:
+        return "download-api", "Download API", "text/html"
+    for part in parts:
+        if part in OGC_SERVICES:
+            return part, part.upper(), "application/xml"
+        if part == "atom":
+            return "atom", "ATOM download service", "application/atom+xml"
+    return None
+
+
+def service_assets(urls):
+    """Turn a collection of service URLs into STAC assets keyed by service type."""
+    assets, seen = {}, set()
+    for url in sorted(urls):
+        kind = classify(url)
+        norm = url.lower()
+        if not kind or norm in seen:
+            continue
+        seen.add(norm)
+        key, label, media_type = kind
+        parts = [p for p in urlparse(url).path.split("/") if p]
+        name = "/".join(parts[1:]) if len(parts) > 1 else "/".join(parts)
+        base, n = key, 2
+        while key in assets:
+            key, n = f"{base}-{n}", n + 1
+        assets[key] = {
+            "href": url,
+            "type": media_type,
+            "title": f"{label} ({name})",
+            "roles": ["data"],
+        }
+    return assets
+
+
 def enrich(item):
-    """Add description, logo and (OGC) API page URL from the dataset's own page."""
+    """Add description, logo and service URLs from the dataset page and its sub pages."""
     page = fetch(item["url"])
     d = re.search(r'class="dataset-intro-content">(.*?)</p>\s*</div>', page, re.S)
     item["description"] = clean(d.group(1)) if d else item["title"]
     logo = re.search(r'class="img-fluid img-rounded" src="([^"]+)"', page)
     item["logo"] = html.unescape(logo.group(1)) if logo else None
-    ogc = re.search(r'href="\.\./\.\./\.\./ogc-apis/-/article/([^"#]+)"', page)
-    item["ogc_url"] = f"{BASE}/ogc-apis/-/article/{ogc.group(1)}" if ogc else None
+
+    item["pages"], urls = [], set()
+    for section, title in SECTIONS.items():
+        m = re.search(r'href="\.\./\.\./\.\./%s/-/article/([^"#]+)"' % section, page)
+        if not m:
+            continue
+        sub_url = f"{BASE}/{section}/-/article/{m.group(1)}"
+        item["pages"].append((sub_url, title))
+        urls.update(html.unescape(u) for u in SERVICE_URL.findall(fetch(sub_url)))
+    item["services"] = service_assets(urls)
     return item
 
 
@@ -104,10 +161,8 @@ def main():
             {"rel": "self", "href": f"./collection.json", "type": "application/json"},
             {"rel": "alternate", "href": it["url"], "type": "text/html", "title": "PDOK dataset page"},
         ]
-        if it["ogc_url"]:
-            clinks.append(
-                {"rel": "service-doc", "href": it["ogc_url"], "type": "text/html", "title": "PDOK (OGC) API's"}
-            )
+        for sub_url, sub_title in it["pages"]:
+            clinks.append({"rel": "service-doc", "href": sub_url, "type": "text/html", "title": sub_title})
         coll = {
             "type": "Collection",
             "stac_version": STAC_VERSION,
@@ -130,7 +185,8 @@ def main():
                     "type": "image/jpeg",
                     "title": "Thumbnail",
                     "roles": ["thumbnail"],
-                }
+                },
+                **it["services"],
             },
             "links": clinks,
         }

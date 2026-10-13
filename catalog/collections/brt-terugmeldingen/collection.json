@@ -46,11 +46,35 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRT%20Terugmeldingen.png/4c833b9b-12bc-dd9e-393b-3c2a10da0cfc?t=1791930710780",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRT%20Terugmeldingen.png/4c833b9b-12bc-dd9e-393b-3c2a10da0cfc?t=1791931487164",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/kadaster/brt-terugmeldingen/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (brt-terugmeldingen/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/kadaster/brt-terugmeldingen/wfs/v1_0?request=getcapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (brt-terugmeldingen/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/kadaster/brt-terugmeldingen/wms/v1_0?request=getcapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (brt-terugmeldingen/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -75,6 +99,12 @@
       "href": "https://www.pdok.nl/introductie/-/article/brt-terugmeldingen",
       "type": "text/html",
       "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/brt-terugmeldingen",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
     },
     {
       "rel": "service-doc",

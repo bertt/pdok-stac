@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Mossel-%20en%20oesterhabitats.png/d2b5692c-03d8-8c71-e761-98d7b87f65f4?t=1791930710790",
+      "href": "https://www.pdok.nl/documents/1901824/0/Mossel-%20en%20oesterhabitats.png/d2b5692c-03d8-8c71-e761-98d7b87f65f4?t=1791931487180",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/mossel-en-oesterhabitats/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (mossel-en-oesterhabitats/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rvo/mossel-en-oesterhabitats/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (mossel-en-oesterhabitats/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rvo/mossel-en-oesterhabitats/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (mossel-en-oesterhabitats/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rvo/mossel-en-oesterhabitats/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (mossel-en-oesterhabitats/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/mossel-en-oesterhabitats",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/mossel-en-oesterhabitats",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/mossel-en-oesterhabitats",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

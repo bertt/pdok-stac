@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Bestand%20Bodemgebruik%202015.png/509c117d-9aa4-354d-29f7-2b9cc2d37f73?t=1791930710780",
+      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Bestand%20Bodemgebruik%202015.png/509c117d-9aa4-354d-29f7-2b9cc2d37f73?t=1791931487164",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/cbs/bestand-bodemgebruik-2015/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (bestand-bodemgebruik-2015/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/cbs/bestand-bodemgebruik-2015/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bestand-bodemgebruik-2015/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/cbs/bestand-bodemgebruik-2015/wfs/v1_0?request=getcapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (bestand-bodemgebruik-2015/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/cbs/bestand-bodemgebruik-2015/wms/v1_0?request=getcapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (bestand-bodemgebruik-2015/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/cbs-bestand-bodemgebruik-2015",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/cbs-bestand-bodemgebruik-2015",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/cbs-bestand-bodemgebruik-2015",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

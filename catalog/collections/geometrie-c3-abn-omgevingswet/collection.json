@@ -46,11 +46,19 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Omgevingswet.png/027b505c-2c32-a8cd-d921-19b06b56d810?t=1791930710785",
+      "href": "https://www.pdok.nl/documents/1901824/0/Omgevingswet.png/027b505c-2c32-a8cd-d921-19b06b56d810?t=1791931487173",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/kadaster/omgevingswet-geometrieen/ogc/v2",
+      "type": "application/json",
+      "title": "OGC API (omgevingswet-geometrieen/ogc/v2)",
+      "roles": [
+        "data"
       ]
     }
   },

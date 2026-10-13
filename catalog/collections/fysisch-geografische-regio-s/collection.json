@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Fysisch%20Geografische%20Regio%E2%80%99s%20.png/0add5e1b-df06-ad06-302e-d7ba12a34d51?t=1791930710783",
+      "href": "https://www.pdok.nl/documents/1901824/0/Fysisch%20Geografische%20Regio%E2%80%99s%20.png/0add5e1b-df06-ad06-302e-d7ba12a34d51?t=1791931487171",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/fysisch-geografische-regios/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (fysisch-geografische-regios/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rvo/fysisch-geografische-regios/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (fysisch-geografische-regios/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rvo/fysisch-geografische-regios/wfs/v1_0?&request=GetCapabilities&service=wfs",
+      "type": "application/xml",
+      "title": "WFS (fysisch-geografische-regios/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rvo/fysisch-geografische-regios/wms/v1_0?request=getcapabilities&service=wms",
+      "type": "application/xml",
+      "title": "WMS (fysisch-geografische-regios/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/fysisch-geografische-regio-s",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/fysisch-geografische-regio-s",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/fysisch-geografische-regio-s",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

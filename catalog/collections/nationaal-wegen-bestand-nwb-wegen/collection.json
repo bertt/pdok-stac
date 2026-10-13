@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/NWB-Wegen.png/fabc65c6-fd91-7cfd-af57-cfc545d42920?t=1791930710791",
+      "href": "https://www.pdok.nl/documents/1901824/0/NWB-Wegen.png/fabc65c6-fd91-7cfd-af57-cfc545d42920?t=1791931487181",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rws/nationaal-wegenbestand-wegen/ogc/v1/",
+      "type": "application/json",
+      "title": "OGC API (nationaal-wegenbestand-wegen/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rws/nationaal-wegenbestand-wegen/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (nationaal-wegenbestand-wegen/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rws/nationaal-wegenbestand-wegen/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (nationaal-wegenbestand-wegen/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rws/nationaal-wegenbestand-wegen/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (nationaal-wegenbestand-wegen/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/nationaal-wegen-bestand-nwb-wegen",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/nationaal-wegen-bestand-nwb-wegen",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/nationaal-wegen-bestand-nwb-wegen",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

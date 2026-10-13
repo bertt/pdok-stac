@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Waterschappen%20Kunstwerken%20IMWA.png/86a07d24-02d3-46e2-55ad-1595a18dad51?t=1791930710799",
+      "href": "https://www.pdok.nl/documents/1901824/0/Waterschappen%20Kunstwerken%20IMWA.png/86a07d24-02d3-46e2-55ad-1595a18dad51?t=1791931487190",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/",
+      "type": "application/json",
+      "title": "OGC API (waterschappen-kunstwerken-imwa/ogc/v2)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/hwh/waterschappen-kunstwerken-imwa/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (waterschappen-kunstwerken-imwa/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/hwh/waterschappen-kunstwerken-imwa/wfs/v2_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (waterschappen-kunstwerken-imwa/wfs/v2_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/hwh/waterschappen-kunstwerken-imwa/wms/v2_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (waterschappen-kunstwerken-imwa/wms/v2_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/waterschappen-kunstwerken-imwa",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/waterschappen-kunstwerken-imwa",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/waterschappen-kunstwerken-imwa",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

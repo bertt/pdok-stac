@@ -46,11 +46,43 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Nationale%20Parken.png/ecfc3cfe-42bf-5d59-7fb4-4cb7c2d40b13?t=1791930710791",
+      "href": "https://www.pdok.nl/documents/1901824/0/Nationale%20Parken.png/ecfc3cfe-42bf-5d59-7fb4-4cb7c2d40b13?t=1791931487181",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/nationale-parken/ogc/v1",
+      "type": "application/json",
+      "title": "OGC API (nationale-parken/ogc/v1)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rvo/nationale-parken/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (nationale-parken/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rvo/nationale-parken/wfs/v2_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (nationale-parken/wfs/v2_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rvo/nationale-parken/wms/v2_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (nationale-parken/wms/v2_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -78,9 +110,21 @@
     },
     {
       "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/nationale-parken",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
       "href": "https://www.pdok.nl/ogc-apis/-/article/nationale-parken",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/nationale-parken",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

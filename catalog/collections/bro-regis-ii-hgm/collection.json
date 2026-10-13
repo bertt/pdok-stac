@@ -46,11 +46,19 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/REGISII.jpg/148fc5c6-d51d-2fb7-50bd-f37410d48c5c?t=1791930710779",
+      "href": "https://www.pdok.nl/documents/1901824/0/REGISII.jpg/148fc5c6-d51d-2fb7-50bd-f37410d48c5c?t=1791931487163",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/tno/bro-regis-ii/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bro-regis-ii/atom/index.xml)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -75,6 +83,12 @@
       "href": "https://www.pdok.nl/introductie/-/article/bro-regis-ii-hgm-",
       "type": "text/html",
       "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-regis-ii-hgm-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }

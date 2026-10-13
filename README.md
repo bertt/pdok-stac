@@ -15,7 +15,7 @@ catalog/
 
 All links are relative, so the catalog works under any GitHub Pages sub-path.
 
-Each collection contains the title, description, producer (e.g. Kadaster), thumbnail, a link to the PDOK dataset page and, where available, a link to the PDOK (OGC) API's page.
+Each collection contains the title, description, producer (e.g. Kadaster), thumbnail, a link to the PDOK dataset page and links to its service sub pages (`service-doc`). The services themselves are STAC assets with role `data`, scraped from the dataset's *(OGC) Webservices*, *(OGC) API's* and *ATOM Downloadservices* pages: `wms`, `wfs`, `wmts`, `wcs`, `atom`, `ogc-api` and `download-api` (a numeric suffix such as `wms-2` is added when a dataset has several of the same type).
 
 Limitations: the spatial extent is a generic bounding box of the Netherlands, the temporal extent is open and the license is `other`, because this information is not available on the overview page.
 

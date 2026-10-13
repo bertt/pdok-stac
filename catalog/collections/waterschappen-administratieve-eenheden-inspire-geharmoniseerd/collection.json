@@ -46,11 +46,27 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Waterschappen%20Administratieve%20Eenheden.png/9d3574c1-feba-2b56-84a5-6ce90b8922fa?t=1791930710798",
+      "href": "https://www.pdok.nl/documents/1901824/0/Waterschappen%20Administratieve%20Eenheden.png/9d3574c1-feba-2b56-84a5-6ce90b8922fa?t=1791931487190",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/hwh/waterschappen-administratieve-eenheden/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (waterschappen-administratieve-eenheden/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/hwh/waterschappen-administratieve-eenheden/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (waterschappen-administratieve-eenheden/wms/v1_0)",
+      "roles": [
+        "data"
       ]
     }
   },
@@ -75,6 +91,18 @@
       "href": "https://www.pdok.nl/introductie/-/article/waterschappen-administratieve-eenheden-inspire-geharmoniseerd-",
       "type": "text/html",
       "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/waterschappen-administratieve-eenheden-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/waterschappen-administratieve-eenheden-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
     }
   ]
 }
