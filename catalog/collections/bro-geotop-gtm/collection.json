@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "bro-geotop-gtm",
+  "title": "BRO GeoTOP (GTM)",
+  "description": "GeoTOP (GTM) is een 3D-model dat de ondergrond tot maximaal 50 meter onder NAP in blokken (voxels) van 100 x 100 x 0,5 meter weergeeft. Het model geeft informatie over de laagopbouw en grondsoort (zand, grind, klei of veen) van de ondiepe ondergrond van Nederland.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)"
+  ],
+  "providers": [
+    {
+      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/GTM.jpg/b15fdabb-e3ad-1c72-aa1c-5af21362cdf9?t=1791930710777",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/bro-geotop-gtm-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    }
+  ]
+}

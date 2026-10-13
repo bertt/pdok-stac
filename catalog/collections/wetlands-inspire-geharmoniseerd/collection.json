@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "wetlands-inspire-geharmoniseerd",
+  "title": "Wetlands (INSPIRE geharmoniseerd)",
+  "description": "Wetlands zijn de natte natuurgebieden in Nederland. Het Wetland verdrag is op 2 februari 1971 te Ramsar in Iran ondertekend. Nederland was één van de zestien landen die het Verdrag toen ondertekende.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Rijksdienst voor Ondernemend Nederland (RVO)"
+  ],
+  "providers": [
+    {
+      "name": "Rijksdienst voor Ondernemend Nederland (RVO)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Beschermde%20gebieden%20Wetlands.png/ee0fe791-a39c-013f-eeab-59814fdeda80?t=1791930710800",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/wetlands-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/wetlands-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "provinciale-monumenten",
+  "title": "Provinciale Monumenten - Provincies (INSPIRE geharmoniseerd)",
+  "description": "Enkele provincies kennen naast rijks- en gemeentelijke monumenten ook provinciale monumenten. De panden, maar ook dijken, grenspalen en gemeenteoverschrijdende objecten zijn opgenomen op een provinciale monumentenlijst.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Provincies"
+  ],
+  "providers": [
+    {
+      "name": "Provincies",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Provinciale%20monumenten.jpg/71a89e89-95a8-5fbc-d929-a93695bc7d13?t=1791930710794",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/provinciale-monumenten",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    }
+  ]
+}

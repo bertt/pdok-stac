@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "cbs-bestand-bodemgebruik-2010",
+  "title": "CBS Bestand Bodemgebruik 2010",
+  "description": "Het Bestand Bodemgebruik 2010 bevat digitale geometrie van het bodemgebruik in Nederland. Voorbeelden van het bodemgebruik zijn verkeersterreinen, bebouwing, recreatieterreinen en binnen- en buitenwater.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Centraal Bureau voor de Statistiek (CBS)"
+  ],
+  "providers": [
+    {
+      "name": "Centraal Bureau voor de Statistiek (CBS)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Bestand%20Bodemgebruik%202010.png/29cfb335-3fe0-4954-2cd8-5fe88a9c6c2b?t=1791930710780",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/cbs-bestand-bodemgebruik-2010",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/cbs-bestand-bodemgebruik-2010",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    }
+  ]
+}

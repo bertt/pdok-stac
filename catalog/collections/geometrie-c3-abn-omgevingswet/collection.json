@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "geometrie-c3-abn-omgevingswet",
+  "title": "Geometrieën Omgevingswet",
+  "description": "De Geometrieën Omgevingswet API verbeeldt met vector tiles geometrieën uit omgevingsdocumenten en vergunningen. Deze vector tiles zijn beschikbaar in RD-formaat en kennen één attribuut: de geometrie-identificatie. Op zichzelf hebben deze vector tiles geen inhoudelijke betekenis. De vector tiles krijgen inhoudelijke betekenis door deze te combineren met gegevens van andere DSO-LV API’s, met name de Omgevingsdocumenten Presenteren API. Deze combinatie van geografische verbeelding en inhoudelijke duiding is noodzakelijk, omdat dezelfde geografische verbeelding meerdere inhoudelijke betekenissen kan hebben, al naar gelang de juridische regel die ermee is verbonden.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    ""
+  ],
+  "providers": [
+    {
+      "name": "",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Omgevingswet.png/027b505c-2c32-a8cd-d921-19b06b56d810?t=1791930710785",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/geometrie%C3%ABn-omgevingswet",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/geometrie%C3%ABn-omgevingswet",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    }
+  ]
+}

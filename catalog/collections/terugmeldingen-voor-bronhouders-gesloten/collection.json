@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "terugmeldingen-voor-bronhouders-gesloten",
+  "title": "Terugmeldingen voor Bronhouders (Gesloten)",
+  "description": "Met de Terugmelding Bronhouder API kunnen bronhouders van een basisregistratie eigen terugmeldingen bekijken en wijzigen.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Kadaster"
+  ],
+  "providers": [
+    {
+      "name": "Kadaster",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Terugmeldingen%20Luchtvaartobstakels%20%281%29.jpg/7615b3be-0c88-2e52-35b9-e4549bc0231a?t=1791930710796",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/terugmeldingen-voor-bronhouders-gesloten-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    }
+  ]
+}

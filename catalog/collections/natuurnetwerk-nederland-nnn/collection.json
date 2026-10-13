@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "natuurnetwerk-nederland-nnn",
+  "title": "Natuurnetwerk Nederland (NNN) - Provincies (INSPIRE geharmoniseerd)",
+  "description": "Het NNN (voorheen EHS) is een netwerk van gebieden in Nederland waar de natuur voorrang heeft. Het netwerk helpt voorkomen dat planten en dieren in geïsoleerde gebieden uitsterven en dat natuurgebieden hun waarde verliezen.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Provincies"
+  ],
+  "providers": [
+    {
+      "name": "Provincies",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Natuurnetwerk%20Nederland.jpg/8a1f6d66-68c8-be61-230b-aa863cd82a3e?t=1791930710792",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/natuurnetwerk-nederland-nnn-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "nationaal-hydrologisch-instrumentarium-nhi",
+  "title": "Nationaal Hydrologisch Instrumentarium (NHI)",
+  "description": "De dataset bestaat uit een netwerk van knopen en takken van het waterverdelingsnetwerk. Dit netwerk bestaat uit het Nederlandse oppervlaktewater in het hoofdwatersysteem van rijkswaterstaat en een deel van het regionale watersysteem in beheer bij waterschappen en provincies.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Rijkswaterstaat (RWS)"
+  ],
+  "providers": [
+    {
+      "name": "Rijkswaterstaat (RWS)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Nationaal%20Hydrologisch%20Instrumentarium.png/ef55f933-0bac-e5b6-2565-98b6e2420a1b?t=1791930710790",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/nationaal-hydrologisch-instrumentarium-nhi-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/nationaal-hydrologisch-instrumentarium-nhi-",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    }
+  ]
+}

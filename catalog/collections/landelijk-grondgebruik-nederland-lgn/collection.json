@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "landelijk-grondgebruik-nederland-lgn",
+  "title": "Landelijk Grondgebruik Nederland (LGN)",
+  "description": "LGN is een rasterbestand dat het Nederlands landgebruik met een ruimtelijke resolutie van 5m weergeeft. Het bestand kent tientallen landgebruiksklassen waarbij de belangrijkste landbouwgewassen, bos, water, natuur en stedelijke klassen worden onderscheiden.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Wageningen University & Research (WUR)"
+  ],
+  "providers": [
+    {
+      "name": "Wageningen University & Research (WUR)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/LGN.png/dfc36d6c-e924-efe7-0316-533ac44a151b?t=1791930710789",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/landelijk-grondgebruik-nederland-lgn-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    }
+  ]
+}

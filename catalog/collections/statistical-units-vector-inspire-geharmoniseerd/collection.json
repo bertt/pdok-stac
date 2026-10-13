@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "statistical-units-vector-inspire-geharmoniseerd",
+  "title": "Statistical Units Vector (INSPIRE geharmoniseerd)",
+  "description": "De dataset Statistical Units Vector is de INSPIRE geharmoniseerde dataset van de CBS gebiedsindelingen. Deze geeft de gebiedsindelingen weer die het CBS hanteert.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Centraal Bureau voor de Statistiek (CBS)"
+  ],
+  "providers": [
+    {
+      "name": "Centraal Bureau voor de Statistiek (CBS)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Statistical%20Units%20Vector.png/f061d42c-f690-ba5c-a935-5deedc741f78?t=1791930710796",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/statistical-units-vector-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/statistical-units-vector-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    }
+  ]
+}

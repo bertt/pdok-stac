@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "cbs-bevolkingskernen-2021",
+  "title": "CBS Bevolkingskernen 2021",
+  "description": "Het bestand CBS bevolkingskernen 2021 bevat statistische kerncijfers per bevolkingskern. De afbakening van bevolkingskernen is enige tijd geleden voortgekomen uit een vraag naar cijfers op het niveau van bevolkingskernen in het Volkstellingprogramma 2001 van Eurostat.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Centraal Bureau voor de Statistiek (CBS)"
+  ],
+  "providers": [
+    {
+      "name": "Centraal Bureau voor de Statistiek (CBS)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Bevolkingskernen%202021%20PDOK%20Viewer.png/e45858fe-1b54-807b-c6fe-cf550223a40a?t=1791930710780",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/cbs-bevolkingskernen-2021",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/cbs-bevolkingskernen-2021",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    }
+  ]
+}

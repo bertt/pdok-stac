@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "faciliteiten-voor-productie-en-industrie-productiefaciliteiten-rev-inspire-geharmoniseerd",
+  "title": "Faciliteiten voor productie en industrie - Productiefaciliteiten - REV (INSPIRE geharmoniseerd)",
+  "description": "Naar INSPIRE thema Faciliteiten voor productie en industrie geharmoniseerde data vallend onder NACE versie 2 (Nomenclature statistique des activités économiques dans la Communauté européenne).",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Rijkswaterstaat (RWS)"
+  ],
+  "providers": [
+    {
+      "name": "Rijkswaterstaat (RWS)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Faciliteiten%20voor%20productie%20en%20industrie%20-%20Productiefaciliteiten%20-%20REV%20-%20PDOK%20Viewer.jpg/398aee37-849d-f54e-640c-c44d75771bd8?t=1791930710782",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/faciliteiten-voor-productie-en-industrie-productiefaciliteiten-rev-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/faciliteiten-voor-productie-en-industrie-productiefaciliteiten-rev-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "bro-grondwatermonitoring-gm-in-samenhang-karakteristieken",
+  "title": "BRO - Grondwatermonitoring (GM) in samenhang - karakteristieken",
+  "description": "De dataset Grondwatermonitoring (GM) in samenhang - karakteristieken bevat de samenvattende/karakteristieke gegevens van registratieobjecten in het grondwatermonitoring domein, inclusief onderlinge relaties tussen deze registratieobjecten. Deze kenset GM in samenhang bevat dus niet de volledige inhoud van de registratieobjecten.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)"
+  ],
+  "providers": [
+    {
+      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/BROGrondwatermonitoring%20%281%29.jpg/9be4c1ef-5f93-a63e-d2eb-26e76ff13571?t=1791930710778",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/bro-grondwatermonitoring-gm-in-samenhang-karakteristieken",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/bro-grondwatermonitoring-gm-in-samenhang-karakteristieken",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    }
+  ]
+}

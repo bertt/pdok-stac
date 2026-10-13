@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "bro-grondwatergebruik-gu-milieubewakingsvoorzieningen-inspire-geharmoniseerd",
+  "title": "BRO Grondwatergebruik (GU) - Milieubewakingsvoorzieningen (INSPIRE geharmoniseerd)",
+  "description": "Deze dataset bevat gegevens van Nederlands grondwatergebruik uit de Basisregistratie Ondergrond (BRO). Het betreft de gegevens van de meldingsplichtige of vergunningsplichtige grondwatergebruiksystemen en de periodiek, aan bevoegd gezag gerapporteerde onttrokken/terug ingebrachte hoeveelheden grondwater van die grondwatergebruiksystemen. Deze gebundelde gegevens zijn geharmoniseerd naar het INSPIRE thema Milieubewakingsvoorzieningen.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)"
+  ],
+  "providers": [
+    {
+      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Brogu2.png/98c6f0b5-629e-9e61-4a95-373d5810297b?t=1791930710777",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/bro-grondwatergebruik-gu-milieubewakingsvoorzieningen-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "gebiedsbeheer-eenheden-kwetsbaar-gebied-rsa-inspire-geharmoniseerd",
+  "title": "Gebiedsbeheer eenheden - Kwetsbaar gebied - RSA (INSPIRE geharmoniseerd)",
+  "description": "Naar INSPIRE thema Gebiedsbeheer, gebieden waar beperkingen gelden, gereguleerde gebieden en rapportage-eenheden geharmoniseerd kwetsbaar gebied zoals gerapporteerd naar de Europese Commissie tbv EU rapportage Stedelijk Afvalwater.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Rijkswaterstaat (RWS)"
+  ],
+  "providers": [
+    {
+      "name": "Rijkswaterstaat (RWS)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Gebiedsbeheereenheden.jpg/fe210a50-5e2c-9e5e-8c83-b3934b4e7f9d?t=1791930710784",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/gebiedsbeheer-eenheden-kwetsbaar-gebied-rsa-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/gebiedsbeheer-eenheden-kwetsbaar-gebied-rsa-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    }
+  ]
+}

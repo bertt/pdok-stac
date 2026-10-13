@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "publiekrechtelijke-beperkingen-wkpb",
+  "title": "Publiekrechtelijke Beperkingen Wkpb",
+  "description": "De dataset Publiekrechtelijke Beperkingen Wkpb bevat gegevens uit de Basisregistratie Kadaster Publiekrechtelijke Beperkingen (BRK‑PB) over beperkingen die door overheden zijn opgelegd aan onroerende zaken. Het gaat om juridisch vastgelegde beperkingen die bepalen wat op een locatie wel of niet is toegestaan, inclusief het bijbehorende besluit en het geografische werkingsgebied.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Kadaster"
+  ],
+  "providers": [
+    {
+      "name": "Kadaster",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Publiekrechtelijke%20Beperkingen.png/5d857b36-f927-07a1-ed3c-370ecfabd672?t=1791930710794",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/publiekrechtelijke-beperkingen-wkpb",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/publiekrechtelijke-beperkingen-wkpb",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    }
+  ]
+}

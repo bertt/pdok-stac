@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "krw-grondwaterlichamen-inspire-geharmoniseerd",
+  "title": "KRW Grondwaterlichamen (INSPIRE geharmoniseerd)",
+  "description": "INSPIRE geharmoniseerde dataset van het landelijk bestand Kaderrichtlijn Water (KRW) Grondwaterlichamen. In de Kaderrichtlijn Water is een grondwaterlichaam een belangrijke eenheid waarover de waterbeheerder moet rapporteren.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Informatiehuis Water (IHW)"
+  ],
+  "providers": [
+    {
+      "name": "Informatiehuis Water (IHW)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/krw%20grondwaterlichamen.png/3c822bab-1d73-6358-f7bb-f3f015db1f5f?t=1791930710788",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/krw-grondwaterlichamen-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    }
+  ]
+}

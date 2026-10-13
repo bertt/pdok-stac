@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "provinciaal-landschapsbeleid",
+  "title": "Provinciaal Landschapsbeleid - Provincies (INSPIRE geharmoniseerd)",
+  "description": "Nationale landschappen zijn gebieden met internationaal zeldzame of unieke en nationaal kenmerkende landschapskwaliteiten, en in samenhang daarmee bijzondere natuurlijke, cultuurhistorische en recreatieve kwaliteiten.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Provincies"
+  ],
+  "providers": [
+    {
+      "name": "Provincies",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Provinciaal%20landschapsbeleid.jpg/71da8cd1-e6b5-b053-9192-bef5dfc46544?t=1791930710794",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/provinciaal-landschapsbeleid",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    }
+  ]
+}

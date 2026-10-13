@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "agglomeraties-richtlijn-omgevingslawaai-inspire-geharmoniseerd",
+  "title": "Agglomeraties gemeenten inclusief bevolkingsaantallen volgens Richtlijn Omgevingslawaai 2022 (INSPIRE geharmoniseerd)",
+  "description": "Gegevens over de geluidbron 'agglomeraties' omvatten stedelijke gebieden van aangewezen gemeenten. Met deze data wordt invulling gegeven aan de eisen uit de Wet milieubeheer die voortvloeien uit de Europese richtlijn omgevingslawaai (2002/49/EG)",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Ministerie van Infrastructuur en Waterstaat (IenW)"
+  ],
+  "providers": [
+    {
+      "name": "Ministerie van Infrastructuur en Waterstaat (IenW)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/agglomeraties_thumbnail_ogc_api.png/0d3562c9-8e7a-1448-3f44-4dbfff2ac07b?t=1791930710772",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/agglomeraties-richtlijn-omgevingslawaai-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/agglomeraties-richtlijn-omgevingslawaai-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "krw-beschermde-gebieden-drinkwateronttrekking-inspire-geharmoniseerd",
+  "title": "KRW Beschermde Gebieden - Drinkwateronttrekking (INSPIRE geharmoniseerd)",
+  "description": "INSPIRE geharmoniseerde dataset van Kaderrichtlijn Water (KRW) Register Beschermde Gebieden - Wateronttrekking ten behoeve van menselijke consumptie conform artikel 7 van de Kaderrichtlijn Water.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Informatiehuis Water (IHW)"
+  ],
+  "providers": [
+    {
+      "name": "Informatiehuis Water (IHW)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/krw%20drinkwateronttrekking%20%281%29.png/855a5c6b-0253-e46c-9608-e41df324ffcb?t=1791930710788",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/krw-beschermde-gebieden-drinkwateronttrekking-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    }
+  ]
+}

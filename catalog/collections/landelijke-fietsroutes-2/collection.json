@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "landelijke-fietsroutes-2",
+  "title": "Landelijke fietsroutes",
+  "description": "De Landelijke fietsroutes heeft de service vernieuwd. deze kent nu een hogere update frequentie.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Stichting Landelijk Fietsplatform"
+  ],
+  "providers": [
+    {
+      "name": "Stichting Landelijk Fietsplatform",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Landelijke%20fietsroutes.png/155913c1-88ff-6d05-02fe-4606f6c67c0a?t=1791930710789",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/landelijke-fietsroutes-2",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    }
+  ]
+}

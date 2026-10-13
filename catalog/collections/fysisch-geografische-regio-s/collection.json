@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "fysisch-geografische-regio-s",
+  "title": "Fysisch Geografische Regio’s",
+  "description": "Indeling van Nederland in Fysisch-Geografische Regio's. Voor de omgrenzing van de Regio's is een zo consistent mogelijke lijst van beslisregels gehanteerd, vooral gebaseerd op de bodemtypen. Dit bestand is een update van de FGR-versie van 1997.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Rijksdienst voor Ondernemend Nederland (RVO)"
+  ],
+  "providers": [
+    {
+      "name": "Rijksdienst voor Ondernemend Nederland (RVO)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Fysisch%20Geografische%20Regio%E2%80%99s%20.png/0add5e1b-df06-ad06-302e-d7ba12a34d51?t=1791930710783",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/fysisch-geografische-regio-s",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/fysisch-geografische-regio-s",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "bro-model-grondwaterspiegeldiepte-wdm",
+  "title": "BRO Model Grondwaterspiegeldiepte (WDM)",
+  "description": "Het model Grondwaterspiegeldiepte (WDM) is een tweedimensionaal ruimtelijk model dat de diepte tot de grondwaterspiegel weergeeft met een resolutie van 50 bij 50 meter. Het model geeft aan tussen welke gemiddelde dieptes, in centimeters beneden maaiveld, de grondwaterspiegel jaarlijks varieert.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)"
+  ],
+  "providers": [
+    {
+      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/WDM.jpg/d4fdc7b7-48fe-8fff-b3c8-e27437ebc846?t=1791930710779",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/bro-model-grondwaterspiegeldiepte-wdm-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    }
+  ]
+}

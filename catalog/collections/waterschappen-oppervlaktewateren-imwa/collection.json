@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "waterschappen-oppervlaktewateren-imwa",
+  "title": "Waterschappen Oppervlaktewateren IMWA",
+  "description": "Deze dataset is gebaseerd op (niet geharmoniseerde) data van alle waterschappen in Nederland conform het Informatiemodel water (IMWA). De dataset bevat de volgende IMWA objecten: Oppervlaktewaterlichaam, KRWOppervlaktewaterlichaam, Oever, Profielverdediging en Waterdeel.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Het Waterschapshuis (HWH)"
+  ],
+  "providers": [
+    {
+      "name": "Het Waterschapshuis (HWH)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Waterschappen%20Oppervlaktewateren%20IMWA.png/9f688a5a-4abd-bf04-cb1c-68d12afef501?t=1791930710799",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/waterschappen-oppervlaktewateren-imwa",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/waterschappen-oppervlaktewateren-imwa",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    }
+  ]
+}

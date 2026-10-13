@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "regionale-wandelnetwerken",
+  "title": "Regionale wandelnetwerken",
+  "description": "Deze datasets bevat regionale wandelknooppunten en -netwerken.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Stichting Wandelnet"
+  ],
+  "providers": [
+    {
+      "name": "Stichting Wandelnet",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Regionale%20wandelnetwerken.png/7b9bb6b6-039c-506e-3e31-6b9f8bfd61a3?t=1791930710795",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/regionale-wandelnetwerken",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    }
+  ]
+}

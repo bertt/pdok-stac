@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "vaarweg-netwerk-data-service-vnds",
+  "title": "Vaarweg Netwerk Data Service (VNDS) - bevaarbaarheid",
+  "description": "Geografische bestanden met bevaarbaarheidsinformatie binnen Nederland. Vaarweg of deel van de vaarweg of haven, waaraan een bepaalde bevaarbaarheidsklasse is toegekend (Classificatie vaarwegen aan de hand van de internationale klasse-indeling 1992)",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Rijkswaterstaat (RWS)"
+  ],
+  "providers": [
+    {
+      "name": "Rijkswaterstaat (RWS)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Vaarweg%20Informatie%20Nederland.png/bc83cedc-7542-5f0b-4efe-83dc42a00a40?t=1791930710797",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/vaarweg-netwerk-data-service-vnds",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/vaarweg-netwerk-data-service-vnds",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    }
+  ]
+}

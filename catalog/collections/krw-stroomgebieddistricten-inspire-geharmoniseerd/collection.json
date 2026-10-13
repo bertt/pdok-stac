@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "krw-stroomgebieddistricten-inspire-geharmoniseerd",
+  "title": "KRW Stroomgebieddistricten (INSPIRE geharmoniseerd)",
+  "description": "INSPIRE geharmoniseerde dataset van de KRW Stroomgebieddistricten. In de Kaderrichtlijn Water is een stroomgebieddistrict een belangrijke rapportage eenheid.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Informatiehuis Water (IHW)"
+  ],
+  "providers": [
+    {
+      "name": "Informatiehuis Water (IHW)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/krw%20stroomgebieddistricten.png/57be3d65-7f97-aeed-2558-666ae1cf4e48?t=1791930710789",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/krw-stroomgebieddistricten-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    }
+  ]
+}

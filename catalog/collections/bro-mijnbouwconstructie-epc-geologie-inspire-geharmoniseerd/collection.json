@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "bro-mijnbouwconstructie-epc-geologie-inspire-geharmoniseerd",
+  "title": "BRO - Mijnbouwconstructie (EPC) - Geologie (INSPIRE geharmoniseerd)",
+  "description": "Deze dataset bevat de naar het INSPIRE thema Geologie geharmoniseerde gegevens uit de BRO (Basisregistratie ondergrond) over Mijnbouwconstructies, specifiek Boorgaten. Het gaat om gegevens over de locatie op het aardoppervlak van een boorgat, in de Mijnbouwwet omschreven als een werk ten behoeve van het opsporen, winnen en opslaan van stoffen. (EPC: Exploration Production Construction) in Nederland.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)"
+  ],
+  "providers": [
+    {
+      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Mijnbouwconstructie.png/cb2693ef-6ca1-f9a5-da86-62d0874104f8?t=1791930710779",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/bro-mijnbouwconstructie-epc-geologie-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    }
+  ]
+}
