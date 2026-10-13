@@ -4,6 +4,8 @@ Unofficial static [STAC](https://stacspec.org) catalog of all datasets listed on
 
 Live catalog: <https://bertt.github.io/pdok-stac/catalog.json>
 
+Browse it online: <https://browser.moregeo.it/external/bertt.github.io/pdok-stac/catalog.json>
+
 ## Structure
 
 ```
