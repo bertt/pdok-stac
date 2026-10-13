@@ -6,6 +6,8 @@ Live catalog: <https://bertt.github.io/pdok-stac/catalog.json>
 
 Browse it online: <https://browser.moregeo.it/external/bertt.github.io/pdok-stac/catalog.json>
 
+<img width="1876" height="922" alt="image" src="https://github.com/user-attachments/assets/f9c4bc33-9f90-4ca9-8978-e646803d2d73" />
+
 ## Structure
 
 ```
