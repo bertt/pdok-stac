@@ -1,0 +1,36 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "rioned",
+  "title": "RIONED",
+  "description": "PDOK APIs and datasets of RIONED.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rioned-beheer-stedelijk-watersystemen-gwsw-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Stedelijk Water (Riolering) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rioned-waterschappen-waterketen-gwsw-ogc-v1-0/collection.json",
+      "type": "application/json",
+      "title": "Waterschappen Waterketen GWSW (OGC API)"
+    }
+  ]
+}

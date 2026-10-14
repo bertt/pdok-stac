@@ -8,6 +8,7 @@
   "title": "RD info (OGC API)",
   "description": "Overzicht van de ligging van de RD-punten, GNSS-referentiestations en GNSS-kernnetpunten in Nederland met de bijbehorende omschrijvingen en coordinaten in het stelsel van de Rijksdriehoeksmeting (RD) en het Europese stelsel ETRS-89. Via https://www.nsgi.nl/referentiepunten-en-gnss-data/informatie-referentiepunten/rdinfo is uitleg beschikbaar over de inhoud van de velden van deze dataset.",
   "license": "other",
+  "updated": "2026-06-11T13:46:07Z",
   "keywords": [
     "PDOK",
     "RDinfo",
@@ -126,13 +127,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../kadaster/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/kadaster-rdinfo-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/kadaster/rdinfo/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

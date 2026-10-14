@@ -1,0 +1,30 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "defensie",
+  "title": "Defensie",
+  "description": "PDOK APIs and datasets of Defensie.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/defensie-luchtvaartobstakels-terugmeldingen-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Terugmeldingen op luchtvaartobstakels (AERO) (OGC API)"
+    }
+  ]
+}

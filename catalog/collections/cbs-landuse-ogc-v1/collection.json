@@ -7,7 +7,8 @@
   "id": "cbs-landuse-ogc-v1",
   "title": "CBS Existing Land Use (INSPIRE geharmoniseerd) (OGC API)",
   "description": "This is the INSPIRE Existing Land Use data set of the Netherlands. It is based on the topographical map of the Netherlands (BRT) and aerial photo's.",
-  "license": "other",
+  "license": "CC-BY-4.0",
+  "updated": "2025-07-18T14:00:22Z",
   "keywords": [
     "PDOK",
     "Landgebruik",
@@ -30,7 +31,7 @@
   ],
   "providers": [
     {
-      "name": "CBS",
+      "name": "Centraal Bureau voor de Statistiek",
       "roles": [
         "producer"
       ]
@@ -137,13 +138,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../centraal-bureau-voor-de-statistiek/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/cbs-landuse-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/cbs/landuse/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

@@ -8,6 +8,7 @@
   "title": "Hoofdluchtvervoersnetwerk volgens Richtlijn Omgevingslawaai 2022 (INSPIRE geharmoniseerd) (OGC API)",
   "description": "Het gaat om gegevens over de geluidbron 'Hoofd Luchtvervoersnetwerk'. Met deze data wordt invulling gegeven aan de eisen uit de Wet milieubeheer die voortvloeien uit de Europese richtlijn omgevingslawaai (2002/49/EG).  De dataset, gepubliceerd in 2023, is geharmoniseerd volgens de INSPIRE richtlijnen, met name de thema's Geluidbronnen, Vervoersnetwerken, Verkeersintensiteit en Omgevingslawaai, en bevat gedetailleerde informatie.  Het Ministerie van Infrastructuur en Waterstaat is de data-eigenaar en beheerder van deze dataset, en verantwoordelijk voor de beschikbaarheid en kwaliteit ervan.",
   "license": "other",
+  "updated": "2026-02-03T12:03:29Z",
   "keywords": [
     "PDOK",
     "Hoofd Luchtvervoersnetwerk (Richtlijn Omgevingslawaai)",
@@ -133,13 +134,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../ministerie-van-infrastructuur-en-waterstaat/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/ienw-hoofd-luchtvervoersnetwerk-omgevingslawaai-geharmoniseerd-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/ienw/hoofd-luchtvervoersnetwerk-omgevingslawaai-geharmoniseerd/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

@@ -7,7 +7,8 @@
   "id": "rvo-visserijmaatregelen-noordzee-ogc-v1",
   "title": "Visserijmaatregelen Noordzee (OGC API)",
   "description": "Deze dataset bevat alle gebieden waar visserijmaatregelen gelden op de Noordzee (exclusief de Delta en de Waddenzee). De maatregelen zijn getroffen op basis van het Gemeenschappelijk Visserijbeleid (GVB) of nationale wetgeving zoals de omgevingswet (Toegang beperkend besluit) of de Uitvoeringsregeling Visserij. De afkortingen van de genoemde vistuigen: - Bottom trawl (TB), - beam trawl (TBB), - bottom otter trawl (OTB), - otter twin trawl (OTT), - bottom pair trawl (PTB), - nephrops trawl (TBN), - shrimp trawl (TBS), - seine (SX), - Danish anchor seine (SDN), - Scottish seine (SSC), - Scottish pair seine (SPR), - boat or vessel seine (SV) Er kunnen geen rechten aan deze dataset worden ontleend.",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2026-04-01T11:32:13Z",
   "keywords": [
     "PDOK",
     "Visserij",
@@ -25,7 +26,7 @@
   ],
   "providers": [
     {
-      "name": "RVO",
+      "name": "Rijksdienst voor Ondernemend Nederland",
       "roles": [
         "producer"
       ]
@@ -132,13 +133,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijksdienst-voor-ondernemend-nederland/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rvo-visserijmaatregelen-noordzee-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rvo/visserijmaatregelen-noordzee/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

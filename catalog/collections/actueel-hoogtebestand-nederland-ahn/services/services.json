@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of Actueel Hoogtebestand Nederland (AHN)",
-    "datetime": "2026-10-14T07:15:05Z"
+    "datetime": "2026-10-14T07:46:36Z"
   },
   "links": [
     {
@@ -98,7 +98,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/ahn.png/c2d19e3c-51ac-11c4-ae3d-c2a5fbf388e8?t=1791962087086",
+      "href": "https://www.pdok.nl/documents/1901824/0/ahn.png/c2d19e3c-51ac-11c4-ae3d-c2a5fbf388e8?t=1791963977292",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

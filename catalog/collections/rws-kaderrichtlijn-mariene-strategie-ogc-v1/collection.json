@@ -7,7 +7,8 @@
   "id": "rws-kaderrichtlijn-mariene-strategie-ogc-v1",
   "title": "Kaderrichtlijn Mariene Strategie Nederland (OGC API)",
   "description": "De OGC API Features service Kaderrichtlijn Mariene Strategie bevat het toepassingsgebied, de rapportage-eenheden en de bevroren monitoringsdata voor de Kaderrichtlijn Mariene Strategie.",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2025-06-19T11:41:42Z",
   "keywords": [
     "PDOK",
     "Gebieden",
@@ -150,13 +151,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijkswaterstaat/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rws-kaderrichtlijn-mariene-strategie-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rws/kaderrichtlijn-mariene-strategie/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

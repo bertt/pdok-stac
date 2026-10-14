@@ -7,7 +7,8 @@
   "id": "cbs-postcode6-ogc-v1",
   "title": "CBS Postcode6 statistieken (OGC API)",
   "description": "Het bestand CBSpostcode6 bevat statistische gegevens voor afzonderlijke postcodes vanaf 2015. Met ingang van het tweede kwartaal 2025 zijn gegevens over het jaar 2024 toegevoegd en zijn het aantal gegevens van de jaren 2023 en 2022 uitgebreid met gegevens over demografie, woningen, energie, inkomen, sociale zekerheid, nabijheid van voorzieningen en dichtheid. Lees voor meer informatie: https://www.cbs.nl/nl-nl/longread/diversen/2025/statistische-gegevens-per-vierkant-en-postcode-2022-2023-2024)",
-  "license": "other",
+  "license": "CC-BY-4.0",
+  "updated": "2026-01-01T00:00:00Z",
   "keywords": [
     "PDOK",
     "demografie",
@@ -31,7 +32,7 @@
   ],
   "providers": [
     {
-      "name": "CBS",
+      "name": "Centraal Bureau voor de Statistiek",
       "roles": [
         "producer"
       ]
@@ -282,13 +283,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../centraal-bureau-voor-de-statistiek/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/cbs-postcode6-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/cbs/postcode6/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

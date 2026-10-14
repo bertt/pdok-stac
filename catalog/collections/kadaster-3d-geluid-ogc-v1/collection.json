@@ -5,7 +5,8 @@
   "id": "kadaster-3d-geluid-ogc-v1",
   "title": "3D Geluid (OGC API)",
   "description": "Berekening aan geluid vanwege weg- en railverkeer en industrie vereisen een 3D omgevingsmodel. Op deze pagina vindt u datasets om u te ondersteunen met het opstellen van het model. De dataset is in opdracht van het  Ministerie van Infrastructuur en Waterstaat opgezet door een samenwerking tussen het Kadaster, RIVM en de TU Delft. Bij het samenstellen is gebruik gemaakt van de BAG, BGT en het AHN. Hierbij is grote zorg besteed om de databestanden zoveel  als mogelijk aan te laten sluiten bij de fysieke werkelijkheid, maar er kunnen geen rechten aan ontleend worden. Zie voor meer informatie de uitgebreide productbeschrijving. Er zijn een drie soorten bestanden: hoogte, bodemvlakken en gebouwen. Deze zijn terug te vinden onder 'collections'.",
-  "license": "other",
+  "license": "CC-BY-4.0",
+  "updated": "2026-07-23T13:52:22Z",
   "keywords": [
     "PDOK",
     "3D Geluid",
@@ -124,13 +125,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../kadaster/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/kadaster-3d-geluid-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/kadaster/3d-geluid/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

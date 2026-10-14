@@ -7,7 +7,8 @@
   "id": "rws-hydrografie-netwerk-ogc-v1",
   "title": "Hydrografie: Netwerk (INSPIRE geharmoniseerd) (OGC API)",
   "description": "Naar INSPIRE thema Hydrography - Network geharmoniseerd Nationaal Hydrologisch Instrumentarium netwerkschematisaties (NHI). Het netwerk applicatie schema bevat ruimtelijke objecten verbonden met een hydrografische netwerkweergave van waterwegen, meren etc. Dit is primair nodig voor de gebruikerstoepassing 'ruimtelijke analyses en modellering'.",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2025-10-14T08:48:38Z",
   "keywords": [
     "PDOK",
     "Hydrografie",
@@ -140,13 +141,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijkswaterstaat/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rws-hydrografie-netwerk-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rws/hydrografie-netwerk/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

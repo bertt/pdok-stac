@@ -2,8 +2,8 @@
   "type": "Feature",
   "stac_version": "1.0.0",
   "stac_extensions": [],
-  "id": "daw-projectgrenzen-vlakken",
-  "collection": "kadaster-deltaplan-agrarisch-waterbeheer-ogc-v1",
+  "id": "address",
+  "collection": "kadaster-adressen-geharmoniseerd-ogc-v1",
   "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -38,9 +38,9 @@
     56.11059
   ],
   "properties": {
-    "title": "daw_projectgrenzen_vlakken",
-    "description": "Indicatieve begrenzing van projecten en initiatieven waarin door agrariërs en waterschappen samengewerkt wordt aan een betere waterkwaliteit, voorkomen van schade door watertekort of wateroverlast en verbetering van de agrarische bedrijfsresultaten.",
-    "datetime": "2025-10-01T08:40:03Z"
+    "title": "address",
+    "description": "Address, geharmoniseerd voor INSPIRE",
+    "datetime": "2026-09-02T11:45:47Z"
   },
   "links": [
     {
@@ -60,21 +60,21 @@
     },
     {
       "rel": "self",
-      "href": "./daw-projectgrenzen-vlakken.json",
+      "href": "./address.json",
       "type": "application/geo+json"
     }
   ],
   "assets": {
     "items": {
-      "href": "https://api.pdok.nl/kadaster/deltaplan-agrarisch-waterbeheer/ogc/v1/collections/daw_projectgrenzen_vlakken/items?f=json",
+      "href": "https://api.pdok.nl/kadaster/adressen-geharmoniseerd/ogc/v1/collections/address/items?f=json",
       "type": "application/geo+json",
-      "title": "DAW Projectgrenzen Vlakken (OGC API Features)",
+      "title": "Addresses (OGC API Features)",
       "roles": [
         "data"
       ]
     },
     "thumbnail": {
-      "href": "https://api.pdok.nl/kadaster/deltaplan-agrarisch-waterbeheer/ogc/v1/resources/daw.png",
+      "href": "https://api.pdok.nl/kadaster/adressen-geharmoniseerd/ogc/v1/resources/BAG Adressen.png",
       "type": "image/png",
       "title": "Thumbnail",
       "roles": [

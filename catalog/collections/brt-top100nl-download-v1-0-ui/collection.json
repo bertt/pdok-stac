@@ -71,13 +71,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../kadaster/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/brt-top100nl-download-v1-0-ui/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "via",

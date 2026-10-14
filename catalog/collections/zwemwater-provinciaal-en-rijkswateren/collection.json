@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Zwemwater.png/a2a51efa-2cef-41e9-a466-4379e67f8015?t=1791962087113",
+      "href": "https://www.pdok.nl/documents/1901824/0/Zwemwater.png/a2a51efa-2cef-41e9-a466-4379e67f8015?t=1791963977322",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -89,13 +89,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../provincies/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/zwemwater-provinciaal-en-rijkswateren/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

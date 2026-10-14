@@ -6,6 +6,7 @@
   "title": "Gesloten Gebieden voor Visserij (OGC API)",
   "description": "Overzicht van alle gebieden die gesloten zijn voor visserij.",
   "license": "other",
+  "updated": "2026-03-30T14:16:05Z",
   "keywords": [
     "PDOK",
     "hydrografie",
@@ -14,7 +15,7 @@
   ],
   "providers": [
     {
-      "name": "RVO",
+      "name": "Rijksdienst voor Ondernemend Nederland",
       "roles": [
         "producer"
       ]
@@ -97,13 +98,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijksdienst-voor-ondernemend-nederland/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rvo-gesloten-gebieden-visserij-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rvo/gesloten-gebieden-visserij/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

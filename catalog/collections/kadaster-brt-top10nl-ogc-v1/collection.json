@@ -7,7 +7,8 @@
   "id": "kadaster-brt-top10nl-ogc-v1",
   "title": "BRT TOP10NL (OGC API)",
   "description": "TOP10NL is een digitaal objectgericht kaartbestand wat ten grondslag ligt aan de topografische kaart 1:10000 en wat veelvuldig in diverse GIS- en CAD-systemen wordt gebruikt voor ondergrond, analyse-, en beheers- en planningsactiviteiten.",
-  "license": "other",
+  "license": "CC-BY-4.0",
+  "updated": "2026-09-03T17:51:38Z",
   "keywords": [
     "PDOK",
     "basisregistratie topografie",
@@ -375,13 +376,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../kadaster/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/kadaster-brt-top10nl-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/kadaster/brt-top10nl/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

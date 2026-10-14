@@ -7,7 +7,8 @@
   "id": "hwh-waterschappen-waterketen-damo-ogc-v1",
   "title": "Waterschappen Waterketen DAMO (OGC API)",
   "description": "Deze dataset is gebaseerd op (geharmoniseerde) data van alle waterschappen in Nederland conform DAMO Waterketen waarbij we zoveel mogelijk rekening hebben gehouden met het Gegevenswoordenboek Stedelijk Water (GWSW). De dataset bevat de volgende DAMO objecten: Zuiveringseenheid, Afsluiter, Afvoerpunt, IBA, Kabel, KathodischeBescherming, Leiding, Leidingsegment, Loostopafvoerpunt, Lozingspunt, Mantelbuis, Nooduitlaat, Ontluchter, Overnamepunt, Overnamepuntgebied, Pigginginstallatie, Pomp, Put, Rioleringsgebied, Rioolgemaal, RWZI en Transportstelsel De data zijn afkomstig van de individuele waterschappen, maar worden via PDOK als één landsdekkend bestand uitgeleverd. Individuele waterschappen bieden hun actuele gegevens hiervoor aan via het 'Gegevensknooppunt waterschappen' (GkW) van Het Waterschapshuis. Alle waterschappen zijn aangesloten op deze voorziening, maar nog niet elk waterschap levert de complete set gegevens aan. Voor informatie over de inhoud van de data kan contact worden opgenomen met het desbetreffende waterschap. Dit is te herkennen aan de waterschapscode die als kenmerk is opgenomen bij ieder object in de dataset. Voor algemene informatie over de dataset en de herkomst via het GkW kan contact worden opgenomen met Het Waterschapshuis via datastromen@hetwaterschapshuis.nl.",
-  "license": "other",
+  "license": "CC-BY-SA-4.0",
+  "updated": "2026-10-14T00:00:00Z",
   "keywords": [
     "PDOK",
     "Kunstwerken",
@@ -266,13 +267,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../het-waterschapshuis/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/hwh-waterschappen-waterketen-damo-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

@@ -7,7 +7,8 @@
   "id": "rioned-beheer-stedelijk-watersystemen-gwsw-ogc-v1",
   "title": "Stedelijk Water (Riolering) (OGC API)",
   "description": "Systemen voor stedelijk water met kenmerken gericht op beheeractiviteiten. Deze dataset omvat informatie over rioleringsgebieden bestaande uit riool-, transportstelsels  bestaande uit putten, (aansluit)leidingen, lozingspunten, pompen en gemalen. Deze service is opgezet conform het GWSW, Gegevens Woordenboek Stedelijk Water, van stichting Rioned. Voor meer informatie over de gebruikte termen, definities en samenhang van de objecten zie https://data.gwsw.nl",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2026-10-13T00:00:00Z",
   "keywords": [
     "PDOK",
     "Gwsw",
@@ -180,13 +181,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rioned/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rioned-beheer-stedelijk-watersystemen-gwsw-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rioned/beheer-stedelijk-watersystemen-gwsw/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

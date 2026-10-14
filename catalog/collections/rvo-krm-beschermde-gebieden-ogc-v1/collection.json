@@ -7,7 +7,8 @@
   "id": "rvo-krm-beschermde-gebieden-ogc-v1",
   "title": "KRM Beschermde Gebieden (OGC API)",
   "description": "Deze dataset bevat de gebieden die zijn beschermd op basis van de Kaderrichtlijn Mariene Strategie (KRM) ten behoeve van de bescherming van de zeebodem en het zeebodemhabitat. De KRM heeft tot doel om in Europese zeeën en oceanen de goede toestand van het mariene milieu te behalen en waar nodig te herstellen. Er kunnen geen rechten aan deze dataset worden ontleend.",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2026-05-13T13:26:51Z",
   "keywords": [
     "PDOK",
     "Nationaal",
@@ -24,7 +25,7 @@
   ],
   "providers": [
     {
-      "name": "RVO",
+      "name": "Rijksdienst voor Ondernemend Nederland",
       "roles": [
         "producer"
       ]
@@ -131,13 +132,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijksdienst-voor-ondernemend-nederland/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rvo-krm-beschermde-gebieden-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rvo/krm-beschermde-gebieden/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

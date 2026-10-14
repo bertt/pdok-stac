@@ -16,8 +16,8 @@ const NL_BBOX = [3.2, 50.75, 7.22, 53.7];
 const STAC_VERSION = "1.0.0";
 const PROVIDERS = {
   kadaster: "Kadaster",
-  cbs: "CBS",
-  rvo: "RVO",
+  cbs: "Centraal Bureau voor de Statistiek",
+  rvo: "Rijksdienst voor Ondernemend Nederland",
   rws: "Rijkswaterstaat",
   hwh: "Het Waterschapshuis",
   ienw: "Ministerie van Infrastructuur en Waterstaat",
@@ -63,6 +63,17 @@ const providerOf = (root) => {
   return PROVIDERS[key] ?? key.toUpperCase();
 };
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const STAC_BROWSER = "https://browser.moregeo.it/external/bertt.github.io/pdok-stac";
+const SPDX = [
+  [/publicdomain\/zero/, "CC0-1.0"],
+  [/licenses\/by-nc-nd\/4\.0/, "CC-BY-NC-ND-4.0"],
+  [/licenses\/by-sa\/4\.0/, "CC-BY-SA-4.0"],
+  [/licenses\/by\/4\.0/, "CC-BY-4.0"],
+];
+// SPDX id for a Creative Commons license URL; "other" for e.g. Public Domain Mark, which has no SPDX id.
+const spdxOf = (href) => SPDX.find(([re]) => re.test(href ?? ""))?.[1] ?? "other";
+const newest = (dates) => dates.filter(Boolean).sort().at(-1);
+
 const polygon = (b) => ({
   type: "Polygon",
   coordinates: [[[b[0], b[1]], [b[2], b[1]], [b[2], b[3]], [b[0], b[3]], [b[0], b[1]]]],
@@ -316,6 +327,7 @@ await rm(OUT, { recursive: true, force: true });
 const now = new Date().toISOString().replace(/\.\d+Z$/, "Z");
 const used = new Set();
 const links = [];
+const byProvider = new Map();
 const all = [
   ...items,
   ...leftovers.map((d) => ({
@@ -324,7 +336,7 @@ const all = [
     title: d.title,
     description: d.description,
     keywords: [d.provider],
-    provider: d.provider,
+    provider: d.provider.replace(/\s*\([^)]*\)$/, ""),
     image: d.image,
     ogc: false,
     collections: [],
@@ -342,11 +354,16 @@ for (const it of all) {
   it.id = cid;
 
   const lic = linkByRel(it.landing, "license");
+  const provider = it.provider ?? providerOf(it.root);
+  const pid = slug(provider);
   const clinks = [
     { rel: "root", href: "../../catalog.json", type: "application/json" },
-    { rel: "parent", href: "../../catalog.json", type: "application/json" },
+    { rel: "parent", href: `../../${pid}/catalog.json`, type: "application/json" },
     { rel: "self", href: "./collection.json", type: "application/json" },
+    { rel: "alternate", href: `${STAC_BROWSER}/collections/${cid}/collection.json`, type: "text/html", title: "STAC Browser" },
   ];
+  const landingHtml = (it.landing?.links ?? []).find((l) => l.rel === "alternate" && l.type === "text/html");
+  if (landingHtml) clinks.push({ rel: "describedby", href: landingHtml.href, type: "text/html", title: "API landing page" });
   if (it.root) clinks.push({ rel: "via", href: it.root, type: it.ogc ? "application/json" : "text/html", title: "PDOK API" });
   if (it.datasetUrl) clinks.push({ rel: "alternate", href: it.datasetUrl, type: "text/html", title: "PDOK dataset page" });
   for (const p of it.pages) clinks.push({ rel: "service-doc", href: p.href, type: "text/html", title: p.title });
@@ -354,7 +371,6 @@ for (const it of all) {
   if (lic) clinks.push({ rel: "license", href: lic.href, type: "text/html", title: lic.title ?? "License" });
   const assets = assetsOf(it);
   if (it.image) assets.thumbnail = { href: it.image, type: "image/jpeg", title: "Thumbnail", roles: ["thumbnail"] };
-  const provider = it.provider ?? providerOf(it.root);
 
   // Items: one with the services, plus one per OGC API feature collection, so STAC clients show content.
   const collectionBbox = extentOf(it.collections).spatial.bbox[0];
@@ -408,7 +424,8 @@ for (const it of all) {
     id: cid,
     title: it.title,
     description: it.description,
-    license: "other",
+    license: spdxOf(lic?.href),
+    ...(newest(it.collections.map((c) => c.updated)) ? { updated: newest(it.collections.map((c) => c.updated)) } : {}),
     keywords: ["PDOK", ...it.keywords],
     providers: [
       { name: provider, roles: ["producer"] },
@@ -418,7 +435,26 @@ for (const it of all) {
     assets,
     links: clinks,
   });
-  links.push({ rel: "child", href: `./collections/${cid}/collection.json`, type: "application/json", title: it.title });
+  if (!byProvider.has(pid)) byProvider.set(pid, { title: provider, links: [] });
+  byProvider.get(pid).links.push({ rel: "child", href: `../collections/${cid}/collection.json`, type: "application/json", title: it.title });
+}
+
+// One sub catalog per provider, linked from the root catalog.
+for (const [pid, p] of byProvider) {
+  await write(join(OUT, pid, "catalog.json"), {
+    type: "Catalog",
+    stac_version: STAC_VERSION,
+    id: pid,
+    title: p.title,
+    description: `PDOK APIs and datasets of ${p.title}.`,
+    links: [
+      { rel: "root", href: "../catalog.json", type: "application/json" },
+      { rel: "parent", href: "../catalog.json", type: "application/json" },
+      { rel: "self", href: "./catalog.json", type: "application/json" },
+      ...p.links,
+    ],
+  });
+  links.push({ rel: "child", href: `./${pid}/catalog.json`, type: "application/json", title: p.title });
 }
 
 await write(join(OUT, "catalog.json"), {

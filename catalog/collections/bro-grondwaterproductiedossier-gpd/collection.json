@@ -12,7 +12,7 @@
   ],
   "providers": [
     {
-      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)",
+      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
       "roles": [
         "producer"
       ]
@@ -63,7 +63,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRT-A.png/a801f935-671d-66ef-4751-17c21fcb4dde?t=1791962087092",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRT-A.png/a801f935-671d-66ef-4751-17c21fcb4dde?t=1791963977299",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -79,13 +79,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../ministerie-van-binnenlandse-zaken-en-koninkrijksrelaties/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/bro-grondwaterproductiedossier-gpd/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

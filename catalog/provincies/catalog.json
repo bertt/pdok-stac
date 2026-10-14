@@ -1,0 +1,84 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "provincies",
+  "title": "Provincies",
+  "description": "PDOK APIs and datasets of Provincies.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/aardkundige-waarden/collection.json",
+      "type": "application/json",
+      "title": "Aardkundige waarden (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/begrenzingen-van-vergunde-ontgrondingsgebieden-voor-zand-en-grindwinning/collection.json",
+      "type": "application/json",
+      "title": "Begrenzingen van vergunde ontgrondingsgebieden voor zand- en grindwinning (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/geluidzones-rondom-vliegvelden/collection.json",
+      "type": "application/json",
+      "title": "Geluidzones rondom vliegvelden (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/grondwaterbeschermingsgebieden/collection.json",
+      "type": "application/json",
+      "title": "Grondwaterbeschermingsgebieden (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/natuurnetwerk-nederland-nnn/collection.json",
+      "type": "application/json",
+      "title": "Natuurnetwerk Nederland (NNN) - Provincies (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/provinciaal-landschapsbeleid/collection.json",
+      "type": "application/json",
+      "title": "Provinciaal Landschapsbeleid - Provincies (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/provinciale-monumenten/collection.json",
+      "type": "application/json",
+      "title": "Provinciale Monumenten - Provincies (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/stiltegebieden/collection.json",
+      "type": "application/json",
+      "title": "Stiltegebieden - Provincies (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/zwemwaterkwaliteit-provinciaal-en-rijkswateren-uit-zwemwaterregister/collection.json",
+      "type": "application/json",
+      "title": "Zwemwaterkwaliteit (provinciaal en Rijkswateren) uit Zwemwaterregister (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/zwemwater-provinciaal-en-rijkswateren/collection.json",
+      "type": "application/json",
+      "title": "Zwemwater (Provinciaal en Rijkswateren) uit Zwemwaterregister (INSPIRE geharmoniseerd)"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "informatiehuis-water",
+  "title": "Informatiehuis Water",
+  "description": "PDOK APIs and datasets of Informatiehuis Water.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/krw-beschermde-gebieden-drinkwateronttrekking-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "KRW Beschermde Gebieden - Drinkwateronttrekking (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/krw-beschermde-gebieden-schelpdierwater-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "KRW Beschermde Gebieden - Schelpdierwater (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/krw-deelstroomgebieddistricten-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "KRW Deelstroomgebieddistricten (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/krw-grondwaterlichamen-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "KRW Grondwaterlichamen (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/krw-monitoringlocaties-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "KRW Monitoringlocaties (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/krw-oppervlaktewaterlichamen-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "KRW Oppervlaktewaterlichamen (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/krw-stroomgebieddistricten-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "KRW Stroomgebieddistricten (INSPIRE geharmoniseerd)"
+    }
+  ]
+}

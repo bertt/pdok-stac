@@ -8,6 +8,7 @@
   "title": "Basisregistratie Adressen en Gebouwen (OGC API)",
   "description": "De gegevens bestaan uit BAG-panden inclusief panden met de status 'gesloopt' en een deel van BAG-gegevens van deze panden met de zich daarin bevindende verblijfsobjecten en adresinformatie. Ook de ligplaatsen en standplaatsen zijn opgenomen. Lees meer over de BAG. Bekijk de vector tiles in de Vectortile Viewer.",
   "license": "other",
+  "updated": "2026-10-14T00:00:00Z",
   "keywords": [
     "PDOK",
     "bag",
@@ -172,13 +173,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../kadaster/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/kadaster-bag-ogc-v2/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/kadaster/bag/ogc/v2?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

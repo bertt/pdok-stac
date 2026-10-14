@@ -7,7 +7,8 @@
   "id": "kadaster-brk-publiekrechtelijke-beperkingen-wkpb-ogc-v1",
   "title": "Publiekrechtelijke Beperkingen Wkpb (OGC API)",
   "description": "Wet kenbaarheid publiekrechtelijke beperkingen onroerende zaken betreft door overheid opgelegde beperkingen op een stuk grond of een gebouw. Lees meer over WKPB en bekijk de WKPB vector tiles in de Vectortile Viewer.",
-  "license": "other",
+  "license": "CC-BY-4.0",
+  "updated": "2026-10-13T10:53:44Z",
   "keywords": [
     "PDOK",
     "wkpb",
@@ -131,13 +132,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../kadaster/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/kadaster-brk-publiekrechtelijke-beperkingen-wkpb-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/kadaster/brk-publiekrechtelijke-beperkingen-wkpb/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

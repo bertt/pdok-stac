@@ -1,0 +1,30 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "kamer-van-koophandel",
+  "title": "Kamer van Koophandel",
+  "description": "PDOK APIs and datasets of Kamer van Koophandel.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kvk-overheidsdiensten-geharmoniseerd-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Overheidsdiensten (INSPIRE geharmoniseerd) (OGC API)"
+    }
+  ]
+}

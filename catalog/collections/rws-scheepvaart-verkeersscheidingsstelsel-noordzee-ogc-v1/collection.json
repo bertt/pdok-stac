@@ -7,7 +7,8 @@
   "id": "rws-scheepvaart-verkeersscheidingsstelsel-noordzee-ogc-v1",
   "title": "Scheepvaart Verkeersscheidingsstelsel Noordzee (Nederlands Continentaal Plat) (OGC API)",
   "description": "Het Scheepvaart Verkeersscheidingsstelsel Noordzee bevat kilometerpunten op de as van de vaargeulen op het Nederlands Continentaal Plat, Ankergebieden, vaargeulen, begrenzing en zonering. Deze dataset is aangemerkt als As-Is bron voor EU-doelen.",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2024-12-17T13:42:52Z",
   "keywords": [
     "PDOK",
     "Vervoersnetwerken",
@@ -162,13 +163,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijkswaterstaat/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rws-scheepvaart-verkeersscheidingsstelsel-noordzee-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rws/scheepvaart-verkeersscheidingsstelsel-noordzee/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

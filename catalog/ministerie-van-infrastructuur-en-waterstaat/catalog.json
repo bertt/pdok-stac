@@ -1,0 +1,48 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "ministerie-van-infrastructuur-en-waterstaat",
+  "title": "Ministerie van Infrastructuur en Waterstaat",
+  "description": "PDOK APIs and datasets of Ministerie van Infrastructuur en Waterstaat.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/ienw-agglomeraties-omgevingslawaai-geharmoniseerd-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Agglomeraties gemeenten inclusief bevolkingsaantallen volgens Richtlijn Omgevingslawaai 2022 (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/ienw-hoofd-luchtvervoersnetwerk-omgevingslawaai-geharmoniseerd-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Hoofdluchtvervoersnetwerk volgens Richtlijn Omgevingslawaai 2022 (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/ienw-hoofdspoorwegen-omgevingslawaai-geharmoniseerd-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Hoofdspoorwegen volgens Richtlijn Omgevingslawaai 2022 (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/ienw-hoofdwegen-omgevingslawaai-geharmoniseerd-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Hoofdwegen volgens Richtlijn Omgevingslawaai 2022 (OGC API)"
+    }
+  ]
+}

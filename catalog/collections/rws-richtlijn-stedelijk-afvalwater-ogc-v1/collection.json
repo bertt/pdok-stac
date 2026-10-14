@@ -7,7 +7,8 @@
   "id": "rws-richtlijn-stedelijk-afvalwater-ogc-v1",
   "title": "Richtlijn Stedelijk Afvalwater (RSA) (OGC API)",
   "description": "Deze Richtlijn Stedelijk Afvalwater API bevat de meest actuele versie van agglomeraties, rioolwaterzuiveringsinstallaties (RWZI's), lozingspunten en kwetsbare gebieden zoals gerapporteerd naar de Europese Commissie tbv EU rapportage",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2024-11-22T13:12:57Z",
   "keywords": [
     "PDOK",
     "Richtlijn Stedelijk Afvalwater",
@@ -154,13 +155,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijkswaterstaat/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rws-richtlijn-stedelijk-afvalwater-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rws/richtlijn-stedelijk-afvalwater/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

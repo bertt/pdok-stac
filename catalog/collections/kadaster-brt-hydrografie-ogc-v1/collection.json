@@ -8,6 +8,7 @@
   "title": "Hydrografie (INSPIRE geharmoniseerd) (OGC API)",
   "description": "INSPIRE Hydrografie zoals bedoeld in de beschrijving van de zee, meren, rivieren en andere wateren, met hun verschijningsvormen.",
   "license": "other",
+  "updated": "2026-07-06T08:38:54Z",
   "keywords": [
     "PDOK",
     "Hydrografie",
@@ -258,13 +259,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../kadaster/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/kadaster-brt-hydrografie-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/kadaster/brt-hydrografie/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

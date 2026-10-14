@@ -7,7 +7,8 @@
   "id": "cbs-bevolkingskernen-2011-ogc-v1",
   "title": "CBS Bevolkingskernen 2011 (OGC API)",
   "description": "Het bestand bevolkingskernen 2011 bevat statistische kerncijfers per bevolkingskern. De afbakening van bevolkingskernen is voortgekomen uit een vraag naar cijfers op het niveau van bevolkingskernen in het Volkstellingprogramma 2001 van Eurostat. Het begrip bevolkingskern sluit aan bij het begrip ''locality'' dat de Verenigde Naties bezigen in hun aanbevelingen voor het houden van een Volkstelling. In deze omschrijving van het begrip en de toepassing ervan in de praktijk staat de aanwezigheid van een door mensen bewoond gebied centraal dat daarnaast aan een aantal voorwaarden in termen van de bebouwing moet voldoen. Lees voor meer informatie: https://www.cbs.nl/-/media/imported/documents/2014/09/2014-bevolkingskernen-in-nederland-2011-pub.pdf",
-  "license": "other",
+  "license": "CC-BY-4.0",
+  "updated": "2025-11-14T14:08:27Z",
   "keywords": [
     "PDOK",
     "bevolkingskern",
@@ -21,7 +22,7 @@
   ],
   "providers": [
     {
-      "name": "CBS",
+      "name": "Centraal Bureau voor de Statistiek",
       "roles": [
         "producer"
       ]
@@ -128,13 +129,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../centraal-bureau-voor-de-statistiek/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/cbs-bevolkingskernen-2011-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/cbs/bevolkingskernen-2011/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

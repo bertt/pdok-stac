@@ -7,7 +7,8 @@
   "id": "cbs-bestand-bodemgebruik-2017-ogc-v1",
   "title": "CBS Bestand Bodemgebruik 2017 (OGC API)",
   "description": "Het Bestand Bodemgebruik 2017 bevat digitale geometrie van het bodemgebruik in Nederland. Voorbeelden van het bodemgebruik zijn verkeersterreinen, bebouwing, recreatieterreinen en binnen- en buitenwater. De begrenzingen zijn voor een groot deel gebaseerd op de Top10NL (BRT). Bij het interpreteren zijn luchtfoto's leidend. De gegevens zijn ingewonnen in de zomer van 2017.",
-  "license": "other",
+  "license": "CC-BY-4.0",
+  "updated": "2025-11-12T07:57:24Z",
   "keywords": [
     "PDOK",
     "Landgebruik",
@@ -32,7 +33,7 @@
   ],
   "providers": [
     {
-      "name": "CBS",
+      "name": "Centraal Bureau voor de Statistiek",
       "roles": [
         "producer"
       ]
@@ -139,13 +140,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../centraal-bureau-voor-de-statistiek/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/cbs-bestand-bodemgebruik-2017-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/cbs/bestand-bodemgebruik-2017/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

@@ -12,7 +12,7 @@
   ],
   "providers": [
     {
-      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)",
+      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
       "roles": [
         "producer"
       ]
@@ -63,7 +63,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/REGISII.jpg/148fc5c6-d51d-2fb7-50bd-f37410d48c5c?t=1791962087093",
+      "href": "https://www.pdok.nl/documents/1901824/0/REGISII.jpg/148fc5c6-d51d-2fb7-50bd-f37410d48c5c?t=1791963977300",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -79,13 +79,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../ministerie-van-binnenlandse-zaken-en-koninkrijksrelaties/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/bro-regis-ii-hgm/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

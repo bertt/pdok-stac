@@ -12,7 +12,7 @@
   ],
   "providers": [
     {
-      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)",
+      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
       "roles": [
         "producer"
       ]
@@ -63,7 +63,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Grondwatermonitoringnet.png/59659e32-8369-8100-b3f8-fc0ea6c1a32c?t=1791962087091",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Grondwatermonitoringnet.png/59659e32-8369-8100-b3f8-fc0ea6c1a32c?t=1791963977299",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -79,13 +79,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../ministerie-van-binnenlandse-zaken-en-koninkrijksrelaties/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/bro-grondwatermonitoringnet-gmn/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

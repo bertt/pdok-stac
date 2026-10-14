@@ -7,7 +7,8 @@
   "id": "rvo-habitatrichtlijn-verspreiding-soorten-ogc-v1",
   "title": "Habitatrichtlijn verspreiding van soorten (OGC API)",
   "description": "Kaart met de verspreiding van soorten voor de Artikel 17 rapportage Habitatrichtlijn voor periode 2007 - 2012",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2024-11-20T12:54:00Z",
   "keywords": [
     "PDOK",
     "Spreiding van soorten",
@@ -18,7 +19,7 @@
   ],
   "providers": [
     {
-      "name": "RVO",
+      "name": "Rijksdienst voor Ondernemend Nederland",
       "roles": [
         "producer"
       ]
@@ -125,13 +126,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijksdienst-voor-ondernemend-nederland/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rvo-habitatrichtlijn-verspreiding-soorten-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rvo/habitatrichtlijn-verspreiding-soorten/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

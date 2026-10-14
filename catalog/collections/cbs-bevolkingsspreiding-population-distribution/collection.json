@@ -14,7 +14,7 @@
   ],
   "providers": [
     {
-      "name": "Centraal Bureau voor de Statistiek (CBS)",
+      "name": "Centraal Bureau voor de Statistiek",
       "roles": [
         "producer"
       ]
@@ -81,7 +81,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Population%20Distribution.png/dea5bc09-778f-4cf7-5f57-64297355c634?t=1791962087094",
+      "href": "https://www.pdok.nl/documents/1901824/0/Population%20Distribution.png/dea5bc09-778f-4cf7-5f57-64297355c634?t=1791963977302",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -97,13 +97,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../centraal-bureau-voor-de-statistiek/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/cbs-bevolkingsspreiding-population-distribution/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

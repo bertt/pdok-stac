@@ -7,7 +7,8 @@
   "id": "kadaster-bgt-ogc-v1",
   "title": "Basisregistratie Grootschalige Topografie (OGC API)",
   "description": "De Basisregistratie Grootschalige Topografie (BGT) is de gedetailleerde grootschalige basiskaart (digitaal) van Nederland, waarin de ligging van alle fysieke objecten zoals gebouwen, wegen, water, spoorlijnen en (landbouw)terreinen is geregistreerd. Lees meer over de BGT en bekijk de BGT vector tiles in de Vectortile Viewer.",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2026-10-13T01:38:47Z",
   "keywords": [
     "PDOK",
     "bgt",
@@ -505,13 +506,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../kadaster/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/kadaster-bgt-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

@@ -1,0 +1,152 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "kadaster-adressen-geharmoniseerd-ogc-v1",
+  "title": "Adressen (INSPIRE geharmoniseerd) (OGC API)",
+  "description": "INSPIRE Adressen themalaag, gevuld met relevante objecten uit de Basisregistratie Adressen en Gebouwen (BAG), beheerd door het Kadaster.",
+  "license": "CC0-1.0",
+  "updated": "2026-09-02T11:45:47Z",
+  "keywords": [
+    "PDOK",
+    "Adressen",
+    "Nationaal",
+    "HVD",
+    "Geospatiale data",
+    "Addresses",
+    "Inspire",
+    "BAG",
+    "Basisregistratie",
+    "Vector Tiles"
+  ],
+  "providers": [
+    {
+      "name": "Kadaster",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.657292,
+          48.040502,
+          12.431727,
+          56.11059
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/kadaster/adressen-geharmoniseerd/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/kadaster/adressen-geharmoniseerd/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/kadaster/adressen-geharmoniseerd/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/kadaster/adressen-geharmoniseerd/ogc/v1/resources/BAG Adressen.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-address": {
+      "href": "https://api.pdok.nl/kadaster/adressen-geharmoniseerd/ogc/v1/collections/address/items?f=json",
+      "type": "application/geo+json",
+      "title": "Addresses (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../kadaster/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/kadaster-adressen-geharmoniseerd-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/kadaster/adressen-geharmoniseerd/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/kadaster/adressen-geharmoniseerd/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "CC0 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./address/address.json",
+      "type": "application/geo+json",
+      "title": "address"
+    }
+  ]
+}

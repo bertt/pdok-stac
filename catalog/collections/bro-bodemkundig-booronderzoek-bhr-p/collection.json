@@ -14,7 +14,7 @@
   ],
   "providers": [
     {
-      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)",
+      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
       "roles": [
         "producer"
       ]
@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Bodemkundig%20Booronderzoek.png/cd9f6e76-e140-dd00-6da6-f6f724bb89dd?t=1791962087089",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Bodemkundig%20Booronderzoek.png/cd9f6e76-e140-dd00-6da6-f6f724bb89dd?t=1791963977296",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -89,13 +89,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../ministerie-van-binnenlandse-zaken-en-koninkrijksrelaties/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/bro-bodemkundig-booronderzoek-bhr-p/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

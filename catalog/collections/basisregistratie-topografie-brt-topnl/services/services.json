@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of Basisregistratie Topografie (BRT) TOPNL",
-    "datetime": "2026-10-14T07:15:05Z"
+    "datetime": "2026-10-14T07:46:36Z"
   },
   "links": [
     {
@@ -130,7 +130,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/TOPnl.png/6f669010-68a5-cc1b-6c9b-6cd171765768?t=1791962087088",
+      "href": "https://www.pdok.nl/documents/1901824/0/TOPnl.png/6f669010-68a5-cc1b-6c9b-6cd171765768?t=1791963977295",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

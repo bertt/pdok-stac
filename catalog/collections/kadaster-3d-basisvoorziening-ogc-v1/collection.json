@@ -5,7 +5,8 @@
   "id": "kadaster-3d-basisvoorziening-ogc-v1",
   "title": "3D Basisvoorziening (OGC API)",
   "description": "De 3D Basisvoorziening is een verzameling van ruimtelijke bestanden die hoogte informatie bevatten. Deze bestanden (collecties) worden op verschillende manieren gegenereerd. Er zijn acht collecties beschikbaar. De 3D Basisvoorziening kan gebruikt worden op schaalniveaus tussen 1:500 en 1:10.000. De bestanden zijn o.a. gebaseerd op topografie uit de Basisregistratie Grootschalige Topografie (BGT), de gebouwen uit de Basisregistratie Adressen en Gebouwen (BAG), en hoogtes uit luchtfotobeelden en het Actueel Hoogtebestand Nederland (AHN). Meer informatie over deze dataset en overige producten zoals het downloaden van deze dataset voor analysedoeleinden of een 3D Viewer zijn te vinden op de website van PDOK en in de productbeschrijving.",
-  "license": "other",
+  "license": "CC-BY-4.0",
+  "updated": "2026-09-23T12:44:55Z",
   "keywords": [
     "PDOK",
     "3D Basisbestand",
@@ -135,13 +136,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../kadaster/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/kadaster-3d-basisvoorziening-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/kadaster/3d-basisvoorziening/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

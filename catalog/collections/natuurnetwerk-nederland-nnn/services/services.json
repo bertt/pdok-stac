@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of Natuurnetwerk Nederland (NNN) - Provincies (INSPIRE geharmoniseerd)",
-    "datetime": "2026-10-14T07:15:05Z"
+    "datetime": "2026-10-14T07:46:36Z"
   },
   "links": [
     {
@@ -90,7 +90,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Natuurnetwerk%20Nederland.jpg/8a1f6d66-68c8-be61-230b-aa863cd82a3e?t=1791962087104",
+      "href": "https://www.pdok.nl/documents/1901824/0/Natuurnetwerk%20Nederland.jpg/8a1f6d66-68c8-be61-230b-aa863cd82a3e?t=1791963977312",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

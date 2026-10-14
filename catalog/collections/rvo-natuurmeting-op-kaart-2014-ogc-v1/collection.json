@@ -8,13 +8,14 @@
   "title": "Natuurmeting op Kaart 2014 (OGC API)",
   "description": "De Natuurmeting Op Kaart 2014 (NOK2014) geeft een landelijk beeld van de realisatie van de Ecologische Hoofdstructuur (EHS), Recreatie om de Stad (RodS) en Robuuste Ecologische VerbindingsZones (REVZ) op 1 januari 2014. De NOK2014 bevat informatie over: 1) De begrenzing van de planologische EHS, 2) Begrenzingen van rijksdoelen, 3) De status van de verwerving en inrichting van deze rijksdoelen 4) Beheer.",
   "license": "other",
+  "updated": "2024-11-20T14:58:00Z",
   "keywords": [
     "PDOK",
     "Natuur"
   ],
   "providers": [
     {
-      "name": "RVO",
+      "name": "Rijksdienst voor Ondernemend Nederland",
       "roles": [
         "producer"
       ]
@@ -145,13 +146,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijksdienst-voor-ondernemend-nederland/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rvo-natuurmeting-op-kaart-2014-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rvo/natuurmeting-op-kaart-2014/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

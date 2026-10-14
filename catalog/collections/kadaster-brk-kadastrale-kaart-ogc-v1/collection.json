@@ -7,7 +7,8 @@
   "id": "kadaster-brk-kadastrale-kaart-ogc-v1",
   "title": "Kadastrale Kaart (OGC API)",
   "description": "Overzicht van de ligging van de kadastrale percelen in Nederland. Fungeert als schakel tussen terrein en registratie, vervult voor externe gebruiker vaak een referentiefunctie, een ondergrond ten opzichte waarvan de gebruiker eigen informatie kan vastleggen en presenteren. Een kadastrale kaart geeft slechts een indicatie van de ligging van de kadastrale grenzen. Er kunnen geen maten aan worden ontleend.",
-  "license": "other",
+  "license": "CC-BY-4.0",
+  "updated": "2026-10-14T00:19:02Z",
   "keywords": [
     "PDOK",
     "Kadaster",
@@ -181,13 +182,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../kadaster/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/kadaster-brk-kadastrale-kaart-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/kadaster/brk-kadastrale-kaart/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

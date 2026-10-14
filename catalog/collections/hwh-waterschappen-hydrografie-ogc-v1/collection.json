@@ -7,7 +7,8 @@
   "id": "hwh-waterschappen-hydrografie-ogc-v1",
   "title": "Waterschappen Hydrografie (INSPIRE geharmoniseerd) (OGC API)",
   "description": "Deze dataset is gebaseerd op (geharmoniseerde) data van alle waterschappen in Nederland conform INSPIRE. De dataset bevat de volgende INSPIRE objecten: CrossingLine, CrossingPoint, DamOrWeir, DrainageBasin, Embankment, Lock, Sluice, Watercourse.",
-  "license": "other",
+  "license": "CC-BY-NC-ND-4.0",
+  "updated": "2026-10-08T00:00:00Z",
   "keywords": [
     "PDOK",
     "Aquaduct",
@@ -187,13 +188,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../het-waterschapshuis/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/hwh-waterschappen-hydrografie-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/hwh/waterschappen-hydrografie/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

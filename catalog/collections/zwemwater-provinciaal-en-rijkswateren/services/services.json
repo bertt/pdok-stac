@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of Zwemwater (Provinciaal en Rijkswateren) uit Zwemwaterregister (INSPIRE geharmoniseerd)",
-    "datetime": "2026-10-14T07:15:05Z"
+    "datetime": "2026-10-14T07:46:36Z"
   },
   "links": [
     {
@@ -90,7 +90,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Zwemwater.png/a2a51efa-2cef-41e9-a466-4379e67f8015?t=1791962087113",
+      "href": "https://www.pdok.nl/documents/1901824/0/Zwemwater.png/a2a51efa-2cef-41e9-a466-4379e67f8015?t=1791963977322",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

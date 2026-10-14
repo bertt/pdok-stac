@@ -1,0 +1,36 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "rijksdienst-voor-het-cultureel-erfgoed",
+  "title": "Rijksdienst voor het Cultureel Erfgoed",
+  "description": "PDOK APIs and datasets of Rijksdienst voor het Cultureel Erfgoed.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rce-beschermde-gebieden-cultuurhistorie-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Beschermde Gebieden - Cultuurhistorie (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/beschermde-gebieden-cultuurhistorie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Beschermde Gebieden - Cultuurhistorie (INSPIRE geharmoniseerd)"
+    }
+  ]
+}

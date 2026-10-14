@@ -7,7 +7,8 @@
   "id": "rvo-invasieve-exoten-geharmoniseerd-ogc-v2",
   "title": "Invasieve Exoten (INSPIRE geharmoniseerd) (OGC API)",
   "description": "Invasieve exoten in Nederland conform de aanlevering aan Europa",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2025-12-17T10:03:36Z",
   "keywords": [
     "PDOK",
     "Nationaal",
@@ -18,7 +19,7 @@
   ],
   "providers": [
     {
-      "name": "RVO",
+      "name": "Rijksdienst voor Ondernemend Nederland",
       "roles": [
         "producer"
       ]
@@ -125,13 +126,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijksdienst-voor-ondernemend-nederland/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rvo-invasieve-exoten-geharmoniseerd-ogc-v2/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rvo/invasieve-exoten-geharmoniseerd/ogc/v2?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

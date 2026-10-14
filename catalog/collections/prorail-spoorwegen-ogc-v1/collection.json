@@ -7,7 +7,8 @@
   "id": "prorail-spoorwegen-ogc-v1",
   "title": "Spoorwegen (OGC API)",
   "description": "Deze service bevat de spoorverbindingen, inclusief kilometreringspunten, stations en overwegen.",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2026-07-15T08:03:09Z",
   "keywords": [
     "PDOK",
     "spoorwegen",
@@ -184,13 +185,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../prorail/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/prorail-spoorwegen-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/prorail/spoorwegen/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

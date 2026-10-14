@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of Grondwaterbeschermingsgebieden (INSPIRE geharmoniseerd)",
-    "datetime": "2026-10-14T07:15:05Z"
+    "datetime": "2026-10-14T07:46:36Z"
   },
   "links": [
     {
@@ -90,7 +90,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Grondwaterbeschermingsgebieden.png/818320eb-aa3e-c779-9da0-92bb46f8f7ff?t=1791962087098",
+      "href": "https://www.pdok.nl/documents/1901824/0/Grondwaterbeschermingsgebieden.png/818320eb-aa3e-c779-9da0-92bb46f8f7ff?t=1791963977306",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

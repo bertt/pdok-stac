@@ -7,7 +7,8 @@
   "id": "rws-vaarweg-netwerk-data-service-bevaarbaarheid-ogc-v1",
   "title": "Vaarweg Netwerk Data Service - bevaarbaarheid (OGC API)",
   "description": "Deze OGC API Features service bevat alleen de bevaarbaarheid van de vaarwegen uit de Vaarweg Netwerk Data Service (FIS-VNDS)",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2026-10-05T00:00:00Z",
   "keywords": [
     "PDOK",
     "Vervoersnetwerk",
@@ -129,13 +130,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijkswaterstaat/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rws-vaarweg-netwerk-data-service-bevaarbaarheid-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rws/vaarweg-netwerk-data-service-bevaarbaarheid/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

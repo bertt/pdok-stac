@@ -1,0 +1,36 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "stichting-wandelnet",
+  "title": "Stichting Wandelnet",
+  "description": "PDOK APIs and datasets of Stichting Wandelnet.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/lange-afstandswandelroutes-law/collection.json",
+      "type": "application/json",
+      "title": "Landelijke wandelroutes"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/regionale-wandelnetwerken/collection.json",
+      "type": "application/json",
+      "title": "Regionale wandelnetwerken"
+    }
+  ]
+}

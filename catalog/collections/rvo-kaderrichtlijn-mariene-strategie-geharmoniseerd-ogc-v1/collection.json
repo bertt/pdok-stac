@@ -7,7 +7,8 @@
   "id": "rvo-kaderrichtlijn-mariene-strategie-geharmoniseerd-ogc-v1",
   "title": "Kaderrichtlijn Mariene Strategie (INSPIRE geharmoniseerd) (OGC API)",
   "description": "Deze datasetserie bevat voor Nederland de toepassingsgebieden voor de KRM en het monitoringsprogramma Mariene strategie deel II. Voor deze gebieden voert Nederland in het kader van de artikel 8, 9 en 10 van de KRM assessments uit.",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2026-04-22T11:15:04Z",
   "keywords": [
     "PDOK",
     "Gebiedsbeheer",
@@ -28,7 +29,7 @@
   ],
   "providers": [
     {
-      "name": "RVO",
+      "name": "Rijksdienst voor Ondernemend Nederland",
       "roles": [
         "producer"
       ]
@@ -135,13 +136,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijksdienst-voor-ondernemend-nederland/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rvo-kaderrichtlijn-mariene-strategie-geharmoniseerd-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rvo/kaderrichtlijn-mariene-strategie-geharmoniseerd/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

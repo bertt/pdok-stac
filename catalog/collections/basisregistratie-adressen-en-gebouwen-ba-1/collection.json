@@ -81,7 +81,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Adressen%20en%20Gebouwen.png/f84c4d23-c8a6-c06b-c368-fd7ae83b927f?t=1791962087087",
+      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Adressen%20en%20Gebouwen.png/f84c4d23-c8a6-c06b-c368-fd7ae83b927f?t=1791963977294",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -97,13 +97,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../kadaster/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/basisregistratie-adressen-en-gebouwen-ba-1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

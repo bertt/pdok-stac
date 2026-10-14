@@ -7,7 +7,8 @@
   "id": "cbs-population-distribution-ogc-v1",
   "title": "Population Distribution (INSPIRE geharmoniseerd) (OGC API)",
   "description": "This dataset contains data with total population of the Netherlands referenced to statistical units according to the INSPIRE datamodel for Population Distribution version 3.0.",
-  "license": "other",
+  "license": "CC-BY-4.0",
+  "updated": "2025-07-18T13:19:23Z",
   "keywords": [
     "PDOK",
     "CBS",
@@ -24,7 +25,7 @@
   ],
   "providers": [
     {
-      "name": "CBS",
+      "name": "Centraal Bureau voor de Statistiek",
       "roles": [
         "producer"
       ]
@@ -147,13 +148,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../centraal-bureau-voor-de-statistiek/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/cbs-population-distribution-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/cbs/population-distribution/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

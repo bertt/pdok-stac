@@ -65,7 +65,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Regionale%20wandelnetwerken.png/7b9bb6b6-039c-506e-3e31-6b9f8bfd61a3?t=1791962087107",
+      "href": "https://www.pdok.nl/documents/1901824/0/Regionale%20wandelnetwerken.png/7b9bb6b6-039c-506e-3e31-6b9f8bfd61a3?t=1791963977315",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -81,13 +81,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../stichting-wandelnet/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/regionale-wandelnetwerken/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

@@ -7,7 +7,8 @@
   "id": "cbs-statistical-units-vector-ogc-v1",
   "title": "Statistical Units Vector (INSPIRE geharmoniseerd) (OGC API)",
   "description": "This dataset contains the statistical Units of the Netherlands according to the INSPIRE datamodel for Statistical Units version 4.0. It contains the following SU-types: buurt, wijk, gemeente, provincie, landsdeel, nuts1, nuts2, nuts3, coropgebied and ggdregio.",
-  "license": "other",
+  "license": "CC-BY-4.0",
+  "updated": "2025-08-05T07:31:49Z",
   "keywords": [
     "PDOK",
     "Statistische eenheden",
@@ -22,7 +23,7 @@
   ],
   "providers": [
     {
-      "name": "CBS",
+      "name": "Centraal Bureau voor de Statistiek",
       "roles": [
         "producer"
       ]
@@ -129,13 +130,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../centraal-bureau-voor-de-statistiek/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/cbs-statistical-units-vector-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/cbs/statistical-units-vector/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

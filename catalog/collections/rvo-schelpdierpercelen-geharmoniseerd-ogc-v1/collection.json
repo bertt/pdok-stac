@@ -7,7 +7,8 @@
   "id": "rvo-schelpdierpercelen-geharmoniseerd-ogc-v1",
   "title": "Schelpdierpercelen (INSPIRE geharmoniseerd) (OGC API)",
   "description": "Percelen, in rijkseigendom, in de Kustwateren en het Grevelingenmeer, waar de huurder mosselen dan wel oesters mag kweken en oogsten.",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2024-11-20T15:26:00Z",
   "keywords": [
     "PDOK",
     "faciliteiten voor landbouw en aquacultuur",
@@ -16,7 +17,7 @@
   ],
   "providers": [
     {
-      "name": "RVO",
+      "name": "Rijksdienst voor Ondernemend Nederland",
       "roles": [
         "producer"
       ]
@@ -123,13 +124,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijksdienst-voor-ondernemend-nederland/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rvo-schelpdierpercelen-geharmoniseerd-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rvo/schelpdierpercelen-geharmoniseerd/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

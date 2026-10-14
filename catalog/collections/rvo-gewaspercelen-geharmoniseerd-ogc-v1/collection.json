@@ -8,6 +8,7 @@
   "title": "Gewaspercelen (INSPIRE geharmoniseerd) (OGC API)",
   "description": "De Gewaspercelen bestaan uit de locatie van landbouwpercelen in Nederland met daaraan gekoppeld het geteelde gewas. Het bestand is een selectie van informatie uit de Basisregistratie Percelen (BRP) van Rijksdienst voor Ondernemend Nederland. De omgrenzingen van de landbouwpercelen zijn gebaseerd op de begrenzingen uit het RVO Referentieregister, het voormalig AAN-bestand (Agrarische Areaal Nederland). De gebruiker van het perceel dient jaarlijks zijn gewaspercelen in te tekenen en aan te geven welk gewas wordt geteeld op het betreffende perceel. Van elk jaar wordt een dataset gegenereerd van peildatum 15 mei. Van de meest recente gewaspercelen is zijn viewservices en een downloadservice beschikbaar. Van de jaargangen 2009 t/m 2022 zijn alleen atom-downloadservices beschikbaar.",
   "license": "other",
+  "updated": "2026-04-01T13:22:57Z",
   "keywords": [
     "PDOK",
     "Nationaal",
@@ -19,7 +20,7 @@
   ],
   "providers": [
     {
-      "name": "RVO",
+      "name": "Rijksdienst voor Ondernemend Nederland",
       "roles": [
         "producer"
       ]
@@ -126,13 +127,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijksdienst-voor-ondernemend-nederland/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rvo-gewaspercelen-geharmoniseerd-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rvo/gewaspercelen-geharmoniseerd/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

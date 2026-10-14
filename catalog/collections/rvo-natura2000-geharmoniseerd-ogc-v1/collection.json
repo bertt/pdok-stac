@@ -8,6 +8,7 @@
   "title": "Natura 2000 (INSPIRE geharmoniseerd) (OGC API)",
   "description": "Natura 2000 is het samenhangend netwerk van beschermde natuurgebieden in de Europese Unie bestaande uit Vogelrichtlijn- en Habitatrichtlijngebieden. Natura 2000-gebieden zijn een samenvoeging van beide. Bij de overgang naar de Wet natuurbescherming in 2017 zijn de gebieden die waren aangewezen als beschermd natuurmonument op grond van de Natuurbeschermingswet 1998 van rechtswege vervallen. Van de Natura 2000-gebieden die overlappen met beschermde natuurmonumenten zijn de doelen van de beschermde natuurmonumenten daarmee vervallen. In totaal gaat het om 162 Natura 2000-gebieden waarvan vier mariene gebieden in de Exclusieve Economische Zone (EEZ) op de Noordzee. De vigerende Vogelrichtlijngebieden zijn aangewezen in de periode 1995-2016. De Habitatrichtlijngebieden worden aangewezen met de aanwijzing van de betreffende Natura 2000-gebieden. Op 19 juni 2024 is een wijziging in de begrenzing van Rijntakken van kracht geworden. Grenswijzigingen zijn bijgewerkt tot de datum van uitgifte van dit bestand. In gebieden waar nog geen definitief Natura 2000-aanwijzingsbesluit van kracht is, is de grens van het ontwerpbesluit gehanteerd. Als er nog geen ontwerpbesluit is gepubliceerd, is de grens volgens de Europese 'Communautaire Lijst' gehanteerd. En als die lijst nog niet is geactualiseerd, is de aanmelding voor die lijst gehanteerd. Zie daarvoor de informatie in het attribuut STATUS. De begrenzingen zijn bovengronds en in het water van toepassing, met uitzondering van gebiedsdelen met code 'HR groeve' in het attribuut BESCHERMIN (hier maken alleen de ondergrondse kalksteengroeven deel uit van het Habitatrichtlijngebied).",
   "license": "other",
+  "updated": "2026-01-28T07:56:35Z",
   "keywords": [
     "PDOK",
     "Grenzen",
@@ -18,7 +19,7 @@
   ],
   "providers": [
     {
-      "name": "RVO",
+      "name": "Rijksdienst voor Ondernemend Nederland",
       "roles": [
         "producer"
       ]
@@ -125,13 +126,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijksdienst-voor-ondernemend-nederland/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rvo-natura2000-geharmoniseerd-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rvo/natura2000-geharmoniseerd/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

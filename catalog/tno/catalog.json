@@ -1,0 +1,30 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "tno",
+  "title": "TNO",
+  "description": "PDOK APIs and datasets of TNO.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/tno-bro-grondwatermonitoring-in-samenhang-karakteristieken-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "BRO - Grondwatermonitoring (GM) in samenhang - karakteristieken (OGC API)"
+    }
+  ]
+}

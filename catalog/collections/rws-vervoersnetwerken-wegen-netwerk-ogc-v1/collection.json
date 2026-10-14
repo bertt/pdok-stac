@@ -7,7 +7,8 @@
   "id": "rws-vervoersnetwerken-wegen-netwerk-ogc-v1",
   "title": "Vervoersnetwerken - Wegen - Netwerk (INSPIRE geharmoniseerd) (OGC API)",
   "description": "De OGC API Features service Vervoersnetwerken - Wegen - Netwerk bevat het transportnetwerk en fysieke objecten die verbonden zijn aan transport over wegen.",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2026-04-16T18:46:05Z",
   "keywords": [
     "PDOK",
     "Vervoersnetwerken",
@@ -159,13 +160,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijkswaterstaat/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rws-vervoersnetwerken-wegen-netwerk-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-wegen-netwerk/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

@@ -7,7 +7,8 @@
   "id": "tno-bro-grondwatermonitoring-in-samenhang-karakteristieken-ogc-v1",
   "title": "BRO - Grondwatermonitoring (GM) in samenhang - karakteristieken (OGC API)",
   "description": "Deze dataset bevat de gegevens van nederlandse grondwatermonitoring afkomstig uit de Basisregistratie Ondergrond (BRO). Het betreft de meest karakteristieke (ken)gegevens van grondwatermonitoringputten en de daarmee samenhangende kengegevens van de grondwatermonitoringnetten waarvoor die putten zijn gebruikt, plus de karakteristieken van in die putten gemeten grondwaterstands- en grondwatersamenstellingsgegevens. Grondwatermonitoring houdt in dat de toestand van het grondwater in een bepaald gebied, of eigenlijk in een bepaald deel van de ondergrond, over langere tijd gevolgd wordt. De grootte van het gebied en de diepte van monitoring verschillen per grondwatermonitoringnet. Er wordt daarbij gekeken naar de grondwaterstand (kwantiteit) en/of naar de samenstelling van het grondwater (kwaliteit). Hiervoor worden periodiek metingen uitgevoerd. Een beschrijving van deze dataset is opgenomen op de BRO Productomgeving.",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2026-10-13T00:00:00Z",
   "keywords": [
     "PDOK",
     "Basisregistratie Ondergrond",
@@ -178,13 +179,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../tno/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/tno-bro-grondwatermonitoring-in-samenhang-karakteristieken-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/tno/bro-grondwatermonitoring-in-samenhang-karakteristieken/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

@@ -1,0 +1,180 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "centraal-bureau-voor-de-statistiek",
+  "title": "Centraal Bureau voor de Statistiek",
+  "description": "PDOK APIs and datasets of Centraal Bureau voor de Statistiek.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-bestand-bodemgebruik-2010-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "CBS Bestand Bodemgebruik 2010 (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-bestand-bodemgebruik-2015-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "CBS Bestand Bodemgebruik 2015 (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-bestand-bodemgebruik-2017-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "CBS Bestand Bodemgebruik 2017 (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-bevolkingskernen-2011-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "CBS Bevolkingskernen 2011 (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-bevolkingskernen-2021-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "CBS Bevolkingskernen 2021 (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-landuse-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "CBS Existing Land Use (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-gebiedsindelingen-historisch-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "CBS Gebiedsindelingen 1995-2015 (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-gebiedsindelingen-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "CBS Gebiedsindelingen 2016 t/m heden (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-postcode4-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "CBS Postcode4 statistieken (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-postcode6-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "CBS Postcode6 statistieken (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-vierkantstatistieken100m-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "CBS Vierkantstatistieken 100m (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-vierkantstatistieken500m-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "CBS Vierkantstatistieken 500m (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-wijken-en-buurten-2022-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "CBS Wijken en Buurten 2022 (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-wijken-en-buurten-2023-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "CBS Wijken en Buurten 2023 (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-wijken-en-buurten-2024-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "CBS Wijken en Buurten 2024 (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-wijken-en-buurten-2025-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "CBS Wijken en Buurten 2025 (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-wijken-en-buurten-2026-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "CBS Wijken en Buurten 2026 versie 0 (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-wijken-en-buurten-historisch-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "CBS Wijken en Buurten historisch (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-human-health-statistics-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Human Health Statistics Netherlands (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-population-distribution-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Population Distribution (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-statistical-units-vector-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Statistical Units Vector (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-vierkant-1km-laea-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Vierkant 1 kilometer bij 1 kilometer Nederland LAEA (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-vierkant-500m-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Vierkant 500 meter bij 500 meter Nederland (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-bevolkingsspreiding-population-distribution/collection.json",
+      "type": "application/json",
+      "title": "Population Distribution (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-gezondheid-human-health-statistics-netherlands/collection.json",
+      "type": "application/json",
+      "title": "Human Health Statistics Netherlands (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/cbs-wijken-en-buurten/collection.json",
+      "type": "application/json",
+      "title": "CBS Wijken en Buurten"
+    }
+  ]
+}

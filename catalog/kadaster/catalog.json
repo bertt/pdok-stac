@@ -1,0 +1,336 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "kadaster",
+  "title": "Kadaster",
+  "description": "PDOK APIs and datasets of Kadaster.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-3d-basisvoorziening-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "3D Basisvoorziening (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-3d-geluid-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "3D Geluid (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-3d-basisvoorziening-terugmeldingen-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "3D Terugmeldingen (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-brk-administratieve-eenheden-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Administratieve Eenheden (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-adressen-geharmoniseerd-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Adressen (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-bag-terugmeldingen-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "BAG Terugmeldingen (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-bgt-terugmeldingen-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "BGT Terugmeldingen (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-brt-achtergrondkaart-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "BRT Achtergrondkaart (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-brt-top10nl-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "BRT TOP10NL (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-brt-terugmeldingen-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "BRT Terugmeldingen (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-bag-ogc-v2/collection.json",
+      "type": "application/json",
+      "title": "Basisregistratie Adressen en Gebouwen (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-bgt-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Basisregistratie Grootschalige Topografie (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-brk-bestuurlijke-gebieden-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Bestuurlijke Gebieden (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-brt-bodemgebruik-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Bodemgebruik - Land Cover (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-gebouwen-geharmoniseerd-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Gebouwen (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-brt-geografische-namen-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Geografische Namen (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-omgevingswet-geometrieen-ogc-v2/collection.json",
+      "type": "application/json",
+      "title": "Geometrieën Omgevingswet API (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-brt-hydrografie-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Hydrografie (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-brk-kadastrale-kaart-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Kadastrale Kaart (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-brk-kadastrale-percelen-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Kadastrale Percelen (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-brk-publiekrechtelijke-beperkingen-wkpb-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Publiekrechtelijke Beperkingen Wkpb (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-rdinfo-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "RD info (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-brt-vervoersnetwerken-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Vervoersnetwerken (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-brt-zeegebieden-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Zeegebieden (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/lv-bgt-download-v1-0-ui/collection.json",
+      "type": "application/json",
+      "title": "BGT Download API"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-kadastralekaart-download-v5-0-ui/collection.json",
+      "type": "application/json",
+      "title": "Kadastralekaart Download API"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/kadaster-location-api-v1/collection.json",
+      "type": "application/json",
+      "title": "PDOK Location API"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bzk-locatieserver-search-v3-1-ui/collection.json",
+      "type": "application/json",
+      "title": "PDOK Locatieserver"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/brt-top10nl-download-v1-0-ui/collection.json",
+      "type": "application/json",
+      "title": "TOP10NL Download API"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/brt-top50nl-download-v1-0-ui/collection.json",
+      "type": "application/json",
+      "title": "TOP50NL Download API"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/brt-top100nl-download-v1-0-ui/collection.json",
+      "type": "application/json",
+      "title": "TOP100NL Download API"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/brt-top250nl-download-v1-0-ui/collection.json",
+      "type": "application/json",
+      "title": "TOP250NL Download API"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/brt-top500nl-download-v1-0-ui/collection.json",
+      "type": "application/json",
+      "title": "TOP500NL Download API"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/brt-top1000nl-download-v1-0-ui/collection.json",
+      "type": "application/json",
+      "title": "TOP1000NL Download API"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/administratieve-eenheden-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Administratieve Eenheden (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/adress-1/collection.json",
+      "type": "application/json",
+      "title": "Adressen"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/adressen-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Adressen (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/basisregistratie-adressen-en-gebouwen-ba-1/collection.json",
+      "type": "application/json",
+      "title": "Basisregistratie Adressen en Gebouwen (BAG)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/basisregistratie-topografie-achtergrondkaarten-brt-a/collection.json",
+      "type": "application/json",
+      "title": "Basisregistratie Topografie (BRT) BRT Achtergrondkaart (BRT-A)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/basisregistratie-topografie-brt-topnl/collection.json",
+      "type": "application/json",
+      "title": "Basisregistratie Topografie (BRT) TOPNL"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bestuurlijke-gebieden/collection.json",
+      "type": "application/json",
+      "title": "Bestuurlijke Gebieden"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bestuurlijke-grenzen/collection.json",
+      "type": "application/json",
+      "title": "Bestuurlijke Grenzen"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bodemgebruik-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Bodemgebruik - Land Cover (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/dataset-basisregistratie-topografie-brt-topraster/collection.json",
+      "type": "application/json",
+      "title": "Basisregistratie Topografie (BRT) TOPraster"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/gebouwen-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Gebouwen (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/geografische-namen-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Geografische Namen (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/gepland-landgebruik-dso-lv-omgevingswet-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Gepland landgebruik DSO LV Omgevingswet (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/gepland-landgebruik-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Gepland Landgebruik (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/hydrografie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Hydrografie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/ruimtelijke-plannen/collection.json",
+      "type": "application/json",
+      "title": "Ruimtelijke plannen"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/vervoersnetwerken/collection.json",
+      "type": "application/json",
+      "title": "Vervoersnetwerken (INSPIRE geharmoniseerd) (Kadaster)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/zeegebieden/collection.json",
+      "type": "application/json",
+      "title": "Zeegebieden (INSPIRE geharmoniseerd)"
+    }
+  ]
+}

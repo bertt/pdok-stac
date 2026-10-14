@@ -1,0 +1,168 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "rijkswaterstaat",
+  "title": "Rijkswaterstaat",
+  "description": "PDOK APIs and datasets of Rijkswaterstaat.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-digitaal-topografisch-bestand-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Digitaal Topografisch Bestand (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-productie-en-industrie-productie-installaties-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Faciliteiten voor productie en industrie - Productie-installaties - REV (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-productie-en-industrie-productiefaciliteiten-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Faciliteiten voor productie en industrie - Productiefaciliteiten - REV (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-overstromingen-gebeurtenis-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Gebieden met Natuurrisico's - Overstromingen - Geobserveerde gebeurtenis - Richtlijn Overstromingsrisico's (ROR) (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-overstromingen-risicogebied-ogc-v2/collection.json",
+      "type": "application/json",
+      "title": "Gebieden met Natuurrisico's - Overstromingen - Risicogebied - Richtlijn Overstromingsrisico's (ROR) (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-overstromingen-gevarengebied-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Gebieden met natuurrisico's - Overstromingen - Gevarengebied - Richtlijn Overstromingsrisico's (ROR) (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-kwetsbaar-gebied-agglomeraties-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Gebiedsbeheer eenheden - Kwetsbaar gebied - Agglomeraties - RSA (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-kwetsbaar-gebied-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Gebiedsbeheer eenheden - Kwetsbaar gebied - RSA (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-hydrografie-netwerk-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Hydrografie: Netwerk (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-kaderrichtlijn-mariene-strategie-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Kaderrichtlijn Mariene Strategie Nederland (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-nationaal-wegenbestand-vaarwegen-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "NWB - Vaarwegen (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-nationaal-wegenbestand-wegen-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "NWB - Wegen (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-nationaal-hydrologisch-instrumentarium-netwerkschematisatie-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Nationaal Hydrologisch Instrumentarium (NHI) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-rioolnetwerk-leidingelementen-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Nuts- en Overheidsdiensten - Riool - Leidingelementen - RSA (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-rioolnetwerk-milieumanagementvoorziening-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Nuts- en Overheidsdiensten - Riool - Milieu management voorziening - RSA (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-richtlijn-stedelijk-afvalwater-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Richtlijn Stedelijk Afvalwater (RSA) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-scheepvaart-verkeersscheidingsstelsel-noordzee-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Scheepvaart Verkeersscheidingsstelsel Noordzee (Nederlands Continentaal Plat) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-vaarweg-netwerk-data-service-bevaarbaarheid-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Vaarweg Netwerk Data Service - bevaarbaarheid (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-vaarwegmarkeringen-nederland-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Vaarwegmarkeringen (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-vervoersnetwerken-waterwegen-netwerk-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Vervoersnetwerken - Waterwegen - Netwerk (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-vervoersnetwerken-wegen-netwerk-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Vervoersnetwerken - Wegen - Netwerk (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rws-weggegevens-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Weggegevens (WEGGEG) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/actueel-hoogtebestand-nederland-ahn/collection.json",
+      "type": "application/json",
+      "title": "Actueel Hoogtebestand Nederland (AHN)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/hoogte-nederland-land-dtm-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Hoogte Nederland - land - DTM (INSPIRE geharmoniseerd)"
+    }
+  ]
+}

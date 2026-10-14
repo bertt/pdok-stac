@@ -7,7 +7,8 @@
   "id": "hwh-waterschappen-oppervlaktewateren-imwa-ogc-v1",
   "title": "Waterschappen Oppervlaktewateren IMWA (OGC API)",
   "description": "Deze dataset bestaat uit de volgende lagen (niet alle lagen zijn op dit moment gevuld met data): Hydroobject/Oppervlaktewaterlichaam,  Oever, Ondersteunendwaterdeel, Profielverdediging, Waterdeel.De data is gestructureerd volgens het Informatiemodel Water (IMWA), onderdeel van de Aquo-standaard. Meer informatie hierover is te vinden op de Aquo-website.De gegevens worden in Geopackage-formaat geleverd in het RD-New coördinatenstelsel.De data zijn afkomstig van de individuele waterschappen, maar worden via PDOK als één landsdekkend bestand uitgeleverd. Individuele waterschappen bieden hun actuele gegevens hiervoor aan via het Gegevensknooppunt Waterschappen (GkW) van Het Waterschapshuis. Alle waterschappen zijn aangesloten op deze voorziening, maar nog niet elk waterschap levert de complete set gegevens aan.Voor informatie over de inhoud van de data kan contact worden opgenomen met het desbetreffende waterschap. Dit is te herkennen aan de waterschapscode die als kenmerk is opgenomen bij ieder object in de dataset. Voor algemene informatie over de dataset en de herkomst via het GkW kan contact worden opgenomen met Het Waterschapshuis via datastromen@hetwaterschapshuis.nl.",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2026-10-14T00:00:00Z",
   "keywords": [
     "PDOK",
     "Hydroobject",
@@ -158,13 +159,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../het-waterschapshuis/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/hwh-waterschappen-oppervlaktewateren-imwa-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/hwh/waterschappen-oppervlaktewateren-imwa/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

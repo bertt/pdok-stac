@@ -14,7 +14,7 @@
   ],
   "providers": [
     {
-      "name": "Rijksdienst voor het Cultureel Erfgoed (RCE)",
+      "name": "Rijksdienst voor het Cultureel Erfgoed",
       "roles": [
         "producer"
       ]
@@ -89,7 +89,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Beschermde%20Gebieden%20-%20Cultuurhistorie.png/5fe6ea44-62a9-9990-8eff-a0a8f28afb76?t=1791962087088",
+      "href": "https://www.pdok.nl/documents/1901824/0/Beschermde%20Gebieden%20-%20Cultuurhistorie.png/5fe6ea44-62a9-9990-8eff-a0a8f28afb76?t=1791963977295",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -105,13 +105,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijksdienst-voor-het-cultureel-erfgoed/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/beschermde-gebieden-cultuurhistorie-inspire-geharmoniseerd/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

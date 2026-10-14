@@ -7,7 +7,7 @@
   "id": "defensie-luchtvaartobstakels-terugmeldingen-ogc-v1",
   "title": "Terugmeldingen op luchtvaartobstakels (AERO) (OGC API)",
   "description": "Deze terugmeldingenservice bevat alle recente meldingen op aeronautische (luchtvaart) obstakels (AERO). Dit zijn obstakels voor de luchtvaart met een minimale hoogte van 15 meter/50 feet vanaf de grond, zoals gebouwen, windturbines en zendmasten. De service toont de locatie, inhoud en status van de meldingen en wordt real-time bijgewerkt. Ook een vermoedelijke fout geconstateerd? Doe een melding op https://www.verbeterdeluchtvaartkaart.nl",
-  "license": "other",
+  "license": "CC-BY-4.0",
   "keywords": [
     "PDOK",
     "terugmeldingen",
@@ -123,13 +123,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../defensie/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/defensie-luchtvaartobstakels-terugmeldingen-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/defensie/luchtvaartobstakels-terugmeldingen/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

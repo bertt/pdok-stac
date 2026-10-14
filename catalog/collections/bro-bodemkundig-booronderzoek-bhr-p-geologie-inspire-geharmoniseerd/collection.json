@@ -14,7 +14,7 @@
   ],
   "providers": [
     {
-      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)",
+      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
       "roles": [
         "producer"
       ]
@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Bodemkundig%20Booronderzoek%20%281%29.png/d3622f6d-37a1-7323-1235-51129bde6fba?t=1791962087089",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Bodemkundig%20Booronderzoek%20%281%29.png/d3622f6d-37a1-7323-1235-51129bde6fba?t=1791963977297",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -89,13 +89,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../ministerie-van-binnenlandse-zaken-en-koninkrijksrelaties/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/bro-bodemkundig-booronderzoek-bhr-p-geologie-inspire-geharmoniseerd/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

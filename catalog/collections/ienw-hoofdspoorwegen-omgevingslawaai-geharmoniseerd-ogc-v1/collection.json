@@ -8,6 +8,7 @@
   "title": "Hoofdspoorwegen volgens Richtlijn Omgevingslawaai 2022 (OGC API)",
   "description": "Het gaat om gegevens over de geluidbron 'Hoofd Spoorwegen'. Met deze data wordt invulling gegeven aan de eisen uit de Wet milieubeheer die voortvloeien uit de Europese richtlijn omgevingslawaai (2002/49/EG).  De dataset, gepubliceerd in 2023, is geharmoniseerd volgens de INSPIRE richtlijnen, met name de thema's Geluidbronnen, Vervoersnetwerken, Verkeersintensiteit en Omgevingslawaai, en bevat gedetailleerde informatie.  Het Ministerie van Infrastructuur en Waterstaat is de data-eigenaar en beheerder van deze dataset, en verantwoordelijk voor de beschikbaarheid en kwaliteit ervan.",
   "license": "other",
+  "updated": "2025-09-05T13:23:00Z",
   "keywords": [
     "PDOK",
     "Hoofdspoorwegen (Richtlijn Omgevingslawaai)",
@@ -133,13 +134,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../ministerie-van-infrastructuur-en-waterstaat/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/ienw-hoofdspoorwegen-omgevingslawaai-geharmoniseerd-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/ienw/hoofdspoorwegen-omgevingslawaai-geharmoniseerd/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

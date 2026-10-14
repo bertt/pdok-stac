@@ -8,6 +8,7 @@
   "title": "Overheidsdiensten (INSPIRE geharmoniseerd) (OGC API)",
   "description": "Het handelsregister is een door de overheid gehouden register, waarin rechtspersonen en ondernemingen vermeld staan met hun gegevens. Dit betreft een geharmoniseerde subset in het kader van INSPIRE annex III, thema Administratieve en sociale en overheidsdiensten",
   "license": "other",
+  "updated": "2025-12-19T11:28:29Z",
   "keywords": [
     "PDOK",
     "KVK"
@@ -129,13 +130,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../kamer-van-koophandel/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/kvk-overheidsdiensten-geharmoniseerd-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/kvk/overheidsdiensten-geharmoniseerd/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

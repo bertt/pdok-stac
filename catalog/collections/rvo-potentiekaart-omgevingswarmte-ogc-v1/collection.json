@@ -7,7 +7,8 @@
   "id": "rvo-potentiekaart-omgevingswarmte-ogc-v1",
   "title": "Potentiekaart Omgevingswarmte (OGC API)",
   "description": "De WarmteAtlas Nederland is een digitale, geografische kaart waarop warmteaanbod en -vraag in ons land zijn aangegeven. Aan de aanbodkant gaat het om (potentieel) geschikte locaties van warmte- en koude opslag (WKO), diepe geothermie, biomassa en restwarmte. Deze lagen tonen de potentie voor WKO systemen per buurt en per gemeente.",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2025-06-26T13:44:00Z",
   "keywords": [
     "PDOK",
     "Energiebronnen",
@@ -21,7 +22,7 @@
   ],
   "providers": [
     {
-      "name": "RVO",
+      "name": "Rijksdienst voor Ondernemend Nederland",
       "roles": [
         "producer"
       ]
@@ -184,13 +185,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijksdienst-voor-ondernemend-nederland/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rvo-potentiekaart-omgevingswarmte-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rvo/potentiekaart-omgevingswarmte/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

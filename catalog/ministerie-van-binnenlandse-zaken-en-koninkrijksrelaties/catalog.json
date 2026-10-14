@@ -1,0 +1,222 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "ministerie-van-binnenlandse-zaken-en-koninkrijksrelaties",
+  "title": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
+  "description": "PDOK APIs and datasets of Ministerie van Binnenlandse Zaken en Koninkrijksrelaties.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-bodemkaart-sgm/collection.json",
+      "type": "application/json",
+      "title": "BRO Bodemkaart (SGM)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-bodemkundig-booronderzoek-bhr-p/collection.json",
+      "type": "application/json",
+      "title": "BRO Bodemkundig Booronderzoek (BHR-P)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-bodemkundig-booronderzoek-bhr-p-bodem-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO Bodemkundig Booronderzoek (BHR-P) - Bodem (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-bodemkundig-booronderzoek-bhr-p-geologie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO Bodemkundig Booronderzoek (BHR-P) - Geologie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-booronderzoek-geotechnische-boormonsterbeschrijving-en-boormonsteranalyse-bhr-gt/collection.json",
+      "type": "application/json",
+      "title": "BRO Booronderzoek: Geotechnische boormonsterbeschrijving en boormonsteranalyse (BHR-GT)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-digitaal-geologisch-model-dgm/collection.json",
+      "type": "application/json",
+      "title": "BRO Digitaal Geologisch Model (DGM)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-geologisch-booronderzoek-bhr-g/collection.json",
+      "type": "application/json",
+      "title": "BRO Geologisch booronderzoek (BHR-G)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-geologisch-booronderzoek-bhr-g-geologie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO Geologisch booronderzoek (BHR-G) - Geologie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-geomorfologische-kaart-gmm/collection.json",
+      "type": "application/json",
+      "title": "BRO Geomorfologische kaart (GMM)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-geotechnisch-booronderzoek-bhr-gt-geologie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO Geotechnisch booronderzoek (BHR-GT) - Geologie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-geotechnisch-sondeeronderzoek-cpt/collection.json",
+      "type": "application/json",
+      "title": "BRO Geotechnisch sondeeronderzoek (CPT)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-geotechnisch-sondeeronderzoek-cpt-geologie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO - Geotechnisch sondeeronderzoek (CPT) – Geologie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-geotop-gtm/collection.json",
+      "type": "application/json",
+      "title": "BRO GeoTOP (GTM)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-grondwatergebruik-gu-milieubewakingsvoorzieningen-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO Grondwatergebruik (GU) - Milieubewakingsvoorzieningen (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-grondwatergebruiksysteem-guf/collection.json",
+      "type": "application/json",
+      "title": "BRO Grondwatergebruiksysteem (GUF)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-grondwatergebruiksysteem-guf-faciliteiten-voor-productie-en-industrie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO Grondwatergebruiksysteem (GUF) - Faciliteiten voor productie en industrie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-grondwatermonitoringnet-gmn/collection.json",
+      "type": "application/json",
+      "title": "BRO Grondwatermonitoringnet (GMN)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-grondwatermonitoringput-gmw/collection.json",
+      "type": "application/json",
+      "title": "BRO Grondwatermonitoringput (GMW)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-grondwatermonitoringput-gmw-geologie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO - Grondwatermonitoringput (GMW) - Geologie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-grondwaterproductiedossier-gpd/collection.json",
+      "type": "application/json",
+      "title": "BRO Grondwaterproductiedossier (GPD)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-grondwatersamenstellingsonderzoek-gar/collection.json",
+      "type": "application/json",
+      "title": "BRO Grondwatersamenstellingsonderzoek (GAR)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-mijnbouwconstructie-epc/collection.json",
+      "type": "application/json",
+      "title": "BRO - Mijnbouwconstructie (EPC)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-mijnbouwconstructie-epc-geologie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO - Mijnbouwconstructie (EPC) - Geologie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-milieuhygi-c3-abnisch-bodemonderzoek-sad/collection.json",
+      "type": "application/json",
+      "title": "BRO Milieuhygiënisch bodemonderzoek (SAD)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-model-grondwaterspiegeldiepte-wdm/collection.json",
+      "type": "application/json",
+      "title": "BRO Model Grondwaterspiegeldiepte (WDM)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-overheidsbesluit-bodemverontreiniging-sld/collection.json",
+      "type": "application/json",
+      "title": "BRO Overheidsbesluit bodemverontreiniging (SLD)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-regis-ii-hgm/collection.json",
+      "type": "application/json",
+      "title": "BRO REGIS II (HGM)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-wandonderzoek-bodemkunde-sfr/collection.json",
+      "type": "application/json",
+      "title": "BRO Wandonderzoek - bodemkunde (SFR)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/bro-wandonderzoek-sfr-bodem-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO - Wandonderzoek (SFR) - Bodem (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/milieuhygi-c3-abnisch-bodemonderzoek-sad-geologie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO Milieuhygiënisch bodemonderzoek (SAD) - Geologie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/novex-gebieden/collection.json",
+      "type": "application/json",
+      "title": "NOVEX gebieden"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/novex-woningbouwlocaties/collection.json",
+      "type": "application/json",
+      "title": "NOVEX woningbouwlocaties"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/regionale-woondeals/collection.json",
+      "type": "application/json",
+      "title": "Regionale Woondeals"
+    }
+  ]
+}

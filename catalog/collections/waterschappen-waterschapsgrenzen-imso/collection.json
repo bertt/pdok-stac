@@ -14,7 +14,7 @@
   ],
   "providers": [
     {
-      "name": "Het Waterschapshuis (HWH)",
+      "name": "Het Waterschapshuis",
       "roles": [
         "producer"
       ]
@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Waterschapsgrenzen.png/986a2dc8-153a-8d77-4190-549530819d54?t=1791962087112",
+      "href": "https://www.pdok.nl/documents/1901824/0/Waterschapsgrenzen.png/986a2dc8-153a-8d77-4190-549530819d54?t=1791963977320",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -89,13 +89,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../het-waterschapshuis/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/waterschappen-waterschapsgrenzen-imso/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

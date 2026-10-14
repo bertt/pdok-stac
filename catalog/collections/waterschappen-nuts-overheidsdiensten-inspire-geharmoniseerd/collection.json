@@ -14,7 +14,7 @@
   ],
   "providers": [
     {
-      "name": "Het Waterschapshuis (HWH)",
+      "name": "Het Waterschapshuis",
       "roles": [
         "producer"
       ]
@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Waterschappen%20Nuts-en%20Overheidsdiensten.png/f31475db-ebf2-83b6-2e6c-4ba1d53136ff?t=1791962087111",
+      "href": "https://www.pdok.nl/documents/1901824/0/Waterschappen%20Nuts-en%20Overheidsdiensten.png/f31475db-ebf2-83b6-2e6c-4ba1d53136ff?t=1791963977319",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -89,13 +89,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../het-waterschapshuis/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/waterschappen-nuts-overheidsdiensten-inspire-geharmoniseerd/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

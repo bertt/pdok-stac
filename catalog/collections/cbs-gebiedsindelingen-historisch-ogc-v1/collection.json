@@ -5,7 +5,8 @@
   "id": "cbs-gebiedsindelingen-historisch-ogc-v1",
   "title": "CBS Gebiedsindelingen 1995-2015 (OGC API)",
   "description": "Deze service bevat de CBS Gebiedsindelingen van 1995 t/m 2015. De volgende gebiedsindelingen kunnen voorkomen: Gemeente, Landsdeel, Provincie, Buurt, COROP-gebied, GGD-regio, NUTS1, NUTS2, NUTS3, Wijk, COROP-plusgebied, COROP-subgebied, Landbouwgebied, Landbouwgroep, RPA-gebied, Toeristengroep, Toeristengebied, Arrondissementsgebied, KamervanKoophandelregio, Regionale-Eenheid, Veiligheidsregio, Veiligthuisregio, Zorgkantoorregio, Arbeidsmarktregio, Regioplus-arbeidsmarktregio, Jeugdregio, Ressort, RES-regio, Regionaalmeldcoördinatiepunt, Regionale-energiestrategie, SubRES-regio",
-  "license": "other",
+  "license": "CC-BY-4.0",
+  "updated": "2025-03-06T00:00:00Z",
   "keywords": [
     "PDOK",
     "Arbeidsmarktregio",
@@ -41,7 +42,7 @@
   ],
   "providers": [
     {
-      "name": "CBS",
+      "name": "Centraal Bureau voor de Statistiek",
       "roles": [
         "producer"
       ]
@@ -596,13 +597,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../centraal-bureau-voor-de-statistiek/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/cbs-gebiedsindelingen-historisch-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen-historisch/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Stiltegebieden.jpg/7aac0e27-6fb6-8ed0-b72a-59085d00efd2?t=1791962087108",
+      "href": "https://www.pdok.nl/documents/1901824/0/Stiltegebieden.jpg/7aac0e27-6fb6-8ed0-b72a-59085d00efd2?t=1791963977316",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -89,13 +89,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../provincies/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/stiltegebieden/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

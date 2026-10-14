@@ -1,0 +1,36 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "publieke-dienstverlening-op-de-kaart",
+  "title": "Publieke Dienstverlening Op de Kaart",
+  "description": "PDOK APIs and datasets of Publieke Dienstverlening Op de Kaart.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/pdok-luchtfoto-infrarood-open/collection.json",
+      "type": "application/json",
+      "title": "PDOK Luchtfoto Infrarood (Open)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/pdok-luchtfoto-rgb-open/collection.json",
+      "type": "application/json",
+      "title": "PDOK Luchtfoto RGB (Open)"
+    }
+  ]
+}

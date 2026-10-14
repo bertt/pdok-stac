@@ -8,6 +8,7 @@
   "title": "Geografische Namen (INSPIRE geharmoniseerd) (OGC API)",
   "description": "INSPIRE Geografische Namen themalaag, geharmoniseerd, gevuld met relevante objecten uit TOP10NL (onderdeel van de Basisregistratie Topografie (BRT)), geproduceerd en beheerd door het Kadaster. Het is een referentie naar natuurlijke, culturele en kunstmatige objecten. Het bevat de namen van gebieden, regio's, plaatsen, steden of nederzettingen, of elk geografische of topografische object dat van publieke of historische waarde.",
   "license": "other",
+  "updated": "2026-07-03T12:16:28Z",
   "keywords": [
     "PDOK",
     "Nationaal",
@@ -157,13 +158,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../kadaster/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/kadaster-brt-geografische-namen-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/kadaster/brt-geografische-namen/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

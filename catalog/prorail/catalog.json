@@ -1,0 +1,30 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "prorail",
+  "title": "ProRail",
+  "description": "PDOK APIs and datasets of ProRail.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/prorail-spoorwegen-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Spoorwegen (OGC API)"
+    }
+  ]
+}

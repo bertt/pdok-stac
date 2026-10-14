@@ -7,7 +7,8 @@
   "id": "rvo-mossel-en-oesterhabitats-ogc-v1",
   "title": "Mossel- en oesterhabitats (OGC API)",
   "description": "Dit betreft een bestandsopname van het areaal mossel en oesterbanken op de droogvallende platen in de Waddenzee. Dit geschiedt jaarlijks. De opdrachtgever is de Directie Dierlijke Agroketens en Dierenwelzijn / Cluster Duurzame Visserijketens. De bestandsopname zelf wordt uitgevoerd door IMARES.",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2025-10-16T09:40:33Z",
   "keywords": [
     "PDOK",
     "habitats en biotopen",
@@ -16,7 +17,7 @@
   ],
   "providers": [
     {
-      "name": "RVO",
+      "name": "Rijksdienst voor Ondernemend Nederland",
       "roles": [
         "producer"
       ]
@@ -123,13 +124,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijksdienst-voor-ondernemend-nederland/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rvo-mossel-en-oesterhabitats-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rvo/mossel-en-oesterhabitats/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

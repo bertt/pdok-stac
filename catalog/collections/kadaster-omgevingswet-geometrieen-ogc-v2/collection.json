@@ -5,7 +5,8 @@
   "id": "kadaster-omgevingswet-geometrieen-ogc-v2",
   "title": "Geometrieën Omgevingswet API (OGC API)",
   "description": "De Geometrieën Omgevingswet API ontsluit twee vector tile-datasets met daarin de geometrieën uit omgevingsdocumenten en vergunningen. De geometrieën zijn beschikbaar in RD-formaat en kennen elk één attribuut: de geometrie-identificatie. De twee datasets die met deze API ontsloten worden zijn de Actueel v2 en de Volledig v2. Van elk van de datasets zijn vijf varianten beschikbaar; één voor elk van de verschillende Omgevingswet-omgevingen.",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2026-10-13T23:08:58Z",
   "keywords": [
     "PDOK",
     "omgevingsdocumenten",
@@ -90,13 +91,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../kadaster/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/kadaster-omgevingswet-geometrieen-ogc-v2/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/kadaster/omgevingswet-geometrieen/ogc/v2?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

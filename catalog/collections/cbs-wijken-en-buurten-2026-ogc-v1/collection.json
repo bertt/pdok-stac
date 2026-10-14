@@ -7,7 +7,8 @@
   "id": "cbs-wijken-en-buurten-2026-ogc-v1",
   "title": "CBS Wijken en Buurten 2026 versie 0 (OGC API)",
   "description": "Het Bestand Wijk- en Buurtkaart 2026 bevat de geometrie van alle gemeenten, wijken en buurten in Nederland. De begrenzingen van wijken en buurten zijn gebaseerd op wat de gemeenten aan het CBS doorgeven. De gemeentegrens is afkomstig uit de BRK van het Kadaster. De land-watergrens uit het Bestand Bodemgebruik 2022.",
-  "license": "other",
+  "license": "CC-BY-4.0",
+  "updated": "2026-06-16T10:49:56Z",
   "keywords": [
     "PDOK",
     "CBS",
@@ -18,7 +19,7 @@
   ],
   "providers": [
     {
-      "name": "CBS",
+      "name": "Centraal Bureau voor de Statistiek",
       "roles": [
         "producer"
       ]
@@ -141,13 +142,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../centraal-bureau-voor-de-statistiek/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/cbs-wijken-en-buurten-2026-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/cbs/wijken-en-buurten-2026/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

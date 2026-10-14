@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of BRO Milieuhygiënisch bodemonderzoek (SAD) - Geologie (INSPIRE geharmoniseerd)",
-    "datetime": "2026-10-14T07:15:05Z"
+    "datetime": "2026-10-14T07:46:36Z"
   },
   "links": [
     {
@@ -90,7 +90,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20SAD%20geologie.png/895ff953-8725-3cf3-9ae7-4b14e1d2c2d4?t=1791962087102",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20SAD%20geologie.png/895ff953-8725-3cf3-9ae7-4b14e1d2c2d4?t=1791963977311",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

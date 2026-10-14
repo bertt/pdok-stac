@@ -7,7 +7,8 @@
   "id": "rws-weggegevens-ogc-v1",
   "title": "Weggegevens (WEGGEG) (OGC API)",
   "description": "Dit is de OGC API Features service van de dataset Weggegevens (WEGGEG). Deze dataset bevat de rijstroken en maximumsnelheden uit de weggegevens van de Nederlandse Rijkswegen. Deze kunnen gekoppeld worden aan de wegvakken uit NWB wegen. Deze dataset is aangemerkt als As-Is bron voor EU-doelen.",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2026-10-05T00:00:00Z",
   "keywords": [
     "PDOK",
     "Vervoersnetwerken",
@@ -137,13 +138,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijkswaterstaat/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rws-weggegevens-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rws/weggegevens/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

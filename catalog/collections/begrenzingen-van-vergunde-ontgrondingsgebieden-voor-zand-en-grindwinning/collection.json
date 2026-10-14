@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Begrenzingen%20van%20vergunde%20ontgrondingsgebieden%20voor%20zand-%20en%20grindwinning%20%282%29.png/c262555a-cf25-41cb-cfed-84046a96c18e?t=1791962087088",
+      "href": "https://www.pdok.nl/documents/1901824/0/Begrenzingen%20van%20vergunde%20ontgrondingsgebieden%20voor%20zand-%20en%20grindwinning%20%282%29.png/c262555a-cf25-41cb-cfed-84046a96c18e?t=1791963977295",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -89,13 +89,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../provincies/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/begrenzingen-van-vergunde-ontgrondingsgebieden-voor-zand-en-grindwinning/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

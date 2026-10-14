@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of Human Health Statistics Netherlands (INSPIRE geharmoniseerd)",
-    "datetime": "2026-10-14T07:15:05Z"
+    "datetime": "2026-10-14T07:46:36Z"
   },
   "links": [
     {
@@ -98,7 +98,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Human%20Health%20Statistics%20Netherlands%20.png/45635a6e-6506-b3fd-32d1-7a887bf8a2b8?t=1791962087095",
+      "href": "https://www.pdok.nl/documents/1901824/0/Human%20Health%20Statistics%20Netherlands%20.png/45635a6e-6506-b3fd-32d1-7a887bf8a2b8?t=1791963977302",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

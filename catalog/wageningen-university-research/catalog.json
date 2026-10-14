@@ -1,0 +1,30 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "wageningen-university-research",
+  "title": "Wageningen University & Research",
+  "description": "PDOK APIs and datasets of Wageningen University & Research.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/landelijk-grondgebruik-nederland-lgn/collection.json",
+      "type": "application/json",
+      "title": "Landelijk Grondgebruik Nederland (LGN)"
+    }
+  ]
+}

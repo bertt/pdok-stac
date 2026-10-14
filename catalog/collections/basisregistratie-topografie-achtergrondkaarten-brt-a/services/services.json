@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of Basisregistratie Topografie (BRT) BRT Achtergrondkaart (BRT-A)",
-    "datetime": "2026-10-14T07:15:05Z"
+    "datetime": "2026-10-14T07:46:36Z"
   },
   "links": [
     {
@@ -98,7 +98,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/brta.png/b50003d0-c722-a491-bf51-de94bfa023f7?t=1791962087087",
+      "href": "https://www.pdok.nl/documents/1901824/0/brta.png/b50003d0-c722-a491-bf51-de94bfa023f7?t=1791963977295",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

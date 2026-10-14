@@ -7,7 +7,8 @@
   "id": "rws-overstromingen-gevarengebied-ogc-v1",
   "title": "Gebieden met natuurrisico's - Overstromingen - Gevarengebied - Richtlijn Overstromingsrisico's (ROR) (INSPIRE geharmoniseerd) (OGC API)",
   "description": "Naar INSPIRE thema Gebieden met natuurrisico's - Overstromingen - Gevarengebied geharmoniseerde data bevat gebieden met potentieel significant overstromingsrisico in Nederland uit het rapport 'Overstromingsrisico's in Nederland, 2018 in het kader van de Europese Richtlijn Overstromingsrisico’s (ROR) 2e cyclus: 2016 – 2021'.",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2026-05-26T09:12:38Z",
   "keywords": [
     "PDOK",
     "Richtlijn Overstromingsrisico",
@@ -128,13 +129,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijkswaterstaat/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rws-overstromingen-gevarengebied-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rws/overstromingen-gevarengebied/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

@@ -1,0 +1,84 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "het-waterschapshuis",
+  "title": "Het Waterschapshuis",
+  "description": "PDOK APIs and datasets of Het Waterschapshuis.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/hwh-waterschappen-hydrografie-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Waterschappen Hydrografie (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/hwh-waterschappen-keringen-imwa-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Waterschappen Keringen IMWA (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/hwh-waterschappen-kunstwerken-imwa-ogc-v2/collection.json",
+      "type": "application/json",
+      "title": "Waterschappen Kunstwerken IMWA (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/hwh-waterschappen-oppervlaktewateren-imwa-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Waterschappen Oppervlaktewateren IMWA (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/hwh-waterschappen-waterbeheergebieden-imwa-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Waterschappen Waterbeheergebieden IMWA (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/hwh-waterschappen-waterketen-damo-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Waterschappen Waterketen DAMO (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/hwh-waterschappen-zoneringen-imwa-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Waterschappen Waterstaatskundige zoneringen waterstaatswerk IMWA (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/waterschappen-administratieve-eenheden-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Waterschappen Administratieve Eenheden (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/waterschappen-nuts-overheidsdiensten-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Waterschappen Nuts-Overheidsdiensten (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/waterschappen-waterschapsgrenzen-imso/collection.json",
+      "type": "application/json",
+      "title": "Waterschappen Waterschapsgrenzen IMSO"
+    }
+  ]
+}

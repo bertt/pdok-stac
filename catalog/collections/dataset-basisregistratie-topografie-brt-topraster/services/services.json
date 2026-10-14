@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of Basisregistratie Topografie (BRT) TOPraster",
-    "datetime": "2026-10-14T07:15:05Z"
+    "datetime": "2026-10-14T07:46:36Z"
   },
   "links": [
     {
@@ -90,7 +90,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/TOPraster.png/5bbed6cd-b715-70ce-dc70-7df4ef229f58?t=1791962087096",
+      "href": "https://www.pdok.nl/documents/1901824/0/TOPraster.png/5bbed6cd-b715-70ce-dc70-7df4ef229f58?t=1791963977303",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

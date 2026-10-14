@@ -7,7 +7,8 @@
   "id": "cbs-vierkant-1km-laea-ogc-v1",
   "title": "Vierkant 1 kilometer bij 1 kilometer Nederland LAEA (OGC API)",
   "description": "Het bestand vierkant 1 km2 Nederland bevat alle vierkanten van 1 kilometer bij 1 kilometer gelegen boven land van Nederland, afgeleid door Eurostat. De dataset bevat een kolom waarvan de naam de EPSG-code vermeld van de projectie van het onderliggend gebied waarop de vierkanten als rechthoekig net betrekking hebben (Voor ETRS89-LAEA is dat 3035) en de grootte van het vierkant (1000 meter bij 1000 meter). Aan ieder vierkant wordt een codering toegekend afgeleid van het linksonderpunt van het vierkant, opgebouwd uit een Oost en een Noord coördinaat. Zowel de x-coördinaat als de y-coördinaat van het linksonderpunt is een veelvoud van 1000 meter en wordt in gehele meters aangegeven. De y-coördinaat wordt weergegeven als N(orth) en de x-coördinaat als E(ast).",
-  "license": "other",
+  "license": "CC-BY-4.0",
+  "updated": "2025-07-21T15:23:39Z",
   "keywords": [
     "PDOK",
     "Vierkant",
@@ -15,7 +16,7 @@
   ],
   "providers": [
     {
-      "name": "CBS",
+      "name": "Centraal Bureau voor de Statistiek",
       "roles": [
         "producer"
       ]
@@ -114,13 +115,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../centraal-bureau-voor-de-statistiek/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/cbs-vierkant-1km-laea-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/cbs/vierkant-1km-laea/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

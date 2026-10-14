@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of BRO - Wandonderzoek (SFR) - Bodem (INSPIRE geharmoniseerd)",
-    "datetime": "2026-10-14T07:15:05Z"
+    "datetime": "2026-10-14T07:46:36Z"
   },
   "links": [
     {
@@ -90,7 +90,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Wandonderzoek%20%282%29.jpg/69e10fff-9264-1fdb-460d-b3bc308700f5?t=1791962087093",
+      "href": "https://www.pdok.nl/documents/1901824/0/Wandonderzoek%20%282%29.jpg/69e10fff-9264-1fdb-460d-b3bc308700f5?t=1791963977301",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

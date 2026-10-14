@@ -14,7 +14,7 @@
   ],
   "providers": [
     {
-      "name": "Centraal Bureau voor de Statistiek (CBS)",
+      "name": "Centraal Bureau voor de Statistiek",
       "roles": [
         "producer"
       ]
@@ -289,7 +289,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Wijken%20en%20Buurten.png/97e0022e-310f-94ac-3408-3c8eb917b513?t=1791962087096",
+      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Wijken%20en%20Buurten.png/97e0022e-310f-94ac-3408-3c8eb917b513?t=1791963977303",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -305,13 +305,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../centraal-bureau-voor-de-statistiek/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/cbs-wijken-en-buurten/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

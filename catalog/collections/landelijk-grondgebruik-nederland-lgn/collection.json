@@ -14,7 +14,7 @@
   ],
   "providers": [
     {
-      "name": "Wageningen University & Research (WUR)",
+      "name": "Wageningen University & Research",
       "roles": [
         "producer"
       ]
@@ -65,7 +65,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/LGN.png/dfc36d6c-e924-efe7-0316-533ac44a151b?t=1791962087102",
+      "href": "https://www.pdok.nl/documents/1901824/0/LGN.png/dfc36d6c-e924-efe7-0316-533ac44a151b?t=1791963977310",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -81,13 +81,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../wageningen-university-research/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/landelijk-grondgebruik-nederland-lgn/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

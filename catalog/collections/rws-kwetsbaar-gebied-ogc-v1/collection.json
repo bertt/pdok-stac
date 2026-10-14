@@ -7,7 +7,8 @@
   "id": "rws-kwetsbaar-gebied-ogc-v1",
   "title": "Gebiedsbeheer eenheden - Kwetsbaar gebied - RSA (INSPIRE geharmoniseerd) (OGC API)",
   "description": "Naar INSPIRE thema Gebiedsbeheer, gebieden waar beperkingen gelden, gereguleerde gebieden en rapportage-eenheden geharmoniseerd kwetsbaar gebied zoals gerapporteerd naar de Europese Commissie tbv EU rapportage Stedelijk Afvalwater 2020",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2026-01-08T15:20:25Z",
   "keywords": [
     "PDOK",
     "Gebiedsbeheer",
@@ -134,13 +135,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijkswaterstaat/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rws-kwetsbaar-gebied-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rws/kwetsbaar-gebied/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

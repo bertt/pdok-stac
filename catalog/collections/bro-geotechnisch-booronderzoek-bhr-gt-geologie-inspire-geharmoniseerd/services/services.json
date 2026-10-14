@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of BRO Geotechnisch booronderzoek (BHR-GT) - Geologie (INSPIRE geharmoniseerd)",
-    "datetime": "2026-10-14T07:15:05Z"
+    "datetime": "2026-10-14T07:46:36Z"
   },
   "links": [
     {
@@ -90,7 +90,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Geotechnisch%20booronderzoek.jpg/ac4c4323-e1e3-8253-64ca-90da810124a5?t=1791962087090",
+      "href": "https://www.pdok.nl/documents/1901824/0/Geotechnisch%20booronderzoek.jpg/ac4c4323-e1e3-8253-64ca-90da810124a5?t=1791963977297",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

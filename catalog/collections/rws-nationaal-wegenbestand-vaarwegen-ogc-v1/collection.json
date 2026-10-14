@@ -7,7 +7,8 @@
   "id": "rws-nationaal-wegenbestand-vaarwegen-ogc-v1",
   "title": "NWB - Vaarwegen (OGC API)",
   "description": "Deze OGC API Features service bevat alleen de vaarwegvakken en kilometermarkeringen van het NWB - Vaarwegen (Nationaal Wegen Bestand).",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2026-10-05T00:00:00Z",
   "keywords": [
     "PDOK",
     "Vervoersnetwerken",
@@ -136,13 +137,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijkswaterstaat/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rws-nationaal-wegenbestand-vaarwegen-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rws/nationaal-wegenbestand-vaarwegen/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

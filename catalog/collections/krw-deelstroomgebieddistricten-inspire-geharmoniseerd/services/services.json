@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of KRW Deelstroomgebieddistricten (INSPIRE geharmoniseerd)",
-    "datetime": "2026-10-14T07:15:05Z"
+    "datetime": "2026-10-14T07:46:36Z"
   },
   "links": [
     {
@@ -90,7 +90,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/krw%20deelstroomgebieddistricten.png/36d2d0fb-85d1-da28-a859-0c31fe8c3cfe?t=1791962087101",
+      "href": "https://www.pdok.nl/documents/1901824/0/krw%20deelstroomgebieddistricten.png/36d2d0fb-85d1-da28-a859-0c31fe8c3cfe?t=1791963977309",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

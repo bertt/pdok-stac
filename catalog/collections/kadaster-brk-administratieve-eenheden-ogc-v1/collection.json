@@ -7,7 +7,8 @@
   "id": "kadaster-brk-administratieve-eenheden-ogc-v1",
   "title": "Administratieve Eenheden (INSPIRE geharmoniseerd) (OGC API)",
   "description": "Overzicht van de bestuurlijke indeling van Nederland in gemeenten en provincies. Gegevens zijn gebaseerd op de dataset Bestuurlijke Gebieden, welke afgeleid is uit de Basisregistratie Kadaster (BRK).",
-  "license": "other",
+  "license": "CC0-1.0",
+  "updated": "2026-02-12T11:41:08Z",
   "keywords": [
     "PDOK",
     "Administratieve eenheden",
@@ -133,13 +134,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../kadaster/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/kadaster-brk-administratieve-eenheden-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/kadaster/brk-administratieve-eenheden/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

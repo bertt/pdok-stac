@@ -7,7 +7,8 @@
   "id": "cbs-vierkantstatistieken500m-ogc-v1",
   "title": "CBS Vierkantstatistieken 500m (OGC API)",
   "description": "Het bestand CBS vierkanten 500m bevat statistische gegevens per 500 meter bij 500 meter vierkant. Met ingang van juni 2025 is het jaar 2024 toegevoegd en zijn het aantal kerncijfers van de jaren 2023 en 2022 aanzienlijk uitgebreid met gegevens over demografie, woningen, energie, inkomen, sociale zekerheid, nabijheid van voorzieningen en dichtheid.",
-  "license": "other",
+  "license": "CC-BY-4.0",
+  "updated": "2025-10-07T09:30:08Z",
   "keywords": [
     "PDOK",
     "demografie",
@@ -31,7 +32,7 @@
   ],
   "providers": [
     {
-      "name": "CBS",
+      "name": "Centraal Bureau voor de Statistiek",
       "roles": [
         "producer"
       ]
@@ -538,13 +539,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../centraal-bureau-voor-de-statistiek/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/cbs-vierkantstatistieken500m-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/cbs/vierkantstatistieken500m/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

@@ -79,13 +79,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../kadaster/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/bzk-locatieserver-search-v3-1-ui/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "via",

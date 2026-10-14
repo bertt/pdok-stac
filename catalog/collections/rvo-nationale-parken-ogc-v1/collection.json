@@ -8,6 +8,7 @@
   "title": "Nationale parken (OGC API)",
   "description": "Dit bestand geeft de grenzen van de Nationale Parken weer, zoals die door de Secretarissen van de Parken zijn aangegeven in de periode augustus 2005 - november 2005, met een update in januari 2007 en in augustus 2007. Op de grenzen van NP Drents-Friese Wold volgt nog een correctie. Het bestand bevat in totaal 21 Nationale Parken: 18 door de Minister van LNV vastgestelde Parken (waarvan 1 in oprichting), 2 Particuliere Parken en 1 grensoverschrijdend Park, vastgesteld door het Commité van Ministers van de Benelux. Daarnaast komen in het GIS-bestand 'uitwerkingsgebieden' voor. Dit zijn gebieden die bij voorkeur op termijn onderdeel moeten gaan uitmaken van een Nationaal Park, maar nu nog niet zijn aangewezen. Ze maken dan ook GEEN deel uit van het betreffende Park en hebben geen enkele status! De grenzen in het GIS-bestand kunnen afwijken van de grenzen in het BIP (Beheers- en Inrichtingsplan). Elk Nationaal Park heeft een BIP, dat ter goedkeuring wordt voorgelegd aan de Minister van LNV. Elk BIP bevat een kaart met de begrenzing van het Park. Die grens is een momentopname. In de loop der tijd kunnen de grenzen van een Park licht wijzigen door kleine aankopen of uitruil van gronden. Die wijzigingen worden bij periodieke updates doorgevoerd in het BIP. Een BIP kan daardoor achter- of juist vooruitlopen op de grenzen in dit bestand.",
   "license": "other",
+  "updated": "2026-06-19T08:31:56Z",
   "keywords": [
     "PDOK",
     "Protected sites",
@@ -17,7 +18,7 @@
   ],
   "providers": [
     {
-      "name": "RVO",
+      "name": "Rijksdienst voor Ondernemend Nederland",
       "roles": [
         "producer"
       ]
@@ -124,13 +125,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijksdienst-voor-ondernemend-nederland/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rvo-nationale-parken-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rvo/nationale-parken/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

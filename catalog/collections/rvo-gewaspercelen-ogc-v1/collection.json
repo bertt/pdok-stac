@@ -8,6 +8,7 @@
   "title": "Basisregistratie Gewaspercelen (BRP) (OGC API)",
   "description": "BRP - Gewaspercelen bestaat uit de locatie van landbouwpercelen met daaraan gekoppeld het geteelde gewas. Het bestand is een selectie van informatie uit de Basisregistratie Percelen (BRP) van de Rijksdienst voor Ondernemend Nederland. De omgrenzingen van de landbouwpercelen zijn gebaseerd op het Agrarisch Areaal Nederland (AAN). De gebruiker van het perceel dient jaarlijks zijn gewaspercelen in te tekenen en aan te geven welk gewas wordt geteeld op het betreffende perceel. Van elk jaar wordt een dataset gegenereerd van peildatum 15 mei. Van de meest recente BRP gewaspercelen is een viewservices en een downloadservice beschikbaar.",
   "license": "other",
+  "updated": "2026-05-15T08:11:40Z",
   "keywords": [
     "PDOK",
     "Bodem",
@@ -17,7 +18,7 @@
   ],
   "providers": [
     {
-      "name": "RVO",
+      "name": "Rijksdienst voor Ondernemend Nederland",
       "roles": [
         "producer"
       ]
@@ -124,13 +125,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijksdienst-voor-ondernemend-nederland/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/rvo-gewaspercelen-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/rvo/gewaspercelen/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

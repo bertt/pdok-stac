@@ -8,6 +8,7 @@
   "title": "Zeegebieden (INSPIRE geharmoniseerd) (OGC API)",
   "description": "INSPIRE Zeegebieden themalaag, geharmoniseerd, gevuld met relevante objecten uit TOP10NL (onderdeel van de Basisregistratie Topografie (BRT)), geproduceerd en beheerd door het Kadaster. De dataset bevat Sea, Shoreline, Coastline en Intertidal area.",
   "license": "other",
+  "updated": "2026-07-06T07:50:33Z",
   "keywords": [
     "PDOK",
     "Zeegebieden",
@@ -153,13 +154,25 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../kadaster/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/kadaster-brt-zeegebieden-ogc-v1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://api.pdok.nl/kadaster/brt-zeegebieden/ogc/v1?f=html",
+      "type": "text/html",
+      "title": "API landing page"
     },
     {
       "rel": "via",

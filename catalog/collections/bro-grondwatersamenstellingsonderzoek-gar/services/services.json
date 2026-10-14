@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of BRO Grondwatersamenstellingsonderzoek (GAR)",
-    "datetime": "2026-10-14T07:15:05Z"
+    "datetime": "2026-10-14T07:46:36Z"
   },
   "links": [
     {
@@ -82,7 +82,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/bro.jpg/5e0e886e-deb7-887c-49e0-68f991d1256b?t=1791962087092",
+      "href": "https://www.pdok.nl/documents/1901824/0/bro.jpg/5e0e886e-deb7-887c-49e0-68f991d1256b?t=1791963977299",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

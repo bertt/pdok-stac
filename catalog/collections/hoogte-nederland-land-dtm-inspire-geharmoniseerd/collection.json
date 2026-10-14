@@ -14,7 +14,7 @@
   ],
   "providers": [
     {
-      "name": "Rijkswaterstaat (RWS)",
+      "name": "Rijkswaterstaat",
       "roles": [
         "producer"
       ]
@@ -81,7 +81,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Hoogte%20Nederland%20DTM.jpg/d774a1e3-72ea-a62a-d842-8afcfe75ea08?t=1791962087099",
+      "href": "https://www.pdok.nl/documents/1901824/0/Hoogte%20Nederland%20DTM.jpg/d774a1e3-72ea-a62a-d842-8afcfe75ea08?t=1791963977307",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -97,13 +97,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../rijkswaterstaat/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/hoogte-nederland-land-dtm-inspire-geharmoniseerd/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

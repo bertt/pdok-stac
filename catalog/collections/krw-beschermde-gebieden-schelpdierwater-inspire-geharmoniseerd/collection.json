@@ -14,7 +14,7 @@
   ],
   "providers": [
     {
-      "name": "Informatiehuis Water (IHW)",
+      "name": "Informatiehuis Water",
       "roles": [
         "producer"
       ]
@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/krw%20schelpdierwater.png/1fa4204e-2524-fc79-c393-ea8d0e8faf62?t=1791962087101",
+      "href": "https://www.pdok.nl/documents/1901824/0/krw%20schelpdierwater.png/1fa4204e-2524-fc79-c393-ea8d0e8faf62?t=1791963977309",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -89,13 +89,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../informatiehuis-water/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/krw-beschermde-gebieden-schelpdierwater-inspire-geharmoniseerd/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

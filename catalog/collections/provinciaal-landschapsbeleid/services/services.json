@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of Provinciaal Landschapsbeleid - Provincies (INSPIRE geharmoniseerd)",
-    "datetime": "2026-10-14T07:15:05Z"
+    "datetime": "2026-10-14T07:46:36Z"
   },
   "links": [
     {
@@ -90,7 +90,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Provinciaal%20landschapsbeleid.jpg/71da8cd1-e6b5-b053-9192-bef5dfc46544?t=1791962087106",
+      "href": "https://www.pdok.nl/documents/1901824/0/Provinciaal%20landschapsbeleid.jpg/71da8cd1-e6b5-b053-9192-bef5dfc46544?t=1791963977314",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

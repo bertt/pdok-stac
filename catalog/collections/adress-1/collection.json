@@ -89,7 +89,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Adressen%20%281%29.png/a29d7e9c-cbbb-46ad-ed5f-dbad7fe9e51d?t=1791962087086",
+      "href": "https://www.pdok.nl/documents/1901824/0/Adressen%20%281%29.png/a29d7e9c-cbbb-46ad-ed5f-dbad7fe9e51d?t=1791963977293",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -105,13 +105,19 @@
     },
     {
       "rel": "parent",
-      "href": "../../catalog.json",
+      "href": "../../kadaster/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://browser.moregeo.it/external/bertt.github.io/pdok-stac/collections/adress-1/collection.json",
+      "type": "text/html",
+      "title": "STAC Browser"
     },
     {
       "rel": "alternate",

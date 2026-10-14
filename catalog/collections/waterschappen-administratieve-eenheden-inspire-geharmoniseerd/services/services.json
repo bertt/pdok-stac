@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of Waterschappen Administratieve Eenheden (INSPIRE geharmoniseerd)",
-    "datetime": "2026-10-14T07:15:05Z"
+    "datetime": "2026-10-14T07:46:36Z"
   },
   "links": [
     {
@@ -90,7 +90,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Waterschappen%20Administratieve%20Eenheden.png/9d3574c1-feba-2b56-84a5-6ce90b8922fa?t=1791962087111",
+      "href": "https://www.pdok.nl/documents/1901824/0/Waterschappen%20Administratieve%20Eenheden.png/9d3574c1-feba-2b56-84a5-6ce90b8922fa?t=1791963977319",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

@@ -1,0 +1,228 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "rijksdienst-voor-ondernemend-nederland",
+  "title": "Rijksdienst voor Ondernemend Nederland",
+  "description": "PDOK APIs and datasets of Rijksdienst voor Ondernemend Nederland.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-gewaspercelen-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Basisregistratie Gewaspercelen (BRP) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-fysisch-geografische-regios-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Fysisch Geografische Regio's (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-gesloten-gebieden-visserij-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Gesloten Gebieden voor Visserij (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-gewaspercelen-geharmoniseerd-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Gewaspercelen (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-habitatrichtlijn-verspreiding-typen-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Habitatrichtlijn verspreiding van habitattypen (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-habitatrichtlijn-verspreiding-soorten-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Habitatrichtlijn verspreiding van soorten (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-indicatieve-aandachtsgebieden-funderingsproblematiek-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Indicatieve aandachtsgebieden funderingsproblematiek (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-invasieve-exoten-geharmoniseerd-ogc-v2/collection.json",
+      "type": "application/json",
+      "title": "Invasieve Exoten (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-krm-beschermde-gebieden-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "KRM Beschermde Gebieden (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-kaderrichtlijn-mariene-strategie-geharmoniseerd-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Kaderrichtlijn Mariene Strategie (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-mossel-en-oesterhabitats-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Mossel- en oesterhabitats (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-mosselzaadinvanginstallaties-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Mosselzaadinvanginstallaties (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-nationaal-beschermde-gebieden-cdda-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Nationaal Beschermde Gebieden (CDDA) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-nationale-parken-geharmoniseerd-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Nationale Parken (INSPIRE Geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-nationale-parken-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Nationale parken (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-natura2000-geharmoniseerd-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Natura 2000 (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-natura2000-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Natura2000 (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-natuurmeting-op-kaart-2014-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Natuurmeting op Kaart 2014 (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-potentieel-warmte-koude-opslagsystemen-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Potentieel koude en warmte uit open en gesloten WKO systemen (GJ/ha.jaar) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-potentiekaart-omgevingswarmte-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Potentiekaart Omgevingswarmte (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-potentiekaart-reststromen-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Potentiekaart reststromen (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-potentiekaart-restwarmte-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Potentiekaart restwarmte (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-referentiepercelen-geharmoniseerd-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Referentiepercelen (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-referentiepercelen-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Referentiepercelen (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-schelpdierpercelen-geharmoniseerd-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Schelpdierpercelen (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-schelpdierpercelen-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Schelpdierpercelen (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-visserijmaatregelen-noordzee-geharmoniseerd-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Visserijmaatregelen Noordzee (INSPIRE geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-visserijmaatregelen-noordzee-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Visserijmaatregelen Noordzee (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-vogelrichtlijn-verspreiding-soorten-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Vogelrichtlijn verspreiding van soorten (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-vogelrichtlijn-verspreidingsgebied-soorten-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Vogelrichtlijn verspreidingsgebied van soorten (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-wetlands-geharmoniseerd-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Wetlands (INSPIRE Geharmoniseerd) (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-wetlands-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Wetlands (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/rvo-windsnelheden-ogc-v1/collection.json",
+      "type": "application/json",
+      "title": "Windsnelheden 100m hoogte (OGC API)"
+    },
+    {
+      "rel": "child",
+      "href": "../collections/basisregistratie-gewaspercelen-brp/collection.json",
+      "type": "application/json",
+      "title": "Basisregistratie Gewaspercelen (BRP)"
+    }
+  ]
+}
