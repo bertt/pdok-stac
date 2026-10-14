@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "geslotenvisserij",
+  "collection": "rvo-gesloten-gebieden-visserij-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "geslotenvisserij",
+    "description": "Gesloten Gebieden voor Visserij",
+    "datetime": "2026-03-30T14:16:05Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./geslotenvisserij.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/rvo/gesloten-gebieden-visserij/ogc/v1/collections/geslotenvisserij/items?f=json",
+      "type": "application/geo+json",
+      "title": "Gesloten Gebieden voor Visserij (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rvo/gesloten-gebieden-visserij/ogc/v1/resources/geslotenvisserij.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

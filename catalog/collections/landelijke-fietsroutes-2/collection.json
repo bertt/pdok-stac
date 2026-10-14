@@ -65,7 +65,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Landelijke%20fietsroutes.png/155913c1-88ff-6d05-02fe-4606f6c67c0a?t=1791961633789",
+      "href": "https://www.pdok.nl/documents/1901824/0/Landelijke%20fietsroutes.png/155913c1-88ff-6d05-02fe-4606f6c67c0a?t=1791962087102",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -110,6 +110,12 @@
         "landelijke-fietsroutes"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "natura2000",
+  "collection": "rvo-natura2000-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "natura2000",
+    "description": "Natura2000 Beschermde gebieden",
+    "datetime": "2026-01-27T12:06:47Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./natura2000.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/rvo/natura2000/ogc/v1/collections/natura2000/items?f=json",
+      "type": "application/geo+json",
+      "title": "natura2000 (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rvo/natura2000/ogc/v1/resources/natura2000.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

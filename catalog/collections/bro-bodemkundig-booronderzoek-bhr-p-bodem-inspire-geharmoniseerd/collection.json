@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Bodemkundig%20Booronderzoek%20%28INSPIRE%29%20-%20Bodem.png/168313b3-f58e-8d32-2b53-bdd97bf1440d?t=1791961633773",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Bodemkundig%20Booronderzoek%20%28INSPIRE%29%20-%20Bodem.png/168313b3-f58e-8d32-2b53-bdd97bf1440d?t=1791962087089",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "SO.ObservedSoilProfile"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

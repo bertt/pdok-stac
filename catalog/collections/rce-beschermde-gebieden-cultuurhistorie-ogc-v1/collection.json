@@ -198,6 +198,24 @@
       "href": "https://creativecommons.org/licenses/by/4.0/deed.nl",
       "type": "text/html",
       "title": "CC BY 4.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./rce-inspire-points/rce-inspire-points.json",
+      "type": "application/geo+json",
+      "title": "rce_inspire_points"
+    },
+    {
+      "rel": "item",
+      "href": "./rce-inspire-polygons/rce-inspire-polygons.json",
+      "type": "application/geo+json",
+      "title": "rce_inspire_polygons"
     }
   ]
 }

@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Aardkundige%20waarden.jpg/a3bb9dd7-7d10-2d87-c2b2-0b3ef7276667?t=1791961633769",
+      "href": "https://www.pdok.nl/documents/1901824/0/Aardkundige%20waarden.jpg/a3bb9dd7-7d10-2d87-c2b2-0b3ef7276667?t=1791962087086",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "PS.ProtectedSite"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "postcode6",
+  "collection": "cbs-postcode6-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "postcode6",
+    "description": "Het bestand CBSpostcode6 bevat statistische gegevens voor afzonderlijke postcodes vanaf 2015. Met ingang van het tweede kwartaal 2025 zijn gegevens over het jaar 2024 toegevoegd en zijn het aantal gegevens van de jaren 2023 en 2022 uitgebreid met gegevens over demografie, woningen, energie, inkomen, sociale zekerheid, nabijheid van voorzieningen en dichtheid. [Lees voor meer informatie](https://www.cbs.nl/nl-nl/longread/diversen/2025/statistische-gegevens-per-vierkant-en-postcode-2022-2023-2024",
+    "datetime": "2026-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./postcode6.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/cbs/postcode6/ogc/v1/collections/postcode6/items?f=json",
+      "type": "application/geo+json",
+      "title": "Postcode, volledig (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/postcode6/ogc/v1/resources/postcode6.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

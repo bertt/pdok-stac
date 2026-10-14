@@ -240,6 +240,60 @@
       "href": "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.nl",
       "type": "text/html",
       "title": "CC BY-NC-ND 4.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./crossingline/crossingline.json",
+      "type": "application/geo+json",
+      "title": "crossingline"
+    },
+    {
+      "rel": "item",
+      "href": "./crossingpoint/crossingpoint.json",
+      "type": "application/geo+json",
+      "title": "crossingpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./damorweir/damorweir.json",
+      "type": "application/geo+json",
+      "title": "damorweir"
+    },
+    {
+      "rel": "item",
+      "href": "./drainagebasin/drainagebasin.json",
+      "type": "application/geo+json",
+      "title": "drainagebasin"
+    },
+    {
+      "rel": "item",
+      "href": "./embankment/embankment.json",
+      "type": "application/geo+json",
+      "title": "embankment"
+    },
+    {
+      "rel": "item",
+      "href": "./lock/lock.json",
+      "type": "application/geo+json",
+      "title": "lock"
+    },
+    {
+      "rel": "item",
+      "href": "./sluice/sluice.json",
+      "type": "application/geo+json",
+      "title": "sluice"
+    },
+    {
+      "rel": "item",
+      "href": "./watercourse/watercourse.json",
+      "type": "application/geo+json",
+      "title": "watercourse"
     }
   ]
 }

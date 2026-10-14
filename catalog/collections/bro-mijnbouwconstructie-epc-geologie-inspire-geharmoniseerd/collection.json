@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Mijnbouwconstructie.png/cb2693ef-6ca1-f9a5-da86-62d0874104f8?t=1791961633777",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Mijnbouwconstructie.png/cb2693ef-6ca1-f9a5-da86-62d0874104f8?t=1791962087092",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "GE.Borehole"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

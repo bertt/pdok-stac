@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "krm-gebieden",
+  "collection": "rvo-kaderrichtlijn-mariene-strategie-geharmoniseerd-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "krm_gebieden",
+    "description": "Deze datasetserie bevat voor Nederland de toepassingsgebieden voor de KRM en het monitoringsprogramma Mariene strategie deel II. Voor deze gebieden voert Nederland in het kader van de artikel 8, 9 en 10 van de KRM assessments uit.",
+    "datetime": "2026-04-22T11:15:04Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./krm-gebieden.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/rvo/kaderrichtlijn-mariene-strategie-geharmoniseerd/ogc/v1/collections/krm_gebieden/items?f=json",
+      "type": "application/geo+json",
+      "title": "KRM-gebieden (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rvo/kaderrichtlijn-mariene-strategie-geharmoniseerd/ogc/v1/resources/krm_gebieden_thumbnail.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

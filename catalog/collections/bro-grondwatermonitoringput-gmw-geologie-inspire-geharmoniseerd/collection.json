@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Thumbnail%20BRO%20Grondwatermonitoringput%20-%20Geologie.png/3485925a-278d-e148-60dd-85b4dffc9e09?t=1791961633776",
+      "href": "https://www.pdok.nl/documents/1901824/0/Thumbnail%20BRO%20Grondwatermonitoringput%20-%20Geologie.png/3485925a-278d-e148-60dd-85b4dffc9e09?t=1791962087092",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "GE.ActiveWell"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

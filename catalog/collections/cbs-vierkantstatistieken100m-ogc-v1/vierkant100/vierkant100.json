@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "vierkant100",
+  "collection": "cbs-vierkantstatistieken100m-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "vierkant100",
+    "description": "Het bestand CBS vierkanten 100m bevat statistische gegevens per 100 meter bij 100 meter vierkant. Met ingang van juni 2025 is het jaar 2024 toegevoegd en zijn het aantal kerncijfers van de jaren 2023 en 2022 aanzienlijk uitgebreid met gegevens over demografie, woningen, energie, inkomen, sociale zekerheid, nabijheid van voorzieningen en dichtheid.",
+    "datetime": "2025-10-07T09:32:42Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./vierkant100.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/cbs/vierkantstatistieken100m/ogc/v1/collections/vierkant100/items?f=json",
+      "type": "application/geo+json",
+      "title": "Vierkant 100m (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/vierkantstatistieken100m/ogc/v1/resources/vierkant_100m.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

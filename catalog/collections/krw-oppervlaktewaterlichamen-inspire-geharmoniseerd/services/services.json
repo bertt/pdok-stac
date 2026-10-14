@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "services",
+  "collection": "krw-oppervlaktewaterlichamen-inspire-geharmoniseerd",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          3.2,
+          50.75
+        ],
+        [
+          7.22,
+          50.75
+        ],
+        [
+          7.22,
+          53.7
+        ],
+        [
+          3.2,
+          53.7
+        ],
+        [
+          3.2,
+          50.75
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    3.2,
+    50.75,
+    7.22,
+    53.7
+  ],
+  "properties": {
+    "title": "services",
+    "description": "Services of KRW Oppervlaktewaterlichamen (INSPIRE geharmoniseerd)",
+    "datetime": "2026-10-14T07:15:05Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./services.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "api": {
+      "href": null,
+      "type": "text/html",
+      "title": "KRW Oppervlaktewaterlichamen (INSPIRE geharmoniseerd)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/ihw/krw-oppervlaktewaterlichamen-geharmoniseerd/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (krw-oppervlaktewaterlichamen-geharmoniseerd/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/ihw/krw-oppervlaktewaterlichamen-geharmoniseerd/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (krw-oppervlaktewaterlichamen-geharmoniseerd/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/krw%20oppervlaktewaterlichamen.png/52f176fc-f2d7-3f3f-192d-a0e3bba87182?t=1791962087101",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

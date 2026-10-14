@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "postcode4",
+  "collection": "cbs-postcode4-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "postcode4",
+    "description": "Het bestand CBS postcode4 bevat statistische gegevens voor het numerieke deel van de postcode vanaf 2015. Met ingang van het tweede kwartaal 2025 zijn gegevens over het jaar 2024 toegevoegd en zijn het aantal gegevens van de jaren 2023 en 2022 uitgebreid met gegevens over demografie, woningen, energie, inkomen, sociale zekerheid, nabijheid van voorzieningen en dichtheid. Lees voor meer informatie",
+    "datetime": "2026-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./postcode4.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/cbs/postcode4/ogc/v1/collections/postcode4/items?f=json",
+      "type": "application/geo+json",
+      "title": "Postcode, numeriek deel (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/postcode4/ogc/v1/resources/postcode4.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

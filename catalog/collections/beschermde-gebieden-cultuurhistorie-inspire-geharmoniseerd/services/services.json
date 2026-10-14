@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "services",
+  "collection": "beschermde-gebieden-cultuurhistorie-inspire-geharmoniseerd",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          3.2,
+          50.75
+        ],
+        [
+          7.22,
+          50.75
+        ],
+        [
+          7.22,
+          53.7
+        ],
+        [
+          3.2,
+          53.7
+        ],
+        [
+          3.2,
+          50.75
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    3.2,
+    50.75,
+    7.22,
+    53.7
+  ],
+  "properties": {
+    "title": "services",
+    "description": "Services of Beschermde Gebieden - Cultuurhistorie (INSPIRE geharmoniseerd)",
+    "datetime": "2026-10-14T07:15:05Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./services.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "api": {
+      "href": null,
+      "type": "text/html",
+      "title": "Beschermde Gebieden - Cultuurhistorie (INSPIRE geharmoniseerd)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rce/ps-ch/atom/v1_0/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (ps-ch/atom/v1_0/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rce/ps-ch/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (ps-ch/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rce/ps-ch/wms/v1_0?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&layers=PS.ProtectedSite&CRS=EPSG%3A28992&STYLES=&WIDTH=1632&HEIGHT=1484&BBOX=-190955.52%2C135905.27999999997%2C510935.0399999999%2C774144",
+      "type": "application/xml",
+      "title": "WMS (ps-ch/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-2": {
+      "href": "https://service.pdok.nl/rce/ps-ch/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (ps-ch/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Beschermde%20Gebieden%20-%20Cultuurhistorie.png/5fe6ea44-62a9-9990-8eff-a0a8f28afb76?t=1791962087088",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

@@ -227,6 +227,54 @@
       "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
       "type": "text/html",
       "title": "CC0 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./beacon/beacon.json",
+      "type": "application/geo+json",
+      "title": "beacon"
+    },
+    {
+      "rel": "item",
+      "href": "./buoy/buoy.json",
+      "type": "application/geo+json",
+      "title": "buoy"
+    },
+    {
+      "rel": "item",
+      "href": "./marker-post/marker-post.json",
+      "type": "application/geo+json",
+      "title": "marker_post"
+    },
+    {
+      "rel": "item",
+      "href": "./traffic-separation-scheme-crossing/traffic-separation-scheme-crossing.json",
+      "type": "application/geo+json",
+      "title": "traffic_separation_scheme_crossing"
+    },
+    {
+      "rel": "item",
+      "href": "./traffic-separation-scheme-separator/traffic-separation-scheme-separator.json",
+      "type": "application/geo+json",
+      "title": "traffic_separation_scheme_separator"
+    },
+    {
+      "rel": "item",
+      "href": "./waterway-node/waterway-node.json",
+      "type": "application/geo+json",
+      "title": "waterway_node"
+    },
+    {
+      "rel": "item",
+      "href": "./waterway-link/waterway-link.json",
+      "type": "application/geo+json",
+      "title": "waterway_link"
     }
   ]
 }

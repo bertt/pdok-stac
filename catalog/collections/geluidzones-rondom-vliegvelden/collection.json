@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/geluidzones%20%281%29.png/b90e83a7-cac9-e5d6-8fe8-57ee79ceddc6?t=1791961633783",
+      "href": "https://www.pdok.nl/documents/1901824/0/geluidzones%20%281%29.png/b90e83a7-cac9-e5d6-8fe8-57ee79ceddc6?t=1791962087097",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "AM.NoiseRestrictionZone"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

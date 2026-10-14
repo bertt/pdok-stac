@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Luchtfoto%20Infrarood%20%281%29.jpg/03f3aff5-1885-c40d-63a9-a409636c7a96?t=1791961633796",
+      "href": "https://www.pdok.nl/documents/1901824/0/Luchtfoto%20Infrarood%20%281%29.jpg/03f3aff5-1885-c40d-63a9-a409636c7a96?t=1791962087105",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +125,12 @@
       "title": "WMTS (luchtfotocir/wmts/v1_0)",
       "wmts:layer": "Actueel_orthoHRIR",
       "wmts:encoding": "kvp"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

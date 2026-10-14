@@ -92,6 +92,12 @@
       "href": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/ui",
       "type": "text/html",
       "title": "PDOK API"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

@@ -435,6 +435,204 @@
       "href": "https://creativecommons.org/licenses/by/4.0/deed.nl",
       "type": "text/html",
       "title": "CC BY 4.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./functioneel-gebied-multivlak/functioneel-gebied-multivlak.json",
+      "type": "application/geo+json",
+      "title": "functioneel_gebied_multivlak"
+    },
+    {
+      "rel": "item",
+      "href": "./functioneel-gebied-punt/functioneel-gebied-punt.json",
+      "type": "application/geo+json",
+      "title": "functioneel_gebied_punt"
+    },
+    {
+      "rel": "item",
+      "href": "./functioneel-gebied-vlak/functioneel-gebied-vlak.json",
+      "type": "application/geo+json",
+      "title": "functioneel_gebied_vlak"
+    },
+    {
+      "rel": "item",
+      "href": "./gebouw-punt/gebouw-punt.json",
+      "type": "application/geo+json",
+      "title": "gebouw_punt"
+    },
+    {
+      "rel": "item",
+      "href": "./gebouw-vlak/gebouw-vlak.json",
+      "type": "application/geo+json",
+      "title": "gebouw_vlak"
+    },
+    {
+      "rel": "item",
+      "href": "./geografisch-gebied-punt/geografisch-gebied-punt.json",
+      "type": "application/geo+json",
+      "title": "geografisch_gebied_punt"
+    },
+    {
+      "rel": "item",
+      "href": "./geografisch-gebied-multivlak/geografisch-gebied-multivlak.json",
+      "type": "application/geo+json",
+      "title": "geografisch_gebied_multivlak"
+    },
+    {
+      "rel": "item",
+      "href": "./geografisch-gebied-vlak/geografisch-gebied-vlak.json",
+      "type": "application/geo+json",
+      "title": "geografisch_gebied_vlak"
+    },
+    {
+      "rel": "item",
+      "href": "./hoogte-lijn/hoogte-lijn.json",
+      "type": "application/geo+json",
+      "title": "hoogte_lijn"
+    },
+    {
+      "rel": "item",
+      "href": "./hoogte-punt/hoogte-punt.json",
+      "type": "application/geo+json",
+      "title": "hoogte_punt"
+    },
+    {
+      "rel": "item",
+      "href": "./inrichtingselement-lijn/inrichtingselement-lijn.json",
+      "type": "application/geo+json",
+      "title": "inrichtingselement_lijn"
+    },
+    {
+      "rel": "item",
+      "href": "./inrichtingselement-punt/inrichtingselement-punt.json",
+      "type": "application/geo+json",
+      "title": "inrichtingselement_punt"
+    },
+    {
+      "rel": "item",
+      "href": "./plaats-multivlak/plaats-multivlak.json",
+      "type": "application/geo+json",
+      "title": "plaats_multivlak"
+    },
+    {
+      "rel": "item",
+      "href": "./plaats-punt/plaats-punt.json",
+      "type": "application/geo+json",
+      "title": "plaats_punt"
+    },
+    {
+      "rel": "item",
+      "href": "./plaats-vlak/plaats-vlak.json",
+      "type": "application/geo+json",
+      "title": "plaats_vlak"
+    },
+    {
+      "rel": "item",
+      "href": "./plantopografie-vlak/plantopografie-vlak.json",
+      "type": "application/geo+json",
+      "title": "plantopografie_vlak"
+    },
+    {
+      "rel": "item",
+      "href": "./registratief-gebied-multivlak/registratief-gebied-multivlak.json",
+      "type": "application/geo+json",
+      "title": "registratief_gebied_multivlak"
+    },
+    {
+      "rel": "item",
+      "href": "./registratief-gebied-vlak/registratief-gebied-vlak.json",
+      "type": "application/geo+json",
+      "title": "registratief_gebied_vlak"
+    },
+    {
+      "rel": "item",
+      "href": "./relief-lijn/relief-lijn.json",
+      "type": "application/geo+json",
+      "title": "relief_lijn"
+    },
+    {
+      "rel": "item",
+      "href": "./relief-talud-hoge-zijde-lijn/relief-talud-hoge-zijde-lijn.json",
+      "type": "application/geo+json",
+      "title": "relief_talud_hoge_zijde_lijn"
+    },
+    {
+      "rel": "item",
+      "href": "./relief-talud-lage-zijde-lijn/relief-talud-lage-zijde-lijn.json",
+      "type": "application/geo+json",
+      "title": "relief_talud_lage_zijde_lijn"
+    },
+    {
+      "rel": "item",
+      "href": "./spoorbaandeel-lijn/spoorbaandeel-lijn.json",
+      "type": "application/geo+json",
+      "title": "spoorbaandeel_lijn"
+    },
+    {
+      "rel": "item",
+      "href": "./spoorbaandeel-punt/spoorbaandeel-punt.json",
+      "type": "application/geo+json",
+      "title": "spoorbaandeel_punt"
+    },
+    {
+      "rel": "item",
+      "href": "./terrein-vlak/terrein-vlak.json",
+      "type": "application/geo+json",
+      "title": "terrein_vlak"
+    },
+    {
+      "rel": "item",
+      "href": "./waterdeel-lijn/waterdeel-lijn.json",
+      "type": "application/geo+json",
+      "title": "waterdeel_lijn"
+    },
+    {
+      "rel": "item",
+      "href": "./waterdeel-punt/waterdeel-punt.json",
+      "type": "application/geo+json",
+      "title": "waterdeel_punt"
+    },
+    {
+      "rel": "item",
+      "href": "./waterdeel-vlak/waterdeel-vlak.json",
+      "type": "application/geo+json",
+      "title": "waterdeel_vlak"
+    },
+    {
+      "rel": "item",
+      "href": "./wegdeel-hartlijn/wegdeel-hartlijn.json",
+      "type": "application/geo+json",
+      "title": "wegdeel_hartlijn"
+    },
+    {
+      "rel": "item",
+      "href": "./wegdeel-hartpunt/wegdeel-hartpunt.json",
+      "type": "application/geo+json",
+      "title": "wegdeel_hartpunt"
+    },
+    {
+      "rel": "item",
+      "href": "./wegdeel-lijn/wegdeel-lijn.json",
+      "type": "application/geo+json",
+      "title": "wegdeel_lijn"
+    },
+    {
+      "rel": "item",
+      "href": "./wegdeel-punt/wegdeel-punt.json",
+      "type": "application/geo+json",
+      "title": "wegdeel_punt"
+    },
+    {
+      "rel": "item",
+      "href": "./wegdeel-vlak/wegdeel-vlak.json",
+      "type": "application/geo+json",
+      "title": "wegdeel_vlak"
     }
   ]
 }

@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "production-facility-f",
+  "collection": "rws-productie-en-industrie-productiefaciliteiten-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.35417303,
+          50.71447164
+        ],
+        [
+          7.5553525,
+          50.71447164
+        ],
+        [
+          7.5553525,
+          55.66948102
+        ],
+        [
+          2.35417303,
+          55.66948102
+        ],
+        [
+          2.35417303,
+          50.71447164
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    2.35417303,
+    50.71447164,
+    7.5553525,
+    55.66948102
+  ],
+  "properties": {
+    "title": "production_facility_f",
+    "description": "Naar INSPIRE thema Faciliteiten voor productie en industrie geharmoniseerde SEVESO-inrichtingen geclassificeerde NACE Rev.2 categorieën F",
+    "datetime": "2026-07-01T06:52:36Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./production-facility-f.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/rws/productie-en-industrie-productiefaciliteiten/ogc/v1/collections/production_facility_f/items?f=json",
+      "type": "application/geo+json",
+      "title": "Bouw (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rws/productie-en-industrie-productiefaciliteiten/ogc/v1/resources/rws_pf_bouw.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

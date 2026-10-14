@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "vierkant-500m",
+  "collection": "cbs-vierkant-500m-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "vierkant_500m",
+    "description": "Het bestand vierkant 500 meter bij 500 meter bevat alle vierkanten van 500 meter bij 500 meter gelegen boven land van Nederland, aangevuld met grotere wateren. De dataset bevat een kolom waarvan de naam de EPSG-code vermeld van de projectie van het onderliggend gebied waarop de vierkanten als rechthoekig net betrekking hebben (Voor RD new is dat 28992) en de grootte van het vierkant (500 meter bij 500 meter). Aan ieder vierkant wordt een codering toegekend afgeleid van het linksonderpunt van het vierkant, opgebouwd uit een Oost en een Noord coördinaat. Zowel de x-coördinaat als de y-coördinaat van het linksonderpunt is een veelvoud van 500 meter en wordt weergegeven in hectometers. De y-coördinaat wordt weergegeven als N(orth) en de x-coördinaat als E(ast).",
+    "datetime": "2025-07-22T11:38:18Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./vierkant-500m.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/cbs/vierkant-500m/ogc/v1/collections/vierkant_500m/items?f=json",
+      "type": "application/geo+json",
+      "title": "Vierkant 500 meter bij 500 meter Nederland (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/vierkant-500m/ogc/v1/resources/vierkant500m.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

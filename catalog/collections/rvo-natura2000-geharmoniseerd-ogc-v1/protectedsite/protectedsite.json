@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "protectedsite",
+  "collection": "rvo-natura2000-geharmoniseerd-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "protectedsite",
+    "description": "Natura 2000 is het samenhangend netwerk van beschermde natuurgebieden in de Europese Unie bestaande uit Vogelrichtlijn- en Habitatrichtlijngebieden. Natura 2000-gebieden zijn een samenvoeging van beide. Bij de overgang naar de Wet natuurbescherming in 2017 zijn de gebieden die waren aangewezen als beschermd natuurmonument op grond van de Natuurbeschermingswet 1998 van rechtswege vervallen. Van de Natura 2000-gebieden die overlappen met beschermde natuurmonumenten zijn de doelen van de beschermde natuurmonumenten daarmee vervallen. In totaal gaat het om 162 Natura 2000-gebieden waarvan vier mariene gebieden in de Exclusieve Economische Zone (EEZ) op de Noordzee. De vigerende Vogelrichtlijngebieden zijn aangewezen in de periode 1995-2016. De Habitatrichtlijngebieden worden aangewezen met de aanwijzing van de betreffende Natura 2000-gebieden. Op 19 juni 2024 is een wijziging in de begrenzing van Rijntakken van kracht geworden. Grenswijzigingen zijn bijgewerkt tot de datum van uitgifte van dit bestand. In gebieden waar nog geen definitief Natura 2000-aanwijzingsbesluit van kracht is, is de grens van het ontwerpbesluit gehanteerd. Als er nog geen ontwerpbesluit is gepubliceerd, is de grens volgens de Europese 'Communautaire Lijst' gehanteerd. En als die lijst nog niet is geactualiseerd, is de aanmelding voor die lijst gehanteerd. Zie daarvoor de informatie in het attribuut STATUS. De begrenzingen zijn bovengronds en in het water van toepassing, met uitzondering van gebiedsdelen met code 'HR groeve' in het attribuut BESCHERMIN (hier maken alleen de ondergrondse kalksteengroeven deel uit van het Habitatrichtlijngebied).",
+    "datetime": "2026-01-28T07:56:35Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./protectedsite.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/rvo/natura2000-geharmoniseerd/ogc/v1/collections/protectedsite/items?f=json",
+      "type": "application/geo+json",
+      "title": "Natura 2000 (INSPIRE geharmoniseerd) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rvo/natura2000-geharmoniseerd/ogc/v1/resources/natura2000.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

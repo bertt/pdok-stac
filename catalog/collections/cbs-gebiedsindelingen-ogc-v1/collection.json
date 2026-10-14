@@ -1531,6 +1531,390 @@
       "href": "https://creativecommons.org/licenses/by/4.0/deed.nl",
       "type": "text/html",
       "title": "CC BY 4.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./arbeidsmarktregio-gegeneraliseerd/arbeidsmarktregio-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "arbeidsmarktregio_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./arbeidsmarktregio-labelpoint/arbeidsmarktregio-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "arbeidsmarktregio_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./arrondissementsgebied-gegeneraliseerd/arrondissementsgebied-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "arrondissementsgebied_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./arrondissementsgebied-labelpoint/arrondissementsgebied-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "arrondissementsgebied_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./buurt-gegeneraliseerd/buurt-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "buurt_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./buurt-labelpoint/buurt-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "buurt_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./buurt-niet-gegeneraliseerd/buurt-niet-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "buurt_niet_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./coropgebied-gegeneraliseerd/coropgebied-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "coropgebied_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./coropgebied-labelpoint/coropgebied-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "coropgebied_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./coropplusgebied-gegeneraliseerd/coropplusgebied-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "coropplusgebied_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./coropplusgebied-labelpoint/coropplusgebied-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "coropplusgebied_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./coropsubgebied-gegeneraliseerd/coropsubgebied-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "coropsubgebied_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./coropsubgebied-labelpoint/coropsubgebied-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "coropsubgebied_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./gemeente-gegeneraliseerd/gemeente-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "gemeente_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./gemeente-labelpoint/gemeente-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "gemeente_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./gemeente-niet-gegeneraliseerd/gemeente-niet-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "gemeente_niet_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./ggdregio-gegeneraliseerd/ggdregio-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "ggdregio_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./ggdregio-labelpoint/ggdregio-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "ggdregio_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./jeugdregio-gegeneraliseerd/jeugdregio-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "jeugdregio_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./jeugdregio-labelpoint/jeugdregio-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "jeugdregio_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./kamervankoophandelregio-gegeneraliseerd/kamervankoophandelregio-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "kamervankoophandelregio_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./kamervankoophandelregio-labelpoint/kamervankoophandelregio-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "kamervankoophandelregio_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./landbouwgebied-gegeneraliseerd/landbouwgebied-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "landbouwgebied_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./landbouwgebied-labelpoint/landbouwgebied-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "landbouwgebied_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./landbouwgroep-gegeneraliseerd/landbouwgroep-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "landbouwgroep_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./landbouwgroep-labelpoint/landbouwgroep-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "landbouwgroep_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./landsdeel-gegeneraliseerd/landsdeel-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "landsdeel_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./landsdeel-labelpoint/landsdeel-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "landsdeel_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./nuts1-gegeneraliseerd/nuts1-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "nuts1_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./nuts1-labelpoint/nuts1-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "nuts1_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./nuts2-gegeneraliseerd/nuts2-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "nuts2_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./nuts2-labelpoint/nuts2-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "nuts2_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./nuts3-gegeneraliseerd/nuts3-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "nuts3_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./nuts3-labelpoint/nuts3-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "nuts3_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./provincie-gegeneraliseerd/provincie-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "provincie_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./provincie-labelpoint/provincie-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "provincie_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./rpagebied-gegeneraliseerd/rpagebied-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "rpagebied_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./rpagebied-labelpoint/rpagebied-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "rpagebied_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./regionaalmeld-coordinatiepunt-gegeneraliseerd/regionaalmeld-coordinatiepunt-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "regionaalmeld_coordinatiepunt_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./regionaalmeld-coordinatiepunt-labelpoint/regionaalmeld-coordinatiepunt-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "regionaalmeld_coordinatiepunt_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./regionale-eenheid-gegeneraliseerd/regionale-eenheid-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "regionale_eenheid_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./regionale-eenheid-labelpoint/regionale-eenheid-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "regionale_eenheid_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./regionale-energiestrategie-gegeneraliseerd/regionale-energiestrategie-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "regionale_energiestrategie_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./regionale-energiestrategie-labelpoint/regionale-energiestrategie-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "regionale_energiestrategie_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./regioplus-arbeidsmarktregio-gegeneraliseerd/regioplus-arbeidsmarktregio-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "regioplus_arbeidsmarktregio_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./regioplus-arbeidsmarktregio-labelpoint/regioplus-arbeidsmarktregio-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "regioplus_arbeidsmarktregio_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./ressort-gegeneraliseerd/ressort-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "ressort_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./ressort-labelpoint/ressort-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "ressort_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./subres-regio-gegeneraliseerd/subres-regio-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "subres_regio_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./subres-regio-labelpoint/subres-regio-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "subres_regio_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./toeristengebied-gegeneraliseerd/toeristengebied-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "toeristengebied_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./toeristengebied-labelpoint/toeristengebied-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "toeristengebied_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./toeristengroep-gegeneraliseerd/toeristengroep-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "toeristengroep_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./toeristengroep-labelpoint/toeristengroep-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "toeristengroep_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./veiligheidsregio-gegeneraliseerd/veiligheidsregio-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "veiligheidsregio_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./veiligheidsregio-labelpoint/veiligheidsregio-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "veiligheidsregio_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./veiligthuisregio-gegeneraliseerd/veiligthuisregio-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "veiligthuisregio_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./veiligthuisregio-labelpoint/veiligthuisregio-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "veiligthuisregio_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./wijk-gegeneraliseerd/wijk-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "wijk_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./wijk-labelpoint/wijk-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "wijk_labelpoint"
+    },
+    {
+      "rel": "item",
+      "href": "./wijk-niet-gegeneraliseerd/wijk-niet-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "wijk_niet_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./zorgkantoorregio-gegeneraliseerd/zorgkantoorregio-gegeneraliseerd.json",
+      "type": "application/geo+json",
+      "title": "zorgkantoorregio_gegeneraliseerd"
+    },
+    {
+      "rel": "item",
+      "href": "./zorgkantoorregio-labelpoint/zorgkantoorregio-labelpoint.json",
+      "type": "application/geo+json",
+      "title": "zorgkantoorregio_labelpoint"
     }
   ]
 }

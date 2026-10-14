@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "visserijmaatregelen-noordzee",
+  "collection": "rvo-visserijmaatregelen-noordzee-geharmoniseerd-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.527125,
+          50.212863
+        ],
+        [
+          7.374026,
+          50.212863
+        ],
+        [
+          7.374026,
+          55.72116
+        ],
+        [
+          2.527125,
+          55.72116
+        ],
+        [
+          2.527125,
+          50.212863
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    2.527125,
+    50.212863,
+    7.374026,
+    55.72116
+  ],
+  "properties": {
+    "title": "visserijmaatregelen_noordzee",
+    "description": "Deze dataset bevat alle gebieden waar visserijmaatregelen gelden op de Noordzee (exclusief de Delta en de Waddenzee). De maatregelen zijn getroffen op basis van het Gemeenschappelijk Visserijbeleid (GVB) of nationale wetgeving zoals de omgevingswet (Toegang beperkend besluit) of de Uitvoeringsregeling Visserij.",
+    "datetime": "2026-03-30T11:49:22Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./visserijmaatregelen-noordzee.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/rvo/visserijmaatregelen-noordzee-geharmoniseerd/ogc/v1/collections/visserijmaatregelen_noordzee/items?f=json",
+      "type": "application/geo+json",
+      "title": "Visserijmaatregelen Noordzee (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rvo/visserijmaatregelen-noordzee-geharmoniseerd/ogc/v1/resources/visserijmaatregelen_noordzee_geharmoniseerd.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

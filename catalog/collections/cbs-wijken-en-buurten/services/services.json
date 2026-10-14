@@ -1,0 +1,317 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "services",
+  "collection": "cbs-wijken-en-buurten",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          3.2,
+          50.75
+        ],
+        [
+          7.22,
+          50.75
+        ],
+        [
+          7.22,
+          53.7
+        ],
+        [
+          3.2,
+          53.7
+        ],
+        [
+          3.2,
+          50.75
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    3.2,
+    50.75,
+    7.22,
+    53.7
+  ],
+  "properties": {
+    "title": "services",
+    "description": "Services of CBS Wijken en Buurten",
+    "datetime": "2026-10-14T07:15:05Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./services.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "api": {
+      "href": null,
+      "type": "text/html",
+      "title": "CBS Wijken en Buurten",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2017/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (wijkenbuurten/2017/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2017/wfs/v1_0?request=GetCapabilities",
+      "type": "application/xml",
+      "title": "WFS (wijkenbuurten/2017/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2017/wms/v1_0?request=GetCapabilities",
+      "type": "application/xml",
+      "title": "WMS (wijkenbuurten/2017/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom-2": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2018/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (wijkenbuurten/2018/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-2": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2018/wfs/v1_0?request=GetCapabilities",
+      "type": "application/xml",
+      "title": "WFS (wijkenbuurten/2018/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-2": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2018/wms/v1_0?request=GetCapabilities",
+      "type": "application/xml",
+      "title": "WMS (wijkenbuurten/2018/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom-3": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2019/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (wijkenbuurten/2019/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-3": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2019/wfs/v1_0?request=GetCapabilities",
+      "type": "application/xml",
+      "title": "WFS (wijkenbuurten/2019/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-3": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2019/wms/v1_0?request=GetCapabilities",
+      "type": "application/xml",
+      "title": "WMS (wijkenbuurten/2019/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom-4": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2020/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (wijkenbuurten/2020/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-4": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2020/wfs/v1_0?request=GetCapabilities",
+      "type": "application/xml",
+      "title": "WFS (wijkenbuurten/2020/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-4": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2020/wms/v1_0?request=GetCapabilities",
+      "type": "application/xml",
+      "title": "WMS (wijkenbuurten/2020/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom-5": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2021/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (wijkenbuurten/2021/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-5": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2021/wfs/v1_0?request=getcapabilities&service=wfs",
+      "type": "application/xml",
+      "title": "WFS (wijkenbuurten/2021/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-6": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2021/wfs/v2_0?request=getcapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (wijkenbuurten/2021/wfs/v2_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-5": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2021/wms/v1_0?request=getcapabilities&service=wms",
+      "type": "application/xml",
+      "title": "WMS (wijkenbuurten/2021/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-6": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2021/wms/v2_0?request=getcapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (wijkenbuurten/2021/wms/v2_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom-6": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2022/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (wijkenbuurten/2022/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-7": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2022/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (wijkenbuurten/2022/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-7": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2022/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (wijkenbuurten/2022/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom-7": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2023/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (wijkenbuurten/2023/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-8": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2023/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (wijkenbuurten/2023/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-8": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2023/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (wijkenbuurten/2023/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom-8": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2024/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (wijkenbuurten/2024/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-9": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2024/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (wijkenbuurten/2024/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-9": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2024/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (wijkenbuurten/2024/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom-9": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2025/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (wijkenbuurten/2025/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-10": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2025/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (wijkenbuurten/2025/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-10": {
+      "href": "https://service.pdok.nl/cbs/wijkenbuurten/2025/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (wijkenbuurten/2025/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Wijken%20en%20Buurten.png/97e0022e-310f-94ac-3408-3c8eb917b513?t=1791962087096",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

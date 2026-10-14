@@ -81,7 +81,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Population%20Distribution.png/dea5bc09-778f-4cf7-5f57-64297355c634?t=1791961633779",
+      "href": "https://www.pdok.nl/documents/1901824/0/Population%20Distribution.png/dea5bc09-778f-4cf7-5f57-64297355c634?t=1791962087094",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -138,6 +138,12 @@
         "pd_nl_grid_2012"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

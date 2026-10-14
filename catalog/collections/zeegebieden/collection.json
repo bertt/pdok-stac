@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Zeegbeieden.png/8b6201b0-11ee-2c5b-d2e4-deeca47c3d59?t=1791961633807",
+      "href": "https://www.pdok.nl/documents/1901824/0/Zeegbeieden.png/8b6201b0-11ee-2c5b-d2e4-deeca47c3d59?t=1791962087113",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -130,6 +130,12 @@
         "SR.InterTidalArea"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "stadsgewest-gegeneraliseerd",
+  "collection": "cbs-gebiedsindelingen-historisch-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "stadsgewest_gegeneraliseerd",
+    "description": "Grootstedelijke agglomeratie en het hierop georiënteerde omringende gebied. Het stadsgewest - het stedelijk gebied in functionele zin - bestaat uit een grootstedelijke agglomeratie en het omringende gebied met daarbinnen gelegen kleinere kernen (stadjes, dorpen, gehuchten) die met die agglomeratie door velerlei relaties met elkaar zijn verbonden. Die relaties hebben betrekking op het dagelijks verkeer tussen woon- en werkplaats, verhuizingen van huishoudens en bedrijven en het gebruik van stedelijke voorzieningen. Als zodanig kan het stadsgewest daarom worden beschouwd als een combinatie van een regionaal arbeid-, woning- en verzorgingsgebied. Voor de relaties tussen een grootstedelijke agglomeratie en het omringende gebied zijn twee criteria gehanteerd, namelijk: - Forensenstromen op basis van gegevens over de woon- en werkgemeente afkomstig van de Enquête Beroepsbevolking over de gecombineerde verslagjaren 1995 tot en met 1997; - Verhuizingen binnen en tussen gemeenten afkomstig van de statistieken van de binnengemeentelijke verhuizingen en de binnenlandse migratie over de gecombineerde verslagjaren 1996 tot en met 1997. Voor ieder gehanteerd criterium is een niet-hiërarchische clusteranalyse uitgevoerd met een symmetrisch algoritme, waarna de uitkomsten daarvan in hun onderlinge samenhang zijn geanalyseerd. De uiteindelijke afbakening van de grootstedelijke agglomeraties en de stadsgewesten heeft plaatsgevonden in nauw overleg met de Commissie van Advies voor de Regionale Statistieken. Hierin hadden de belangrijkste gebruikers van de regionale gegevens van het CBS (ministeries, gemeenten, planbureaus, wetenschap en bedrijfsleven) zitting. De indeling in stadsgewesten is niet landelijk dekkend en is beschikbaar vanaf 1 januari 2000. Het aantal stadsgewesten bedraagt 22.",
+    "datetime": "2025-03-06T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./stadsgewest-gegeneraliseerd.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen-historisch/ogc/v1/collections/stadsgewest_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Stadsgewest gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen-historisch/ogc/v1/resources/stadsgewest.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

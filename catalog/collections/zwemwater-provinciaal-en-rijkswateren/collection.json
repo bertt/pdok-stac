@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Zwemwater.png/a2a51efa-2cef-41e9-a466-4379e67f8015?t=1791961633808",
+      "href": "https://www.pdok.nl/documents/1901824/0/Zwemwater.png/a2a51efa-2cef-41e9-a466-4379e67f8015?t=1791962087113",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "AM.DesignatedWaters"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

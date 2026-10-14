@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "bbg2017",
+  "collection": "cbs-bestand-bodemgebruik-2017-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -59188.44333693248,
+          304984.64144318487
+        ],
+        [
+          308126.88473339565,
+          304984.64144318487
+        ],
+        [
+          308126.88473339565,
+          858328.516489961
+        ],
+        [
+          -59188.44333693248,
+          858328.516489961
+        ],
+        [
+          -59188.44333693248,
+          304984.64144318487
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -59188.44333693248,
+    304984.64144318487,
+    308126.88473339565,
+    858328.516489961
+  ],
+  "properties": {
+    "title": "bbg2017",
+    "description": "Het Bestand Bodemgebruik 2017 bevat digitale geometrie van het bodemgebruik in Nederland. Voorbeelden van het bodemgebruik zijn verkeersterreinen, bebouwing, recreatieterreinen en binnen- en buitenwater. De begrenzingen zijn voor een groot deel gebaseerd op de Top10NL (BRT). Bij het interpreteren zijn luchtfoto's leidend. De gegevens zijn ingewonnen in de zomer van 2017.",
+    "datetime": "2025-11-12T07:57:24Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./bbg2017.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/cbs/bestand-bodemgebruik-2017/ogc/v1/collections/bbg2017/items?f=json",
+      "type": "application/geo+json",
+      "title": "CBS Bestand Bodemgebruik 2017 (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/bestand-bodemgebruik-2017/ogc/v1/resources/cbs_bestand_bodemgebruik_2017.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "regionaalmeld-coordinatiepunt-gegeneraliseerd",
+  "collection": "cbs-gebiedsindelingen-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "regionaalmeld_coordinatiepunt_gegeneraliseerd",
+    "description": "In RMC-regio’s werken scholen en gemeenten samen om te voorkomen dat leerlingen zonder startkwalificatie van school gaan. Alle gemeenten in Nederland participeren in één van de RMC-regio’s. Gemeenten registreren (potentiële) voortijdige schoolverlaters (vsv’ers) en zorgen ervoor dat ze via een geschikt onderwijs- of arbeidstraject alsnog een startkwaliﬁcatie halen.",
+    "datetime": "2026-01-27T10:38:01Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./regionaalmeld-coordinatiepunt-gegeneraliseerd.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/regionaalmeld_coordinatiepunt_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Regionaalmeld coordinatiepunt gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/resources/regionaalmeld.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

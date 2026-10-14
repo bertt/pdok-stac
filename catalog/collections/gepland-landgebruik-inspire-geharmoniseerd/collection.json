@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Gepland%20Landgebruik.png/b88748f2-1f06-c20b-6c63-22c333ab6e56?t=1791961633784",
+      "href": "https://www.pdok.nl/documents/1901824/0/Gepland%20Landgebruik.png/b88748f2-1f06-c20b-6c63-22c333ab6e56?t=1791962087098",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "LU.SpatialPlan"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

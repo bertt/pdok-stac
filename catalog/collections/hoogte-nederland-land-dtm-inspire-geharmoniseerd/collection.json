@@ -81,7 +81,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Hoogte%20Nederland%20DTM.jpg/d774a1e3-72ea-a62a-d842-8afcfe75ea08?t=1791961633785",
+      "href": "https://www.pdok.nl/documents/1901824/0/Hoogte%20Nederland%20DTM.jpg/d774a1e3-72ea-a62a-d842-8afcfe75ea08?t=1791962087099",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -132,6 +132,12 @@
         "EL.GridCoverage"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

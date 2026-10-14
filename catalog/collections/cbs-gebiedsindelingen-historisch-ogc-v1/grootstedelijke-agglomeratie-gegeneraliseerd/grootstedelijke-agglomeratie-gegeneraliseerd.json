@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "grootstedelijke-agglomeratie-gegeneraliseerd",
+  "collection": "cbs-gebiedsindelingen-historisch-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "grootstedelijke_agglomeratie_gegeneraliseerd",
+    "description": "Gebied met een aaneengesloten stedelijke bebouwing. Een grootstedelijke agglomeratie is stedelijk gebied in morfologische zin. Het is een aaneengesloten gebied met stedelijke bebouwing waarin de meeste menselijke activiteiten plaatsvinden, de meeste banen aanwezig zijn en de meeste openbare voorzieningen zijn gelokaliseerd. De grootstedelijke agglomeraties vormen de centra van de stadsgewesten. De gebieden met een stedelijke bebouwing zijn afgebakend aan de hand van de digitale kaart van het bodemgebruik naar de situatie van 1996. Welk gebied het centrum van het stadsgewest is, is bepaald aan de hand van inwonertal (meer dan 100 duizend), aantal banen (meer dan 50 duizend) en potentieel aan regionale klanten (meer dan 150 duizend). De indeling in grootstedelijke agglomeraties is niet landelijk dekkend en is beschikbaar vanaf 1 januari 2000. Het aantal grootstedelijke agglomeraties bedraagt 22.",
+    "datetime": "2025-03-06T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./grootstedelijke-agglomeratie-gegeneraliseerd.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen-historisch/ogc/v1/collections/grootstedelijke_agglomeratie_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Grootstedelijke agglomeratie gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen-historisch/ogc/v1/resources/grootstedelijk.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

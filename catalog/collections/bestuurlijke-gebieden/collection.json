@@ -81,7 +81,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Bestuurlijke%20Gebieden.png/8c633165-7a4f-f690-13f4-0b7cb83c48e1?t=1791961633772",
+      "href": "https://www.pdok.nl/documents/1901824/0/Bestuurlijke%20Gebieden.png/8c633165-7a4f-f690-13f4-0b7cb83c48e1?t=1791962087088",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -138,6 +138,12 @@
         "Gemeentegebied"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

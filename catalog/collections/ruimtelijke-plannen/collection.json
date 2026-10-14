@@ -81,7 +81,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Ruimtelijke%20plannen.png/2f511221-97ba-c249-0488-08e1a9ee92da?t=1791961633800",
+      "href": "https://www.pdok.nl/documents/1901824/0/Ruimtelijke%20plannen.png/2f511221-97ba-c249-0488-08e1a9ee92da?t=1791962087107",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -132,6 +132,12 @@
         "enkelbestemming"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

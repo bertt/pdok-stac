@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "mosselzaadinvanginstallaties",
+  "collection": "rvo-mosselzaadinvanginstallaties-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "mosselzaadinvanginstallaties",
+    "description": "Dit betreft een bestandsopname van het areaal mossel en oesterbanken op de droogvallende platen in de Waddenzee. Dit geschiedt jaarlijks. De opdrachtgever is de Directie Dierlijke Agroketens en Dierenwelzijn / Cluster Duurzame Visserijketens. De bestandsopname zelf wordt uitgevoerd door IMARES.",
+    "datetime": "2025-10-16T09:43:41Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./mosselzaadinvanginstallaties.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/rvo/mosselzaadinvanginstallaties/ogc/v1/collections/mosselzaadinvanginstallaties/items?f=json",
+      "type": "application/geo+json",
+      "title": "mosselzaadinvanginstallaties (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rvo/mosselzaadinvanginstallaties/ogc/v1/resources/mosselzaadinvanginstallaties.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

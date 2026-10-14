@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Geografische%20Namen.png/59d80089-4182-d723-1202-5e66dd61483c?t=1791961633783",
+      "href": "https://www.pdok.nl/documents/1901824/0/Geografische%20Namen.png/59d80089-4182-d723-1202-5e66dd61483c?t=1791962087097",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -130,6 +130,12 @@
         "GN.GeographicalNames"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

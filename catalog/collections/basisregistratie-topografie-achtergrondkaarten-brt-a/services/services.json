@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "services",
+  "collection": "basisregistratie-topografie-achtergrondkaarten-brt-a",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          3.2,
+          50.75
+        ],
+        [
+          7.22,
+          50.75
+        ],
+        [
+          7.22,
+          53.7
+        ],
+        [
+          3.2,
+          53.7
+        ],
+        [
+          3.2,
+          50.75
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    3.2,
+    50.75,
+    7.22,
+    53.7
+  ],
+  "properties": {
+    "title": "services",
+    "description": "Services of Basisregistratie Topografie (BRT) BRT Achtergrondkaart (BRT-A)",
+    "datetime": "2026-10-14T07:15:05Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./services.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "api": {
+      "href": null,
+      "type": "text/html",
+      "title": "Basisregistratie Topografie (BRT) BRT Achtergrondkaart (BRT-A)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wmts": {
+      "href": "https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/grijs/EPSG:28992/10/586/499.png",
+      "type": "application/xml",
+      "title": "WMTS (achtergrondkaart/wmts/v2_0/grijs/EPSG:28992/10/586/499.png)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wmts-2": {
+      "href": "https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/pastel/EPSG:28992/10/586/499.png",
+      "type": "application/xml",
+      "title": "WMTS (achtergrondkaart/wmts/v2_0/pastel/EPSG:28992/10/586/499.png)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wmts-3": {
+      "href": "https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/water/EPSG:28992/10/586/499.png",
+      "type": "application/xml",
+      "title": "WMTS (achtergrondkaart/wmts/v2_0/water/EPSG:28992/10/586/499.png)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/brta.png/b50003d0-c722-a491-bf51-de94bfa023f7?t=1791962087087",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

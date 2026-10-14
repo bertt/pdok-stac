@@ -81,7 +81,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Adressen%20en%20Gebouwen.png/f84c4d23-c8a6-c06b-c368-fd7ae83b927f?t=1791961633770",
+      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Adressen%20en%20Gebouwen.png/f84c4d23-c8a6-c06b-c368-fd7ae83b927f?t=1791962087087",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -138,6 +138,12 @@
         "pand"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

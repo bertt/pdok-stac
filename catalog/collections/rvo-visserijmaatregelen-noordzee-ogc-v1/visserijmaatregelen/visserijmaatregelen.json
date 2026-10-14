@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "visserijmaatregelen",
+  "collection": "rvo-visserijmaatregelen-noordzee-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.527125,
+          50.212863
+        ],
+        [
+          7.374026,
+          50.212863
+        ],
+        [
+          7.374026,
+          55.72116
+        ],
+        [
+          2.527125,
+          55.72116
+        ],
+        [
+          2.527125,
+          50.212863
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    2.527125,
+    50.212863,
+    7.374026,
+    55.72116
+  ],
+  "properties": {
+    "title": "visserijmaatregelen",
+    "description": "Deze dataset bevat alle gebieden waar visserijmaatregelen gelden op de Noordzee (exclusief de Delta en de Waddenzee). De maatregelen zijn getroffen op basis van het Gemeenschappelijk Visserijbeleid (GVB) of nationale wetgeving zoals de omgevingswet (Toegang beperkend besluit) of de Uitvoeringsregeling Visserij. De afkortingen van de genoemde vistuigen: - Bottom trawl (TB), - beam trawl (TBB), - bottom otter trawl (OTB), - otter twin trawl (OTT), - bottom pair trawl (PTB), - nephrops trawl (TBN), - shrimp trawl (TBS), - seine (SX), - Danish anchor seine (SDN), - Scottish seine (SSC), - Scottish pair seine (SPR), - boat or vessel seine (SV) Er kunnen geen rechten aan deze dataset worden ontleend.",
+    "datetime": "2026-04-01T11:32:13Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./visserijmaatregelen.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/rvo/visserijmaatregelen-noordzee/ogc/v1/collections/visserijmaatregelen/items?f=json",
+      "type": "application/geo+json",
+      "title": "Visserijmaatregelen Noordzee (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rvo/visserijmaatregelen-noordzee/ogc/v1/resources/visserijmaatregelen_noordzee.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

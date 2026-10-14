@@ -1,0 +1,629 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "services",
+  "collection": "cbs-gebiedsindelingen-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "services",
+    "description": "Services of CBS Gebiedsindelingen 2016 t/m heden (OGC API)",
+    "datetime": "2026-10-14T07:15:05Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./services.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/resources/gebiedsindelingen.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2016/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2016/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2016/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2016/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-2": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2017/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2017/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-2": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2017/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2017/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-3": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2018/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2018/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-3": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2018/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2018/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-4": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2019/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2019/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-4": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2019/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2019/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-5": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2020/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2020/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-5": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2020/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2020/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-6": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2021/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2021/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-6": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2021/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2021/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-7": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2022/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2022/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-7": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2022/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2022/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-8": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2023/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2023/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-8": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2023/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2023/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-9": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2024/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2024/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-9": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2024/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2024/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-10": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2025/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2025/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-10": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2025/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2025/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-11": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2026/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2026/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-11": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2026/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2026/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/atom/v1_0/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (gebiedsindelingen/atom/v1_0/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom-2": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/1995-2015/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (gebiedsindelingen/1995-2015/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-12": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/1995/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/1995/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-12": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/1995/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/1995/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-13": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/1996/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/1996/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-13": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/1996/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/1996/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-14": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/1997/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/1997/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-14": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/1997/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/1997/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-15": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/1998/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/1998/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-15": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/1998/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/1998/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-16": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/1999/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/1999/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-16": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/1999/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/1999/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-17": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2000/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2000/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-17": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2000/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2000/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-18": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2001/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2001/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-18": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2001/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2001/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-19": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2002/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2002/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-19": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2002/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2002/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-20": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2003/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2003/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-20": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2003/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2003/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-21": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2004/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2004/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-21": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2004/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2004/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-22": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2005/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2005/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-22": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2005/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2005/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-23": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2006/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2006/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-23": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2006/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2006/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-24": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2007/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2007/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-24": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2007/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2007/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-25": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2008/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2008/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-25": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2008/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2008/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-26": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2009/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2009/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-26": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2009/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2009/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-27": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2010/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2010/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-27": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2010/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2010/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-28": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2011/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2011/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-28": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2011/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2011/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-29": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2012/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2012/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-29": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2012/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2012/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-30": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2013/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2013/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-30": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2013/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2013/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-31": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2014/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2014/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-31": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2014/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2014/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-32": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2015/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (gebiedsindelingen/2015/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-32": {
+      "href": "https://service.pdok.nl/cbs/gebiedsindelingen/2015/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (gebiedsindelingen/2015/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

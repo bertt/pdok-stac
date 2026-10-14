@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Brogu2.png/98c6f0b5-629e-9e61-4a95-373d5810297b?t=1791961633775",
+      "href": "https://www.pdok.nl/documents/1901824/0/Brogu2.png/98c6f0b5-629e-9e61-4a95-373d5810297b?t=1791962087091",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "EF.EnvironmentalMonitoringFacilities"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

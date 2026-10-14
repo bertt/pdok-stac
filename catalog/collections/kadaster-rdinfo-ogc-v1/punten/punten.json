@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "punten",
+  "collection": "kadaster-rdinfo-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "punten",
+    "description": "Er zijn ongeveer 5600 RD-punten, onderverdeeld in RD-net, GNSS-kernnet, AGRS- en NETPOS-stations. Elk RD-punt bestaat uit meerdere Stations waarvan de coördinaten in RD en ETRS89 bekend zijn. De gehele publicatie, inclusief geschiedenis van het RD-punt, bestaat uit ruim 47000 stations (lees: records). Van de ongeveer 5600 RD-punten zijn er ongeveer 400, verspreid over Nederland liggende, GNSS-kernnetpunten. Van deze kernnetpunten is ook de NAP-hoogte bekend.",
+    "datetime": "2026-06-11T13:46:07Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./punten.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/kadaster/rdinfo/ogc/v1/collections/punten/items?f=json",
+      "type": "application/geo+json",
+      "title": "Punten (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/kadaster/rdinfo/ogc/v1/resources/punt.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

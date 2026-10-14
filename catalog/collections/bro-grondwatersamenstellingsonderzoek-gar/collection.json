@@ -63,7 +63,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/bro.jpg/5e0e886e-deb7-887c-49e0-68f991d1256b?t=1791961633776",
+      "href": "https://www.pdok.nl/documents/1901824/0/bro.jpg/5e0e886e-deb7-887c-49e0-68f991d1256b?t=1791962087092",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -98,6 +98,12 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-grondwatersamenstellingsonderzoek-gar-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

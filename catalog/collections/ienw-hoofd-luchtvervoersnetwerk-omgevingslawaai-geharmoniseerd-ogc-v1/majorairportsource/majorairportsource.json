@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "majorairportsource",
+  "collection": "ienw-hoofd-luchtvervoersnetwerk-omgevingslawaai-geharmoniseerd-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "majorairportsource",
+    "description": "Het gaat om gegevens over de geluidbron 'Hoofd Luchtvervoersnetwerk'.",
+    "datetime": "2026-02-03T12:03:29Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./majorairportsource.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/ienw/hoofd-luchtvervoersnetwerk-omgevingslawaai-geharmoniseerd/ogc/v1/collections/majorairportsource/items?f=json",
+      "type": "application/geo+json",
+      "title": "MajorAirportSource (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/ienw/hoofd-luchtvervoersnetwerk-omgevingslawaai-geharmoniseerd/ogc/v1/resources/luchtvervoersnetwerk.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

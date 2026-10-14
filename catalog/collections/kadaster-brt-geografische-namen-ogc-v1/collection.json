@@ -210,6 +210,42 @@
       "href": "https://creativecommons.org/publicdomain/mark/1.0/deed.nl",
       "type": "text/html",
       "title": "Public Domain Mark 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./namedplace-linestring/namedplace-linestring.json",
+      "type": "application/geo+json",
+      "title": "namedplace_linestring"
+    },
+    {
+      "rel": "item",
+      "href": "./namedplace-multipolygon/namedplace-multipolygon.json",
+      "type": "application/geo+json",
+      "title": "namedplace_multipolygon"
+    },
+    {
+      "rel": "item",
+      "href": "./namedplace-point/namedplace-point.json",
+      "type": "application/geo+json",
+      "title": "namedplace_point"
+    },
+    {
+      "rel": "item",
+      "href": "./namedplace-polygon-overig/namedplace-polygon-overig.json",
+      "type": "application/geo+json",
+      "title": "namedplace_polygon_overig"
+    },
+    {
+      "rel": "item",
+      "href": "./namedplace-polygon-wegdelen/namedplace-polygon-wegdelen.json",
+      "type": "application/geo+json",
+      "title": "namedplace_polygon_wegdelen"
     }
   ]
 }

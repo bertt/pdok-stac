@@ -65,7 +65,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/LGN.png/dfc36d6c-e924-efe7-0316-533ac44a151b?t=1791961633789",
+      "href": "https://www.pdok.nl/documents/1901824/0/LGN.png/dfc36d6c-e924-efe7-0316-533ac44a151b?t=1791962087102",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -110,6 +110,12 @@
         "lgn-actueel"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "coropgebied-gegeneraliseerd",
+  "collection": "cbs-gebiedsindelingen-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "coropgebied_gegeneraliseerd",
+    "description": "De COROP-gebieden zijn in 1970 vastgesteld door de Coördinatiecommissie Regionaal Onderzoeksprogramma (COROP). De COROP-gebieden zijn ontwikkeld op basis van het nodale principe, waarbij de forenzenstromen als basis hebben gediend. Het nodale principe is hier en daar losgelaten zodat de gebieden de provinciegrenzen volgen. Na gemeentelijke herindelingen waarbij de COROP-grenzen worden overschreden, volgt een bijstelling van de indeling. De COROP-gebieden zijn verder onderverdeeld in COROP-subgebieden en COROP-plusgebieden. Er zijn meer COROP-subgebieden dan er COROP-gebieden zijn. De extra gebieden zijn Groot-Amsterdam, Groot-Rijnmond en Noordoost-Noord-Brabant.",
+    "datetime": "2026-01-27T10:38:01Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./coropgebied-gegeneraliseerd.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/coropgebied_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Coropgebied gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/resources/coropgebied.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

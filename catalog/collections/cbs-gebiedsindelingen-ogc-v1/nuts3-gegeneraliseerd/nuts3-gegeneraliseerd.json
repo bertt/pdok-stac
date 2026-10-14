@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "nuts3-gegeneraliseerd",
+  "collection": "cbs-gebiedsindelingen-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "nuts3_gegeneraliseerd",
+    "description": "De NUTS, Nomenclature des Unités Territoriales Statistiques, is de regionale indeling van het Europese statistiekbureau Eurostat. Deze is ingevoerd om over heel Europa vergelijkbare regio’s te hebben, waardoor Europese statistieken regionaal goed vergelijkbaar zijn. De NUTS heeft drie niveaus. Voor Nederland komen zij in principe overeen met de volgende nationale indelingen: NUTS 1: Landsdelen NUTS 2: Provincies NUTS 3: COROP-gebieden Er is echter één verschil: de Nederlandse indelingen kunnen jaarlijks grenswijzigingen ondergaan, terwijl in de NUTS-indeling slechts eens in de drie á vier jaar wijzigingen mogen worden doorgevoerd. Dat betekent dat in de tussentijd cijfers naar de Nederlandse nationale indeling kunnen afwijken van cijfers naar de Europese NUTS-indeling. Meer informatie over NUTS is te vinden bij Eurostat.",
+    "datetime": "2026-01-27T10:38:01Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./nuts3-gegeneraliseerd.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/nuts3_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "NUTS3 gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/resources/nuts3.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

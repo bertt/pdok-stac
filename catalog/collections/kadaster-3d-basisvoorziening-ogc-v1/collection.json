@@ -166,6 +166,42 @@
       "href": "https://creativecommons.org/licenses/by/4.0/deed.nl",
       "type": "text/html",
       "title": "CC BY 4.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./basisbestand-gebouwen/basisbestand-gebouwen.json",
+      "type": "application/geo+json",
+      "title": "basisbestand_gebouwen"
+    },
+    {
+      "rel": "item",
+      "href": "./basisbestand-gebouwen-terreinen/basisbestand-gebouwen-terreinen.json",
+      "type": "application/geo+json",
+      "title": "basisbestand_gebouwen_terreinen"
+    },
+    {
+      "rel": "item",
+      "href": "./hoogtestatistieken-gebouwen/hoogtestatistieken-gebouwen.json",
+      "type": "application/geo+json",
+      "title": "hoogtestatistieken_gebouwen"
+    },
+    {
+      "rel": "item",
+      "href": "./digitaaloppervlaktemodel-20cm/digitaaloppervlaktemodel-20cm.json",
+      "type": "application/geo+json",
+      "title": "digitaaloppervlaktemodel_20cm"
+    },
+    {
+      "rel": "item",
+      "href": "./digitaaloppervlaktemodel-8cm/digitaaloppervlaktemodel-8cm.json",
+      "type": "application/geo+json",
+      "title": "digitaaloppervlaktemodel_8cm"
     }
   ]
 }

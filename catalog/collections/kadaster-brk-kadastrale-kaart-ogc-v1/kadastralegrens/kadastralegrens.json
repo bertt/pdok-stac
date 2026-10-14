@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "kadastralegrens",
+  "collection": "kadaster-brk-kadastrale-kaart-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "kadastralegrens",
+    "description": "Een Kadastrale Grens is de weergave van een grens op de kadastrale kaart die door het Kadaster tussen percelen vastgesteld wordt, op basis van inlichtingen van belanghebbenden en met gebruikmaking van de aan de Kadastrale kaart ten grondslag liggende bescheiden die in elk geval de landmeetkundige gegevens bevatten van hetgeen op die kaart wordt weergegeven.",
+    "datetime": "2026-10-14T00:19:02Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./kadastralegrens.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/kadaster/brk-kadastrale-kaart/ogc/v1/collections/kadastralegrens/items?f=json",
+      "type": "application/geo+json",
+      "title": "KadastraleGrens (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/kadaster/brk-kadastrale-kaart/ogc/v1/resources/kadastralegrens.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

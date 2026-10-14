@@ -81,7 +81,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Adressen.png/56a96ab4-909f-e062-2bc0-bc70bc1ddc85?t=1791961633769",
+      "href": "https://www.pdok.nl/documents/1901824/0/Adressen.png/56a96ab4-909f-e062-2bc0-bc70bc1ddc85?t=1791962087087",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -132,6 +132,12 @@
         "AD.Address"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

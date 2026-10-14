@@ -241,6 +241,66 @@
       "href": "https://creativecommons.org/publicdomain/mark/1.0/deed.nl",
       "type": "text/html",
       "title": "Public Domain Mark 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./aerodromearea/aerodromearea.json",
+      "type": "application/geo+json",
+      "title": "aerodromearea"
+    },
+    {
+      "rel": "item",
+      "href": "./cablewaylink/cablewaylink.json",
+      "type": "application/geo+json",
+      "title": "cablewaylink"
+    },
+    {
+      "rel": "item",
+      "href": "./portarea/portarea.json",
+      "type": "application/geo+json",
+      "title": "portarea"
+    },
+    {
+      "rel": "item",
+      "href": "./railwayarea/railwayarea.json",
+      "type": "application/geo+json",
+      "title": "railwayarea"
+    },
+    {
+      "rel": "item",
+      "href": "./railwaylink/railwaylink.json",
+      "type": "application/geo+json",
+      "title": "railwaylink"
+    },
+    {
+      "rel": "item",
+      "href": "./roadarea/roadarea.json",
+      "type": "application/geo+json",
+      "title": "roadarea"
+    },
+    {
+      "rel": "item",
+      "href": "./runwayarea/runwayarea.json",
+      "type": "application/geo+json",
+      "title": "runwayarea"
+    },
+    {
+      "rel": "item",
+      "href": "./taxiwayarea/taxiwayarea.json",
+      "type": "application/geo+json",
+      "title": "taxiwayarea"
+    },
+    {
+      "rel": "item",
+      "href": "./ferrycrossing/ferrycrossing.json",
+      "type": "application/geo+json",
+      "title": "ferrycrossing"
     }
   ]
 }

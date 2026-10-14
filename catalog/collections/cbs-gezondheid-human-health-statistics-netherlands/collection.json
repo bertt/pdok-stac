@@ -81,7 +81,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Human%20Health%20Statistics%20Netherlands%20.png/45635a6e-6506-b3fd-32d1-7a887bf8a2b8?t=1791961633780",
+      "href": "https://www.pdok.nl/documents/1901824/0/Human%20Health%20Statistics%20Netherlands%20.png/45635a6e-6506-b3fd-32d1-7a887bf8a2b8?t=1791962087095",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -138,6 +138,12 @@
         "hh-nl-nuts2-doctors-2017"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

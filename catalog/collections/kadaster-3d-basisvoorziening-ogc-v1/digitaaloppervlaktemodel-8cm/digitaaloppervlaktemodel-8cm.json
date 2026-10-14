@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "digitaaloppervlaktemodel-8cm",
+  "collection": "kadaster-3d-basisvoorziening-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "digitaaloppervlaktemodel_8cm",
+    "description": "Het Digital Surface Model (DSM) representeert het aardoppervlak van Nederland inclusief objecten en vegetatie, gemaakt op basis van regelmatige puntenwolken aan de hand van luchtfoto's, in LASZip formaat. Dit DSM bevat een afstand tussen punten van minimaal 8 cm. Deze wordt alleen aangeboden in de meest recent beschikbare jaargang, zie tabel 1 in de productbeschrijving.",
+    "datetime": "2026-09-23T12:44:55Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./digitaaloppervlaktemodel-8cm.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/kadaster/3d-basisvoorziening/ogc/v1/collections/digitaaloppervlaktemodel_8cm/items?f=json",
+      "type": "application/geo+json",
+      "title": "Digitaal Oppervlakte Model (DSM) 8 cm (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/kadaster/3d-basisvoorziening/ogc/v1/resources/3d_kaartbladen_dsm.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

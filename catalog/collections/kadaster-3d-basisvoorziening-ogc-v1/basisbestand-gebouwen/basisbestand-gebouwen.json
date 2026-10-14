@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "basisbestand-gebouwen",
+  "collection": "kadaster-3d-basisvoorziening-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "basisbestand_gebouwen",
+    "description": "Deze collectie bevat 3D objecten voor gebouwen in LoD 2.2. Waar geen AHN gegevens beschikbaar zijn, worden de gebouwen weergegeven in LoD 1.3. De hoogte van deze LoD 1.3 gebouwen is gebaseerd op puntenwolken gegenereerd uit luchtfotobeelden. Het geleverde formaat (CityJSON) is geschikt voor analyse doeleinden in GIS programmatuur. Voor BIM software is een IFC converter beschikbaar. Deze bestanden worden jaarlijks geactualiseerd.",
+    "datetime": "2026-09-23T12:44:55Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./basisbestand-gebouwen.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/kadaster/3d-basisvoorziening/ogc/v1/collections/basisbestand_gebouwen/items?f=json",
+      "type": "application/geo+json",
+      "title": "3D Objecten Gebouwen (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/kadaster/3d-basisvoorziening/ogc/v1/resources/3d_kaartbladen_geb_voll.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "services",
+  "collection": "rws-vervoersnetwerken-wegen-netwerk-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.35417303,
+          50.71447164
+        ],
+        [
+          7.5553525,
+          50.71447164
+        ],
+        [
+          7.5553525,
+          55.66948102
+        ],
+        [
+          2.35417303,
+          55.66948102
+        ],
+        [
+          2.35417303,
+          50.71447164
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    2.35417303,
+    50.71447164,
+    7.5553525,
+    55.66948102
+  ],
+  "properties": {
+    "title": "services",
+    "description": "Services of Vervoersnetwerken - Wegen - Netwerk (INSPIRE geharmoniseerd) (OGC API)",
+    "datetime": "2026-10-14T07:15:05Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./services.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-wegen-netwerk/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-wegen-netwerk/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-wegen-netwerk/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-wegen-netwerk/ogc/v1/resources/wegen-netwerk.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rws/vervoersnetwerken-wegen-netwerk/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (vervoersnetwerken-wegen-netwerk/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rws/vervoersnetwerken-wegen-netwerk/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vervoersnetwerken-wegen-netwerk/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rws/vervoersnetwerken-wegen-netwerk/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vervoersnetwerken-wegen-netwerk/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BROsad.jpg/3d0df9d8-f3e6-949e-ae99-2ac82ae90608?t=1791961633777",
+      "href": "https://www.pdok.nl/documents/1901824/0/BROsad.jpg/3d0df9d8-f3e6-949e-ae99-2ac82ae90608?t=1791962087092",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "sad"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

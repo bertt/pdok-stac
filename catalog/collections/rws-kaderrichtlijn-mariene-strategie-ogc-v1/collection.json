@@ -203,6 +203,30 @@
       "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
       "type": "text/html",
       "title": "CC0 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./bevroren-monitoringsdata/bevroren-monitoringsdata.json",
+      "type": "application/geo+json",
+      "title": "bevroren_monitoringsdata"
+    },
+    {
+      "rel": "item",
+      "href": "./marienewateren/marienewateren.json",
+      "type": "application/geo+json",
+      "title": "marienewateren"
+    },
+    {
+      "rel": "item",
+      "href": "./marienerapportageeenheden/marienerapportageeenheden.json",
+      "type": "application/geo+json",
+      "title": "marienerapportageeenheden"
     }
   ]
 }

@@ -81,7 +81,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Gewaspercelen.png/0571bcdf-430e-3ab0-84bb-b73942d248c7?t=1791961633770",
+      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Gewaspercelen.png/0571bcdf-430e-3ab0-84bb-b73942d248c7?t=1791962087087",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -138,6 +138,12 @@
         "BrpGewas"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

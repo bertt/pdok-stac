@@ -319,6 +319,120 @@
       "href": "https://creativecommons.org/licenses/by-sa/4.0/deed.nl",
       "type": "text/html",
       "title": "Gebruiksvoorwaarden (CC-BY-SA)"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./afsluiter/afsluiter.json",
+      "type": "application/geo+json",
+      "title": "afsluiter"
+    },
+    {
+      "rel": "item",
+      "href": "./iba/iba.json",
+      "type": "application/geo+json",
+      "title": "iba"
+    },
+    {
+      "rel": "item",
+      "href": "./kabel/kabel.json",
+      "type": "application/geo+json",
+      "title": "kabel"
+    },
+    {
+      "rel": "item",
+      "href": "./kathodischebescherming/kathodischebescherming.json",
+      "type": "application/geo+json",
+      "title": "kathodischebescherming"
+    },
+    {
+      "rel": "item",
+      "href": "./leiding/leiding.json",
+      "type": "application/geo+json",
+      "title": "leiding"
+    },
+    {
+      "rel": "item",
+      "href": "./leidingsegment/leidingsegment.json",
+      "type": "application/geo+json",
+      "title": "leidingsegment"
+    },
+    {
+      "rel": "item",
+      "href": "./lozingspunt/lozingspunt.json",
+      "type": "application/geo+json",
+      "title": "lozingspunt"
+    },
+    {
+      "rel": "item",
+      "href": "./mantelbuis/mantelbuis.json",
+      "type": "application/geo+json",
+      "title": "mantelbuis"
+    },
+    {
+      "rel": "item",
+      "href": "./nooduitlaat/nooduitlaat.json",
+      "type": "application/geo+json",
+      "title": "nooduitlaat"
+    },
+    {
+      "rel": "item",
+      "href": "./ontluchter/ontluchter.json",
+      "type": "application/geo+json",
+      "title": "ontluchter"
+    },
+    {
+      "rel": "item",
+      "href": "./overnamepunt/overnamepunt.json",
+      "type": "application/geo+json",
+      "title": "overnamepunt"
+    },
+    {
+      "rel": "item",
+      "href": "./overnamepuntgebied/overnamepuntgebied.json",
+      "type": "application/geo+json",
+      "title": "overnamepuntgebied"
+    },
+    {
+      "rel": "item",
+      "href": "./pigginginstallatie/pigginginstallatie.json",
+      "type": "application/geo+json",
+      "title": "pigginginstallatie"
+    },
+    {
+      "rel": "item",
+      "href": "./put/put.json",
+      "type": "application/geo+json",
+      "title": "put"
+    },
+    {
+      "rel": "item",
+      "href": "./rwzi/rwzi.json",
+      "type": "application/geo+json",
+      "title": "rwzi"
+    },
+    {
+      "rel": "item",
+      "href": "./rioleringsgebied/rioleringsgebied.json",
+      "type": "application/geo+json",
+      "title": "rioleringsgebied"
+    },
+    {
+      "rel": "item",
+      "href": "./rioolgemaal/rioolgemaal.json",
+      "type": "application/geo+json",
+      "title": "rioolgemaal"
+    },
+    {
+      "rel": "item",
+      "href": "./zuiveringseenheid/zuiveringseenheid.json",
+      "type": "application/geo+json",
+      "title": "zuiveringseenheid"
     }
   ]
 }

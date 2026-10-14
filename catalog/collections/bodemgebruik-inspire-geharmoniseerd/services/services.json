@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "services",
+  "collection": "bodemgebruik-inspire-geharmoniseerd",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          3.2,
+          50.75
+        ],
+        [
+          7.22,
+          50.75
+        ],
+        [
+          7.22,
+          53.7
+        ],
+        [
+          3.2,
+          53.7
+        ],
+        [
+          3.2,
+          50.75
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    3.2,
+    50.75,
+    7.22,
+    53.7
+  ],
+  "properties": {
+    "title": "services",
+    "description": "Services of Bodemgebruik - Land Cover (INSPIRE geharmoniseerd)",
+    "datetime": "2026-10-14T07:15:05Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./services.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "api": {
+      "href": null,
+      "type": "text/html",
+      "title": "Bodemgebruik - Land Cover (INSPIRE geharmoniseerd)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/kadaster/lc/atom/v1_0/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (lc/atom/v1_0/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/kadaster/lc/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (lc/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Bodemgebruik.png/96982242-49f0-be59-356c-95a3141b1ec7?t=1791962087089",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

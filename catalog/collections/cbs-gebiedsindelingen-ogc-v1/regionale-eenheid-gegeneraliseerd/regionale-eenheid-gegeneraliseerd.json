@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "regionale-eenheid-gegeneraliseerd",
+  "collection": "cbs-gebiedsindelingen-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "regionale_eenheid_gegeneraliseerd",
+    "description": "De indeling in regionale eenheden is ingevoerd per 1 januari 2013 en berust op de Politiewet 2012. Tot 2013 was de politie verdeeld in regiokorpsen (politieregio’s) en het Korps Landelijke Politiediensten (KLPD). Vanaf 2013 kent Nederland regionale eenheden en één landelijke eenheid. De regionale eenheden zijn onderverdeeld in districten en basisteams.",
+    "datetime": "2026-01-27T10:38:01Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./regionale-eenheid-gegeneraliseerd.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/regionale_eenheid_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Regionale eenheid gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/resources/regeenheid.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

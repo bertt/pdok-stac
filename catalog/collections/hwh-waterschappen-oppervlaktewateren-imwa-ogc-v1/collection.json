@@ -211,6 +211,42 @@
       "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
       "type": "text/html",
       "title": "CC0 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./oever/oever.json",
+      "type": "application/geo+json",
+      "title": "oever"
+    },
+    {
+      "rel": "item",
+      "href": "./ondersteunendwaterdeel/ondersteunendwaterdeel.json",
+      "type": "application/geo+json",
+      "title": "ondersteunendwaterdeel"
+    },
+    {
+      "rel": "item",
+      "href": "./oppervlaktewaterlichaam/oppervlaktewaterlichaam.json",
+      "type": "application/geo+json",
+      "title": "oppervlaktewaterlichaam"
+    },
+    {
+      "rel": "item",
+      "href": "./profielverdediging/profielverdediging.json",
+      "type": "application/geo+json",
+      "title": "profielverdediging"
+    },
+    {
+      "rel": "item",
+      "href": "./waterdeel/waterdeel.json",
+      "type": "application/geo+json",
+      "title": "waterdeel"
     }
   ]
 }

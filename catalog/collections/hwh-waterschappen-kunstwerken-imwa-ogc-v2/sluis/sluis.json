@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "sluis",
+  "collection": "hwh-waterschappen-kunstwerken-imwa-ogc-v2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -59188.44333693248,
+          304984.64144318487
+        ],
+        [
+          308126.88473339565,
+          304984.64144318487
+        ],
+        [
+          308126.88473339565,
+          858328.516489961
+        ],
+        [
+          -59188.44333693248,
+          858328.516489961
+        ],
+        [
+          -59188.44333693248,
+          304984.64144318487
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -59188.44333693248,
+    304984.64144318487,
+    308126.88473339565,
+    858328.516489961
+  ],
+  "properties": {
+    "title": "sluis",
+    "description": "Een kunstmatige, beweegbare waterkering die de verbinding tussen twee wateren kan afsluiten of openstellen en daartoe van deuren of schuiven is voorzien.",
+    "datetime": "2026-10-14T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./sluis.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/sluis/items?f=json",
+      "type": "application/geo+json",
+      "title": "Sluis (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/resources/sluis.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

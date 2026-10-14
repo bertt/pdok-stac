@@ -408,6 +408,174 @@
       "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
       "type": "text/html",
       "title": "CC0 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./anker/anker.json",
+      "type": "application/geo+json",
+      "title": "anker"
+    },
+    {
+      "rel": "item",
+      "href": "./ankerveld/ankerveld.json",
+      "type": "application/geo+json",
+      "title": "ankerveld"
+    },
+    {
+      "rel": "item",
+      "href": "./basismateriaal/basismateriaal.json",
+      "type": "application/geo+json",
+      "title": "basismateriaal"
+    },
+    {
+      "rel": "item",
+      "href": "./bestorting/bestorting.json",
+      "type": "application/geo+json",
+      "title": "bestorting"
+    },
+    {
+      "rel": "item",
+      "href": "./bodembescherming/bodembescherming.json",
+      "type": "application/geo+json",
+      "title": "bodembescherming"
+    },
+    {
+      "rel": "item",
+      "href": "./bodemlaag/bodemlaag.json",
+      "type": "application/geo+json",
+      "title": "bodemlaag"
+    },
+    {
+      "rel": "item",
+      "href": "./drainagebuis/drainagebuis.json",
+      "type": "application/geo+json",
+      "title": "drainagebuis"
+    },
+    {
+      "rel": "item",
+      "href": "./drainageput/drainageput.json",
+      "type": "application/geo+json",
+      "title": "drainageput"
+    },
+    {
+      "rel": "item",
+      "href": "./filtervlijlaag/filtervlijlaag.json",
+      "type": "application/geo+json",
+      "title": "filtervlijlaag"
+    },
+    {
+      "rel": "item",
+      "href": "./flexibelewaterkering/flexibelewaterkering.json",
+      "type": "application/geo+json",
+      "title": "flexibelewaterkering"
+    },
+    {
+      "rel": "item",
+      "href": "./geotextiel/geotextiel.json",
+      "type": "application/geo+json",
+      "title": "geotextiel"
+    },
+    {
+      "rel": "item",
+      "href": "./hydraulischerandvoorwaarde/hydraulischerandvoorwaarde.json",
+      "type": "application/geo+json",
+      "title": "hydraulischerandvoorwaarde"
+    },
+    {
+      "rel": "item",
+      "href": "./invloedslijn/invloedslijn.json",
+      "type": "application/geo+json",
+      "title": "invloedslijn"
+    },
+    {
+      "rel": "item",
+      "href": "./kenmerkendeprofiellijn/kenmerkendeprofiellijn.json",
+      "type": "application/geo+json",
+      "title": "kenmerkendeprofiellijn"
+    },
+    {
+      "rel": "item",
+      "href": "./kistdam/kistdam.json",
+      "type": "application/geo+json",
+      "title": "kistdam"
+    },
+    {
+      "rel": "item",
+      "href": "./kwelscherm/kwelscherm.json",
+      "type": "application/geo+json",
+      "title": "kwelscherm"
+    },
+    {
+      "rel": "item",
+      "href": "./paal/paal.json",
+      "type": "application/geo+json",
+      "title": "paal"
+    },
+    {
+      "rel": "item",
+      "href": "./referentiepunt/referentiepunt.json",
+      "type": "application/geo+json",
+      "title": "referentiepunt"
+    },
+    {
+      "rel": "item",
+      "href": "./teenconstructieovergangsconstructie/teenconstructieovergangsconstructie.json",
+      "type": "application/geo+json",
+      "title": "teenconstructieovergangsconstructie"
+    },
+    {
+      "rel": "item",
+      "href": "./toplaag/toplaag.json",
+      "type": "application/geo+json",
+      "title": "toplaag"
+    },
+    {
+      "rel": "item",
+      "href": "./uitvullaag/uitvullaag.json",
+      "type": "application/geo+json",
+      "title": "uitvullaag"
+    },
+    {
+      "rel": "item",
+      "href": "./vegetatieobject/vegetatieobject.json",
+      "type": "application/geo+json",
+      "title": "vegetatieobject"
+    },
+    {
+      "rel": "item",
+      "href": "./wandconstructie/wandconstructie.json",
+      "type": "application/geo+json",
+      "title": "wandconstructie"
+    },
+    {
+      "rel": "item",
+      "href": "./waterkering/waterkering.json",
+      "type": "application/geo+json",
+      "title": "waterkering"
+    },
+    {
+      "rel": "item",
+      "href": "./waterkeringsectie/waterkeringsectie.json",
+      "type": "application/geo+json",
+      "title": "waterkeringsectie"
+    },
+    {
+      "rel": "item",
+      "href": "./weesconstructie/weesconstructie.json",
+      "type": "application/geo+json",
+      "title": "weesconstructie"
+    },
+    {
+      "rel": "item",
+      "href": "./zinkstuk/zinkstuk.json",
+      "type": "application/geo+json",
+      "title": "zinkstuk"
     }
   ]
 }

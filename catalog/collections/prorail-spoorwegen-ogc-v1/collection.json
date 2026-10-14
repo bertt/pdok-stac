@@ -237,6 +237,54 @@
       "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
       "type": "text/html",
       "title": "CC0 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./kilometrering/kilometrering.json",
+      "type": "application/geo+json",
+      "title": "kilometrering"
+    },
+    {
+      "rel": "item",
+      "href": "./kruising/kruising.json",
+      "type": "application/geo+json",
+      "title": "kruising"
+    },
+    {
+      "rel": "item",
+      "href": "./overweg/overweg.json",
+      "type": "application/geo+json",
+      "title": "overweg"
+    },
+    {
+      "rel": "item",
+      "href": "./spooras/spooras.json",
+      "type": "application/geo+json",
+      "title": "spooras"
+    },
+    {
+      "rel": "item",
+      "href": "./station/station.json",
+      "type": "application/geo+json",
+      "title": "station"
+    },
+    {
+      "rel": "item",
+      "href": "./trace/trace.json",
+      "type": "application/geo+json",
+      "title": "trace"
+    },
+    {
+      "rel": "item",
+      "href": "./wissel/wissel.json",
+      "type": "application/geo+json",
+      "title": "wissel"
     }
   ]
 }

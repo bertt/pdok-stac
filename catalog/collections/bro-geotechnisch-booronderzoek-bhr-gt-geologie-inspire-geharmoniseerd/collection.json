@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Geotechnisch%20booronderzoek.jpg/ac4c4323-e1e3-8253-64ca-90da810124a5?t=1791961633774",
+      "href": "https://www.pdok.nl/documents/1901824/0/Geotechnisch%20booronderzoek.jpg/ac4c4323-e1e3-8253-64ca-90da810124a5?t=1791962087090",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "GE.Borehole"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

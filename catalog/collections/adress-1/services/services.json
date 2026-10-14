@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "services",
+  "collection": "adress-1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          3.2,
+          50.75
+        ],
+        [
+          7.22,
+          50.75
+        ],
+        [
+          7.22,
+          53.7
+        ],
+        [
+          3.2,
+          53.7
+        ],
+        [
+          3.2,
+          50.75
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    3.2,
+    50.75,
+    7.22,
+    53.7
+  ],
+  "properties": {
+    "title": "services",
+    "description": "Services of Adressen",
+    "datetime": "2026-10-14T07:15:05Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./services.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "api": {
+      "href": null,
+      "type": "text/html",
+      "title": "Adressen",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/kadaster/adressen/atom/v1_0/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (adressen/atom/v1_0/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/kadaster/adressen/wms/v1_0?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+      "type": "application/xml",
+      "title": "WMS (adressen/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom-2": {
+      "href": "https://service.pdok.nl/kadaster/bag-adressen/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bag-adressen/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-2": {
+      "href": "https://service.pdok.nl/kadaster/bag-adressen/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (bag-adressen/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Adressen%20%281%29.png/a29d7e9c-cbbb-46ad-ed5f-dbad7fe9e51d?t=1791962087086",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

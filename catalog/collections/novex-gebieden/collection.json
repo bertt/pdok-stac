@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Novex%20Gebieden%20%281%29.png/e44890b0-99bc-eda2-7942-7a89d1589323?t=1791961633794",
+      "href": "https://www.pdok.nl/documents/1901824/0/Novex%20Gebieden%20%281%29.png/e44890b0-99bc-eda2-7942-7a89d1589323?t=1791962087104",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "novex"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

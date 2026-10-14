@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "zandvang",
+  "collection": "hwh-waterschappen-kunstwerken-imwa-ogc-v2",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -59188.44333693248,
+          304984.64144318487
+        ],
+        [
+          308126.88473339565,
+          304984.64144318487
+        ],
+        [
+          308126.88473339565,
+          858328.516489961
+        ],
+        [
+          -59188.44333693248,
+          858328.516489961
+        ],
+        [
+          -59188.44333693248,
+          304984.64144318487
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -59188.44333693248,
+    304984.64144318487,
+    308126.88473339565,
+    858328.516489961
+  ],
+  "properties": {
+    "title": "zandvang",
+    "description": "Inrichting in een waterloop die dient om het door het water meegevoerde zand te laten bezinken.",
+    "datetime": "2026-10-14T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./zandvang.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/zandvang/items?f=json",
+      "type": "application/geo+json",
+      "title": "Zandvang (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/resources/zandvang.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

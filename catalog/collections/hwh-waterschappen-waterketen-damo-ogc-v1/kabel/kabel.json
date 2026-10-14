@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "kabel",
+  "collection": "hwh-waterschappen-waterketen-damo-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.527125,
+          50.212863
+        ],
+        [
+          7.374026,
+          50.212863
+        ],
+        [
+          7.374026,
+          55.72116
+        ],
+        [
+          2.527125,
+          55.72116
+        ],
+        [
+          2.527125,
+          50.212863
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    2.527125,
+    50.212863,
+    7.374026,
+    55.72116
+  ],
+  "properties": {
+    "title": "kabel",
+    "description": "Een geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van energie of data.",
+    "datetime": "2026-10-14T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./kabel.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/kabel/items?f=json",
+      "type": "application/geo+json",
+      "title": "Kabel (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/resources/Kabel.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

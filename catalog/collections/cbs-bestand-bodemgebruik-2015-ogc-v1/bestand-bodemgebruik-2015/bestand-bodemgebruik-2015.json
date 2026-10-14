@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "bestand-bodemgebruik-2015",
+  "collection": "cbs-bestand-bodemgebruik-2015-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "bestand_bodemgebruik_2015",
+    "description": "Het Bestand Bodemgebruik 2015 bevat digitale geometrie van het bodemgebruik in Nederland. Voorbeelden van het bodemgebruik zijn verkeersterreinen, bebouwing, recreatieterreinen en binnen- en buitenwater. De begrenzingen zijn voor een groot deel gebaseerd op de Top10NL (BRT). Bij het interpreteren zijn luchtfoto's leidend. De gegevens zijn ingewonnen in de zomer van 2015.",
+    "datetime": "2025-11-11T12:17:35Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./bestand-bodemgebruik-2015.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/cbs/bestand-bodemgebruik-2015/ogc/v1/collections/bestand_bodemgebruik_2015/items?f=json",
+      "type": "application/geo+json",
+      "title": "Bestand Bodemgebruik 2015 (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/bestand-bodemgebruik-2015/ogc/v1/resources/cbs_bestand_bodemgebruik_2015.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

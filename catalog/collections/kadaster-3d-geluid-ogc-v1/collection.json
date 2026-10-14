@@ -155,6 +155,30 @@
       "href": "https://creativecommons.org/licenses/by/4.0/deed.nl",
       "type": "text/html",
       "title": "CC BY 4.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./bodemvlakken/bodemvlakken.json",
+      "type": "application/geo+json",
+      "title": "bodemvlakken"
+    },
+    {
+      "rel": "item",
+      "href": "./gebouwen/gebouwen.json",
+      "type": "application/geo+json",
+      "title": "gebouwen"
+    },
+    {
+      "rel": "item",
+      "href": "./tin/tin.json",
+      "type": "application/geo+json",
+      "title": "tin"
     }
   ]
 }

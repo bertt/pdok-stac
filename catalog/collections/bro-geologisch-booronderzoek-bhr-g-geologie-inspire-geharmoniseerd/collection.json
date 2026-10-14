@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Geologisch%20booronderzoek%20BHR-G%20%281%29.png/a274118c-20ff-b1cd-4b9c-3385f5a76da6?t=1791961633774",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Geologisch%20booronderzoek%20BHR-G%20%281%29.png/a274118c-20ff-b1cd-4b9c-3385f5a76da6?t=1791962087090",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "GE.Borehole"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

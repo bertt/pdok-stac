@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Luchtfoto%20RGB.jpg/f0c79e6a-6f9f-1aa2-ec64-898b0274b990?t=1791961633797",
+      "href": "https://www.pdok.nl/documents/1901824/0/Luchtfoto%20RGB.jpg/f0c79e6a-6f9f-1aa2-ec64-898b0274b990?t=1791962087105",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -125,6 +125,12 @@
       "title": "WMTS (luchtfotorgb/wmts/v1_0)",
       "wmts:layer": "Actueel_orthoHR",
       "wmts:encoding": "kvp"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

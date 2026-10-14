@@ -222,6 +222,96 @@
       "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
       "type": "text/html",
       "title": "CC0 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./waterschap-constructieonderdeel/waterschap-constructieonderdeel.json",
+      "type": "application/geo+json",
+      "title": "waterschap_constructieonderdeel"
+    },
+    {
+      "rel": "item",
+      "href": "./waterschap-iba/waterschap-iba.json",
+      "type": "application/geo+json",
+      "title": "waterschap_iba"
+    },
+    {
+      "rel": "item",
+      "href": "./waterschap-kabel/waterschap-kabel.json",
+      "type": "application/geo+json",
+      "title": "waterschap_kabel"
+    },
+    {
+      "rel": "item",
+      "href": "./waterschap-leiding/waterschap-leiding.json",
+      "type": "application/geo+json",
+      "title": "waterschap_leiding"
+    },
+    {
+      "rel": "item",
+      "href": "./waterschap-leidingsegment/waterschap-leidingsegment.json",
+      "type": "application/geo+json",
+      "title": "waterschap_leidingsegment"
+    },
+    {
+      "rel": "item",
+      "href": "./waterschap-lozingspunt/waterschap-lozingspunt.json",
+      "type": "application/geo+json",
+      "title": "waterschap_lozingspunt"
+    },
+    {
+      "rel": "item",
+      "href": "./waterschap-mantelbuis/waterschap-mantelbuis.json",
+      "type": "application/geo+json",
+      "title": "waterschap_mantelbuis"
+    },
+    {
+      "rel": "item",
+      "href": "./waterschap-nooduitlaat/waterschap-nooduitlaat.json",
+      "type": "application/geo+json",
+      "title": "waterschap_nooduitlaat"
+    },
+    {
+      "rel": "item",
+      "href": "./waterschap-overnamepunt/waterschap-overnamepunt.json",
+      "type": "application/geo+json",
+      "title": "waterschap_overnamepunt"
+    },
+    {
+      "rel": "item",
+      "href": "./waterschap-put/waterschap-put.json",
+      "type": "application/geo+json",
+      "title": "waterschap_put"
+    },
+    {
+      "rel": "item",
+      "href": "./waterschap-rwzi/waterschap-rwzi.json",
+      "type": "application/geo+json",
+      "title": "waterschap_rwzi"
+    },
+    {
+      "rel": "item",
+      "href": "./waterschap-rioleringsgebied/waterschap-rioleringsgebied.json",
+      "type": "application/geo+json",
+      "title": "waterschap_rioleringsgebied"
+    },
+    {
+      "rel": "item",
+      "href": "./waterschap-rioolgemaal/waterschap-rioolgemaal.json",
+      "type": "application/geo+json",
+      "title": "waterschap_rioolgemaal"
+    },
+    {
+      "rel": "item",
+      "href": "./waterschap-zuiveringseenheid/waterschap-zuiveringseenheid.json",
+      "type": "application/geo+json",
+      "title": "waterschap_zuiveringseenheid"
     }
   ]
 }

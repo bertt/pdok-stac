@@ -3,7 +3,7 @@
   "stac_version": "1.0.0",
   "id": "pdok-apis",
   "title": "PDOK APIs and services",
-  "description": "STAC catalog of all PDOK APIs listed in https://api.pdok.nl/index.json, with WMS/WFS/WMTS/WCS/ATOM services from https://www.pdok.nl/datasets (generated on 2026-10-14T07:07:32Z).",
+  "description": "STAC catalog of all PDOK APIs listed in https://api.pdok.nl/index.json, with WMS/WFS/WMTS/WCS/ATOM services from https://www.pdok.nl/datasets (generated on 2026-10-14T07:15:05Z).",
   "links": [
     {
       "rel": "root",

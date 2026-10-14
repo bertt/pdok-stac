@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Bodemkaart%20%281%29.png/4dcad7e0-5837-ff51-a283-d5cb7aa0cbc1?t=1791961633773",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Bodemkaart%20%281%29.png/4dcad7e0-5837-ff51-a283-d5cb7aa0cbc1?t=1791962087089",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "soilarea"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "veiligheidsregio-gegeneraliseerd",
+  "collection": "cbs-gebiedsindelingen-historisch-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "veiligheidsregio_gegeneraliseerd",
+    "description": "Met ingang van 2011 kent Nederland veiligheidsregio’s, waarvan de indeling gelijk is aan die in politieregio’s. In de veiligheidsregio’s werken de brandweer en de Geneeskundige Hulpverlening bij Ongevallen en Rampen samen met het regionaal college van de politie om een gecoördineerd optreden bij rampen en crises te bevorderen. De politieregio’s zijn het werkgebied van regionale korpsen van de Nederlandse politie. Sinds 1990 bestaan deze regio’s, die door het ministerie van Justitie zijn ontworpen. Deze regio’s overschrijden geen provinciegrenzen.",
+    "datetime": "2025-03-06T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./veiligheidsregio-gegeneraliseerd.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen-historisch/ogc/v1/collections/veiligheidsregio_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Veiligheidsregio gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen-historisch/ogc/v1/resources/veiligheidsregio.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

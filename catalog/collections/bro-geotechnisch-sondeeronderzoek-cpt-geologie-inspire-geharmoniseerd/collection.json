@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Geotechnisch%20sondeeronderzoek.jpg/7a851e34-dd2e-2c8a-dfb6-1a4e873b9e08?t=1791961633774",
+      "href": "https://www.pdok.nl/documents/1901824/0/Geotechnisch%20sondeeronderzoek.jpg/7a851e34-dd2e-2c8a-dfb6-1a4e873b9e08?t=1791962087090",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "GE.ConePenetrationTest"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

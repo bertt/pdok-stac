@@ -111,7 +111,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/TOPnl.png/6f669010-68a5-cc1b-6c9b-6cd171765768?t=1791961633771",
+      "href": "https://www.pdok.nl/documents/1901824/0/TOPnl.png/6f669010-68a5-cc1b-6c9b-6cd171765768?t=1791962087088",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -158,6 +158,12 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/basisregistratie-topografie-brt-topnl",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Begrenzingen%20van%20vergunde%20ontgrondingsgebieden%20voor%20zand-%20en%20grindwinning%20%282%29.png/c262555a-cf25-41cb-cfed-84046a96c18e?t=1791961633771",
+      "href": "https://www.pdok.nl/documents/1901824/0/Begrenzingen%20van%20vergunde%20ontgrondingsgebieden%20voor%20zand-%20en%20grindwinning%20%282%29.png/c262555a-cf25-41cb-cfed-84046a96c18e?t=1791962087088",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "AM.ProspectingAndMiningPermitArea"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

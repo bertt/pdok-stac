@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Waterschapsgrenzen.png/986a2dc8-153a-8d77-4190-549530819d54?t=1791961633806",
+      "href": "https://www.pdok.nl/documents/1901824/0/Waterschapsgrenzen.png/986a2dc8-153a-8d77-4190-549530819d54?t=1791962087112",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "waterschap"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

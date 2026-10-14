@@ -289,7 +289,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Wijken%20en%20Buurten.png/97e0022e-310f-94ac-3408-3c8eb917b513?t=1791961633781",
+      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Wijken%20en%20Buurten.png/97e0022e-310f-94ac-3408-3c8eb917b513?t=1791962087096",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -386,6 +386,12 @@
         "buurten"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

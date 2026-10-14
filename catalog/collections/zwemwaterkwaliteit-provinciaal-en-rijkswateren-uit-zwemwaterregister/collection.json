@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/zwemwater.jpg/e24a9923-bc42-38f5-f623-0acfdf276a7d?t=1791961633808",
+      "href": "https://www.pdok.nl/documents/1901824/0/zwemwater.jpg/e24a9923-bc42-38f5-f623-0acfdf276a7d?t=1791962087113",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "HH.HealthDeterminantMeasure"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

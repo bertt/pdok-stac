@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "bevolkingskern-2011",
+  "collection": "cbs-bevolkingskernen-2011-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -59188.44333693248,
+          304984.64144318487
+        ],
+        [
+          308126.88473339565,
+          304984.64144318487
+        ],
+        [
+          308126.88473339565,
+          858328.516489961
+        ],
+        [
+          -59188.44333693248,
+          858328.516489961
+        ],
+        [
+          -59188.44333693248,
+          304984.64144318487
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -59188.44333693248,
+    304984.64144318487,
+    308126.88473339565,
+    858328.516489961
+  ],
+  "properties": {
+    "title": "bevolkingskern_2011",
+    "description": "Morfologische begrenzing van aaneengesloten woon- en werkgebieden 2011",
+    "datetime": "2025-11-14T14:08:27Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./bevolkingskern-2011.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/cbs/bevolkingskernen-2011/ogc/v1/collections/bevolkingskern_2011/items?f=json",
+      "type": "application/geo+json",
+      "title": "CBS Bevolkingskernen 2011 (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/bevolkingskernen-2011/ogc/v1/resources/bevolkingskernen_2011.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

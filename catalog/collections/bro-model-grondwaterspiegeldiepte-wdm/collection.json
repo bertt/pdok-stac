@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/WDM.jpg/d4fdc7b7-48fe-8fff-b3c8-e27437ebc846?t=1791961633777",
+      "href": "https://www.pdok.nl/documents/1901824/0/WDM.jpg/d4fdc7b7-48fe-8fff-b3c8-e27437ebc846?t=1791962087093",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "bro-grondwaterspiegeldieptemetingen"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

@@ -183,6 +183,18 @@
       "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
       "type": "text/html",
       "title": "CC0 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./environmental-management-facility/environmental-management-facility.json",
+      "type": "application/geo+json",
+      "title": "environmental_management_facility"
     }
   ]
 }

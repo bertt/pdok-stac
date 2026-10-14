@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "l-navigability",
+  "collection": "rws-vaarweg-netwerk-data-service-bevaarbaarheid-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.35417303,
+          50.71447164
+        ],
+        [
+          7.5553525,
+          50.71447164
+        ],
+        [
+          7.5553525,
+          55.66948102
+        ],
+        [
+          2.35417303,
+          55.66948102
+        ],
+        [
+          2.35417303,
+          50.71447164
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    2.35417303,
+    50.71447164,
+    7.5553525,
+    55.66948102
+  ],
+  "properties": {
+    "title": "l_navigability",
+    "description": "Deze OGC API Features service bevat alleen de bevaarbaarheid van de vaarwegen uit de Vaarweg Netwerk Data Service (FIS-VNDS)",
+    "datetime": "2026-10-05T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./l-navigability.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/rws/vaarweg-netwerk-data-service-bevaarbaarheid/ogc/v1/collections/l_navigability/items?f=json",
+      "type": "application/geo+json",
+      "title": "Vaarweg Netwerk Data Service - bevaarbaarheid (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rws/vaarweg-netwerk-data-service-bevaarbaarheid/ogc/v1/resources/rws_vnds_bevaarbaarheid.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

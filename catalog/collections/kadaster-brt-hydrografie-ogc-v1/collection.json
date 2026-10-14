@@ -311,6 +311,114 @@
       "href": "https://creativecommons.org/publicdomain/mark/1.0/deed.nl",
       "type": "text/html",
       "title": "Public Domain Mark 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./crossing-linestring/crossing-linestring.json",
+      "type": "application/geo+json",
+      "title": "crossing_linestring"
+    },
+    {
+      "rel": "item",
+      "href": "./crossing-polygon/crossing-polygon.json",
+      "type": "application/geo+json",
+      "title": "crossing_polygon"
+    },
+    {
+      "rel": "item",
+      "href": "./damorweir-linestring/damorweir-linestring.json",
+      "type": "application/geo+json",
+      "title": "damorweir_linestring"
+    },
+    {
+      "rel": "item",
+      "href": "./damorweir-point/damorweir-point.json",
+      "type": "application/geo+json",
+      "title": "damorweir_point"
+    },
+    {
+      "rel": "item",
+      "href": "./embankment-polygon/embankment-polygon.json",
+      "type": "application/geo+json",
+      "title": "embankment_polygon"
+    },
+    {
+      "rel": "item",
+      "href": "./falls/falls.json",
+      "type": "application/geo+json",
+      "title": "falls"
+    },
+    {
+      "rel": "item",
+      "href": "./landwaterboundary/landwaterboundary.json",
+      "type": "application/geo+json",
+      "title": "landwaterboundary"
+    },
+    {
+      "rel": "item",
+      "href": "./lock-linestring/lock-linestring.json",
+      "type": "application/geo+json",
+      "title": "lock_linestring"
+    },
+    {
+      "rel": "item",
+      "href": "./lock-point/lock-point.json",
+      "type": "application/geo+json",
+      "title": "lock_point"
+    },
+    {
+      "rel": "item",
+      "href": "./shorelineconstruction-linestring/shorelineconstruction-linestring.json",
+      "type": "application/geo+json",
+      "title": "shorelineconstruction_linestring"
+    },
+    {
+      "rel": "item",
+      "href": "./shorelineconstruction-polygon/shorelineconstruction-polygon.json",
+      "type": "application/geo+json",
+      "title": "shorelineconstruction_polygon"
+    },
+    {
+      "rel": "item",
+      "href": "./sluice-linestring/sluice-linestring.json",
+      "type": "application/geo+json",
+      "title": "sluice_linestring"
+    },
+    {
+      "rel": "item",
+      "href": "./sluice-polygon/sluice-polygon.json",
+      "type": "application/geo+json",
+      "title": "sluice_polygon"
+    },
+    {
+      "rel": "item",
+      "href": "./standingwater/standingwater.json",
+      "type": "application/geo+json",
+      "title": "standingwater"
+    },
+    {
+      "rel": "item",
+      "href": "./watercourse-linestring/watercourse-linestring.json",
+      "type": "application/geo+json",
+      "title": "watercourse_linestring"
+    },
+    {
+      "rel": "item",
+      "href": "./watercourse-polygon/watercourse-polygon.json",
+      "type": "application/geo+json",
+      "title": "watercourse_polygon"
+    },
+    {
+      "rel": "item",
+      "href": "./wetland/wetland.json",
+      "type": "application/geo+json",
+      "title": "wetland"
     }
   ]
 }

@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "bevroren-monitoringsdata",
+  "collection": "rws-kaderrichtlijn-mariene-strategie-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.35417303,
+          50.71447164
+        ],
+        [
+          7.5553525,
+          50.71447164
+        ],
+        [
+          7.5553525,
+          55.66948102
+        ],
+        [
+          2.35417303,
+          55.66948102
+        ],
+        [
+          2.35417303,
+          50.71447164
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    2.35417303,
+    50.71447164,
+    7.5553525,
+    55.66948102
+  ],
+  "properties": {
+    "title": "bevroren_monitoringsdata",
+    "description": "Monitoringsdata conform het Kader Richtlijn Marien monitoringsprogramma Mariene strategie deel II",
+    "datetime": "2025-06-19T11:41:42Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./bevroren-monitoringsdata.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/rws/kaderrichtlijn-mariene-strategie/ogc/v1/collections/bevroren_monitoringsdata/items?f=json",
+      "type": "application/geo+json",
+      "title": "KRM Bevroren monitoringsdata (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rws/kaderrichtlijn-mariene-strategie/ogc/v1/resources/rws_krm_monitoringsdata.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

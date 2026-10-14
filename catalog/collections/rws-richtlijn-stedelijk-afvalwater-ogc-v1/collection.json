@@ -207,6 +207,36 @@
       "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
       "type": "text/html",
       "title": "CC0 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./rsa-agglomeraties/rsa-agglomeraties.json",
+      "type": "application/geo+json",
+      "title": "rsa_agglomeraties"
+    },
+    {
+      "rel": "item",
+      "href": "./rsa-kwetsbaargebied/rsa-kwetsbaargebied.json",
+      "type": "application/geo+json",
+      "title": "rsa_kwetsbaargebied"
+    },
+    {
+      "rel": "item",
+      "href": "./rsa-lozingspunten/rsa-lozingspunten.json",
+      "type": "application/geo+json",
+      "title": "rsa_lozingspunten"
+    },
+    {
+      "rel": "item",
+      "href": "./rsa-rwzi/rsa-rwzi.json",
+      "type": "application/geo+json",
+      "title": "rsa_rwzi"
     }
   ]
 }

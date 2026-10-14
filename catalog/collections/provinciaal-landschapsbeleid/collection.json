@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Provinciaal%20landschapsbeleid.jpg/71da8cd1-e6b5-b053-9192-bef5dfc46544?t=1791961633798",
+      "href": "https://www.pdok.nl/documents/1901824/0/Provinciaal%20landschapsbeleid.jpg/71da8cd1-e6b5-b053-9192-bef5dfc46544?t=1791962087106",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "PS.ProtectedSite"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Natuurnetwerk%20Nederland.jpg/8a1f6d66-68c8-be61-230b-aa863cd82a3e?t=1791961633794",
+      "href": "https://www.pdok.nl/documents/1901824/0/Natuurnetwerk%20Nederland.jpg/8a1f6d66-68c8-be61-230b-aa863cd82a3e?t=1791962087104",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "PS.ProtectedSite"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

@@ -328,6 +328,120 @@
       "href": "https://creativecommons.org/licenses/by-sa/4.0/deed.nl",
       "type": "text/html",
       "title": "CC BY SA"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./afsluitmiddel/afsluitmiddel.json",
+      "type": "application/geo+json",
+      "title": "afsluitmiddel"
+    },
+    {
+      "rel": "item",
+      "href": "./aquaduct/aquaduct.json",
+      "type": "application/geo+json",
+      "title": "aquaduct"
+    },
+    {
+      "rel": "item",
+      "href": "./bodemval/bodemval.json",
+      "type": "application/geo+json",
+      "title": "bodemval"
+    },
+    {
+      "rel": "item",
+      "href": "./brug/brug.json",
+      "type": "application/geo+json",
+      "title": "brug"
+    },
+    {
+      "rel": "item",
+      "href": "./coupure/coupure.json",
+      "type": "application/geo+json",
+      "title": "coupure"
+    },
+    {
+      "rel": "item",
+      "href": "./duiker/duiker.json",
+      "type": "application/geo+json",
+      "title": "duiker"
+    },
+    {
+      "rel": "item",
+      "href": "./gemaal/gemaal.json",
+      "type": "application/geo+json",
+      "title": "gemaal"
+    },
+    {
+      "rel": "item",
+      "href": "./hevel/hevel.json",
+      "type": "application/geo+json",
+      "title": "hevel"
+    },
+    {
+      "rel": "item",
+      "href": "./put/put.json",
+      "type": "application/geo+json",
+      "title": "put"
+    },
+    {
+      "rel": "item",
+      "href": "./sifon/sifon.json",
+      "type": "application/geo+json",
+      "title": "sifon"
+    },
+    {
+      "rel": "item",
+      "href": "./sluis/sluis.json",
+      "type": "application/geo+json",
+      "title": "sluis"
+    },
+    {
+      "rel": "item",
+      "href": "./stuw/stuw.json",
+      "type": "application/geo+json",
+      "title": "stuw"
+    },
+    {
+      "rel": "item",
+      "href": "./vastedam/vastedam.json",
+      "type": "application/geo+json",
+      "title": "vastedam"
+    },
+    {
+      "rel": "item",
+      "href": "./verbeterinstallatie/verbeterinstallatie.json",
+      "type": "application/geo+json",
+      "title": "verbeterinstallatie"
+    },
+    {
+      "rel": "item",
+      "href": "./vispassage/vispassage.json",
+      "type": "application/geo+json",
+      "title": "vispassage"
+    },
+    {
+      "rel": "item",
+      "href": "./voorde/voorde.json",
+      "type": "application/geo+json",
+      "title": "voorde"
+    },
+    {
+      "rel": "item",
+      "href": "./vuilvang/vuilvang.json",
+      "type": "application/geo+json",
+      "title": "vuilvang"
+    },
+    {
+      "rel": "item",
+      "href": "./zandvang/zandvang.json",
+      "type": "application/geo+json",
+      "title": "zandvang"
     }
   ]
 }

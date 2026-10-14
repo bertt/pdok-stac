@@ -65,7 +65,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Regionale%20fietsnetwerken.png/66c97bb9-9f31-8dc6-0a9a-9c9a747bb95b?t=1791961633799",
+      "href": "https://www.pdok.nl/documents/1901824/0/Regionale%20fietsnetwerken.png/66c97bb9-9f31-8dc6-0a9a-9c9a747bb95b?t=1791962087107",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -110,6 +110,12 @@
         "fietsknooppunten"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

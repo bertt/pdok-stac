@@ -225,6 +225,48 @@
       "href": "https://creativecommons.org/publicdomain/mark/1.0/deed.nl",
       "type": "text/html",
       "title": "Public Domain Mark 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./adres/adres.json",
+      "type": "application/geo+json",
+      "title": "adres"
+    },
+    {
+      "rel": "item",
+      "href": "./ligplaats/ligplaats.json",
+      "type": "application/geo+json",
+      "title": "ligplaats"
+    },
+    {
+      "rel": "item",
+      "href": "./pand/pand.json",
+      "type": "application/geo+json",
+      "title": "pand"
+    },
+    {
+      "rel": "item",
+      "href": "./standplaats/standplaats.json",
+      "type": "application/geo+json",
+      "title": "standplaats"
+    },
+    {
+      "rel": "item",
+      "href": "./verblijfsobject/verblijfsobject.json",
+      "type": "application/geo+json",
+      "title": "verblijfsobject"
+    },
+    {
+      "rel": "item",
+      "href": "./woonplaats/woonplaats.json",
+      "type": "application/geo+json",
+      "title": "woonplaats"
     }
   ]
 }

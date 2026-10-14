@@ -181,6 +181,18 @@
       "href": "https://creativecommons.org/licenses/by/4.0/deed.nl",
       "type": "text/html",
       "title": "CC BY 4.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./cadastralparcel/cadastralparcel.json",
+      "type": "application/geo+json",
+      "title": "cadastralparcel"
     }
   ]
 }

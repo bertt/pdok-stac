@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "begrenzing",
+  "collection": "rvo-natuurmeting-op-kaart-2014-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "begrenzing",
+    "description": "De begrenzing van de EHS (1-1-2014) zoals aangeleverd door de provincies als onderdeel van de NOK2014. Zowel concrete begrenzingen als zoekgebieden zijn opgenomen voor nieuwe natuur, Recreatie om de Stad (RodS) en Robuuste Ecologische VerbindingsZones (REVZ). In 2009 is er een Nulmeting Op Kaart gemaakt dat de voortgang van de verwerving dat de voortgang van de verwerving, functieverandering en inrichting van de Ecologische Hoofdstructuur (EHS) en Recreatie om de Stad (RodS) per 1 januari 2007 beschrijft. Nulmeting op Kaart (NOK) gaat over de uitgangssituatie bij inwerkingtreding van het ILG. In 2010, 2011, 2012, 2013 en 2014 zijn er updates gemaakt van dit bestand: Natuurmeting Op Kaart. Dit bestand is de uitkomst van de Natuurmeting Op Kaart 2014. Dit bestand is de vereenvoudigde weergave van de data ten behoeve van de mapservices.",
+    "datetime": "2024-11-20T14:58:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./begrenzing.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/rvo/natuurmeting-op-kaart-2014/ogc/v1/collections/begrenzing/items?f=json",
+      "type": "application/geo+json",
+      "title": "Begrenzing (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rvo/natuurmeting-op-kaart-2014/ogc/v1/resources/nok.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

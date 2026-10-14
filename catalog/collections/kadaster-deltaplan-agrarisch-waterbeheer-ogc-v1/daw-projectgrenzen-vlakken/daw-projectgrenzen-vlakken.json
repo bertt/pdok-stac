@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "daw-projectgrenzen-vlakken",
+  "collection": "kadaster-deltaplan-agrarisch-waterbeheer-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "daw_projectgrenzen_vlakken",
+    "description": "Indicatieve begrenzing van projecten en initiatieven waarin door agrariërs en waterschappen samengewerkt wordt aan een betere waterkwaliteit, voorkomen van schade door watertekort of wateroverlast en verbetering van de agrarische bedrijfsresultaten.",
+    "datetime": "2025-10-01T08:40:03Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./daw-projectgrenzen-vlakken.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/kadaster/deltaplan-agrarisch-waterbeheer/ogc/v1/collections/daw_projectgrenzen_vlakken/items?f=json",
+      "type": "application/geo+json",
+      "title": "DAW Projectgrenzen Vlakken (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/kadaster/deltaplan-agrarisch-waterbeheer/ogc/v1/resources/daw.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

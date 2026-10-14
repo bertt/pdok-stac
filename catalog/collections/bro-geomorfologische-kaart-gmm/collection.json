@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Geomorfologische%20Kaart.png/ad3115f3-bd1a-57ba-d329-3125e04c66af?t=1791961633774",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Geomorfologische%20Kaart.png/ad3115f3-bd1a-57ba-d329-3125e04c66af?t=1791962087090",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "geomorphological_area"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

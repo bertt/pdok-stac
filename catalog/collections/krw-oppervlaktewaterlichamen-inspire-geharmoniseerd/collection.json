@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/krw%20oppervlaktewaterlichamen.png/52f176fc-f2d7-3f3f-192d-a0e3bba87182?t=1791961633788",
+      "href": "https://www.pdok.nl/documents/1901824/0/krw%20oppervlaktewaterlichamen.png/52f176fc-f2d7-3f3f-192d-a0e3bba87182?t=1791962087101",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "AM.WaterBodyForWFD"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

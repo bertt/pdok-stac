@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "marker-post",
+  "collection": "rws-vervoersnetwerken-waterwegen-netwerk-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.35417303,
+          50.71447164
+        ],
+        [
+          7.5553525,
+          50.71447164
+        ],
+        [
+          7.5553525,
+          55.66948102
+        ],
+        [
+          2.35417303,
+          55.66948102
+        ],
+        [
+          2.35417303,
+          50.71447164
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    2.35417303,
+    50.71447164,
+    7.5553525,
+    55.66948102
+  ],
+  "properties": {
+    "title": "marker_post",
+    "description": "Referentiemarkering in een vervoersnetwerk, meestal met regelmatige tussenpozen, die de afstand aangeeft vanaf het begin van de route, of een ander referentiepunt, tot het punt waar de markering zich bevindt.",
+    "datetime": "2026-05-11T13:44:07Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./marker-post.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-waterwegen-netwerk/ogc/v1/collections/marker_post/items?f=json",
+      "type": "application/geo+json",
+      "title": "Markeerstok (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-waterwegen-netwerk/ogc/v1/resources/rws_tn_w_markeerstok.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

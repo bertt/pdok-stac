@@ -549,6 +549,306 @@
       "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
       "type": "text/html",
       "title": "CC0 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./bak/bak.json",
+      "type": "application/geo+json",
+      "title": "bak"
+    },
+    {
+      "rel": "item",
+      "href": "./begroeidterreindeel/begroeidterreindeel.json",
+      "type": "application/geo+json",
+      "title": "begroeidterreindeel"
+    },
+    {
+      "rel": "item",
+      "href": "./begroeidterreindeel-kruinlijn/begroeidterreindeel-kruinlijn.json",
+      "type": "application/geo+json",
+      "title": "begroeidterreindeel_kruinlijn"
+    },
+    {
+      "rel": "item",
+      "href": "./bord/bord.json",
+      "type": "application/geo+json",
+      "title": "bord"
+    },
+    {
+      "rel": "item",
+      "href": "./buurt/buurt.json",
+      "type": "application/geo+json",
+      "title": "buurt"
+    },
+    {
+      "rel": "item",
+      "href": "./functioneelgebied/functioneelgebied.json",
+      "type": "application/geo+json",
+      "title": "functioneelgebied"
+    },
+    {
+      "rel": "item",
+      "href": "./gebouwinstallatie/gebouwinstallatie.json",
+      "type": "application/geo+json",
+      "title": "gebouwinstallatie"
+    },
+    {
+      "rel": "item",
+      "href": "./installatie/installatie.json",
+      "type": "application/geo+json",
+      "title": "installatie"
+    },
+    {
+      "rel": "item",
+      "href": "./kast/kast.json",
+      "type": "application/geo+json",
+      "title": "kast"
+    },
+    {
+      "rel": "item",
+      "href": "./kunstwerkdeel-lijn/kunstwerkdeel-lijn.json",
+      "type": "application/geo+json",
+      "title": "kunstwerkdeel_lijn"
+    },
+    {
+      "rel": "item",
+      "href": "./kunstwerkdeel-punt/kunstwerkdeel-punt.json",
+      "type": "application/geo+json",
+      "title": "kunstwerkdeel_punt"
+    },
+    {
+      "rel": "item",
+      "href": "./kunstwerkdeel-vlak/kunstwerkdeel-vlak.json",
+      "type": "application/geo+json",
+      "title": "kunstwerkdeel_vlak"
+    },
+    {
+      "rel": "item",
+      "href": "./mast/mast.json",
+      "type": "application/geo+json",
+      "title": "mast"
+    },
+    {
+      "rel": "item",
+      "href": "./onbegroeidterreindeel/onbegroeidterreindeel.json",
+      "type": "application/geo+json",
+      "title": "onbegroeidterreindeel"
+    },
+    {
+      "rel": "item",
+      "href": "./onbegroeidterreindeel-kruinlijn/onbegroeidterreindeel-kruinlijn.json",
+      "type": "application/geo+json",
+      "title": "onbegroeidterreindeel_kruinlijn"
+    },
+    {
+      "rel": "item",
+      "href": "./ondersteunendwaterdeel/ondersteunendwaterdeel.json",
+      "type": "application/geo+json",
+      "title": "ondersteunendwaterdeel"
+    },
+    {
+      "rel": "item",
+      "href": "./ondersteunendwegdeel/ondersteunendwegdeel.json",
+      "type": "application/geo+json",
+      "title": "ondersteunendwegdeel"
+    },
+    {
+      "rel": "item",
+      "href": "./ondersteunendwegdeel-kruinlijn/ondersteunendwegdeel-kruinlijn.json",
+      "type": "application/geo+json",
+      "title": "ondersteunendwegdeel_kruinlijn"
+    },
+    {
+      "rel": "item",
+      "href": "./ongeclassificeerdobject/ongeclassificeerdobject.json",
+      "type": "application/geo+json",
+      "title": "ongeclassificeerdobject"
+    },
+    {
+      "rel": "item",
+      "href": "./openbareruimte/openbareruimte.json",
+      "type": "application/geo+json",
+      "title": "openbareruimte"
+    },
+    {
+      "rel": "item",
+      "href": "./openbareruimtelabel/openbareruimtelabel.json",
+      "type": "application/geo+json",
+      "title": "openbareruimtelabel"
+    },
+    {
+      "rel": "item",
+      "href": "./overbruggingsdeel/overbruggingsdeel.json",
+      "type": "application/geo+json",
+      "title": "overbruggingsdeel"
+    },
+    {
+      "rel": "item",
+      "href": "./overigbouwwerk/overigbouwwerk.json",
+      "type": "application/geo+json",
+      "title": "overigbouwwerk"
+    },
+    {
+      "rel": "item",
+      "href": "./overigescheiding/overigescheiding.json",
+      "type": "application/geo+json",
+      "title": "overigescheiding"
+    },
+    {
+      "rel": "item",
+      "href": "./paal/paal.json",
+      "type": "application/geo+json",
+      "title": "paal"
+    },
+    {
+      "rel": "item",
+      "href": "./pand/pand.json",
+      "type": "application/geo+json",
+      "title": "pand"
+    },
+    {
+      "rel": "item",
+      "href": "./pand-nummeraanduiding/pand-nummeraanduiding.json",
+      "type": "application/geo+json",
+      "title": "pand_nummeraanduiding"
+    },
+    {
+      "rel": "item",
+      "href": "./put/put.json",
+      "type": "application/geo+json",
+      "title": "put"
+    },
+    {
+      "rel": "item",
+      "href": "./scheiding-lijn/scheiding-lijn.json",
+      "type": "application/geo+json",
+      "title": "scheiding_lijn"
+    },
+    {
+      "rel": "item",
+      "href": "./scheiding-vlak/scheiding-vlak.json",
+      "type": "application/geo+json",
+      "title": "scheiding_vlak"
+    },
+    {
+      "rel": "item",
+      "href": "./sensor-lijn/sensor-lijn.json",
+      "type": "application/geo+json",
+      "title": "sensor_lijn"
+    },
+    {
+      "rel": "item",
+      "href": "./sensor-punt/sensor-punt.json",
+      "type": "application/geo+json",
+      "title": "sensor_punt"
+    },
+    {
+      "rel": "item",
+      "href": "./spoor/spoor.json",
+      "type": "application/geo+json",
+      "title": "spoor"
+    },
+    {
+      "rel": "item",
+      "href": "./stadsdeel/stadsdeel.json",
+      "type": "application/geo+json",
+      "title": "stadsdeel"
+    },
+    {
+      "rel": "item",
+      "href": "./straatmeubilair/straatmeubilair.json",
+      "type": "application/geo+json",
+      "title": "straatmeubilair"
+    },
+    {
+      "rel": "item",
+      "href": "./tunneldeel/tunneldeel.json",
+      "type": "application/geo+json",
+      "title": "tunneldeel"
+    },
+    {
+      "rel": "item",
+      "href": "./vegetatieobject-lijn/vegetatieobject-lijn.json",
+      "type": "application/geo+json",
+      "title": "vegetatieobject_lijn"
+    },
+    {
+      "rel": "item",
+      "href": "./vegetatieobject-punt/vegetatieobject-punt.json",
+      "type": "application/geo+json",
+      "title": "vegetatieobject_punt"
+    },
+    {
+      "rel": "item",
+      "href": "./vegetatieobject-vlak/vegetatieobject-vlak.json",
+      "type": "application/geo+json",
+      "title": "vegetatieobject_vlak"
+    },
+    {
+      "rel": "item",
+      "href": "./waterdeel/waterdeel.json",
+      "type": "application/geo+json",
+      "title": "waterdeel"
+    },
+    {
+      "rel": "item",
+      "href": "./waterinrichtingselement-lijn/waterinrichtingselement-lijn.json",
+      "type": "application/geo+json",
+      "title": "waterinrichtingselement_lijn"
+    },
+    {
+      "rel": "item",
+      "href": "./waterinrichtingselement-punt/waterinrichtingselement-punt.json",
+      "type": "application/geo+json",
+      "title": "waterinrichtingselement_punt"
+    },
+    {
+      "rel": "item",
+      "href": "./waterschap/waterschap.json",
+      "type": "application/geo+json",
+      "title": "waterschap"
+    },
+    {
+      "rel": "item",
+      "href": "./wegdeel/wegdeel.json",
+      "type": "application/geo+json",
+      "title": "wegdeel"
+    },
+    {
+      "rel": "item",
+      "href": "./wegdeel-kruinlijn/wegdeel-kruinlijn.json",
+      "type": "application/geo+json",
+      "title": "wegdeel_kruinlijn"
+    },
+    {
+      "rel": "item",
+      "href": "./weginrichtingselement-lijn/weginrichtingselement-lijn.json",
+      "type": "application/geo+json",
+      "title": "weginrichtingselement_lijn"
+    },
+    {
+      "rel": "item",
+      "href": "./weginrichtingselement-punt/weginrichtingselement-punt.json",
+      "type": "application/geo+json",
+      "title": "weginrichtingselement_punt"
+    },
+    {
+      "rel": "item",
+      "href": "./weginrichtingselement-vlak/weginrichtingselement-vlak.json",
+      "type": "application/geo+json",
+      "title": "weginrichtingselement_vlak"
+    },
+    {
+      "rel": "item",
+      "href": "./wijk/wijk.json",
+      "type": "application/geo+json",
+      "title": "wijk"
     }
   ]
 }

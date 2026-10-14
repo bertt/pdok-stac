@@ -87,7 +87,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Bestuurlijke%20grenzen.png/7637622d-b753-15bc-ae75-382f7e1cf014?t=1791961633772",
+      "href": "https://www.pdok.nl/documents/1901824/0/Bestuurlijke%20grenzen.png/7637622d-b753-15bc-ae75-382f7e1cf014?t=1791962087088",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -122,6 +122,12 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bestuurlijke-grenzen",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

@@ -84,6 +84,12 @@
       "href": "https://api.pdok.nl/brt/top500nl/download/v1_0/ui",
       "type": "text/html",
       "title": "PDOK API"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

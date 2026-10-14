@@ -1,0 +1,269 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "services",
+  "collection": "cbs-postcode6-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "services",
+    "description": "Services of CBS Postcode6 statistieken (OGC API)",
+    "datetime": "2026-10-14T07:15:05Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./services.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/cbs/postcode6/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/cbs/postcode6/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/cbs/postcode6/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/postcode6/ogc/v1/resources/postcode6.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2015/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2015/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2015/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2015/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-2": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2016/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2016/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-2": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2016/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2016/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-3": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2017/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2017/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-3": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2017/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2017/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-4": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2018/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2018/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-4": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2018/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2018/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-5": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2019/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2019/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-5": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2019/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2019/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-6": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2020/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2020/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-6": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2020/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2020/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-7": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2021/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2021/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-7": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2021/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2021/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-8": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2022/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2022/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-8": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2022/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2022/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-9": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2023/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2023/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-9": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2023/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2023/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-10": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2024/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2024/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-10": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2024/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2024/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/cbs/postcode6/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (postcode6/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

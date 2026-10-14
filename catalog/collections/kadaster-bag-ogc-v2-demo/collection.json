@@ -87,6 +87,12 @@
       "href": "https://api.pdok.nl/kadaster/bag/ogc/v2-demo",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

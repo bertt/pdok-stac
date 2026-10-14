@@ -182,6 +182,18 @@
       "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
       "type": "text/html",
       "title": "CC0 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./l-navigability/l-navigability.json",
+      "type": "application/geo+json",
+      "title": "l_navigability"
     }
   ]
 }

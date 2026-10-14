@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Wandonderzoek%20-%20bodemkunde.jpg/7d7c1cc6-282e-27c7-66b5-b8bfd9de4cfe?t=1791961633778",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Wandonderzoek%20-%20bodemkunde.jpg/7d7c1cc6-282e-27c7-66b5-b8bfd9de4cfe?t=1791962087093",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "wandonderzoek"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

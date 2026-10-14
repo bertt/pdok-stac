@@ -65,7 +65,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Landelijke%20wandelroutes%20%281%29.png/924a6e5a-a626-d239-88b1-19f52caface6?t=1791961633789",
+      "href": "https://www.pdok.nl/documents/1901824/0/Landelijke%20wandelroutes%20%281%29.png/924a6e5a-a626-d239-88b1-19f52caface6?t=1791962087102",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -110,6 +110,12 @@
         "landelijke-wandelroutes"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

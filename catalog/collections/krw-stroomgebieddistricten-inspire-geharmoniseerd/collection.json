@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/krw%20stroomgebieddistricten.png/57be3d65-7f97-aeed-2558-666ae1cf4e48?t=1791961633788",
+      "href": "https://www.pdok.nl/documents/1901824/0/krw%20stroomgebieddistricten.png/57be3d65-7f97-aeed-2558-666ae1cf4e48?t=1791962087101",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "AM.RiverBasinDistrict"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

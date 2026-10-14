@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Bodemkundig%20Booronderzoek.png/cd9f6e76-e140-dd00-6da6-f6f724bb89dd?t=1791961633773",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Bodemkundig%20Booronderzoek.png/cd9f6e76-e140-dd00-6da6-f6f724bb89dd?t=1791962087089",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "bhr_kenset"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

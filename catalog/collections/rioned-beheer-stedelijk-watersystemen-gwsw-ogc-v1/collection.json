@@ -233,6 +233,60 @@
       "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
       "type": "text/html",
       "title": "CC0 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./aansluitingleiding/aansluitingleiding.json",
+      "type": "application/geo+json",
+      "title": "aansluitingleiding"
+    },
+    {
+      "rel": "item",
+      "href": "./aansluitingpunt/aansluitingpunt.json",
+      "type": "application/geo+json",
+      "title": "aansluitingpunt"
+    },
+    {
+      "rel": "item",
+      "href": "./beheerbouwwerk/beheerbouwwerk.json",
+      "type": "application/geo+json",
+      "title": "beheerbouwwerk"
+    },
+    {
+      "rel": "item",
+      "href": "./beheergebied/beheergebied.json",
+      "type": "application/geo+json",
+      "title": "beheergebied"
+    },
+    {
+      "rel": "item",
+      "href": "./beheerleiding/beheerleiding.json",
+      "type": "application/geo+json",
+      "title": "beheerleiding"
+    },
+    {
+      "rel": "item",
+      "href": "./beheerlozing/beheerlozing.json",
+      "type": "application/geo+json",
+      "title": "beheerlozing"
+    },
+    {
+      "rel": "item",
+      "href": "./beheerpomp/beheerpomp.json",
+      "type": "application/geo+json",
+      "title": "beheerpomp"
+    },
+    {
+      "rel": "item",
+      "href": "./beheerput/beheerput.json",
+      "type": "application/geo+json",
+      "title": "beheerput"
     }
   ]
 }

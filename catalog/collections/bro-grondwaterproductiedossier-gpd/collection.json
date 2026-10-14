@@ -63,7 +63,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRT-A.png/a801f935-671d-66ef-4751-17c21fcb4dde?t=1791961633776",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRT-A.png/a801f935-671d-66ef-4751-17c21fcb4dde?t=1791962087092",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -98,6 +98,12 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-grondwaterproductiedossier-gpd-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

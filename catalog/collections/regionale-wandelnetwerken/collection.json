@@ -65,7 +65,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Regionale%20wandelnetwerken.png/7b9bb6b6-039c-506e-3e31-6b9f8bfd61a3?t=1791961633800",
+      "href": "https://www.pdok.nl/documents/1901824/0/Regionale%20wandelnetwerken.png/7b9bb6b6-039c-506e-3e31-6b9f8bfd61a3?t=1791962087107",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -110,6 +110,12 @@
         "wandelknooppunten"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

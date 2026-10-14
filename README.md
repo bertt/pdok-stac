@@ -14,12 +14,15 @@ Browse it online: <https://browser.moregeo.it/external/bertt.github.io/pdok-stac
 catalog/
   catalog.json                        root catalog
   collections/<id>/collection.json    one collection per PDOK API or dataset
+  collections/<id>/<item>/<item>.json items: one "services" item plus one per OGC API feature collection
   index.html                          simple human-readable index
 ```
 
 All links are relative, so the catalog works under any GitHub Pages sub-path.
 
 Each collection is one PDOK API from <https://api.pdok.nl/index.json>. Title, description and keywords come from that index; for OGC APIs the landing page and `/collections` add the license link, thumbnail, the real spatial/temporal extent (union of all collections) and assets: `ogc-api` (landing page), `openapi`, `conformance` and one `items-<collection>` asset per feature collection. Other APIs (download APIs, Locatieserver, Location API) get a single `api` asset. The index has no WMS/WFS/WMTS/WCS/ATOM services, so those are the only thing scraped from the pdok.nl dataset pages. They are added as assets (`wms`, `wfs`, `wmts`, `wcs`, `atom`, `download-api`) to the API collection with the same `<provider>/<dataset>` URL path. Datasets without an OGC API get their own collection (thumbnail from the overview page). WMS and WMTS services are also added as [Web Map Links](https://github.com/stac-extensions/web-map-links) (`rel: wms` / `rel: wmts`, first layer from GetCapabilities) so STAC Browser can show them on a map; capabilities that cannot be fetched are skipped with a log line.
+
+Each collection has items so that STAC clients (e.g. GeoLibre) show content: a services item with all service assets, and for OGC APIs one item per feature collection (asset items links to the OGC API Features endpoint, with bbox and thumbnail from /collections).
 
 ## Regenerate
 

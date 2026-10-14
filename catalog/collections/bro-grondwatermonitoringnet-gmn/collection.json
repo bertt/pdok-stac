@@ -63,7 +63,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Grondwatermonitoringnet.png/59659e32-8369-8100-b3f8-fc0ea6c1a32c?t=1791961633775",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Grondwatermonitoringnet.png/59659e32-8369-8100-b3f8-fc0ea6c1a32c?t=1791962087091",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -98,6 +98,12 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-grondwatermonitoringnet-gmn-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

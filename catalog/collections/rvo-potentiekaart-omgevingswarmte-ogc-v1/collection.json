@@ -237,6 +237,60 @@
       "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
       "type": "text/html",
       "title": "CC0 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./koudegeslotenwkobuurt/koudegeslotenwkobuurt.json",
+      "type": "application/geo+json",
+      "title": "koudegeslotenwkobuurt"
+    },
+    {
+      "rel": "item",
+      "href": "./koudegeslotenwkogem/koudegeslotenwkogem.json",
+      "type": "application/geo+json",
+      "title": "koudegeslotenwkogem"
+    },
+    {
+      "rel": "item",
+      "href": "./koudeopenwkobuurt/koudeopenwkobuurt.json",
+      "type": "application/geo+json",
+      "title": "koudeopenwkobuurt"
+    },
+    {
+      "rel": "item",
+      "href": "./koudeopenwkogem/koudeopenwkogem.json",
+      "type": "application/geo+json",
+      "title": "koudeopenwkogem"
+    },
+    {
+      "rel": "item",
+      "href": "./warmtegeslotenwkobuurt/warmtegeslotenwkobuurt.json",
+      "type": "application/geo+json",
+      "title": "warmtegeslotenwkobuurt"
+    },
+    {
+      "rel": "item",
+      "href": "./warmtegeslotenwkogem/warmtegeslotenwkogem.json",
+      "type": "application/geo+json",
+      "title": "warmtegeslotenwkogem"
+    },
+    {
+      "rel": "item",
+      "href": "./warmteopenwkobuurt/warmteopenwkobuurt.json",
+      "type": "application/geo+json",
+      "title": "warmteopenwkobuurt"
+    },
+    {
+      "rel": "item",
+      "href": "./warmteopenwkogem/warmteopenwkogem.json",
+      "type": "application/geo+json",
+      "title": "warmteopenwkogem"
     }
   ]
 }

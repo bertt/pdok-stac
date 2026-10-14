@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Gepland%20landgebruik%20DSO-LV%20Omgevingswet.png/3be7d775-8890-b537-550b-faa8c5b7e649?t=1791961633784",
+      "href": "https://www.pdok.nl/documents/1901824/0/Gepland%20landgebruik%20DSO-LV%20Omgevingswet.png/3be7d775-8890-b537-550b-faa8c5b7e649?t=1791962087098",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "LU.SpatialPlan"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

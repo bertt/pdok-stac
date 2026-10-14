@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "vaarweg",
+  "collection": "hwh-waterschappen-waterbeheergebieden-imwa-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -59188.44333693248,
+          304984.64144318487
+        ],
+        [
+          308126.88473339565,
+          304984.64144318487
+        ],
+        [
+          308126.88473339565,
+          858328.516489961
+        ],
+        [
+          -59188.44333693248,
+          858328.516489961
+        ],
+        [
+          -59188.44333693248,
+          304984.64144318487
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -59188.44333693248,
+    304984.64144318487,
+    308126.88473339565,
+    858328.516489961
+  ],
+  "properties": {
+    "title": "vaarweg",
+    "description": "Een aaneengesloten stuk oppervlaktewater, dat als vaarweg in de Wegwijzer voor de binnenscheepvaart is gedefinieerd.",
+    "datetime": "2026-10-14T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./vaarweg.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterbeheergebieden-imwa/ogc/v1/collections/vaarweg/items?f=json",
+      "type": "application/geo+json",
+      "title": "Vaarweg (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterbeheergebieden-imwa/ogc/v1/resources/Vaarweg.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

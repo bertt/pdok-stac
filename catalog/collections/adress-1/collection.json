@@ -89,7 +89,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Adressen%20%281%29.png/a29d7e9c-cbbb-46ad-ed5f-dbad7fe9e51d?t=1791961633769",
+      "href": "https://www.pdok.nl/documents/1901824/0/Adressen%20%281%29.png/a29d7e9c-cbbb-46ad-ed5f-dbad7fe9e51d?t=1791962087086",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -150,6 +150,12 @@
         "adressen"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

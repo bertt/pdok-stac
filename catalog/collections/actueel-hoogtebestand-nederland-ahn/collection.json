@@ -81,7 +81,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/ahn.png/c2d19e3c-51ac-11c4-ae3d-c2a5fbf388e8?t=1791961633769",
+      "href": "https://www.pdok.nl/documents/1901824/0/ahn.png/c2d19e3c-51ac-11c4-ae3d-c2a5fbf388e8?t=1791962087086",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -132,6 +132,12 @@
         "dtm_05m"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

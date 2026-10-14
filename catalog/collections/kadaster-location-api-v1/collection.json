@@ -97,6 +97,12 @@
       "href": "https://www.pdok.nl/ogc-apis/-/article/location-api-1",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

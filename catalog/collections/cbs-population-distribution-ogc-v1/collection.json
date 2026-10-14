@@ -200,6 +200,30 @@
       "href": "https://creativecommons.org/licenses/by/4.0/deed.nl",
       "type": "text/html",
       "title": "CC BY 4.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./pd-nl-grid-2012/pd-nl-grid-2012.json",
+      "type": "application/geo+json",
+      "title": "pd-nl-grid-2012"
+    },
+    {
+      "rel": "item",
+      "href": "./pd-nl-lau-2018/pd-nl-lau-2018.json",
+      "type": "application/geo+json",
+      "title": "pd-nl-lau-2018"
+    },
+    {
+      "rel": "item",
+      "href": "./pd-nl-nuts2-2018/pd-nl-nuts2-2018.json",
+      "type": "application/geo+json",
+      "title": "pd-nl-nuts2-2018"
     }
   ]
 }

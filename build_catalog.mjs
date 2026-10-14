@@ -63,6 +63,10 @@ const providerOf = (root) => {
   return PROVIDERS[key] ?? key.toUpperCase();
 };
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const polygon = (b) => ({
+  type: "Polygon",
+  coordinates: [[[b[0], b[1]], [b[2], b[1]], [b[2], b[3]], [b[0], b[3]], [b[0], b[1]]]],
+});
 const linkByRel = (doc, rel) => (doc?.links ?? []).find((l) => l.rel === rel);
 const keywordsOf = (doc) =>
   (doc?.keywords ?? []).map((k) => (typeof k === "string" ? k : k.keyword)).filter(Boolean);
@@ -351,6 +355,52 @@ for (const it of all) {
   const assets = assetsOf(it);
   if (it.image) assets.thumbnail = { href: it.image, type: "image/jpeg", title: "Thumbnail", roles: ["thumbnail"] };
   const provider = it.provider ?? providerOf(it.root);
+
+  // Items: one with the services, plus one per OGC API feature collection, so STAC clients show content.
+  const collectionBbox = extentOf(it.collections).spatial.bbox[0];
+  const itemIds = new Set();
+  const addItem = async (title, description, bbox, datetime, itemAssets) => {
+    let iid = slug(title) || "item", k = 2;
+    const base = iid;
+    while (itemIds.has(iid)) iid = `${base}-${k++}`;
+    itemIds.add(iid);
+    await write(join(OUT, "collections", cid, iid, `${iid}.json`), {
+      type: "Feature",
+      stac_version: STAC_VERSION,
+      stac_extensions: [],
+      id: iid,
+      collection: cid,
+      geometry: polygon(bbox),
+      bbox,
+      properties: { title, ...(description ? { description } : {}), datetime },
+      links: [
+        { rel: "root", href: "../../../catalog.json", type: "application/json" },
+        { rel: "parent", href: "../collection.json", type: "application/json" },
+        { rel: "collection", href: "../collection.json", type: "application/json" },
+        { rel: "self", href: `./${iid}.json`, type: "application/geo+json" },
+      ],
+      assets: itemAssets,
+    });
+    clinks.push({ rel: "item", href: `./${iid}/${iid}.json`, type: "application/geo+json", title });
+  };
+  const serviceAssets = Object.fromEntries(Object.entries(assets).filter(([key]) => !key.startsWith("items-")));
+  await addItem("services", `Services of ${it.title}`, collectionBbox, now, serviceAssets);
+  for (const c of it.collections) {
+    const itemsLink = (c.links ?? []).find((l) => l.rel === "items" && l.type === "application/geo+json");
+    if (!itemsLink) continue;
+    const preview = linkByRel(c, "preview");
+    const b = c.extent?.spatial?.bbox?.[0];
+    await addItem(
+      c.id,
+      c.description || c.title,
+      b?.length === 4 ? b : collectionBbox,
+      c.updated ?? now,
+      {
+        items: { href: itemsLink.href, type: "application/geo+json", title: `${c.title || c.id} (OGC API Features)`, roles: ["data"] },
+        ...(preview ? { thumbnail: { href: preview.href, type: preview.type ?? "image/png", title: "Thumbnail", roles: ["thumbnail"] } } : {}),
+      },
+    );
+  }
   await write(join(OUT, "collections", cid, "collection.json"), {
     type: "Collection",
     stac_version: STAC_VERSION,

@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "filtervlijlaag",
+  "collection": "hwh-waterschappen-keringen-imwa-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -59188.44333693248,
+          304984.64144318487
+        ],
+        [
+          308126.88473339565,
+          304984.64144318487
+        ],
+        [
+          308126.88473339565,
+          858328.516489961
+        ],
+        [
+          -59188.44333693248,
+          858328.516489961
+        ],
+        [
+          -59188.44333693248,
+          304984.64144318487
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -59188.44333693248,
+    304984.64144318487,
+    308126.88473339565,
+    858328.516489961
+  ],
+  "properties": {
+    "title": "filtervlijlaag",
+    "description": "Filterlaag: Een tussenlaag in de taludbekleding die uitspoeling van fijnkorrelig materiaal uit de ondergrond door de bovenliggende laag van de bekleding voorkomt.Vlijlaag: Een tussenlaag in de bekledingsconstructie  met filterfunctie, bestaande uit één of meer lagen plat gelegde bakstenen die in verband zijn geplaatst.",
+    "datetime": "2026-10-14T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./filtervlijlaag.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/filtervlijlaag/items?f=json",
+      "type": "application/geo+json",
+      "title": "FilterVlijlaag (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/resources/filterlaagvlijlaag.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

@@ -79,7 +79,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/brta.png/b50003d0-c722-a491-bf51-de94bfa023f7?t=1791961633771",
+      "href": "https://www.pdok.nl/documents/1901824/0/brta.png/b50003d0-c722-a491-bf51-de94bfa023f7?t=1791962087087",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -120,6 +120,12 @@
       "href": "https://www.pdok.nl/ogc-apis/-/article/basisregistratie-topografie-achtergrondkaarten-brt-a-",
       "type": "text/html",
       "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

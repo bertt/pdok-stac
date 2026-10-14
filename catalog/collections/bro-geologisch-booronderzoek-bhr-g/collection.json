@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/bhrg.png/aef41f16-064b-ca4f-3f42-2e8ea9e13700?t=1791961633774",
+      "href": "https://www.pdok.nl/documents/1901824/0/bhrg.png/aef41f16-064b-ca4f-3f42-2e8ea9e13700?t=1791962087090",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "bhrg"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

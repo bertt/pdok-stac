@@ -212,6 +212,36 @@
       "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
       "type": "text/html",
       "title": "CC0 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./marker-post/marker-post.json",
+      "type": "application/geo+json",
+      "title": "marker_post"
+    },
+    {
+      "rel": "item",
+      "href": "./road-area/road-area.json",
+      "type": "application/geo+json",
+      "title": "road_area"
+    },
+    {
+      "rel": "item",
+      "href": "./road-node/road-node.json",
+      "type": "application/geo+json",
+      "title": "road_node"
+    },
+    {
+      "rel": "item",
+      "href": "./road-link/road-link.json",
+      "type": "application/geo+json",
+      "title": "road_link"
     }
   ]
 }

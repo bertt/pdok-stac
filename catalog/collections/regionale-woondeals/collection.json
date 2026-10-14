@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Regionale%20Woondeals.jpg/0077481b-1f12-e3cf-9443-e923fa41e70f?t=1791961633800",
+      "href": "https://www.pdok.nl/documents/1901824/0/Regionale%20Woondeals.jpg/0077481b-1f12-e3cf-9443-e923fa41e70f?t=1791962087107",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "woondeals"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

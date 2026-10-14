@@ -81,7 +81,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Gebouwen.png/d77743f5-8c79-af8b-6435-b956a59b126e?t=1791961633783",
+      "href": "https://www.pdok.nl/documents/1901824/0/Gebouwen.png/d77743f5-8c79-af8b-6435-b956a59b126e?t=1791962087097",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -132,6 +132,12 @@
         "BU.Building"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

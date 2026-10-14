@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "bevolkingskernen",
+  "collection": "cbs-bevolkingskernen-2021-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -59188.44333693248,
+          304984.64144318487
+        ],
+        [
+          308126.88473339565,
+          304984.64144318487
+        ],
+        [
+          308126.88473339565,
+          858328.516489961
+        ],
+        [
+          -59188.44333693248,
+          858328.516489961
+        ],
+        [
+          -59188.44333693248,
+          304984.64144318487
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -59188.44333693248,
+    304984.64144318487,
+    308126.88473339565,
+    858328.516489961
+  ],
+  "properties": {
+    "title": "bevolkingskernen",
+    "description": "Het bestand bevolkingskernen 2021 bevat statistische kerncijfers per bevolkingskern. De afbakening van bevolkingskernen is enige tijd geleden voortgekomen uit een vraag naar cijfers op het niveau van bevolkingskernen in het Volkstellingprogramma 2001 van Eurostat. Het begrip bevolkingskern sluit aan bij het begrip 'locality' dat de Verenigde Naties bezigen in hun aanbevelingen voor het houden van een Volkstelling. In deze omschrijving van het begrip en de toepassing ervan in de praktijk staat de aanwezigheid van aaneengesloten bebouwd gebied met daarin woongebied centraal dat daarnaast aan een aantal voorwaarden in termen van de bebouwing moet voldoen. Meer informatie over deze dataset is te vinden via deze link: https://www.cbs.nl/nl-nl/longread/diversen/2024/bevolkingskernen-in-nederland-2021.",
+    "datetime": "2025-11-14T14:07:37Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./bevolkingskernen.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/cbs/bevolkingskernen-2021/ogc/v1/collections/bevolkingskernen/items?f=json",
+      "type": "application/geo+json",
+      "title": "CBS Bevolkingskernen 2021 (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/bevolkingskernen-2021/ogc/v1/resources/bevolkingskernen_2021.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

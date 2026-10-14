@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Bodemgebruik.png/96982242-49f0-be59-356c-95a3141b1ec7?t=1791961633772",
+      "href": "https://www.pdok.nl/documents/1901824/0/Bodemgebruik.png/96982242-49f0-be59-356c-95a3141b1ec7?t=1791962087089",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -130,6 +130,12 @@
         "LC.LandCoverSurfaces"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

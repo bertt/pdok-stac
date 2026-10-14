@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "services",
+  "collection": "bestuurlijke-grenzen",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          3.2,
+          50.75
+        ],
+        [
+          7.22,
+          50.75
+        ],
+        [
+          7.22,
+          53.7
+        ],
+        [
+          3.2,
+          53.7
+        ],
+        [
+          3.2,
+          50.75
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    3.2,
+    50.75,
+    7.22,
+    53.7
+  ],
+  "properties": {
+    "title": "services",
+    "description": "Services of Bestuurlijke Grenzen",
+    "datetime": "2026-10-14T07:15:05Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./services.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "api": {
+      "href": null,
+      "type": "text/html",
+      "title": "Bestuurlijke Grenzen",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/kadaster/bestuurlijkegrenzen/atom/v1_0/downloads/bestuurlijkegrenzen_gml_2021.zip",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bestuurlijkegrenzen/atom/v1_0/downloads/bestuurlijkegrenzen_gml_2021.zip)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom-2": {
+      "href": "https://service.pdok.nl/kadaster/bestuurlijkegrenzen/atom/v1_0/downloads/bestuurlijkegrenzen_gpkg_2021.zip",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bestuurlijkegrenzen/atom/v1_0/downloads/bestuurlijkegrenzen_gpkg_2021.zip)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom-3": {
+      "href": "https://service.pdok.nl/kadaster/bestuurlijkegrenzen/atom/v1_0/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bestuurlijkegrenzen/atom/v1_0/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom-4": {
+      "href": "https://service.pdok.nl/kadaster/brk-bestuurlijke-grenzen/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (brk-bestuurlijke-grenzen/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Bestuurlijke%20grenzen.png/7637622d-b753-15bc-ae75-382f7e1cf014?t=1791962087088",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

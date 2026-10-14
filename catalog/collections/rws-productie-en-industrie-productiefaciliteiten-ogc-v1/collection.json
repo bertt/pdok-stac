@@ -236,6 +236,48 @@
       "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
       "type": "text/html",
       "title": "CC0 1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
+    },
+    {
+      "rel": "item",
+      "href": "./production-facility-f/production-facility-f.json",
+      "type": "application/geo+json",
+      "title": "production_facility_f"
+    },
+    {
+      "rel": "item",
+      "href": "./production-facility-c/production-facility-c.json",
+      "type": "application/geo+json",
+      "title": "production_facility_c"
+    },
+    {
+      "rel": "item",
+      "href": "./production-facility-d/production-facility-d.json",
+      "type": "application/geo+json",
+      "title": "production_facility_d"
+    },
+    {
+      "rel": "item",
+      "href": "./production-facility-h/production-facility-h.json",
+      "type": "application/geo+json",
+      "title": "production_facility_h"
+    },
+    {
+      "rel": "item",
+      "href": "./production-facility-e/production-facility-e.json",
+      "type": "application/geo+json",
+      "title": "production_facility_e"
+    },
+    {
+      "rel": "item",
+      "href": "./production-facility-b/production-facility-b.json",
+      "type": "application/geo+json",
+      "title": "production_facility_b"
     }
   ]
 }

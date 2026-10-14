@@ -63,7 +63,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Grondwatergebruiksysteem.png/6d63ce05-a845-68d4-686b-9e2be7e1793e?t=1791961633775",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Grondwatergebruiksysteem.png/6d63ce05-a845-68d4-686b-9e2be7e1793e?t=1791962087091",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -98,6 +98,12 @@
       "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-grondwatergebruiksysteem-guf-",
       "type": "text/html",
       "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

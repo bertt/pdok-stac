@@ -159,6 +159,12 @@
       "title": "WMTS (top10nl/wmts/v1_0)",
       "wmts:layer": "top10nl",
       "wmts:encoding": "kvp"
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

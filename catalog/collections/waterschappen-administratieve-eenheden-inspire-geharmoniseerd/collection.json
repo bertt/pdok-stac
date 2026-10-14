@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Waterschappen%20Administratieve%20Eenheden.png/9d3574c1-feba-2b56-84a5-6ce90b8922fa?t=1791961633805",
+      "href": "https://www.pdok.nl/documents/1901824/0/Waterschappen%20Administratieve%20Eenheden.png/9d3574c1-feba-2b56-84a5-6ce90b8922fa?t=1791962087111",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -124,6 +124,12 @@
         "AU.AdministrativeUnit"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

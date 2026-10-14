@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "hazard-area",
+  "collection": "rws-overstromingen-gevarengebied-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.527125,
+          50.212863
+        ],
+        [
+          7.374026,
+          50.212863
+        ],
+        [
+          7.374026,
+          55.72116
+        ],
+        [
+          2.527125,
+          55.72116
+        ],
+        [
+          2.527125,
+          50.212863
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    2.527125,
+    50.212863,
+    7.374026,
+    55.72116
+  ],
+  "properties": {
+    "title": "hazard_area",
+    "description": "Afzonderlijke ruimtelijke objecten die een natuurlijk gevaar weergeven.",
+    "datetime": "2026-05-26T09:12:38Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./hazard-area.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/rws/overstromingen-gevarengebied/ogc/v1/collections/hazard_area/items?f=json",
+      "type": "application/geo+json",
+      "title": "Gevarengebied (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rws/overstromingen-gevarengebied/ogc/v1/resources/rws_nz_overstroming_gevarengebied.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

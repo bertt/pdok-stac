@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "vierkant1kmlaea",
+  "collection": "cbs-vierkant-1km-laea-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "vierkant1kmlaea",
+    "description": "Het bestand vierkant 1 km2 Nederland bevat alle vierkanten van 1 kilometer bij 1 kilometer gelegen boven land van Nederland, afgeleid door Eurostat. De dataset bevat een kolom waarvan de naam de EPSG-code vermeld van de projectie van het onderliggend gebied waarop de vierkanten als rechthoekig net betrekking hebben (Voor ETRS89-LAEA is dat 3035) en de grootte van het vierkant (1000 meter bij 1000 meter). Aan ieder vierkant wordt een codering toegekend afgeleid van het linksonderpunt van het vierkant, opgebouwd uit een Oost en een Noord coördinaat. Zowel de x-coördinaat als de y-coördinaat van het linksonderpunt is een veelvoud van 1000 meter en wordt in gehele meters aangegeven. De y-coördinaat wordt weergegeven als N(orth) en de x-coördinaat als E(ast).",
+    "datetime": "2025-07-21T15:23:39Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./vierkant1kmlaea.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/cbs/vierkant-1km-laea/ogc/v1/collections/vierkant1kmlaea/items?f=json",
+      "type": "application/geo+json",
+      "title": "Vierkant 1 kilometer bij 1 kilometer Nederland LAEA (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/vierkant-1km-laea/ogc/v1/resources/vierkant1kmlaea.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

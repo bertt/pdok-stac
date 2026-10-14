@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "gebouwen",
+  "collection": "kadaster-3d-geluid-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "gebouwen",
+    "description": "De gebouwen uit het BAG zijn voorzien van hoogteinformatie vanuit het Actueel Hoogtebestand Nederland (AHN) en vanuit luchtfoto's. Gebouwen met hoogteinformatie vanuit het AHN zijn opgeknipt bij grote hoogtesprongen binnen het gebouw. Meer informatie is te vinden in de productbeschrijving. De data is zowel landsdekkend in één zip bestand te downloaden, maar ook per kaartblad. Voor het downloaden per kaartblad selecteer in het dropdown menu de gewenste BAG peildatum (jaar). Selecteer vervolgens op de kaart het gewenste kaartblad. Inzoomen kan met de scrolfunctie van uw muis. Vervolgens vindt u in de tabel onder de kaart een link om het bijbehorende zipbestand te downloaden.",
+    "datetime": "2026-07-23T13:52:22Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./gebouwen.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/kadaster/3d-geluid/ogc/v1/collections/gebouwen/items?f=json",
+      "type": "application/geo+json",
+      "title": "Gebouwen (2D + hoogte) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/kadaster/3d-geluid/ogc/v1/resources/3dkaartblad.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

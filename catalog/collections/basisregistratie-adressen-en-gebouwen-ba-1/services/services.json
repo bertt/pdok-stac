@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "services",
+  "collection": "basisregistratie-adressen-en-gebouwen-ba-1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          3.2,
+          50.75
+        ],
+        [
+          7.22,
+          50.75
+        ],
+        [
+          7.22,
+          53.7
+        ],
+        [
+          3.2,
+          53.7
+        ],
+        [
+          3.2,
+          50.75
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    3.2,
+    50.75,
+    7.22,
+    53.7
+  ],
+  "properties": {
+    "title": "services",
+    "description": "Services of Basisregistratie Adressen en Gebouwen (BAG)",
+    "datetime": "2026-10-14T07:15:05Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./services.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "api": {
+      "href": null,
+      "type": "text/html",
+      "title": "Basisregistratie Adressen en Gebouwen (BAG)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/lv/bag/atom/bag.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bag/atom/bag.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/lv/bag/wfs/v2_0?request=getCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (bag/wfs/v2_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/lv/bag/wms/v2_0?request=getCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (bag/wms/v2_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Adressen%20en%20Gebouwen.png/f84c4d23-c8a6-c06b-c368-fd7ae83b927f?t=1791962087087",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

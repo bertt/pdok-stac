@@ -73,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Vervoersnetwerken%20%281%29.png/bdb7f057-0244-acb9-6e93-3f3426f10aae?t=1791961633803",
+      "href": "https://www.pdok.nl/documents/1901824/0/Vervoersnetwerken%20%281%29.png/bdb7f057-0244-acb9-6e93-3f3426f10aae?t=1791962087109",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
@@ -130,6 +130,12 @@
         "TN.AirTransportNetwork.RunwayArea"
       ],
       "wms:transparent": true
+    },
+    {
+      "rel": "item",
+      "href": "./services/services.json",
+      "type": "application/geo+json",
+      "title": "services"
     }
   ]
 }

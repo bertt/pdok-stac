@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "brpgewas",
+  "collection": "rvo-gewaspercelen-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1.657292,
+          48.040502
+        ],
+        [
+          12.431727,
+          48.040502
+        ],
+        [
+          12.431727,
+          56.11059
+        ],
+        [
+          -1.657292,
+          56.11059
+        ],
+        [
+          -1.657292,
+          48.040502
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -1.657292,
+    48.040502,
+    12.431727,
+    56.11059
+  ],
+  "properties": {
+    "title": "brpgewas",
+    "description": "BRP - Gewaspercelen bestaat uit de locatie van landbouwpercelen met daaraan gekoppeld het geteelde gewas. Het bestand is een selectie van informatie uit de Basisregistratie Percelen (BRP) van de Rijksdienst voor Ondernemend Nederland. De omgrenzingen van de landbouwpercelen zijn gebaseerd op het Agrarisch Areaal Nederland (AAN). De gebruiker van het perceel dient jaarlijks zijn gewaspercelen in te tekenen en aan te geven welk gewas wordt geteeld op het betreffende perceel. Van elk jaar wordt een dataset gegenereerd van peildatum 15 mei. Van de meest recente BRP gewaspercelen is een viewservices en een downloadservice beschikbaar.",
+    "datetime": "2026-05-15T08:11:40Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./brpgewas.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/rvo/gewaspercelen/ogc/v1/collections/brpgewas/items?f=json",
+      "type": "application/geo+json",
+      "title": "BRP Gewaspercelen (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rvo/gewaspercelen/ogc/v1/resources/gewaspercelen.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

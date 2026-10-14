@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "afsluiter",
+  "collection": "hwh-waterschappen-waterketen-damo-ogc-v1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.527125,
+          50.212863
+        ],
+        [
+          7.374026,
+          50.212863
+        ],
+        [
+          7.374026,
+          55.72116
+        ],
+        [
+          2.527125,
+          55.72116
+        ],
+        [
+          2.527125,
+          50.212863
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    2.527125,
+    50.212863,
+    7.374026,
+    55.72116
+  ],
+  "properties": {
+    "title": "afsluiter",
+    "description": "Een toestel waarmee de doorstroomopening van een rioolleiding geheel of gedeeltelijk kan worden afgesloten.",
+    "datetime": "2026-10-14T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./afsluiter.json",
+      "type": "application/geo+json"
+    }
+  ],
+  "assets": {
+    "items": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/afsluiter/items?f=json",
+      "type": "application/geo+json",
+      "title": "Afsluiter (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/resources/Afsluiter.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
