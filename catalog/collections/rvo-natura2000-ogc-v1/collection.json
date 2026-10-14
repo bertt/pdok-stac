@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "rvo-natura2000-ogc-v1",
   "title": "Natura2000 (OGC API)",
   "description": "Samenvatting: Natura 2000 is het samenhangend netwerk van beschermde natuurgebieden in de Europese Unie bestaande uit Vogelrichtlijn- en Habitatrichtlijngebieden. Natura 2000-gebieden zijn een samenvoeging van beide en de daarin gelegen beschermde natuurmonumenten. In Nederland gaat het om 162 gebieden waarvan drie mariene gebieden in de Exclusieve Economische Zone (EEZ) op de Noordzee (incl. een voorgenomen Vogelrichtlijngebied in de EEZ). De Vogelrichtlijngebieden zijn merendeels aangewezen in de periode 1986-2000. De Habitatrichtlijngebieden worden aangewezen met de aanwijzing van de betreffende Natura 2000-gebieden. Deze service bevat de grenzen van de definitief aangewezen gebieden en de grenzen conform het ontwerp-besluit van de meeste overige gebieden. Voor enkele Habitatrichtlijngebieden waarvoor nog geen ontwerp-besluiten zijn gepubliceerd, bevat deze service de grenzen zoals die aan de Europese Commissie gemeld zijn.",
@@ -90,6 +92,30 @@
       "roles": [
         "data"
       ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rvo/natura2000/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (natura2000/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rvo/natura2000/wfs/v1_0?request=getcapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (natura2000/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rvo/natura2000/wms/v1_0?request=getcapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (natura2000/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -113,6 +139,40 @@
       "href": "https://api.pdok.nl/rvo/natura2000/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/natura-2000",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/natura-2000",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/natura-2000",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/natura-2000",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/natura2000/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (natura2000/wms/v1_0)",
+      "wms:layers": [
+        "natura2000"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

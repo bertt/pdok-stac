@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "hwh-waterschappen-oppervlaktewateren-imwa-ogc-v1",
   "title": "Waterschappen Oppervlaktewateren IMWA (OGC API)",
   "description": "Deze dataset bestaat uit de volgende lagen (niet alle lagen zijn op dit moment gevuld met data): Hydroobject/Oppervlaktewaterlichaam,  Oever, Ondersteunendwaterdeel, Profielverdediging, Waterdeel.De data is gestructureerd volgens het Informatiemodel Water (IMWA), onderdeel van de Aquo-standaard. Meer informatie hierover is te vinden op de Aquo-website.De gegevens worden in Geopackage-formaat geleverd in het RD-New coördinatenstelsel.De data zijn afkomstig van de individuele waterschappen, maar worden via PDOK als één landsdekkend bestand uitgeleverd. Individuele waterschappen bieden hun actuele gegevens hiervoor aan via het Gegevensknooppunt Waterschappen (GkW) van Het Waterschapshuis. Alle waterschappen zijn aangesloten op deze voorziening, maar nog niet elk waterschap levert de complete set gegevens aan.Voor informatie over de inhoud van de data kan contact worden opgenomen met het desbetreffende waterschap. Dit is te herkennen aan de waterschapscode die als kenmerk is opgenomen bij ieder object in de dataset. Voor algemene informatie over de dataset en de herkomst via het GkW kan contact worden opgenomen met Het Waterschapshuis via datastromen@hetwaterschapshuis.nl.",
@@ -122,6 +124,30 @@
       "roles": [
         "data"
       ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/hwh/waterschappen-oppervlaktewateren-imwa/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (waterschappen-oppervlaktewateren-imwa/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/hwh/waterschappen-oppervlaktewateren-imwa/wfs/v2_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (waterschappen-oppervlaktewateren-imwa/wfs/v2_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/hwh/waterschappen-oppervlaktewateren-imwa/wms/v2_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (waterschappen-oppervlaktewateren-imwa/wms/v2_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -145,6 +171,40 @@
       "href": "https://api.pdok.nl/hwh/waterschappen-oppervlaktewateren-imwa/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/waterschappen-oppervlaktewateren-imwa",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/waterschappen-oppervlaktewateren-imwa",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/waterschappen-oppervlaktewateren-imwa",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/waterschappen-oppervlaktewateren-imwa",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/hwh/waterschappen-oppervlaktewateren-imwa/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (waterschappen-oppervlaktewateren-imwa/wms/v2_0)",
+      "wms:layers": [
+        "oever"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

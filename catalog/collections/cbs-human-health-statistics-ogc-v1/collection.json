@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "cbs-human-health-statistics-ogc-v1",
   "title": "Human Health Statistics Netherlands (INSPIRE geharmoniseerd) (OGC API)",
   "description": "This service refers to SDMX files with human Health data like total number of death per 100.000 people or number of doctors in the Netherlands per NUTS2 region.",
@@ -104,6 +106,30 @@
       "roles": [
         "data"
       ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/cbs/human-health-statistics/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (human-health-statistics/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/cbs/human-health-statistics/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (human-health-statistics/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/cbs/human-health-statistics/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (human-health-statistics/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -127,6 +153,40 @@
       "href": "https://api.pdok.nl/cbs/human-health-statistics/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/cbs-gezondheid-human-health-statistics-netherlands-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/cbs-gezondheid-human-health-statistics-netherlands-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/cbs-gezondheid-human-health-statistics-netherlands-",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/cbs-gezondheid-human-health-statistics-netherlands-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/human-health-statistics/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (human-health-statistics/wms/v1_0)",
+      "wms:layers": [
+        "hh-nl-nuts2-doctors-2017"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

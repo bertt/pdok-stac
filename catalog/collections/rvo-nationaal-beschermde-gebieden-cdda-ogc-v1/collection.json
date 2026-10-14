@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "rvo-nationaal-beschermde-gebieden-cdda-ogc-v1",
   "title": "Nationaal Beschermde Gebieden (CDDA) (OGC API)",
   "description": "In deze dataset is de zogeheten common database of designated areas (cdda) weergegeven. Deze database is onderdeel van de jaarlijkse rapportage vanuit Nederland aan de EEA. De cdda bestaat uit de natura2000 gebieden, de nationale parken en het natuur netwerk nederland.",
@@ -96,6 +98,30 @@
       "roles": [
         "data"
       ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rvo/nationaal-beschermde-gebieden-cdda/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (nationaal-beschermde-gebieden-cdda/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rvo/nationaal-beschermde-gebieden-cdda/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (nationaal-beschermde-gebieden-cdda/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rvo/nationaal-beschermde-gebieden-cdda/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (nationaal-beschermde-gebieden-cdda/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -119,6 +145,40 @@
       "href": "https://api.pdok.nl/rvo/nationaal-beschermde-gebieden-cdda/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/nationaal-beschermde-gebieden-cdda",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/nationaal-beschermde-gebieden-cdda",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/nationaal-beschermde-gebieden-cdda",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/nationaal-beschermde-gebieden-cdda",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/nationaal-beschermde-gebieden-cdda/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (nationaal-beschermde-gebieden-cdda/wms/v1_0)",
+      "wms:layers": [
+        "cdda"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

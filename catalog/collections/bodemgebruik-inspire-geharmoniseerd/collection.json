@@ -1,0 +1,135 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "id": "bodemgebruik-inspire-geharmoniseerd",
+  "title": "Bodemgebruik - Land Cover (INSPIRE geharmoniseerd)",
+  "description": "INSPIRE Bodemgebruik themalaag, geharmoniseerd, gevuld met relevante objecten uit TOP10NL (onderdeel van de Basisregistratie Topografie (BRT), geproduceerd en beheerd door het Kadaster. Bodemgebruik dataset vertegenwoordigt ruimtelijke informatie over verschillende soorten fysieke bedekking van het aardoppervlak, b.v. bossen, graslanden, akkerlanden, water, bebouwd gebied, etc..",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Kadaster"
+  ],
+  "providers": [
+    {
+      "name": "Kadaster",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "api": {
+      "href": null,
+      "type": "text/html",
+      "title": "Bodemgebruik - Land Cover (INSPIRE geharmoniseerd)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/kadaster/lc/atom/v1_0/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (lc/atom/v1_0/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/kadaster/lc/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (lc/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Bodemgebruik.png/96982242-49f0-be59-356c-95a3141b1ec7?t=1791961633772",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/bodemgebruik-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/bodemgebruik-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/bodemgebruik-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/bodemgebruik-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/lc/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (lc/wms/v1_0)",
+      "wms:layers": [
+        "LC.LandCoverSurfaces"
+      ],
+      "wms:transparent": true
+    }
+  ]
+}

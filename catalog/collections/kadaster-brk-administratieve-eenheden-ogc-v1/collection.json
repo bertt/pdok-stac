@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "kadaster-brk-administratieve-eenheden-ogc-v1",
   "title": "Administratieve Eenheden (INSPIRE geharmoniseerd) (OGC API)",
   "description": "Overzicht van de bestuurlijke indeling van Nederland in gemeenten en provincies. Gegevens zijn gebaseerd op de dataset Bestuurlijke Gebieden, welke afgeleid is uit de Basisregistratie Kadaster (BRK).",
@@ -97,6 +99,30 @@
       "roles": [
         "data"
       ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/kadaster/brk-administratieve-eenheden/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (brk-administratieve-eenheden/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/kadaster/brk-administratieve-eenheden/wfs/v2_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (brk-administratieve-eenheden/wfs/v2_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/kadaster/brk-administratieve-eenheden/wms/v2_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (brk-administratieve-eenheden/wms/v2_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -120,6 +146,40 @@
       "href": "https://api.pdok.nl/kadaster/brk-administratieve-eenheden/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/administratieve-eenheden-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/administratieve-eenheden-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/administratieve-eenheden-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/administratieve-eenheden-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/brk-administratieve-eenheden/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (brk-administratieve-eenheden/wms/v2_0)",
+      "wms:layers": [
+        "AU.AdministrativeBoundary"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

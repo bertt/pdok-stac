@@ -1,0 +1,129 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "id": "provinciaal-landschapsbeleid",
+  "title": "Provinciaal Landschapsbeleid - Provincies (INSPIRE geharmoniseerd)",
+  "description": "Nationale landschappen zijn gebieden met internationaal zeldzame of unieke en nationaal kenmerkende landschapskwaliteiten, en in samenhang daarmee bijzondere natuurlijke, cultuurhistorische en recreatieve kwaliteiten.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Provincies"
+  ],
+  "providers": [
+    {
+      "name": "Provincies",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "api": {
+      "href": null,
+      "type": "text/html",
+      "title": "Provinciaal Landschapsbeleid - Provincies (INSPIRE geharmoniseerd)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/provincies/provinciaal-landschapsbeleid/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (provinciaal-landschapsbeleid/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/provincies/provinciaal-landschapsbeleid/wms/v1_0?request=getcapabilities&service=wms",
+      "type": "application/xml",
+      "title": "WMS (provinciaal-landschapsbeleid/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Provinciaal%20landschapsbeleid.jpg/71da8cd1-e6b5-b053-9192-bef5dfc46544?t=1791961633798",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/provinciaal-landschapsbeleid",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/provinciaal-landschapsbeleid",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/provinciaal-landschapsbeleid",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/provincies/provinciaal-landschapsbeleid/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (provinciaal-landschapsbeleid/wms/v1_0)",
+      "wms:layers": [
+        "PS.ProtectedSite"
+      ],
+      "wms:transparent": true
+    }
+  ]
+}

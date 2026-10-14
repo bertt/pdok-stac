@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "kadaster-bag-ogc-v2",
   "title": "Basisregistratie Adressen en Gebouwen (OGC API)",
   "description": "De gegevens bestaan uit BAG-panden inclusief panden met de status 'gesloopt' en een deel van BAG-gegevens van deze panden met de zich daarin bevindende verblijfsobjecten en adresinformatie. Ook de ligplaatsen en standplaatsen zijn opgenomen. Lees meer over de BAG. Bekijk de vector tiles in de Vectortile Viewer.",
@@ -136,6 +138,30 @@
       "roles": [
         "data"
       ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/kadaster/bag/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bag/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/kadaster/bag/wfs/v2_0?request=getCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (bag/wfs/v2_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/kadaster/bag/wms/v2_0?request=getCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (bag/wms/v2_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -159,6 +185,40 @@
       "href": "https://api.pdok.nl/kadaster/bag/ogc/v2",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/basisregistratie-adressen-en-gebouwen-ba-1",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/basisregistratie-adressen-en-gebouwen-ba-1",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/basisregistratie-adressen-en-gebouwen-ba-1",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/basisregistratie-adressen-en-gebouwen-ba-1",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/bag/wms/v2_0",
+      "type": "image/png",
+      "title": "WMS (bag/wms/v2_0)",
+      "wms:layers": [
+        "pand"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

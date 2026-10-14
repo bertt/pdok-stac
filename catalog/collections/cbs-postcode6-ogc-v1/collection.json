@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "cbs-postcode6-ogc-v1",
   "title": "CBS Postcode6 statistieken (OGC API)",
   "description": "Het bestand CBSpostcode6 bevat statistische gegevens voor afzonderlijke postcodes vanaf 2015. Met ingang van het tweede kwartaal 2025 zijn gegevens over het jaar 2024 toegevoegd en zijn het aantal gegevens van de jaren 2023 en 2022 uitgebreid met gegevens over demografie, woningen, energie, inkomen, sociale zekerheid, nabijheid van voorzieningen en dichtheid. Lees voor meer informatie: https://www.cbs.nl/nl-nl/longread/diversen/2025/statistische-gegevens-per-vierkant-en-postcode-2022-2023-2024)",
@@ -102,6 +104,174 @@
       "roles": [
         "data"
       ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2015/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2015/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2015/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2015/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-2": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2016/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2016/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-2": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2016/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2016/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-3": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2017/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2017/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-3": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2017/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2017/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-4": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2018/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2018/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-4": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2018/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2018/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-5": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2019/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2019/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-5": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2019/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2019/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-6": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2020/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2020/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-6": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2020/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2020/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-7": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2021/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2021/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-7": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2021/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2021/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-8": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2022/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2022/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-8": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2022/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2022/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-9": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2023/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2023/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-9": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2023/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2023/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs-10": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2024/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (postcode6/2024/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-10": {
+      "href": "https://service.pdok.nl/cbs/postcode6/2024/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (postcode6/2024/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/cbs/postcode6/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (postcode6/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -125,6 +295,130 @@
       "href": "https://api.pdok.nl/cbs/postcode6/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/cbspostcode6",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/cbspostcode6",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/cbspostcode6",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/cbspostcode6",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2015/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2015/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2016/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2016/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2017/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2017/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2018/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2018/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2019/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2019/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2020/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2020/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2021/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2021/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2022/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2022/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2023/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2023/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/postcode6/2024/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (postcode6/2024/wms/v1_0)",
+      "wms:layers": [
+        "postcode6"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

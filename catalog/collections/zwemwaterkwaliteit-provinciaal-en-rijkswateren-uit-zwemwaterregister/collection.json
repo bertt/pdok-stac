@@ -1,0 +1,129 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "id": "zwemwaterkwaliteit-provinciaal-en-rijkswateren-uit-zwemwaterregister",
+  "title": "Zwemwaterkwaliteit (provinciaal en Rijkswateren) uit Zwemwaterregister (INSPIRE geharmoniseerd)",
+  "description": "In deze dataset zitten de resultaten van het zwemwaterkwaliteit uit het Landelijk Zwemwater Register. Allen met data eigenaar provincies.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Provincies"
+  ],
+  "providers": [
+    {
+      "name": "Provincies",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "api": {
+      "href": null,
+      "type": "text/html",
+      "title": "Zwemwaterkwaliteit (provinciaal en Rijkswateren) uit Zwemwaterregister (INSPIRE geharmoniseerd)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/provincies/zwemwaterkwaliteit-provinciaal-rijkswateren/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (zwemwaterkwaliteit-provinciaal-rijkswateren/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/provincies/zwemwaterkwaliteit-provinciaal-rijkswateren/wms/v1_0?request=getcapabilities&service=wms",
+      "type": "application/xml",
+      "title": "WMS (zwemwaterkwaliteit-provinciaal-rijkswateren/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/zwemwater.jpg/e24a9923-bc42-38f5-f623-0acfdf276a7d?t=1791961633808",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/zwemwaterkwaliteit-provinciaal-en-rijkswateren-uit-zwemwaterregister",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/zwemwaterkwaliteit-provinciaal-en-rijkswateren-uit-zwemwaterregister",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/zwemwaterkwaliteit-provinciaal-en-rijkswateren-uit-zwemwaterregister",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/provincies/zwemwaterkwaliteit-provinciaal-rijkswateren/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (zwemwaterkwaliteit-provinciaal-rijkswateren/wms/v1_0)",
+      "wms:layers": [
+        "HH.HealthDeterminantMeasure"
+      ],
+      "wms:transparent": true
+    }
+  ]
+}

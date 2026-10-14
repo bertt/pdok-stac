@@ -1,0 +1,129 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "id": "gepland-landgebruik-inspire-geharmoniseerd",
+  "title": "Gepland Landgebruik (INSPIRE geharmoniseerd)",
+  "description": "Gepland Landgebruik, INSPIRE geharmoniseerd, gevuld met relevante objecten uit Ruimtelijkeplannen.nl, beheerd door het Kadaster.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Kadaster"
+  ],
+  "providers": [
+    {
+      "name": "Kadaster",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "api": {
+      "href": null,
+      "type": "text/html",
+      "title": "Gepland Landgebruik (INSPIRE geharmoniseerd)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/kadaster/ruimtelijke-plannen-gepland-landgebruik/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (ruimtelijke-plannen-gepland-landgebruik/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/kadaster/ruimtelijke-plannen-gepland-landgebruik/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (ruimtelijke-plannen-gepland-landgebruik/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/Gepland%20Landgebruik.png/b88748f2-1f06-c20b-6c63-22c333ab6e56?t=1791961633784",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/gepland-landgebruik-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/gepland-landgebruik-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/gepland-landgebruik-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/ruimtelijke-plannen-gepland-landgebruik/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (ruimtelijke-plannen-gepland-landgebruik/wms/v1_0)",
+      "wms:layers": [
+        "LU.SpatialPlan"
+      ],
+      "wms:transparent": true
+    }
+  ]
+}

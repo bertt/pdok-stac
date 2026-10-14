@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "kadaster-brk-kadastrale-kaart-ogc-v1",
   "title": "Kadastrale Kaart (OGC API)",
   "description": "Overzicht van de ligging van de kadastrale percelen in Nederland. Fungeert als schakel tussen terrein en registratie, vervult voor externe gebruiker vaak een referentiefunctie, een ondergrond ten opzichte waarvan de gebruiker eigen informatie kan vastleggen en presenteren. Een kadastrale kaart geeft slechts een indicatie van de ligging van de kadastrale grenzen. Er kunnen geen maten aan worden ontleend.",
@@ -137,6 +139,38 @@
       "roles": [
         "data"
       ]
+    },
+    "download-api": {
+      "href": "https://api.pdok.nl/kadaster/brk-kadastrale-kaart/download/v5_0/ui/",
+      "type": "text/html",
+      "title": "Download API (brk-kadastrale-kaart/download/v5_0/ui)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/kadaster/brk-kadastrale-kaart/wfs/v5_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (brk-kadastrale-kaart/wfs/v5_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/kadaster/brk-kadastrale-kaart/wms/v5_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (brk-kadastrale-kaart/wms/v5_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wmts": {
+      "href": "https://service.pdok.nl/kadaster/brk-kadastrale-kaart/wmts/v5_0?request=GetCapabilities&service=WMTS",
+      "type": "application/xml",
+      "title": "WMTS (brk-kadastrale-kaart/wmts/v5_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -160,6 +194,41 @@
       "href": "https://api.pdok.nl/kadaster/brk-kadastrale-kaart/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/kadastrale-kaart",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/kadastrale-kaart",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/kadastrale-kaart",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/brk-kadastrale-kaart/wms/v5_0",
+      "type": "image/png",
+      "title": "WMS (brk-kadastrale-kaart/wms/v5_0)",
+      "wms:layers": [
+        "Kadastralekaart"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wmts",
+      "href": "https://service.pdok.nl/kadaster/brk-kadastrale-kaart/wmts/v5_0",
+      "title": "WMTS (brk-kadastrale-kaart/wmts/v5_0)",
+      "wmts:layer": "Kadastralekaart",
+      "wmts:encoding": "kvp"
     },
     {
       "rel": "license",

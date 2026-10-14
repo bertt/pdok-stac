@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "kadaster-brt-terugmeldingen-ogc-v1",
   "title": "BRT Terugmeldingen (OGC API)",
   "description": "De BRT terugmeldingenservice bevat alle recente meldingen op BRT objecten waar twijfel over de juistheid bestaat. Zowel terugmeldingen op de TOP10 als meldingen die gemaakt zijn op de gegeneraliseerde kaartproducten (TOP25, TOP50, TOP100, TOP250) worden hierin geregistreerd. Daarnaast kan je de inhoud en status van de meldingen inzien. Ook een vermoedelijke fout geconstateerd? Doe een melding op https://www.verbeterdekaart.nl",
@@ -95,6 +97,22 @@
       "roles": [
         "data"
       ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/kadaster/brt-terugmeldingen/wfs/v1_0?request=getcapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (brt-terugmeldingen/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/kadaster/brt-terugmeldingen/wms/v1_0?request=getcapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (brt-terugmeldingen/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -118,6 +136,34 @@
       "href": "https://api.pdok.nl/kadaster/brt-terugmeldingen/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/brt-terugmeldingen",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/brt-terugmeldingen",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/brt-terugmeldingen",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/brt-terugmeldingen/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (brt-terugmeldingen/wms/v1_0)",
+      "wms:layers": [
+        "brtterugmeldingen"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

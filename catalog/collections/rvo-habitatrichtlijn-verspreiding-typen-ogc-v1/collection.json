@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "rvo-habitatrichtlijn-verspreiding-typen-ogc-v1",
   "title": "Habitatrichtlijn verspreiding van habitattypen (OGC API)",
   "description": "Kaart met de verspreiding van habitattypen voor de Artikel 17 rapportage Habitatrichtlijn voor periode 2007 - 2012",
@@ -87,6 +89,30 @@
       "roles": [
         "data"
       ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rvo/habitatrichtlijn-verspreiding-typen/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (habitatrichtlijn-verspreiding-typen/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rvo/habitatrichtlijn-verspreiding-typen/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (habitatrichtlijn-verspreiding-typen/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rvo/habitatrichtlijn-verspreiding-typen/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (habitatrichtlijn-verspreiding-typen/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -110,6 +136,40 @@
       "href": "https://api.pdok.nl/rvo/habitatrichtlijn-verspreiding-typen/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/habitatrichtlijn-verspreiding-van-habitattypen",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/habitatrichtlijn-verspreiding-van-habitattypen",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/habitatrichtlijn-verspreiding-van-habitattypen",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/habitatrichtlijn-verspreiding-van-habitattypen",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/habitatrichtlijn-verspreiding-typen/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (habitatrichtlijn-verspreiding-typen/wms/v1_0)",
+      "wms:layers": [
+        "habitattypen"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

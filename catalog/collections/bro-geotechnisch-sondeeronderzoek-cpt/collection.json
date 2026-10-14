@@ -1,0 +1,129 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "id": "bro-geotechnisch-sondeeronderzoek-cpt",
+  "title": "BRO Geotechnisch sondeeronderzoek (CPT)",
+  "description": "Gegevens van geotechnisch sondeeronderzoek zoals opgeslagen in de Basis Registratie Ondergrond (BRO). Geotechnisch sondeeronderzoek (in het Engels Cone Penetration Test, afgekort tot CPT) is onderzoek dat tot doel heeft informatie over de bodemkundige of geologische opbouw van de ondergrond te verwerven, waarbij in het veld metingen aan de ondergrond worden gedaan door een kegelvormige sonde de grond in te drukken. &nbsp;",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)"
+  ],
+  "providers": [
+    {
+      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "api": {
+      "href": null,
+      "type": "text/html",
+      "title": "BRO Geotechnisch sondeeronderzoek (CPT)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/tno/bro-geotechnischsondeeronderzoek/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bro-geotechnischsondeeronderzoek/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/tno/bro-geotechnischsondeeronderzoek/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (bro-geotechnischsondeeronderzoek/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Geotechnisch%20sondeeronderzoek.png/aa528a2f-ed72-58eb-3f98-fc1cea62c5f6?t=1791961633774",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/bro-geotechnisch-sondeeronderzoek-cpt-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/bro-geotechnisch-sondeeronderzoek-cpt-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-geotechnisch-sondeeronderzoek-cpt-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/tno/bro-geotechnischsondeeronderzoek/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bro-geotechnischsondeeronderzoek/wms/v1_0)",
+      "wms:layers": [
+        "cpt_kenset"
+      ],
+      "wms:transparent": true
+    }
+  ]
+}

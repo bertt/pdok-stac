@@ -1,0 +1,103 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "bro-digitaal-geologisch-model-dgm",
+  "title": "BRO Digitaal Geologisch Model (DGM)",
+  "description": "BRO Digitaal Geologisch Model (DGM) is een 3D-lagenmodel dat de ondergrond van Nederland tot ongeveer 500 meter onder NAP in blokken van 100 x 100 meter weergeeft. Er zijn ook uitschieters in DGM tot circa 1.200 meter. Het model geeft aan uit welke lithostratigrafische lagen de ondergrond bestaat. Er wordt aangegeven tot welke formatie de laag behoort.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)"
+  ],
+  "providers": [
+    {
+      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "api": {
+      "href": null,
+      "type": "text/html",
+      "title": "BRO Digitaal Geologisch Model (DGM)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/tno/bro-digitaal-geologisch-model/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bro-digitaal-geologisch-model/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/DGM.jpg/d8f295b1-e91e-eec5-acc8-797bb93c831f?t=1791961633773",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/bro-digitaal-geologisch-model-dgm-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-digitaal-geologisch-model-dgm-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    }
+  ]
+}

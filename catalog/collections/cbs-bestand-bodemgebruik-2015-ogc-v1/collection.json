@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "cbs-bestand-bodemgebruik-2015-ogc-v1",
   "title": "CBS Bestand Bodemgebruik 2015 (OGC API)",
   "description": "Het Bestand Bodemgebruik 2015 bevat digitale geometrie van het bodemgebruik in Nederland. Voorbeelden van het bodemgebruik zijn verkeersterreinen, bebouwing, recreatieterreinen en binnen- en buitenwater. De begrenzingen zijn voor een groot deel gebaseerd op de Top10NL (BRT). Bij het interpreteren zijn luchtfoto's leidend. De gegevens zijn ingewonnen in de zomer van 2015.",
@@ -102,6 +104,30 @@
       "roles": [
         "data"
       ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/cbs/bestand-bodemgebruik-2015/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bestand-bodemgebruik-2015/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/cbs/bestand-bodemgebruik-2015/wfs/v1_0?request=getcapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (bestand-bodemgebruik-2015/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/cbs/bestand-bodemgebruik-2015/wms/v1_0?request=getcapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (bestand-bodemgebruik-2015/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -125,6 +151,40 @@
       "href": "https://api.pdok.nl/cbs/bestand-bodemgebruik-2015/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/cbs-bestand-bodemgebruik-2015",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/cbs-bestand-bodemgebruik-2015",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/cbs-bestand-bodemgebruik-2015",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/cbs-bestand-bodemgebruik-2015",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/bestand-bodemgebruik-2015/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bestand-bodemgebruik-2015/wms/v1_0)",
+      "wms:layers": [
+        "bestand_bodemgebruik_2015"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

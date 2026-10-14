@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "kadaster-3d-basisvoorziening-terugmeldingen-ogc-v1",
   "title": "3D Terugmeldingen (OGC API)",
   "description": "De 3D terugmeldingenservice bevat alle recente meldingen op 3D objecten waar twijfel over de juistheid bestaat.De service toont de locatie, inhoud en status van de meldingen. Ook een vermoedelijke fout in de 3D geconstateerd? Doe een melding op https://www.verbeterdekaart.nl",
@@ -102,6 +104,22 @@
       "roles": [
         "data"
       ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/kadaster/3d-basisvoorziening-terugmeldingen/wfs/v1_0?request=getcapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (3d-basisvoorziening-terugmeldingen/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/kadaster/3d-basisvoorziening-terugmeldingen/wms/v1_0?request=getcapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (3d-basisvoorziening-terugmeldingen/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -125,6 +143,34 @@
       "href": "https://api.pdok.nl/kadaster/3d-basisvoorziening-terugmeldingen/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/3d-terugmeldingen",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/3d-terugmeldingen",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/3d-terugmeldingen",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/3d-basisvoorziening-terugmeldingen/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (3d-basisvoorziening-terugmeldingen/wms/v1_0)",
+      "wms:layers": [
+        "kad3dbasisvoorzieningterugmeldingen"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

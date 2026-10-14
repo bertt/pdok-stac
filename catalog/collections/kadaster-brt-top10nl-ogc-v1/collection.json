@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "kadaster-brt-top10nl-ogc-v1",
   "title": "BRT TOP10NL (OGC API)",
   "description": "TOP10NL is een digitaal objectgericht kaartbestand wat ten grondslag ligt aan de topografische kaart 1:10000 en wat veelvuldig in diverse GIS- en CAD-systemen wordt gebruikt voor ondergrond, analyse-, en beheers- en planningsactiviteiten.",
@@ -339,6 +341,30 @@
       "roles": [
         "data"
       ]
+    },
+    "download-api": {
+      "href": "https://api.pdok.nl/kadaster/brt-top10nl/download/v1_0/ui/",
+      "type": "text/html",
+      "title": "Download API (brt-top10nl/download/v1_0/ui)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/kadaster/brt-top10nl/wms/v1_0?request=getCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (brt-top10nl/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wmts": {
+      "href": "https://service.pdok.nl/kadaster/brt-top10nl/wmts/v1_0?request=GetCapabilities&service=WMTS",
+      "type": "application/xml",
+      "title": "WMTS (brt-top10nl/wmts/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -362,6 +388,47 @@
       "href": "https://api.pdok.nl/kadaster/brt-top10nl/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/basisregistratie-topografie-brt-topnl",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/basisregistratie-topografie-brt-topnl",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/basisregistratie-topografie-brt-topnl",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/basisregistratie-topografie-brt-topnl",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/kadaster/brt-top10nl/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (brt-top10nl/wms/v1_0)",
+      "wms:layers": [
+        "top10nl"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wmts",
+      "href": "https://service.pdok.nl/kadaster/brt-top10nl/wmts/v1_0",
+      "title": "WMTS (brt-top10nl/wmts/v1_0)",
+      "wmts:layer": "top10nl",
+      "wmts:encoding": "kvp"
     },
     {
       "rel": "license",

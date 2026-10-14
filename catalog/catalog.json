@@ -2,8 +2,8 @@
   "type": "Catalog",
   "stac_version": "1.0.0",
   "id": "pdok-apis",
-  "title": "PDOK APIs",
-  "description": "STAC catalog of all APIs listed in https://api.pdok.nl/index.json (generated on 2026-10-14T06:59:45Z).",
+  "title": "PDOK APIs and services",
+  "description": "STAC catalog of all PDOK APIs listed in https://api.pdok.nl/index.json, with WMS/WFS/WMTS/WCS/ATOM services from https://www.pdok.nl/datasets (generated on 2026-10-14T07:07:32Z).",
   "links": [
     {
       "rel": "root",
@@ -800,6 +800,516 @@
       "href": "./collections/brt-top1000nl-download-v1-0-ui/collection.json",
       "type": "application/json",
       "title": "TOP1000NL Download API"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/aardkundige-waarden/collection.json",
+      "type": "application/json",
+      "title": "Aardkundige waarden (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/actueel-hoogtebestand-nederland-ahn/collection.json",
+      "type": "application/json",
+      "title": "Actueel Hoogtebestand Nederland (AHN)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/administratieve-eenheden-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Administratieve Eenheden (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/adress-1/collection.json",
+      "type": "application/json",
+      "title": "Adressen"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/adressen-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Adressen (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/basisregistratie-adressen-en-gebouwen-ba-1/collection.json",
+      "type": "application/json",
+      "title": "Basisregistratie Adressen en Gebouwen (BAG)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/basisregistratie-gewaspercelen-brp/collection.json",
+      "type": "application/json",
+      "title": "Basisregistratie Gewaspercelen (BRP)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/basisregistratie-topografie-achtergrondkaarten-brt-a/collection.json",
+      "type": "application/json",
+      "title": "Basisregistratie Topografie (BRT) BRT Achtergrondkaart (BRT-A)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/basisregistratie-topografie-brt-topnl/collection.json",
+      "type": "application/json",
+      "title": "Basisregistratie Topografie (BRT) TOPNL"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/begrenzingen-van-vergunde-ontgrondingsgebieden-voor-zand-en-grindwinning/collection.json",
+      "type": "application/json",
+      "title": "Begrenzingen van vergunde ontgrondingsgebieden voor zand- en grindwinning (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/beschermde-gebieden-cultuurhistorie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Beschermde Gebieden - Cultuurhistorie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bestuurlijke-gebieden/collection.json",
+      "type": "application/json",
+      "title": "Bestuurlijke Gebieden"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bestuurlijke-grenzen/collection.json",
+      "type": "application/json",
+      "title": "Bestuurlijke Grenzen"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bodemgebruik-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Bodemgebruik - Land Cover (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-bodemkaart-sgm/collection.json",
+      "type": "application/json",
+      "title": "BRO Bodemkaart (SGM)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-bodemkundig-booronderzoek-bhr-p/collection.json",
+      "type": "application/json",
+      "title": "BRO Bodemkundig Booronderzoek (BHR-P)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-bodemkundig-booronderzoek-bhr-p-bodem-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO Bodemkundig Booronderzoek (BHR-P) - Bodem (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-bodemkundig-booronderzoek-bhr-p-geologie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO Bodemkundig Booronderzoek (BHR-P) - Geologie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-booronderzoek-geotechnische-boormonsterbeschrijving-en-boormonsteranalyse-bhr-gt/collection.json",
+      "type": "application/json",
+      "title": "BRO Booronderzoek: Geotechnische boormonsterbeschrijving en boormonsteranalyse (BHR-GT)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-digitaal-geologisch-model-dgm/collection.json",
+      "type": "application/json",
+      "title": "BRO Digitaal Geologisch Model (DGM)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-geologisch-booronderzoek-bhr-g/collection.json",
+      "type": "application/json",
+      "title": "BRO Geologisch booronderzoek (BHR-G)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-geologisch-booronderzoek-bhr-g-geologie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO Geologisch booronderzoek (BHR-G) - Geologie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-geomorfologische-kaart-gmm/collection.json",
+      "type": "application/json",
+      "title": "BRO Geomorfologische kaart (GMM)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-geotechnisch-booronderzoek-bhr-gt-geologie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO Geotechnisch booronderzoek (BHR-GT) - Geologie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-geotechnisch-sondeeronderzoek-cpt/collection.json",
+      "type": "application/json",
+      "title": "BRO Geotechnisch sondeeronderzoek (CPT)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-geotechnisch-sondeeronderzoek-cpt-geologie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO - Geotechnisch sondeeronderzoek (CPT) – Geologie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-geotop-gtm/collection.json",
+      "type": "application/json",
+      "title": "BRO GeoTOP (GTM)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-grondwatergebruik-gu-milieubewakingsvoorzieningen-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO Grondwatergebruik (GU) - Milieubewakingsvoorzieningen (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-grondwatergebruiksysteem-guf/collection.json",
+      "type": "application/json",
+      "title": "BRO Grondwatergebruiksysteem (GUF)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-grondwatergebruiksysteem-guf-faciliteiten-voor-productie-en-industrie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO Grondwatergebruiksysteem (GUF) - Faciliteiten voor productie en industrie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-grondwatermonitoringnet-gmn/collection.json",
+      "type": "application/json",
+      "title": "BRO Grondwatermonitoringnet (GMN)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-grondwatermonitoringput-gmw/collection.json",
+      "type": "application/json",
+      "title": "BRO Grondwatermonitoringput (GMW)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-grondwatermonitoringput-gmw-geologie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO - Grondwatermonitoringput (GMW) - Geologie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-grondwaterproductiedossier-gpd/collection.json",
+      "type": "application/json",
+      "title": "BRO Grondwaterproductiedossier (GPD)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-grondwatersamenstellingsonderzoek-gar/collection.json",
+      "type": "application/json",
+      "title": "BRO Grondwatersamenstellingsonderzoek (GAR)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-mijnbouwconstructie-epc/collection.json",
+      "type": "application/json",
+      "title": "BRO - Mijnbouwconstructie (EPC)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-mijnbouwconstructie-epc-geologie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO - Mijnbouwconstructie (EPC) - Geologie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-milieuhygi-c3-abnisch-bodemonderzoek-sad/collection.json",
+      "type": "application/json",
+      "title": "BRO Milieuhygiënisch bodemonderzoek (SAD)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-model-grondwaterspiegeldiepte-wdm/collection.json",
+      "type": "application/json",
+      "title": "BRO Model Grondwaterspiegeldiepte (WDM)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-overheidsbesluit-bodemverontreiniging-sld/collection.json",
+      "type": "application/json",
+      "title": "BRO Overheidsbesluit bodemverontreiniging (SLD)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-regis-ii-hgm/collection.json",
+      "type": "application/json",
+      "title": "BRO REGIS II (HGM)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-wandonderzoek-bodemkunde-sfr/collection.json",
+      "type": "application/json",
+      "title": "BRO Wandonderzoek - bodemkunde (SFR)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/bro-wandonderzoek-sfr-bodem-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO - Wandonderzoek (SFR) - Bodem (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/cbs-bevolkingsspreiding-population-distribution/collection.json",
+      "type": "application/json",
+      "title": "Population Distribution (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/cbs-gezondheid-human-health-statistics-netherlands/collection.json",
+      "type": "application/json",
+      "title": "Human Health Statistics Netherlands (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/cbs-wijken-en-buurten/collection.json",
+      "type": "application/json",
+      "title": "CBS Wijken en Buurten"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/dataset-basisregistratie-topografie-brt-topraster/collection.json",
+      "type": "application/json",
+      "title": "Basisregistratie Topografie (BRT) TOPraster"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/gebouwen-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Gebouwen (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/geluidzones-rondom-vliegvelden/collection.json",
+      "type": "application/json",
+      "title": "Geluidzones rondom vliegvelden (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/geografische-namen-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Geografische Namen (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/gepland-landgebruik-dso-lv-omgevingswet-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Gepland landgebruik DSO LV Omgevingswet (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/gepland-landgebruik-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Gepland Landgebruik (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/grondwaterbeschermingsgebieden/collection.json",
+      "type": "application/json",
+      "title": "Grondwaterbeschermingsgebieden (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/hoogte-nederland-land-dtm-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Hoogte Nederland - land - DTM (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/hydrografie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Hydrografie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/krw-beschermde-gebieden-drinkwateronttrekking-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "KRW Beschermde Gebieden - Drinkwateronttrekking (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/krw-beschermde-gebieden-schelpdierwater-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "KRW Beschermde Gebieden - Schelpdierwater (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/krw-deelstroomgebieddistricten-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "KRW Deelstroomgebieddistricten (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/krw-grondwaterlichamen-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "KRW Grondwaterlichamen (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/krw-monitoringlocaties-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "KRW Monitoringlocaties (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/krw-oppervlaktewaterlichamen-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "KRW Oppervlaktewaterlichamen (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/krw-stroomgebieddistricten-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "KRW Stroomgebieddistricten (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/landelijke-fietsroutes-2/collection.json",
+      "type": "application/json",
+      "title": "Landelijke fietsroutes"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/landelijk-grondgebruik-nederland-lgn/collection.json",
+      "type": "application/json",
+      "title": "Landelijk Grondgebruik Nederland (LGN)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/lange-afstandswandelroutes-law/collection.json",
+      "type": "application/json",
+      "title": "Landelijke wandelroutes"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/milieuhygi-c3-abnisch-bodemonderzoek-sad-geologie-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "BRO Milieuhygiënisch bodemonderzoek (SAD) - Geologie (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/natuurnetwerk-nederland-nnn/collection.json",
+      "type": "application/json",
+      "title": "Natuurnetwerk Nederland (NNN) - Provincies (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/novex-gebieden/collection.json",
+      "type": "application/json",
+      "title": "NOVEX gebieden"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/novex-woningbouwlocaties/collection.json",
+      "type": "application/json",
+      "title": "NOVEX woningbouwlocaties"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/pdok-luchtfoto-infrarood-open/collection.json",
+      "type": "application/json",
+      "title": "PDOK Luchtfoto Infrarood (Open)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/pdok-luchtfoto-rgb-open/collection.json",
+      "type": "application/json",
+      "title": "PDOK Luchtfoto RGB (Open)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/provinciaal-landschapsbeleid/collection.json",
+      "type": "application/json",
+      "title": "Provinciaal Landschapsbeleid - Provincies (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/provinciale-monumenten/collection.json",
+      "type": "application/json",
+      "title": "Provinciale Monumenten - Provincies (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/regionale-fietsnetwerken/collection.json",
+      "type": "application/json",
+      "title": "Regionale fietsnetwerken"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/regionale-wandelnetwerken/collection.json",
+      "type": "application/json",
+      "title": "Regionale wandelnetwerken"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/regionale-woondeals/collection.json",
+      "type": "application/json",
+      "title": "Regionale Woondeals"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/ruimtelijke-plannen/collection.json",
+      "type": "application/json",
+      "title": "Ruimtelijke plannen"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/stiltegebieden/collection.json",
+      "type": "application/json",
+      "title": "Stiltegebieden - Provincies (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/vervoersnetwerken/collection.json",
+      "type": "application/json",
+      "title": "Vervoersnetwerken (INSPIRE geharmoniseerd) (Kadaster)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/waterschappen-administratieve-eenheden-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Waterschappen Administratieve Eenheden (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/waterschappen-nuts-overheidsdiensten-inspire-geharmoniseerd/collection.json",
+      "type": "application/json",
+      "title": "Waterschappen Nuts-Overheidsdiensten (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/waterschappen-waterschapsgrenzen-imso/collection.json",
+      "type": "application/json",
+      "title": "Waterschappen Waterschapsgrenzen IMSO"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/zeegebieden/collection.json",
+      "type": "application/json",
+      "title": "Zeegebieden (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/zwemwaterkwaliteit-provinciaal-en-rijkswateren-uit-zwemwaterregister/collection.json",
+      "type": "application/json",
+      "title": "Zwemwaterkwaliteit (provinciaal en Rijkswateren) uit Zwemwaterregister (INSPIRE geharmoniseerd)"
+    },
+    {
+      "rel": "child",
+      "href": "./collections/zwemwater-provinciaal-en-rijkswateren/collection.json",
+      "type": "application/json",
+      "title": "Zwemwater (Provinciaal en Rijkswateren) uit Zwemwaterregister (INSPIRE geharmoniseerd)"
     }
   ]
 }

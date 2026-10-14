@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "rvo-indicatieve-aandachtsgebieden-funderingsproblematiek-ogc-v1",
   "title": "Indicatieve aandachtsgebieden funderingsproblematiek (OGC API)",
   "description": "Deze kaart toont het aantal woningen met een bouwjaar van voor 1970 in regio's met een minder draagkrachtige bodem. De kaart vraagt aandacht voor mogelijke funderingsproblemen bij woningen van voor 1970. De kaart doet geen uitspraken over de specifieke staat van funderingen in specifieke gebieden. De kaart is onderdeel van de funderingsviewer. Meer informatie vindt u op de website van het onafhankelijk Kenniscentrum Aanpak Funderingsproblematiek: https://www.kcaf.nl/",
@@ -88,6 +90,30 @@
       "roles": [
         "data"
       ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rvo/indicatieve-aandachtsgebieden-funderingsproblematiek/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (indicatieve-aandachtsgebieden-funderingsproblematiek/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rvo/indicatieve-aandachtsgebieden-funderingsproblematiek/wfs/v1_0?&request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (indicatieve-aandachtsgebieden-funderingsproblematiek/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rvo/indicatieve-aandachtsgebieden-funderingsproblematiek/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (indicatieve-aandachtsgebieden-funderingsproblematiek/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -111,6 +137,40 @@
       "href": "https://api.pdok.nl/rvo/indicatieve-aandachtsgebieden-funderingsproblematiek/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/indicatieve-aandachtsgebieden-funderingsproblematiek",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/indicatieve-aandachtsgebieden-funderingsproblematiek",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/indicatieve-aandachtsgebieden-funderingsproblematiek",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/indicatieve-aandachtsgebieden-funderingsproblematiek",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/indicatieve-aandachtsgebieden-funderingsproblematiek/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (indicatieve-aandachtsgebieden-funderingsproblematiek/wms/v1_0)",
+      "wms:layers": [
+        "indgebfunderingsproblematiek"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

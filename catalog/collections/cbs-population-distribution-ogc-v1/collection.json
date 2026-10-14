@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "cbs-population-distribution-ogc-v1",
   "title": "Population Distribution (INSPIRE geharmoniseerd) (OGC API)",
   "description": "This dataset contains data with total population of the Netherlands referenced to statistical units according to the INSPIRE datamodel for Population Distribution version 3.0.",
@@ -111,6 +113,30 @@
       "roles": [
         "data"
       ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/cbs/population-distribution/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (population-distribution/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/cbs/population-distribution/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (population-distribution/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/cbs/population-distribution/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (population-distribution/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -134,6 +160,40 @@
       "href": "https://api.pdok.nl/cbs/population-distribution/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/cbs-bevolkingsspreiding-population-distribution-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/cbs-bevolkingsspreiding-population-distribution-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/cbs-bevolkingsspreiding-population-distribution-",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/cbs-bevolkingsspreiding-population-distribution-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/population-distribution/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (population-distribution/wms/v1_0)",
+      "wms:layers": [
+        "pd_nl_grid_2012"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

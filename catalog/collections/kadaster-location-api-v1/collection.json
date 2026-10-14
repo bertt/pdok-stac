@@ -85,6 +85,18 @@
       "href": "https://api.pdok.nl/kadaster/location-api/v1",
       "type": "text/html",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/location-api-1",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/location-api-1",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
     }
   ]
 }

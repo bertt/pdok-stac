@@ -1,6 +1,6 @@
 # PDOK STAC catalog
 
-Static [STAC](https://stacspec.org) catalog of all APIs listed in <https://api.pdok.nl/index.json>.
+Static [STAC](https://stacspec.org) catalog of the PDOK APIs listed in <https://api.pdok.nl/index.json>, enriched with the WMS/WFS/WMTS/WCS/ATOM services from <https://www.pdok.nl/datasets>.
 
 Live catalog: <https://bertt.github.io/pdok-stac/catalog.json>
 
@@ -13,13 +13,13 @@ Browse it online: <https://browser.moregeo.it/external/bertt.github.io/pdok-stac
 ```
 catalog/
   catalog.json                        root catalog
-  collections/<id>/collection.json    one collection per PDOK API
+  collections/<id>/collection.json    one collection per PDOK API or dataset
   index.html                          simple human-readable index
 ```
 
 All links are relative, so the catalog works under any GitHub Pages sub-path.
 
-Each collection is one PDOK API from <https://api.pdok.nl/index.json>. Title, description and keywords come from that index; for OGC APIs the landing page and `/collections` add the license link, thumbnail, the real spatial/temporal extent (union of all collections) and assets: `ogc-api` (landing page), `openapi`, `conformance` and one `items-<collection>` asset per feature collection. Other APIs (download APIs, Locatieserver, Location API) get a single `api` asset. No HTML is scraped. WMS/WFS/WMTS/ATOM services are not in the index and therefore no longer included.
+Each collection is one PDOK API from <https://api.pdok.nl/index.json>. Title, description and keywords come from that index; for OGC APIs the landing page and `/collections` add the license link, thumbnail, the real spatial/temporal extent (union of all collections) and assets: `ogc-api` (landing page), `openapi`, `conformance` and one `items-<collection>` asset per feature collection. Other APIs (download APIs, Locatieserver, Location API) get a single `api` asset. The index has no WMS/WFS/WMTS/WCS/ATOM services, so those are the only thing scraped from the pdok.nl dataset pages. They are added as assets (`wms`, `wfs`, `wmts`, `wcs`, `atom`, `download-api`) to the API collection with the same `<provider>/<dataset>` URL path. Datasets without an OGC API get their own collection (thumbnail from the overview page). WMS and WMTS services are also added as [Web Map Links](https://github.com/stac-extensions/web-map-links) (`rel: wms` / `rel: wmts`, first layer from GetCapabilities) so STAC Browser can show them on a map; capabilities that cannot be fetched are skipped with a log line.
 
 ## Regenerate
 

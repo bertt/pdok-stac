@@ -139,6 +139,18 @@
       "title": "PDOK API"
     },
     {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/3d-geluid-1",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/3d-geluid-1",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
       "rel": "license",
       "href": "https://creativecommons.org/licenses/by/4.0/deed.nl",
       "type": "text/html",

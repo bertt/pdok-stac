@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "rvo-potentiekaart-omgevingswarmte-ogc-v1",
   "title": "Potentiekaart Omgevingswarmte (OGC API)",
   "description": "De WarmteAtlas Nederland is een digitale, geografische kaart waarop warmteaanbod en -vraag in ons land zijn aangegeven. Aan de aanbodkant gaat het om (potentieel) geschikte locaties van warmte- en koude opslag (WKO), diepe geothermie, biomassa en restwarmte. Deze lagen tonen de potentie voor WKO systemen per buurt en per gemeente.",
@@ -148,6 +150,30 @@
       "roles": [
         "data"
       ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rvo/potentiekaart-omgevingswarmte/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (potentiekaart-omgevingswarmte/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rvo/potentiekaart-omgevingswarmte/wfs/v1_0?request=getcapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (potentiekaart-omgevingswarmte/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rvo/potentiekaart-omgevingswarmte/wms/v1_0?request=getcapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (potentiekaart-omgevingswarmte/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -171,6 +197,40 @@
       "href": "https://api.pdok.nl/rvo/potentiekaart-omgevingswarmte/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/potentiekaart-omgevingswarmte",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/potentiekaart-omgevingswarmte",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/potentiekaart-omgevingswarmte",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/potentiekaart-omgevingswarmte",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/potentiekaart-omgevingswarmte/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (potentiekaart-omgevingswarmte/wms/v1_0)",
+      "wms:layers": [
+        "koudegeslotenwkobuurt"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

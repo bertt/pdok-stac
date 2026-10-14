@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "rws-nationaal-wegenbestand-wegen-ogc-v1",
   "title": "NWB - Wegen (OGC API)",
   "description": "Dit is de OGC API Features service van het Nationaal Wegen Bestand (NWB) - wegen. Deze dataset bevat alleen de wegvakken en hectometerpunten. Het Nationaal Wegen Bestand - Wegen is een digitaal geografisch bestand van alle wegen in Nederland. Opgenomen zijn alle wegen die worden beheerd door wegbeheerders als het Rijk, provincies, gemeenten en waterschappen, echter alleen voor zover deze zijn voorzien van een straatnaam of nummer.",
@@ -102,6 +104,30 @@
       "roles": [
         "data"
       ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rws/nationaal-wegenbestand-wegen/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (nationaal-wegenbestand-wegen/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rws/nationaal-wegenbestand-wegen/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (nationaal-wegenbestand-wegen/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rws/nationaal-wegenbestand-wegen/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (nationaal-wegenbestand-wegen/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -125,6 +151,40 @@
       "href": "https://api.pdok.nl/rws/nationaal-wegenbestand-wegen/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/nationaal-wegen-bestand-nwb-wegen",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/nationaal-wegen-bestand-nwb-wegen",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/nationaal-wegen-bestand-nwb-wegen",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/nationaal-wegen-bestand-nwb-wegen",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rws/nationaal-wegenbestand-wegen/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (nationaal-wegenbestand-wegen/wms/v1_0)",
+      "wms:layers": [
+        "wegvakken"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

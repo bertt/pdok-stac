@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "rws-productie-en-industrie-productie-installaties-ogc-v1",
   "title": "Faciliteiten voor productie en industrie - Productie-installaties - REV (INSPIRE geharmoniseerd) (OGC API)",
   "description": "De OGC API Features service Faciliteiten voor productie en industrie - Productie-installatie bevat de, meest actuele, naar INSPIRE-thema Faciliteiten voor productie en industrie geharmoniseerde SEVESO-inrichtingen uit Register Externe Veiligheidsrisico's (REV).",
@@ -114,6 +116,30 @@
       "roles": [
         "data"
       ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rws/productie-en-industrie-productie-installaties/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (productie-en-industrie-productie-installaties/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rws/productie-en-industrie-productie-installaties/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (productie-en-industrie-productie-installaties/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rws/productie-en-industrie-productie-installaties/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (productie-en-industrie-productie-installaties/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -137,6 +163,40 @@
       "href": "https://api.pdok.nl/rws/productie-en-industrie-productie-installaties/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/faciliteiten-voor-productie-en-industrie-productie-installaties-rev-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/faciliteiten-voor-productie-en-industrie-productie-installaties-rev-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/faciliteiten-voor-productie-en-industrie-productie-installaties-rev-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/faciliteiten-voor-productie-en-industrie-productie-installaties-rev-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rws/productie-en-industrie-productie-installaties/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (productie-en-industrie-productie-installaties/wms/v1_0)",
+      "wms:layers": [
+        "PF.ProductionInstallation"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

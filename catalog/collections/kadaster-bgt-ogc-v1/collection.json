@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "kadaster-bgt-ogc-v1",
   "title": "Basisregistratie Grootschalige Topografie (OGC API)",
   "description": "De Basisregistratie Grootschalige Topografie (BGT) is de gedetailleerde grootschalige basiskaart (digitaal) van Nederland, waarin de ligging van alle fysieke objecten zoals gebouwen, wegen, water, spoorlijnen en (landbouw)terreinen is geregistreerd. Lees meer over de BGT en bekijk de BGT vector tiles in de Vectortile Viewer.",
@@ -477,6 +479,22 @@
       "roles": [
         "data"
       ]
+    },
+    "download-api": {
+      "href": "https://api.pdok.nl/kadaster/bgt/download/v1_0/ui/",
+      "type": "text/html",
+      "title": "Download API (bgt/download/v1_0/ui)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wmts": {
+      "href": "https://service.pdok.nl/kadaster/bgt/wmts/v1_0?request=GetCapabilities&service=WMTS",
+      "type": "application/xml",
+      "title": "WMTS (bgt/wmts/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -500,6 +518,31 @@
       "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/basisregistratie-grootschalige-topografie-bgt-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/basisregistratie-grootschalige-topografie-bgt-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/basisregistratie-grootschalige-topografie-bgt-",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://service.pdok.nl/kadaster/bgt/wmts/v1_0",
+      "title": "WMTS (bgt/wmts/v1_0)",
+      "wmts:layer": "standaardvisualisatie",
+      "wmts:encoding": "kvp"
     },
     {
       "rel": "license",

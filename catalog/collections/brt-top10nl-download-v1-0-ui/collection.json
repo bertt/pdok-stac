@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "brt-top10nl-download-v1-0-ui",
   "title": "TOP10NL Download API",
   "description": "TOP10NL is een digitaal objectgericht topografisch bestand wat ten grondslag ligt aan de topografische kaartseries 1:10.000 en 1:25.000 en wat veelvuldig in diverse GIS- en CAD-systemen wordt gebruikt voor ondergrond, analyse-, en beheers- en planningsactiviteiten. Met deze API is het mogelijk om gegevens uit de BRT dataset te downloaden. Deze BRT-gegevens zijn te downloaden voor gebruik in eigen GIS-software. De BRT-gegevens zijn als extract in GML-formaat te downloaden. Dit document bevat alleen informatie m.b.t. het gebruik van deze API. De BRT-modeldocumentatie met bijbehorend schema(xsd) en beschrijvingen van de download formaten kun je vinden op: https://register.geostandaarden.nl/?url=brt/index.html. Hieronder worden eerst een aantal algemene begrippen en concepten uitgelegd. Vervolgens wordt elk endpoint individueel beschreven. Een stappenplan voor het downloaden via deze API staat hier beschreven.",
@@ -61,6 +63,38 @@
       "roles": [
         "data"
       ]
+    },
+    "download-api": {
+      "href": "https://api.pdok.nl/brt/top10nl/download/v1_0/ui/",
+      "type": "text/html",
+      "title": "Download API (top10nl/download/v1_0/ui)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/brt/top10nl/atom/v1_0/top10nl.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (top10nl/atom/v1_0/top10nl.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/brt/top10nl/wms/v1_0?request=GetCapabilities&service=wms",
+      "type": "application/xml",
+      "title": "WMS (top10nl/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wmts": {
+      "href": "https://service.pdok.nl/brt/top10nl/wmts/v1_0?request=GetCapabilities&service=wmts",
+      "type": "application/xml",
+      "title": "WMTS (top10nl/wmts/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -84,6 +118,47 @@
       "href": "https://api.pdok.nl/brt/top10nl/download/v1_0/ui",
       "type": "text/html",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/basisregistratie-topografie-brt-topnl",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/basisregistratie-topografie-brt-topnl",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/basisregistratie-topografie-brt-topnl",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/basisregistratie-topografie-brt-topnl",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/brt/top10nl/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (top10nl/wms/v1_0)",
+      "wms:layers": [
+        "top10nl"
+      ],
+      "wms:transparent": true
+    },
+    {
+      "rel": "wmts",
+      "href": "https://service.pdok.nl/brt/top10nl/wmts/v1_0",
+      "title": "WMTS (top10nl/wmts/v1_0)",
+      "wmts:layer": "top10nl",
+      "wmts:encoding": "kvp"
     }
   ]
 }

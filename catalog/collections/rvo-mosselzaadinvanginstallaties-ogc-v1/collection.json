@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "rvo-mosselzaadinvanginstallaties-ogc-v1",
   "title": "Mosselzaadinvanginstallaties (OGC API)",
   "description": "Percelen, in rijkseigendom, waarop mosselzaadinvanginstallaties zijn toegestaan. Een mosselzaadinvanginstallatie (MZI) is een in de bodem verankerde constructie bestaande uit touwen en netwerk, waarmee mosselbroed wordt ingevangen in de waterkolom. Dit mosselbroed (ook wel mosselzaad genoemd) wordt geoogst van de constructie en verder opgekweekt tot consumptiemosselen op schelpdierpercelen.",
@@ -88,6 +90,38 @@
       "roles": [
         "data"
       ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/rvo/mosselzaadinvanginstallaties/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (mosselzaadinvanginstallaties/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/rvo/mosselzaadinvanginstallaties/wfs/v1_0??request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (mosselzaadinvanginstallaties/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/rvo/mosselzaadinvanginstallaties/wms/v1_0?LAYERS=mosselzaadinvanginstallaties&FORMAT=image%2Fpng&TRANSPARENT=TRUE&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&STYLES=mosselzaadinvanginstallaties:mosselzaadinvanginstallaties&SRS=EPSG%3A28992&BBOX=39370.82375,401913.23125,42929.06375,407951.15125&WIDTH=529&HEIGHT=898",
+      "type": "application/xml",
+      "title": "WMS (mosselzaadinvanginstallaties/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms-2": {
+      "href": "https://service.pdok.nl/rvo/mosselzaadinvanginstallaties/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (mosselzaadinvanginstallaties/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -111,6 +145,40 @@
       "href": "https://api.pdok.nl/rvo/mosselzaadinvanginstallaties/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/mosselzaad-invanginstallaties",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/mosselzaad-invanginstallaties",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/mosselzaad-invanginstallaties",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/mosselzaad-invanginstallaties",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/rvo/mosselzaadinvanginstallaties/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (mosselzaadinvanginstallaties/wms/v1_0)",
+      "wms:layers": [
+        "Mosselzaadinvanginstallaties"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

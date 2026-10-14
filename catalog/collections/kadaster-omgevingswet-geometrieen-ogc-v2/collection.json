@@ -105,6 +105,18 @@
       "title": "PDOK API"
     },
     {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/geometrie%C3%ABn-omgevingswet",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/geometrie%C3%ABn-omgevingswet",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
       "rel": "license",
       "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
       "type": "text/html",

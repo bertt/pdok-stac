@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "kadaster-brt-achtergrondkaart-ogc-v1",
   "title": "BRT Achtergrondkaart (OGC API)",
   "description": "De BRT Achtergrondkaart is afgeleid uit TOP10NL uit de Basisregistratie Topografie (BRT).",
@@ -81,6 +83,14 @@
       "roles": [
         "thumbnail"
       ]
+    },
+    "wmts": {
+      "href": "https://service.pdok.nl/kadaster/brt-achtergrondkaart/wmts/v2_0?request=getcapabilities&service=WMTS",
+      "type": "application/xml",
+      "title": "WMTS (brt-achtergrondkaart/wmts/v2_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -104,6 +114,31 @@
       "href": "https://api.pdok.nl/kadaster/brt-achtergrondkaart/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/basisregistratie-topografie-achtergrondkaarten-brt-a-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/basisregistratie-topografie-achtergrondkaarten-brt-a-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/basisregistratie-topografie-achtergrondkaarten-brt-a-",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://service.pdok.nl/kadaster/brt-achtergrondkaart/wmts/v2_0",
+      "title": "WMTS (brt-achtergrondkaart/wmts/v2_0)",
+      "wmts:layer": "standaard",
+      "wmts:encoding": "kvp"
     },
     {
       "rel": "license",

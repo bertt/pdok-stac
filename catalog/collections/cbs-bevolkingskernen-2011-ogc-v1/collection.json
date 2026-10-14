@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "cbs-bevolkingskernen-2011-ogc-v1",
   "title": "CBS Bevolkingskernen 2011 (OGC API)",
   "description": "Het bestand bevolkingskernen 2011 bevat statistische kerncijfers per bevolkingskern. De afbakening van bevolkingskernen is voortgekomen uit een vraag naar cijfers op het niveau van bevolkingskernen in het Volkstellingprogramma 2001 van Eurostat. Het begrip bevolkingskern sluit aan bij het begrip ''locality'' dat de Verenigde Naties bezigen in hun aanbevelingen voor het houden van een Volkstelling. In deze omschrijving van het begrip en de toepassing ervan in de praktijk staat de aanwezigheid van een door mensen bewoond gebied centraal dat daarnaast aan een aantal voorwaarden in termen van de bebouwing moet voldoen. Lees voor meer informatie: https://www.cbs.nl/-/media/imported/documents/2014/09/2014-bevolkingskernen-in-nederland-2011-pub.pdf",
@@ -92,6 +94,30 @@
       "roles": [
         "data"
       ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/cbs/bevolkingskernen-2011/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bevolkingskernen-2011/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/cbs/bevolkingskernen-2011/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (bevolkingskernen-2011/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/cbs/bevolkingskernen-2011/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (bevolkingskernen-2011/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -115,6 +141,40 @@
       "href": "https://api.pdok.nl/cbs/bevolkingskernen-2011/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/cbs-bevolkingskernen",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/cbs-bevolkingskernen",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/cbs-bevolkingskernen",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/cbs-bevolkingskernen",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/bevolkingskernen-2011/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bevolkingskernen-2011/wms/v1_0)",
+      "wms:layers": [
+        "cbsbevolkingskernen2011"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

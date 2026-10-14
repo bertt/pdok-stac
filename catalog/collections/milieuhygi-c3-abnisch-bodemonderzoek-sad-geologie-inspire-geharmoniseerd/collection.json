@@ -1,0 +1,129 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "id": "milieuhygi-c3-abnisch-bodemonderzoek-sad-geologie-inspire-geharmoniseerd",
+  "title": "BRO Milieuhygiënisch bodemonderzoek (SAD) - Geologie (INSPIRE geharmoniseerd)",
+  "description": "Deze dataset bevat gegevens over milieuhygiënische bodemonderzoeken, welke zijn geharmoniseerd naar het INSPIRE thema Geologie. Een milieuhygiënisch bodemonderzoek is een onderzoeksactiviteit waarbij binnen de onderzoekslocatie de aanwezigheid van verontreinigende stoffen in de bodem wordt onderzocht.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)"
+  ],
+  "providers": [
+    {
+      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "api": {
+      "href": null,
+      "type": "text/html",
+      "title": "BRO Milieuhygiënisch bodemonderzoek (SAD) - Geologie (INSPIRE geharmoniseerd)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/tno/bro-milieuhygienisch-bodemonderzoek-geologie/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bro-milieuhygienisch-bodemonderzoek-geologie/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/tno/bro-milieuhygienisch-bodemonderzoek-geologie/wms/v1_0?Request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (bro-milieuhygienisch-bodemonderzoek-geologie/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20SAD%20geologie.png/895ff953-8725-3cf3-9ae7-4b14e1d2c2d4?t=1791961633790",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/milieuhygi%C3%ABnisch-bodemonderzoek-sad-geologie-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/milieuhygi%C3%ABnisch-bodemonderzoek-sad-geologie-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/milieuhygi%C3%ABnisch-bodemonderzoek-sad-geologie-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/tno/bro-milieuhygienisch-bodemonderzoek-geologie/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bro-milieuhygienisch-bodemonderzoek-geologie/wms/v1_0)",
+      "wms:layers": [
+        "GE.Borehole"
+      ],
+      "wms:transparent": true
+    }
+  ]
+}

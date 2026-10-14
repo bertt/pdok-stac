@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "cbs-vierkant-1km-laea-ogc-v1",
   "title": "Vierkant 1 kilometer bij 1 kilometer Nederland LAEA (OGC API)",
   "description": "Het bestand vierkant 1 km2 Nederland bevat alle vierkanten van 1 kilometer bij 1 kilometer gelegen boven land van Nederland, afgeleid door Eurostat. De dataset bevat een kolom waarvan de naam de EPSG-code vermeld van de projectie van het onderliggend gebied waarop de vierkanten als rechthoekig net betrekking hebben (Voor ETRS89-LAEA is dat 3035) en de grootte van het vierkant (1000 meter bij 1000 meter). Aan ieder vierkant wordt een codering toegekend afgeleid van het linksonderpunt van het vierkant, opgebouwd uit een Oost en een Noord coördinaat. Zowel de x-coördinaat als de y-coördinaat van het linksonderpunt is een veelvoud van 1000 meter en wordt in gehele meters aangegeven. De y-coördinaat wordt weergegeven als N(orth) en de x-coördinaat als E(ast).",
@@ -86,6 +88,22 @@
       "roles": [
         "data"
       ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/cbs/vierkant-1km-laea/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (vierkant-1km-laea/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/cbs/vierkant-1km-laea/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (vierkant-1km-laea/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -109,6 +127,34 @@
       "href": "https://api.pdok.nl/cbs/vierkant-1km-laea/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/vierkant-1-kilometer-bij-1-kilometer-nederland-laea",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/vierkant-1-kilometer-bij-1-kilometer-nederland-laea",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/vierkant-1-kilometer-bij-1-kilometer-nederland-laea",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/cbs/vierkant-1km-laea/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (vierkant-1km-laea/wms/v1_0)",
+      "wms:layers": [
+        "vierkant1kmlaea"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

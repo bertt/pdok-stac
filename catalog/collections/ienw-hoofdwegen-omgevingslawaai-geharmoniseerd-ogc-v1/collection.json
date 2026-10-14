@@ -1,7 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
   "id": "ienw-hoofdwegen-omgevingslawaai-geharmoniseerd-ogc-v1",
   "title": "Hoofdwegen volgens Richtlijn Omgevingslawaai 2022 (OGC API)",
   "description": "Het gaat om gegevens over de geluidbron 'Hoofdwegen'. Met deze data wordt invulling gegeven aan de eisen uit de Wet milieubeheer die voortvloeien uit de Europese richtlijn omgevingslawaai (2002/49/EG).  De dataset, gepubliceerd in 2023, is geharmoniseerd volgens de INSPIRE richtlijnen, met name de thema's Wegen, Geluidbronnen, Vervoersnetwerken, Verkeersintensiteit en Omgevingslawaai, en bevat gedetailleerde informatie.  Het Ministerie van Infrastructuur en Waterstaat is de data-eigenaar en beheerder van deze dataset, en verantwoordelijk voor de beschikbaarheid en kwaliteit ervan.",
@@ -97,6 +99,30 @@
       "roles": [
         "data"
       ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/ienw/hoofdwegen-omgevingslawaai-geharmoniseerd/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (hoofdwegen-omgevingslawaai-geharmoniseerd/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wfs": {
+      "href": "https://service.pdok.nl/ienw/hoofdwegen-omgevingslawaai-geharmoniseerd/wfs/v1_0?request=GetCapabilities&service=WFS",
+      "type": "application/xml",
+      "title": "WFS (hoofdwegen-omgevingslawaai-geharmoniseerd/wfs/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/ienw/hoofdwegen-omgevingslawaai-geharmoniseerd/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (hoofdwegen-omgevingslawaai-geharmoniseerd/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
     }
   },
   "links": [
@@ -120,6 +146,40 @@
       "href": "https://api.pdok.nl/ienw/hoofdwegen-omgevingslawaai-geharmoniseerd/ogc/v1",
       "type": "application/json",
       "title": "PDOK API"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/hoofdwegen-richtlijn-omgevingslawaai-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/hoofdwegen-richtlijn-omgevingslawaai-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-apis/-/article/hoofdwegen-richtlijn-omgevingslawaai-",
+      "type": "text/html",
+      "title": "PDOK (OGC) API's"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/hoofdwegen-richtlijn-omgevingslawaai-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/ienw/hoofdwegen-omgevingslawaai-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (hoofdwegen-omgevingslawaai-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "TN.RoadTransportNetwork.RoadLink"
+      ],
+      "wms:transparent": true
     },
     {
       "rel": "license",

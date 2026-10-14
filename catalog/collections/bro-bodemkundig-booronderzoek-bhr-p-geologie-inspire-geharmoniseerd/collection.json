@@ -1,0 +1,129 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
+  ],
+  "id": "bro-bodemkundig-booronderzoek-bhr-p-geologie-inspire-geharmoniseerd",
+  "title": "BRO Bodemkundig Booronderzoek (BHR-P) - Geologie (INSPIRE geharmoniseerd)",
+  "description": "Deze dataset bevat de naar INSPIRE thema Geologie geharmoniseerde gegevens over een bodemkundig booronderzoek, die voortkomen uit een bodemkundig georiënteerde boring. In veel gevallen bestaat het bodemkundig booronderzoek uit niet meer dan een boormonsterprofiel. In het meest uitgebreide geval omvat het booronderzoek ook de resultaten van boormonsteronderzoek en boorgatmeetgegevens. Het boormonsterprofiel komt tot stand door de samenstelling van de monsters uit een booronderzoek macroscopisch te beschrijven.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)"
+  ],
+  "providers": [
+    {
+      "name": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK)",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "api": {
+      "href": null,
+      "type": "text/html",
+      "title": "BRO Bodemkundig Booronderzoek (BHR-P) - Geologie (INSPIRE geharmoniseerd)",
+      "roles": [
+        "data"
+      ]
+    },
+    "atom": {
+      "href": "https://service.pdok.nl/tno/bro-bodemkundig-booronderzoek-geologie-geharmoniseerd/atom/index.xml",
+      "type": "application/atom+xml",
+      "title": "ATOM download service (bro-bodemkundig-booronderzoek-geologie-geharmoniseerd/atom/index.xml)",
+      "roles": [
+        "data"
+      ]
+    },
+    "wms": {
+      "href": "https://service.pdok.nl/tno/bro-bodemkundig-booronderzoek-geologie-geharmoniseerd/wms/v1_0?request=GetCapabilities&service=WMS",
+      "type": "application/xml",
+      "title": "WMS (bro-bodemkundig-booronderzoek-geologie-geharmoniseerd/wms/v1_0)",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Bodemkundig%20Booronderzoek%20%281%29.png/d3622f6d-37a1-7323-1235-51129bde6fba?t=1791961633773",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.pdok.nl/introductie/-/article/bro-bodemkundig-booronderzoek-bhr-p-geologie-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK dataset page"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/ogc-webservices/-/article/bro-bodemkundig-booronderzoek-bhr-p-geologie-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK (OGC) Webservices"
+    },
+    {
+      "rel": "service-doc",
+      "href": "https://www.pdok.nl/atom-downloadservices/-/article/bro-bodemkundig-booronderzoek-bhr-p-geologie-inspire-geharmoniseerd-",
+      "type": "text/html",
+      "title": "PDOK ATOM Downloadservices"
+    },
+    {
+      "rel": "wms",
+      "href": "https://service.pdok.nl/tno/bro-bodemkundig-booronderzoek-geologie-geharmoniseerd/wms/v1_0",
+      "type": "image/png",
+      "title": "WMS (bro-bodemkundig-booronderzoek-geologie-geharmoniseerd/wms/v1_0)",
+      "wms:layers": [
+        "GE.Borehole"
+      ],
+      "wms:transparent": true
+    }
+  ]
+}
