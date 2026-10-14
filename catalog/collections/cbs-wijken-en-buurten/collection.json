@@ -48,14 +48,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "CBS Wijken en Buurten",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/cbs/wijkenbuurten/2017/atom/index.xml",
       "type": "application/atom+xml",
@@ -289,7 +281,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Wijken%20en%20Buurten.png/97e0022e-310f-94ac-3408-3c8eb917b513?t=1791963977303",
+      "href": "https://www.pdok.nl/documents/1901824/0/CBS%20Wijken%20en%20Buurten.png/97e0022e-310f-94ac-3408-3c8eb917b513?t=1791964295796",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

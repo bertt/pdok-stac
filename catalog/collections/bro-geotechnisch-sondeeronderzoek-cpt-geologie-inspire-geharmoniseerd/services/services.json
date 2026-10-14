@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of BRO - Geotechnisch sondeeronderzoek (CPT) – Geologie (INSPIRE geharmoniseerd)",
-    "datetime": "2026-10-14T07:46:36Z"
+    "datetime": "2026-10-14T07:51:57Z"
   },
   "links": [
     {
@@ -65,14 +65,6 @@
     }
   ],
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "BRO - Geotechnisch sondeeronderzoek (CPT) – Geologie (INSPIRE geharmoniseerd)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/tno/bro-geotechnisch-sondeeronderzoek-geharmoniseerd/atom/index.xml",
       "type": "application/atom+xml",
@@ -90,7 +82,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Geotechnisch%20sondeeronderzoek.jpg/7a851e34-dd2e-2c8a-dfb6-1a4e873b9e08?t=1791963977298",
+      "href": "https://www.pdok.nl/documents/1901824/0/Geotechnisch%20sondeeronderzoek.jpg/7a851e34-dd2e-2c8a-dfb6-1a4e873b9e08?t=1791964295791",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

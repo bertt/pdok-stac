@@ -46,14 +46,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Basisregistratie Topografie (BRT) TOPNL",
-      "roles": [
-        "data"
-      ]
-    },
     "download-api": {
       "href": "https://api.pdok.nl/kadaster/brt-top1000nl/download/v1_0/ui/",
       "type": "text/html",
@@ -111,7 +103,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/TOPnl.png/6f669010-68a5-cc1b-6c9b-6cd171765768?t=1791963977295",
+      "href": "https://www.pdok.nl/documents/1901824/0/TOPnl.png/6f669010-68a5-cc1b-6c9b-6cd171765768?t=1791964295789",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

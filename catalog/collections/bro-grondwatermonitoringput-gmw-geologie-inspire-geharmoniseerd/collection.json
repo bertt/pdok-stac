@@ -48,14 +48,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "BRO - Grondwatermonitoringput (GMW) - Geologie (INSPIRE geharmoniseerd)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/tno/bro-grondwatermonitoringput-geharmoniseerd/atom/index.xml",
       "type": "application/atom+xml",
@@ -73,7 +65,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Thumbnail%20BRO%20Grondwatermonitoringput%20-%20Geologie.png/3485925a-278d-e148-60dd-85b4dffc9e09?t=1791963977299",
+      "href": "https://www.pdok.nl/documents/1901824/0/Thumbnail%20BRO%20Grondwatermonitoringput%20-%20Geologie.png/3485925a-278d-e148-60dd-85b4dffc9e09?t=1791964295792",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

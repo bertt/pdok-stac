@@ -48,14 +48,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Regionale wandelnetwerken",
-      "roles": [
-        "data"
-      ]
-    },
     "wms": {
       "href": "https://service.pdok.nl/wandelnet/regionale-wandelnetwerken/wms/v1_0?request=GetCapabilities&service=WMS",
       "type": "application/xml",
@@ -65,7 +57,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Regionale%20wandelnetwerken.png/7b9bb6b6-039c-506e-3e31-6b9f8bfd61a3?t=1791963977315",
+      "href": "https://www.pdok.nl/documents/1901824/0/Regionale%20wandelnetwerken.png/7b9bb6b6-039c-506e-3e31-6b9f8bfd61a3?t=1791964295808",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

@@ -48,14 +48,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Actueel Hoogtebestand Nederland (AHN)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/rws/actueel-hoogtebestand-nederland/atom/index.xml",
       "type": "application/atom+xml",
@@ -81,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/ahn.png/c2d19e3c-51ac-11c4-ae3d-c2a5fbf388e8?t=1791963977292",
+      "href": "https://www.pdok.nl/documents/1901824/0/ahn.png/c2d19e3c-51ac-11c4-ae3d-c2a5fbf388e8?t=1791964295787",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

@@ -48,14 +48,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Waterschappen Waterschapsgrenzen IMSO",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/hwh/waterschappen-waterschapsgrenzen-imso/atom/index.xml",
       "type": "application/atom+xml",
@@ -73,7 +65,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Waterschapsgrenzen.png/986a2dc8-153a-8d77-4190-549530819d54?t=1791963977320",
+      "href": "https://www.pdok.nl/documents/1901824/0/Waterschapsgrenzen.png/986a2dc8-153a-8d77-4190-549530819d54?t=1791964295813",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

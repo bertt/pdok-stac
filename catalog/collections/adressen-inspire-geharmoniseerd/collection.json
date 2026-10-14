@@ -48,14 +48,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Adressen (INSPIRE geharmoniseerd)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/kadaster/ad/atom/index.xml",
       "type": "application/atom+xml",
@@ -81,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Adressen.png/56a96ab4-909f-e062-2bc0-bc70bc1ddc85?t=1791963977293",
+      "href": "https://www.pdok.nl/documents/1901824/0/Adressen.png/56a96ab4-909f-e062-2bc0-bc70bc1ddc85?t=1791964295787",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

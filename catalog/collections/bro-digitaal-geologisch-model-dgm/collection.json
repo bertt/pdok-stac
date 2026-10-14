@@ -46,14 +46,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "BRO Digitaal Geologisch Model (DGM)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/tno/bro-digitaal-geologisch-model/atom/index.xml",
       "type": "application/atom+xml",
@@ -63,7 +55,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/DGM.jpg/d8f295b1-e91e-eec5-acc8-797bb93c831f?t=1791963977297",
+      "href": "https://www.pdok.nl/documents/1901824/0/DGM.jpg/d8f295b1-e91e-eec5-acc8-797bb93c831f?t=1791964295790",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

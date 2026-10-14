@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of Human Health Statistics Netherlands (INSPIRE geharmoniseerd)",
-    "datetime": "2026-10-14T07:46:36Z"
+    "datetime": "2026-10-14T07:51:57Z"
   },
   "links": [
     {
@@ -65,14 +65,6 @@
     }
   ],
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Human Health Statistics Netherlands (INSPIRE geharmoniseerd)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/cbs/hh/atom/v1_0/index.xml",
       "type": "application/atom+xml",
@@ -98,7 +90,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Human%20Health%20Statistics%20Netherlands%20.png/45635a6e-6506-b3fd-32d1-7a887bf8a2b8?t=1791963977302",
+      "href": "https://www.pdok.nl/documents/1901824/0/Human%20Health%20Statistics%20Netherlands%20.png/45635a6e-6506-b3fd-32d1-7a887bf8a2b8?t=1791964295796",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

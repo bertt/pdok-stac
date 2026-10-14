@@ -48,14 +48,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Zwemwater (Provinciaal en Rijkswateren) uit Zwemwaterregister (INSPIRE geharmoniseerd)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/provincies/zwemwater-provinciaal-rijkswateren/atom/v1_0/index.xml",
       "type": "application/atom+xml",
@@ -73,7 +65,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Zwemwater.png/a2a51efa-2cef-41e9-a466-4379e67f8015?t=1791963977322",
+      "href": "https://www.pdok.nl/documents/1901824/0/Zwemwater.png/a2a51efa-2cef-41e9-a466-4379e67f8015?t=1791964295814",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

@@ -137,7 +137,7 @@ async function enrich(entry) {
 
 function assetsOf(item) {
   const { root, landing } = item;
-  if (!item.ogc) return { api: { href: root, type: "text/html", title: item.title, roles: ["data"] }, ...item.services };
+  if (!item.ogc) return { ...(root ? { api: { href: root, type: "text/html", title: item.title, roles: ["data"] } } : {}), ...item.services };
   const assets = {
     "ogc-api": { href: `${root}?f=json`, type: "application/json", title: "OGC API landing page", roles: ["data"] },
   };

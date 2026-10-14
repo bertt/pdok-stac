@@ -48,14 +48,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Hoogte Nederland - land - DTM (INSPIRE geharmoniseerd)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/rws/hoogte-nederland-land-dtm/atom/index.xml",
       "type": "application/atom+xml",
@@ -81,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Hoogte%20Nederland%20DTM.jpg/d774a1e3-72ea-a62a-d842-8afcfe75ea08?t=1791963977307",
+      "href": "https://www.pdok.nl/documents/1901824/0/Hoogte%20Nederland%20DTM.jpg/d774a1e3-72ea-a62a-d842-8afcfe75ea08?t=1791964295800",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

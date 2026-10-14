@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of Begrenzingen van vergunde ontgrondingsgebieden voor zand- en grindwinning (INSPIRE geharmoniseerd)",
-    "datetime": "2026-10-14T07:46:36Z"
+    "datetime": "2026-10-14T07:51:57Z"
   },
   "links": [
     {
@@ -65,14 +65,6 @@
     }
   ],
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Begrenzingen van vergunde ontgrondingsgebieden voor zand- en grindwinning (INSPIRE geharmoniseerd)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/provincies/begrenzingen-vergunde-ontgrondingsgebieden-zand-grindwinning/atom/index.xml",
       "type": "application/atom+xml",
@@ -90,7 +82,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Begrenzingen%20van%20vergunde%20ontgrondingsgebieden%20voor%20zand-%20en%20grindwinning%20%282%29.png/c262555a-cf25-41cb-cfed-84046a96c18e?t=1791963977295",
+      "href": "https://www.pdok.nl/documents/1901824/0/Begrenzingen%20van%20vergunde%20ontgrondingsgebieden%20voor%20zand-%20en%20grindwinning%20%282%29.png/c262555a-cf25-41cb-cfed-84046a96c18e?t=1791964295789",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

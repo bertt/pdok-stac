@@ -48,14 +48,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Gebouwen (INSPIRE geharmoniseerd)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/kadaster/bu/atom/index.xml",
       "type": "application/atom+xml",
@@ -81,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Gebouwen.png/d77743f5-8c79-af8b-6435-b956a59b126e?t=1791963977305",
+      "href": "https://www.pdok.nl/documents/1901824/0/Gebouwen.png/d77743f5-8c79-af8b-6435-b956a59b126e?t=1791964295798",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

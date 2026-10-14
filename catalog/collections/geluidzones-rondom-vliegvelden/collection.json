@@ -48,14 +48,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Geluidzones rondom vliegvelden (INSPIRE geharmoniseerd)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/provincies/geluidzones-rondom-vliegvelden/atom/index.xml",
       "type": "application/atom+xml",
@@ -73,7 +65,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/geluidzones%20%281%29.png/b90e83a7-cac9-e5d6-8fe8-57ee79ceddc6?t=1791963977305",
+      "href": "https://www.pdok.nl/documents/1901824/0/geluidzones%20%281%29.png/b90e83a7-cac9-e5d6-8fe8-57ee79ceddc6?t=1791964295798",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

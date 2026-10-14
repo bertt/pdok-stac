@@ -46,14 +46,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Bestuurlijke Grenzen",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/kadaster/bestuurlijkegrenzen/atom/v1_0/downloads/bestuurlijkegrenzen_gml_2021.zip",
       "type": "application/atom+xml",
@@ -87,7 +79,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Bestuurlijke%20grenzen.png/7637622d-b753-15bc-ae75-382f7e1cf014?t=1791963977296",
+      "href": "https://www.pdok.nl/documents/1901824/0/Bestuurlijke%20grenzen.png/7637622d-b753-15bc-ae75-382f7e1cf014?t=1791964295789",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

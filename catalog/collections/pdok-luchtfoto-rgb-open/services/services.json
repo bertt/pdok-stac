@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of PDOK Luchtfoto RGB (Open)",
-    "datetime": "2026-10-14T07:46:36Z"
+    "datetime": "2026-10-14T07:51:57Z"
   },
   "links": [
     {
@@ -65,14 +65,6 @@
     }
   ],
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "PDOK Luchtfoto RGB (Open)",
-      "roles": [
-        "data"
-      ]
-    },
     "wms": {
       "href": "https://service.pdok.nl/hwh/luchtfotorgb/wms/v1_0?request=GetCapabilities&service=WMS",
       "type": "application/xml",
@@ -90,7 +82,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Luchtfoto%20RGB.jpg/f0c79e6a-6f9f-1aa2-ec64-898b0274b990?t=1791963977313",
+      "href": "https://www.pdok.nl/documents/1901824/0/Luchtfoto%20RGB.jpg/f0c79e6a-6f9f-1aa2-ec64-898b0274b990?t=1791964295806",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

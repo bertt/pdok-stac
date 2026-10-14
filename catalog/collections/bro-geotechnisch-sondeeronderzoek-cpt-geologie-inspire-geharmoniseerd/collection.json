@@ -48,14 +48,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "BRO - Geotechnisch sondeeronderzoek (CPT) – Geologie (INSPIRE geharmoniseerd)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/tno/bro-geotechnisch-sondeeronderzoek-geharmoniseerd/atom/index.xml",
       "type": "application/atom+xml",
@@ -73,7 +65,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Geotechnisch%20sondeeronderzoek.jpg/7a851e34-dd2e-2c8a-dfb6-1a4e873b9e08?t=1791963977298",
+      "href": "https://www.pdok.nl/documents/1901824/0/Geotechnisch%20sondeeronderzoek.jpg/7a851e34-dd2e-2c8a-dfb6-1a4e873b9e08?t=1791964295791",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

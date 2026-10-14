@@ -48,14 +48,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "BRO Milieuhygiënisch bodemonderzoek (SAD) - Geologie (INSPIRE geharmoniseerd)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/tno/bro-milieuhygienisch-bodemonderzoek-geologie/atom/index.xml",
       "type": "application/atom+xml",
@@ -73,7 +65,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20SAD%20geologie.png/895ff953-8725-3cf3-9ae7-4b14e1d2c2d4?t=1791963977311",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20SAD%20geologie.png/895ff953-8725-3cf3-9ae7-4b14e1d2c2d4?t=1791964295803",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

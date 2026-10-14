@@ -46,14 +46,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Basisregistratie Topografie (BRT) BRT Achtergrondkaart (BRT-A)",
-      "roles": [
-        "data"
-      ]
-    },
     "wmts": {
       "href": "https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/grijs/EPSG:28992/10/586/499.png",
       "type": "application/xml",
@@ -79,7 +71,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/brta.png/b50003d0-c722-a491-bf51-de94bfa023f7?t=1791963977295",
+      "href": "https://www.pdok.nl/documents/1901824/0/brta.png/b50003d0-c722-a491-bf51-de94bfa023f7?t=1791964295788",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

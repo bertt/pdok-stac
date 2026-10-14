@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of BRO Booronderzoek: Geotechnische boormonsterbeschrijving en boormonsteranalyse (BHR-GT)",
-    "datetime": "2026-10-14T07:46:36Z"
+    "datetime": "2026-10-14T07:51:57Z"
   },
   "links": [
     {
@@ -65,14 +65,6 @@
     }
   ],
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "BRO Booronderzoek: Geotechnische boormonsterbeschrijving en boormonsteranalyse (BHR-GT)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/tno/bro-geotechnisch-booronderzoek/atom/index.xml",
       "type": "application/atom+xml",
@@ -90,7 +82,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Geotechnisch%20Booronderzoek.png/5ca233ab-e566-78c8-3aed-c1ec9f7a1f3b?t=1791963977297",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Geotechnisch%20Booronderzoek.png/5ca233ab-e566-78c8-3aed-c1ec9f7a1f3b?t=1791964295790",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

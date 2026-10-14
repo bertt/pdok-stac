@@ -48,14 +48,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "NOVEX gebieden",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/bzk/novexgebieden/atom/index.xml",
       "type": "application/atom+xml",
@@ -73,7 +65,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Novex%20Gebieden%20%281%29.png/e44890b0-99bc-eda2-7942-7a89d1589323?t=1791963977313",
+      "href": "https://www.pdok.nl/documents/1901824/0/Novex%20Gebieden%20%281%29.png/e44890b0-99bc-eda2-7942-7a89d1589323?t=1791964295805",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

@@ -48,14 +48,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Gepland landgebruik DSO LV Omgevingswet (INSPIRE geharmoniseerd)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/kadaster/omgevingswet-planned-land-use/atom/index.xml",
       "type": "application/atom+xml",
@@ -73,7 +65,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Gepland%20landgebruik%20DSO-LV%20Omgevingswet.png/3be7d775-8890-b537-550b-faa8c5b7e649?t=1791963977305",
+      "href": "https://www.pdok.nl/documents/1901824/0/Gepland%20landgebruik%20DSO-LV%20Omgevingswet.png/3be7d775-8890-b537-550b-faa8c5b7e649?t=1791964295798",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

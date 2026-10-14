@@ -46,14 +46,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "BRO REGIS II (HGM)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/tno/bro-regis-ii/atom/index.xml",
       "type": "application/atom+xml",
@@ -63,7 +55,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/REGISII.jpg/148fc5c6-d51d-2fb7-50bd-f37410d48c5c?t=1791963977300",
+      "href": "https://www.pdok.nl/documents/1901824/0/REGISII.jpg/148fc5c6-d51d-2fb7-50bd-f37410d48c5c?t=1791964295794",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

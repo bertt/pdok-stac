@@ -48,14 +48,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Bodemgebruik - Land Cover (INSPIRE geharmoniseerd)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/kadaster/lc/atom/v1_0/index.xml",
       "type": "application/atom+xml",
@@ -73,7 +65,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Bodemgebruik.png/96982242-49f0-be59-356c-95a3141b1ec7?t=1791963977296",
+      "href": "https://www.pdok.nl/documents/1901824/0/Bodemgebruik.png/96982242-49f0-be59-356c-95a3141b1ec7?t=1791964295789",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

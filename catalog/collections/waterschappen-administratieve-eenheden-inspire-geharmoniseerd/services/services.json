@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of Waterschappen Administratieve Eenheden (INSPIRE geharmoniseerd)",
-    "datetime": "2026-10-14T07:46:36Z"
+    "datetime": "2026-10-14T07:51:57Z"
   },
   "links": [
     {
@@ -65,14 +65,6 @@
     }
   ],
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Waterschappen Administratieve Eenheden (INSPIRE geharmoniseerd)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/hwh/waterschappen-administratieve-eenheden/atom/index.xml",
       "type": "application/atom+xml",
@@ -90,7 +82,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Waterschappen%20Administratieve%20Eenheden.png/9d3574c1-feba-2b56-84a5-6ce90b8922fa?t=1791963977319",
+      "href": "https://www.pdok.nl/documents/1901824/0/Waterschappen%20Administratieve%20Eenheden.png/9d3574c1-feba-2b56-84a5-6ce90b8922fa?t=1791964295811",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

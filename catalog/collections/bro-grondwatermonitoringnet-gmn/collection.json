@@ -46,14 +46,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "BRO Grondwatermonitoringnet (GMN)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/tno/bro-grondwatermonitoringnet/atom/index.xml",
       "type": "application/atom+xml",
@@ -63,7 +55,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Grondwatermonitoringnet.png/59659e32-8369-8100-b3f8-fc0ea6c1a32c?t=1791963977299",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Grondwatermonitoringnet.png/59659e32-8369-8100-b3f8-fc0ea6c1a32c?t=1791964295792",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

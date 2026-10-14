@@ -40,7 +40,7 @@
   "properties": {
     "title": "services",
     "description": "Services of Zeegebieden (INSPIRE geharmoniseerd)",
-    "datetime": "2026-10-14T07:46:36Z"
+    "datetime": "2026-10-14T07:51:57Z"
   },
   "links": [
     {
@@ -65,14 +65,6 @@
     }
   ],
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Zeegebieden (INSPIRE geharmoniseerd)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/kadaster/sr/atom/v1_0/index.xml",
       "type": "application/atom+xml",
@@ -90,7 +82,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Zeegbeieden.png/8b6201b0-11ee-2c5b-d2e4-deeca47c3d59?t=1791963977321",
+      "href": "https://www.pdok.nl/documents/1901824/0/Zeegbeieden.png/8b6201b0-11ee-2c5b-d2e4-deeca47c3d59?t=1791964295813",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

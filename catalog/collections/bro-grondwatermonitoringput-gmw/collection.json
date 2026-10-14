@@ -46,14 +46,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "BRO Grondwatermonitoringput (GMW)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/tno/bro-grondwatermonitoringput/atom/index.xml",
       "type": "application/atom+xml",
@@ -63,7 +55,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Grondwatermonitoringput.png/d0f73f9a-5353-9d38-1b40-f21ec5f319dc?t=1791963977299",
+      "href": "https://www.pdok.nl/documents/1901824/0/BRO%20Grondwatermonitoringput.png/d0f73f9a-5353-9d38-1b40-f21ec5f319dc?t=1791964295792",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

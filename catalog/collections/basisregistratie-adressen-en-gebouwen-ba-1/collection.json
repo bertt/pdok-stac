@@ -48,14 +48,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Basisregistratie Adressen en Gebouwen (BAG)",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/lv/bag/atom/bag.xml",
       "type": "application/atom+xml",
@@ -81,7 +73,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Adressen%20en%20Gebouwen.png/f84c4d23-c8a6-c06b-c368-fd7ae83b927f?t=1791963977294",
+      "href": "https://www.pdok.nl/documents/1901824/0/Basisregistratie%20Adressen%20en%20Gebouwen.png/f84c4d23-c8a6-c06b-c368-fd7ae83b927f?t=1791964295788",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

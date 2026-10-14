@@ -48,14 +48,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "PDOK Luchtfoto Infrarood (Open)",
-      "roles": [
-        "data"
-      ]
-    },
     "wms": {
       "href": "https://service.pdok.nl/hwh/luchtfotocir/wms/v1_0?request=GetCapabilities&service=WMS",
       "type": "application/xml",
@@ -73,7 +65,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Luchtfoto%20Infrarood%20%281%29.jpg/03f3aff5-1885-c40d-63a9-a409636c7a96?t=1791963977313",
+      "href": "https://www.pdok.nl/documents/1901824/0/Luchtfoto%20Infrarood%20%281%29.jpg/03f3aff5-1885-c40d-63a9-a409636c7a96?t=1791964295806",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [

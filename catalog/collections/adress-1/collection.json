@@ -48,14 +48,6 @@
     }
   },
   "assets": {
-    "api": {
-      "href": null,
-      "type": "text/html",
-      "title": "Adressen",
-      "roles": [
-        "data"
-      ]
-    },
     "atom": {
       "href": "https://service.pdok.nl/kadaster/adressen/atom/v1_0/index.xml",
       "type": "application/atom+xml",
@@ -89,7 +81,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://www.pdok.nl/documents/1901824/0/Adressen%20%281%29.png/a29d7e9c-cbbb-46ad-ed5f-dbad7fe9e51d?t=1791963977293",
+      "href": "https://www.pdok.nl/documents/1901824/0/Adressen%20%281%29.png/a29d7e9c-cbbb-46ad-ed5f-dbad7fe9e51d?t=1791964295787",
       "type": "image/jpeg",
       "title": "Thumbnail",
       "roles": [
