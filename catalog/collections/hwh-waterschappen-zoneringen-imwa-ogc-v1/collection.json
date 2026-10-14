@@ -1,0 +1,182 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "hwh-waterschappen-zoneringen-imwa-ogc-v1",
+  "title": "Waterschappen Waterstaatskundige zoneringen waterstaatswerk IMWA (OGC API)",
+  "description": "Deze dataset is gebaseerd op (geharmoniseerde) data van alle waterschappen in Nederland conform het Informatiemodel water (IMWA). De dataset bevat de volgende IMWA objecten: beschermingszone, waterstaatswerkOppervlaktewaterlichaam, waterstaatswerkWaterbergingsgebied, waterstaatswerkWaterkering, Profiel van Vrije Ruimte",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Oppervlaktewaterlichaam",
+    "Bergingsgebied",
+    "Waterkering",
+    "Beschermingszone",
+    "WaterstaatswerkOppervlaktewaterlichaam",
+    "WaterstaatswerkWaterbergingsgebied",
+    "WaterstaatswerkWaterkering",
+    "Profiel van Vrije Ruimte"
+  ],
+  "providers": [
+    {
+      "name": "Het Waterschapshuis",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -59188.44333693248,
+          304984.64144318487,
+          308126.88473339565,
+          858328.516489961
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-zoneringen-imwa/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-zoneringen-imwa/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-zoneringen-imwa/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-zoneringen-imwa/ogc/v1/resources/Waterstaatswerk.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-beschermingszone": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-zoneringen-imwa/ogc/v1/collections/beschermingszone/items?f=json",
+      "type": "application/geo+json",
+      "title": "Beschermingszone (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-lijnvormigelement": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-zoneringen-imwa/ogc/v1/collections/lijnvormigelement/items?f=json",
+      "type": "application/geo+json",
+      "title": "Lijnvormigelement (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-profielvanvrijeruimte": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-zoneringen-imwa/ogc/v1/collections/profielvanvrijeruimte/items?f=json",
+      "type": "application/geo+json",
+      "title": "ProfielVanVrijeRuimte (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-regenwaterbuffer": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-zoneringen-imwa/ogc/v1/collections/regenwaterbuffer/items?f=json",
+      "type": "application/geo+json",
+      "title": "Regenwaterbuffer (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-regenwaterbuffercompartiment": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-zoneringen-imwa/ogc/v1/collections/regenwaterbuffercompartiment/items?f=json",
+      "type": "application/geo+json",
+      "title": "Regenwaterbuffercompartiment (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterstaatswerkoppervlaktewaterlichaam": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-zoneringen-imwa/ogc/v1/collections/waterstaatswerkoppervlaktewaterlichaam/items?f=json",
+      "type": "application/geo+json",
+      "title": "WaterstaatswerkOppervlaktewaterlichaam (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterstaatswerkwaterbergingsgebied": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-zoneringen-imwa/ogc/v1/collections/waterstaatswerkwaterbergingsgebied/items?f=json",
+      "type": "application/geo+json",
+      "title": "WaterstaatswerkWaterbergingsgebied (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterstaatswerkwaterkering": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-zoneringen-imwa/ogc/v1/collections/waterstaatswerkwaterkering/items?f=json",
+      "type": "application/geo+json",
+      "title": "WaterstaatswerkWaterkering (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/hwh/waterschappen-zoneringen-imwa/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by-sa/4.0/deed.nl",
+      "type": "text/html",
+      "title": "CC BY SA"
+    }
+  ]
+}

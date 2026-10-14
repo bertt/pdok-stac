@@ -1,0 +1,148 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "rws-kaderrichtlijn-mariene-strategie-ogc-v1",
+  "title": "Kaderrichtlijn Mariene Strategie Nederland (OGC API)",
+  "description": "De OGC API Features service Kaderrichtlijn Mariene Strategie bevat het toepassingsgebied, de rapportage-eenheden en de bevroren monitoringsdata voor de Kaderrichtlijn Mariene Strategie.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Gebieden",
+    "Rapportage-eenheden",
+    "Beoordelingseenheden",
+    "Monitoring",
+    "Meetpunten",
+    "Water",
+    "Zee",
+    "Vissen",
+    "Vogels",
+    "Milieu",
+    "Noordzee",
+    "Richtlijn 2008/56/EG",
+    "HVD",
+    "Aardobservatie en milieu"
+  ],
+  "providers": [
+    {
+      "name": "Rijkswaterstaat",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          2.35417303,
+          50.71447164,
+          7.5553525,
+          55.66948102
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rws/kaderrichtlijn-mariene-strategie/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/rws/kaderrichtlijn-mariene-strategie/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/rws/kaderrichtlijn-mariene-strategie/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rws/kaderrichtlijn-mariene-strategie/ogc/v1/resources/KaderrichtlijnMarieneStrategie.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-bevroren-monitoringsdata": {
+      "href": "https://api.pdok.nl/rws/kaderrichtlijn-mariene-strategie/ogc/v1/collections/bevroren_monitoringsdata/items?f=json",
+      "type": "application/geo+json",
+      "title": "KRM Bevroren monitoringsdata (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-marienewateren": {
+      "href": "https://api.pdok.nl/rws/kaderrichtlijn-mariene-strategie/ogc/v1/collections/marienewateren/items?f=json",
+      "type": "application/geo+json",
+      "title": "KRM Mariene wateren (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-marienerapportageeenheden": {
+      "href": "https://api.pdok.nl/rws/kaderrichtlijn-mariene-strategie/ogc/v1/collections/marienerapportageeenheden/items?f=json",
+      "type": "application/geo+json",
+      "title": "KRM Rapportage-eenheden (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/rws/kaderrichtlijn-mariene-strategie/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "CC0 1.0"
+    }
+  ]
+}

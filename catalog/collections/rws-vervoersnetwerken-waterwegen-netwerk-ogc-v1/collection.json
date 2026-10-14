@@ -1,0 +1,172 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "rws-vervoersnetwerken-waterwegen-netwerk-ogc-v1",
+  "title": "Vervoersnetwerken - Waterwegen - Netwerk (INSPIRE geharmoniseerd) (OGC API)",
+  "description": "De OGC API Features service Vervoersnetwerken - Waterwegen - Netwerk bevat het INSPIRE-compliant netwerk van knooppunten (nodes) en vaarwegvakken (links)",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Kilometermarkering",
+    "Baken",
+    "Boei",
+    "Verkeerscheidingsschema",
+    "HVD",
+    "Mobiliteit"
+  ],
+  "providers": [
+    {
+      "name": "Rijkswaterstaat",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          2.35417303,
+          50.71447164,
+          7.5553525,
+          55.66948102
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-waterwegen-netwerk/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-waterwegen-netwerk/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-waterwegen-netwerk/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-waterwegen-netwerk/ogc/v1/resources/waterwegen-netwerk.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-beacon": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-waterwegen-netwerk/ogc/v1/collections/beacon/items?f=json",
+      "type": "application/geo+json",
+      "title": "Baken (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-buoy": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-waterwegen-netwerk/ogc/v1/collections/buoy/items?f=json",
+      "type": "application/geo+json",
+      "title": "Boei (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-marker-post": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-waterwegen-netwerk/ogc/v1/collections/marker_post/items?f=json",
+      "type": "application/geo+json",
+      "title": "Markeerstok (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-traffic-separation-scheme-crossing": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-waterwegen-netwerk/ogc/v1/collections/traffic_separation_scheme_crossing/items?f=json",
+      "type": "application/geo+json",
+      "title": "Verkeersscheidingsstelselkruising (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-traffic-separation-scheme-separator": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-waterwegen-netwerk/ogc/v1/collections/traffic_separation_scheme_separator/items?f=json",
+      "type": "application/geo+json",
+      "title": "Verkeersscheidingsstelselscheider (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterway-node": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-waterwegen-netwerk/ogc/v1/collections/waterway_node/items?f=json",
+      "type": "application/geo+json",
+      "title": "Waterwegknooppunt (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterway-link": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-waterwegen-netwerk/ogc/v1/collections/waterway_link/items?f=json",
+      "type": "application/geo+json",
+      "title": "Waterweglink (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-waterwegen-netwerk/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "CC0 1.0"
+    }
+  ]
+}

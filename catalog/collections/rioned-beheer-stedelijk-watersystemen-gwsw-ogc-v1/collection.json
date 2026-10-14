@@ -1,0 +1,178 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "rioned-beheer-stedelijk-watersystemen-gwsw-ogc-v1",
+  "title": "Stedelijk Water (Riolering) (OGC API)",
+  "description": "Systemen voor stedelijk water met kenmerken gericht op beheeractiviteiten. Deze dataset omvat informatie over rioleringsgebieden bestaande uit riool-, transportstelsels  bestaande uit putten, (aansluit)leidingen, lozingspunten, pompen en gemalen. Deze service is opgezet conform het GWSW, Gegevens Woordenboek Stedelijk Water, van stichting Rioned. Voor meer informatie over de gebruikte termen, definities en samenhang van de objecten zie https://data.gwsw.nl",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Gwsw",
+    "Stedelijk water",
+    "Afvalwaterketen",
+    "Riolering"
+  ],
+  "providers": [
+    {
+      "name": "RIONED",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.657292,
+          48.040502,
+          12.431727,
+          56.11059
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rioned/beheer-stedelijk-watersystemen-gwsw/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/rioned/beheer-stedelijk-watersystemen-gwsw/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/rioned/beheer-stedelijk-watersystemen-gwsw/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rioned/beheer-stedelijk-watersystemen-gwsw/ogc/v1/resources/beheerstedelijkwater.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-aansluitingleiding": {
+      "href": "https://api.pdok.nl/rioned/beheer-stedelijk-watersystemen-gwsw/ogc/v1/collections/aansluitingleiding/items?f=json",
+      "type": "application/geo+json",
+      "title": "Aansluitleiding (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-aansluitingpunt": {
+      "href": "https://api.pdok.nl/rioned/beheer-stedelijk-watersystemen-gwsw/ogc/v1/collections/aansluitingpunt/items?f=json",
+      "type": "application/geo+json",
+      "title": "Aansluitpunt (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-beheerbouwwerk": {
+      "href": "https://api.pdok.nl/rioned/beheer-stedelijk-watersystemen-gwsw/ogc/v1/collections/beheerbouwwerk/items?f=json",
+      "type": "application/geo+json",
+      "title": "Bouwwerk (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-beheergebied": {
+      "href": "https://api.pdok.nl/rioned/beheer-stedelijk-watersystemen-gwsw/ogc/v1/collections/beheergebied/items?f=json",
+      "type": "application/geo+json",
+      "title": "Gebied (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-beheerleiding": {
+      "href": "https://api.pdok.nl/rioned/beheer-stedelijk-watersystemen-gwsw/ogc/v1/collections/beheerleiding/items?f=json",
+      "type": "application/geo+json",
+      "title": "Leiding (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-beheerlozing": {
+      "href": "https://api.pdok.nl/rioned/beheer-stedelijk-watersystemen-gwsw/ogc/v1/collections/beheerlozing/items?f=json",
+      "type": "application/geo+json",
+      "title": "Lozing (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-beheerpomp": {
+      "href": "https://api.pdok.nl/rioned/beheer-stedelijk-watersystemen-gwsw/ogc/v1/collections/beheerpomp/items?f=json",
+      "type": "application/geo+json",
+      "title": "Pomp (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-beheerput": {
+      "href": "https://api.pdok.nl/rioned/beheer-stedelijk-watersystemen-gwsw/ogc/v1/collections/beheerput/items?f=json",
+      "type": "application/geo+json",
+      "title": "Put (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/rioned/beheer-stedelijk-watersystemen-gwsw/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "CC0 1.0"
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "cbs-gebiedsindelingen-ogc-v1",
+  "title": "CBS Gebiedsindelingen 2016 t/m heden (OGC API)",
+  "description": "Deze service bevat de CBS Gebiedsindelingen vanaf 2016. De volgende gebiedsindelingen kunnen voorkomen: Gemeente, Landsdeel, Provincie, Buurt, COROP-gebied, GGD-regio, NUTS1, NUTS2, NUTS3, Wijk, COROP-plusgebied, COROP-subgebied, Landbouwgebied, Landbouwgroep, RPA-gebied, Toeristengroep, Toeristengebied, Arrondissementsgebied, KamervanKoophandelregio, Regionale-Eenheid, Veiligheidsregio, Veiligthuisregio, Zorgkantoorregio, Arbeidsmarktregio, Regioplus-arbeidsmarktregio, Jeugdregio, Ressort, RES-regio, Regionaalmeldcoördinatiepunt, Regionale-energiestrategie, SubRES-regio",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Arbeidsmarktregio",
+    "Jeugdregio",
+    "Arrondissementsgebied",
+    "Brandweerregio",
+    "Buurt",
+    "COROP-gebied",
+    "COROP-plusgebied",
+    "COROP-subgebied",
+    "GGD-regio",
+    "Gebiedsindeling",
+    "Gemeente",
+    "Grootstedelijke aglomeratie",
+    "Kamer van Koophandelregio",
+    "Landbouwgebied",
+    "Landbouwgroep",
+    "Landsdeel",
+    "NUTS1",
+    "NUTS2",
+    "NUTS3",
+    "Politieregio",
+    "Provincie",
+    "RPA-gebied",
+    "Regionale Eenheid",
+    "Stadsgewest",
+    "Statistische eenheden",
+    "Toeristengebied",
+    "Toeristengroep",
+    "Veiligheidsregio",
+    "Wijk",
+    "Zorgkantoorregio"
+  ],
+  "providers": [
+    {
+      "name": "CBS",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.657292,
+          48.040502,
+          12.431727,
+          56.11059
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/resources/gebiedsindelingen.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-arbeidsmarktregio-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/arbeidsmarktregio_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Arbeidsmarktregio gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-arbeidsmarktregio-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/arbeidsmarktregio_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Arbeidsmarktregio labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-arrondissementsgebied-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/arrondissementsgebied_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Arrondissementsgebied gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-arrondissementsgebied-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/arrondissementsgebied_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Arrondissementsgebied labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-buurt-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/buurt_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Buurt gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-buurt-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/buurt_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Buurt labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-buurt-niet-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/buurt_niet_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Buurt niet gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-coropgebied-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/coropgebied_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Coropgebied gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-coropgebied-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/coropgebied_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Coropgebied labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-coropplusgebied-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/coropplusgebied_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Coropplusgebied gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-coropplusgebied-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/coropplusgebied_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Coropplusgebied labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-coropsubgebied-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/coropsubgebied_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Coropsubgebied gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-coropsubgebied-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/coropsubgebied_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Coropsubgebied labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-gemeente-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/gemeente_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Gemeente gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-gemeente-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/gemeente_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Gemeente labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-gemeente-niet-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/gemeente_niet_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Gemeente niet gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-ggdregio-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/ggdregio_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Ggdregio gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-ggdregio-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/ggdregio_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Ggdregio labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-jeugdregio-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/jeugdregio_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Jeugdregio gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-jeugdregio-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/jeugdregio_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Jeugdregio labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-kamervankoophandelregio-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/kamervankoophandelregio_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Kamervankoophandelregio gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-kamervankoophandelregio-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/kamervankoophandelregio_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Kamervankoophandelregio labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-landbouwgebied-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/landbouwgebied_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Landbouwgebied gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-landbouwgebied-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/landbouwgebied_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Landbouwgebied labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-landbouwgroep-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/landbouwgroep_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Landbouwgroep gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-landbouwgroep-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/landbouwgroep_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Landbouwgroep labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-landsdeel-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/landsdeel_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Landsdeel gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-landsdeel-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/landsdeel_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Landsdeel labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-nuts1-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/nuts1_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "NUTS1 gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-nuts1-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/nuts1_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "NUTS1 labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-nuts2-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/nuts2_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "NUTS2 gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-nuts2-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/nuts2_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "NUTS2 labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-nuts3-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/nuts3_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "NUTS3 gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-nuts3-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/nuts3_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "NUTS3 labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-provincie-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/provincie_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Provincie gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-provincie-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/provincie_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Provincie labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-rpagebied-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/rpagebied_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "RPA-gebied gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-rpagebied-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/rpagebied_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "RPA-gebied labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-regionaalmeld-coordinatiepunt-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/regionaalmeld_coordinatiepunt_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Regionaalmeld coordinatiepunt gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-regionaalmeld-coordinatiepunt-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/regionaalmeld_coordinatiepunt_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Regionaalmeld coordinatiepunt labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-regionale-eenheid-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/regionale_eenheid_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Regionale eenheid gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-regionale-eenheid-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/regionale_eenheid_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Regionale eenheid labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-regionale-energiestrategie-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/regionale_energiestrategie_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Regionale energiestrategie gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-regionale-energiestrategie-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/regionale_energiestrategie_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Regionale energiestrategie labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-regioplus-arbeidsmarktregio-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/regioplus_arbeidsmarktregio_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Regioplus arbeidsmarktregio gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-regioplus-arbeidsmarktregio-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/regioplus_arbeidsmarktregio_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Regioplus arbeidsmarktregio labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-ressort-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/ressort_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Ressort gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-ressort-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/ressort_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Ressort labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-subres-regio-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/subres_regio_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Subres regio gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-subres-regio-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/subres_regio_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Subres regio labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-toeristengebied-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/toeristengebied_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Toeristengebied gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-toeristengebied-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/toeristengebied_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Toeristengebied labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-toeristengroep-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/toeristengroep_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Toeristengroep gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-toeristengroep-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/toeristengroep_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Toeristengroep labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-veiligheidsregio-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/veiligheidsregio_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Veiligheidsregio gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-veiligheidsregio-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/veiligheidsregio_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Veiligheidsregio labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-veiligthuisregio-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/veiligthuisregio_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Veiligthuisregio gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-veiligthuisregio-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/veiligthuisregio_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Veiligthuisregio labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-wijk-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/wijk_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Wijk gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-wijk-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/wijk_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Wijk labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-wijk-niet-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/wijk_niet_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Wijk niet gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-zorgkantoorregio-gegeneraliseerd": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/zorgkantoorregio_gegeneraliseerd/items?f=json",
+      "type": "application/geo+json",
+      "title": "Zorgkantoorregio gegeneraliseerd (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-zorgkantoorregio-labelpoint": {
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/zorgkantoorregio_labelpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "Zorgkantoorregio labelpoint (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/cbs/gebiedsindelingen/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/deed.nl",
+      "type": "text/html",
+      "title": "CC BY 4.0"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "rvo-potentiekaart-reststromen-ogc-v1",
+  "title": "Potentiekaart reststromen (OGC API)",
+  "description": "De WarmteAtlas Nederland is een digitale, geografische kaart waarop warmteaanbod en -vraag in ons land zijn aangegeven. Aan de aanbodkant gaat het om (potentieel) geschikte locaties van warmte- en koude opslag (WKO), diepe geothermie, biomassa en restwarmte. Deze lagen tonen de potentie voor biomassa per gemeente.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "potentiekaart",
+    "reststromen",
+    "energiebronnen",
+    "biomassa",
+    "biogas",
+    "gft",
+    "HVD",
+    "Aardobservatie en milieu"
+  ],
+  "providers": [
+    {
+      "name": "RVO",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.657292,
+          48.040502,
+          12.431727,
+          56.11059
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-reststromen/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-reststromen/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-reststromen/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-reststromen/ogc/v1/resources/reststromen_biogas.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-biogasgft": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-reststromen/ogc/v1/collections/biogasgft/items?f=json",
+      "type": "application/geo+json",
+      "title": "Potentieel biogas GFT-afval (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-totaalpotentieelbiogas": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-reststromen/ogc/v1/collections/totaalpotentieelbiogas/items?f=json",
+      "type": "application/geo+json",
+      "title": "Potentieel biogas totaal (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-biogasakkerbouw": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-reststromen/ogc/v1/collections/biogasakkerbouw/items?f=json",
+      "type": "application/geo+json",
+      "title": "Potentieel biogas uit reststromen akkerbouw (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-biogasvloeibaremest": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-reststromen/ogc/v1/collections/biogasvloeibaremest/items?f=json",
+      "type": "application/geo+json",
+      "title": "Potentieel biogas vloeibare mest (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-houtachtigebiomassabos": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-reststromen/ogc/v1/collections/houtachtigebiomassabos/items?f=json",
+      "type": "application/geo+json",
+      "title": "Potentieel houtachtige biomassa bos (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-huishoudelijkhoutensnoeiafval": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-reststromen/ogc/v1/collections/huishoudelijkhoutensnoeiafval/items?f=json",
+      "type": "application/geo+json",
+      "title": "Potentieel houtachtige biomassa snoeiafval (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-totaalpotentieelhoutachtigebiomassa": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-reststromen/ogc/v1/collections/totaalpotentieelhoutachtigebiomassa/items?f=json",
+      "type": "application/geo+json",
+      "title": "Totaal potentieel houtachtige biomassa (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/rvo/potentiekaart-reststromen/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/publicdomain/mark/1.0/deed.nl",
+      "type": "text/html",
+      "title": "Public Domain Mark 1.0"
+    }
+  ]
+}

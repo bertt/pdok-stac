@@ -1,0 +1,157 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "rws-vervoersnetwerken-wegen-netwerk-ogc-v1",
+  "title": "Vervoersnetwerken - Wegen - Netwerk (INSPIRE geharmoniseerd) (OGC API)",
+  "description": "De OGC API Features service Vervoersnetwerken - Wegen - Netwerk bevat het transportnetwerk en fysieke objecten die verbonden zijn aan transport over wegen.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Vervoersnetwerken",
+    "Nationaal",
+    "Hoofdwegen (richtlijn omgevingslawaai)",
+    "Vervoersnetwerk",
+    "Transport network",
+    "Knooppunten",
+    "Nodes",
+    "Wegen",
+    "Roads",
+    "Objecten",
+    "Objects",
+    "Kenmerken",
+    "Characteristics",
+    "HVD",
+    "Mobiliteit"
+  ],
+  "providers": [
+    {
+      "name": "Rijkswaterstaat",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          2.35417303,
+          50.71447164,
+          7.5553525,
+          55.66948102
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-wegen-netwerk/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-wegen-netwerk/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-wegen-netwerk/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-wegen-netwerk/ogc/v1/resources/wegen-netwerk.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-marker-post": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-wegen-netwerk/ogc/v1/collections/marker_post/items?f=json",
+      "type": "application/geo+json",
+      "title": "Markeerstok (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-road-area": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-wegen-netwerk/ogc/v1/collections/road_area/items?f=json",
+      "type": "application/geo+json",
+      "title": "Weggebied (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-road-node": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-wegen-netwerk/ogc/v1/collections/road_node/items?f=json",
+      "type": "application/geo+json",
+      "title": "Wegknooppunt (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-road-link": {
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-wegen-netwerk/ogc/v1/collections/road_link/items?f=json",
+      "type": "application/geo+json",
+      "title": "Weglink (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/rws/vervoersnetwerken-wegen-netwerk/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "CC0 1.0"
+    }
+  ]
+}

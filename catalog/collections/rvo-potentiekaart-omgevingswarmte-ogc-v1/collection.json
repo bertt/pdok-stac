@@ -1,0 +1,182 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "rvo-potentiekaart-omgevingswarmte-ogc-v1",
+  "title": "Potentiekaart Omgevingswarmte (OGC API)",
+  "description": "De WarmteAtlas Nederland is een digitale, geografische kaart waarop warmteaanbod en -vraag in ons land zijn aangegeven. Aan de aanbodkant gaat het om (potentieel) geschikte locaties van warmte- en koude opslag (WKO), diepe geothermie, biomassa en restwarmte. Deze lagen tonen de potentie voor WKO systemen per buurt en per gemeente.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Energiebronnen",
+    "WKO",
+    "warmte",
+    "koude",
+    "geothermie",
+    "warmtewisselaar",
+    "HVD",
+    "Aardobservatie en milieu"
+  ],
+  "providers": [
+    {
+      "name": "RVO",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.657292,
+          48.040502,
+          12.431727,
+          56.11059
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-omgevingswarmte/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-omgevingswarmte/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-omgevingswarmte/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-omgevingswarmte/ogc/v1/resources/omgevingswarmte.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-koudegeslotenwkobuurt": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-omgevingswarmte/ogc/v1/collections/koudegeslotenwkobuurt/items?f=json",
+      "type": "application/geo+json",
+      "title": "Potentieel koude gesloten WKO buurt (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-koudegeslotenwkogem": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-omgevingswarmte/ogc/v1/collections/koudegeslotenwkogem/items?f=json",
+      "type": "application/geo+json",
+      "title": "Potentieel koude gesloten WKO gemeente (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-koudeopenwkobuurt": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-omgevingswarmte/ogc/v1/collections/koudeopenwkobuurt/items?f=json",
+      "type": "application/geo+json",
+      "title": "Potentieel koude open WKO buurt (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-koudeopenwkogem": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-omgevingswarmte/ogc/v1/collections/koudeopenwkogem/items?f=json",
+      "type": "application/geo+json",
+      "title": "Potentieel koude open WKO gemeente (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-warmtegeslotenwkobuurt": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-omgevingswarmte/ogc/v1/collections/warmtegeslotenwkobuurt/items?f=json",
+      "type": "application/geo+json",
+      "title": "Potentieel warmte gesloten WKO buurt (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-warmtegeslotenwkogem": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-omgevingswarmte/ogc/v1/collections/warmtegeslotenwkogem/items?f=json",
+      "type": "application/geo+json",
+      "title": "Potentieel warmte gesloten WKO gemeente (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-warmteopenwkobuurt": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-omgevingswarmte/ogc/v1/collections/warmteopenwkobuurt/items?f=json",
+      "type": "application/geo+json",
+      "title": "Potentieel warmte open WKO buurt (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-warmteopenwkogem": {
+      "href": "https://api.pdok.nl/rvo/potentiekaart-omgevingswarmte/ogc/v1/collections/warmteopenwkogem/items?f=json",
+      "type": "application/geo+json",
+      "title": "Potentieel warmte open WKO gemeente (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/rvo/potentiekaart-omgevingswarmte/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "CC0 1.0"
+    }
+  ]
+}

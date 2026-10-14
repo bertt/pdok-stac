@@ -1,0 +1,273 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "hwh-waterschappen-kunstwerken-imwa-ogc-v2",
+  "title": "Waterschappen Kunstwerken IMWA (OGC API)",
+  "description": "Deze dataset is gebaseerd op (niet geharmoniseerde) data van alle waterschappen in Nederland conform het Informatiemodel water (IMWA). De dataset bevat de volgende IMWA objecten: afsluitmiddel, aquaduct, bodemval, brug, coupure,  duiker, gemaal, hevel, put, sifon, sluis, stuw, vastedam, vispassage, voorde, vuilvang en zandvang.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Afsluitmiddel",
+    "Aquaduct",
+    "Bodemval",
+    "Brug",
+    "Coupure",
+    "Duiker",
+    "Gemaal",
+    "Hevel",
+    "Put",
+    "Sifon",
+    "Sluis",
+    "Stuw",
+    "VasteDam",
+    "Verbeterinstallatie",
+    "Vispassage",
+    "Voorde",
+    "Vuilvang",
+    "Zandvang",
+    "Kunstwerken."
+  ],
+  "providers": [
+    {
+      "name": "Het Waterschapshuis",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -59188.44333693248,
+          304984.64144318487,
+          308126.88473339565,
+          858328.516489961
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/resources/Kunstwerken.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-afsluitmiddel": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/afsluitmiddel/items?f=json",
+      "type": "application/geo+json",
+      "title": "Afsluitmiddel (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-aquaduct": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/aquaduct/items?f=json",
+      "type": "application/geo+json",
+      "title": "Aquaduct (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-bodemval": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/bodemval/items?f=json",
+      "type": "application/geo+json",
+      "title": "Bodemval (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-brug": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/brug/items?f=json",
+      "type": "application/geo+json",
+      "title": "Brug (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-coupure": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/coupure/items?f=json",
+      "type": "application/geo+json",
+      "title": "Coupure (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-duiker": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/duiker/items?f=json",
+      "type": "application/geo+json",
+      "title": "Duiker (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-gemaal": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/gemaal/items?f=json",
+      "type": "application/geo+json",
+      "title": "Gemaal (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-hevel": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/hevel/items?f=json",
+      "type": "application/geo+json",
+      "title": "Hevel (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-put": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/put/items?f=json",
+      "type": "application/geo+json",
+      "title": "Put (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-sifon": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/sifon/items?f=json",
+      "type": "application/geo+json",
+      "title": "Sifon (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-sluis": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/sluis/items?f=json",
+      "type": "application/geo+json",
+      "title": "Sluis (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-stuw": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/stuw/items?f=json",
+      "type": "application/geo+json",
+      "title": "Stuw (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-vastedam": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/vastedam/items?f=json",
+      "type": "application/geo+json",
+      "title": "VasteDam (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-verbeterinstallatie": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/verbeterinstallatie/items?f=json",
+      "type": "application/geo+json",
+      "title": "Verbeterinstallatie (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-vispassage": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/vispassage/items?f=json",
+      "type": "application/geo+json",
+      "title": "Vispassage (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-voorde": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/voorde/items?f=json",
+      "type": "application/geo+json",
+      "title": "Voorde (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-vuilvang": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/vuilvang/items?f=json",
+      "type": "application/geo+json",
+      "title": "Vuilvang (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-zandvang": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2/collections/zandvang/items?f=json",
+      "type": "application/geo+json",
+      "title": "Zandvang (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/hwh/waterschappen-kunstwerken-imwa/ogc/v2",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by-sa/4.0/deed.nl",
+      "type": "text/html",
+      "title": "CC BY SA"
+    }
+  ]
+}

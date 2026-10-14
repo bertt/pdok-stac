@@ -1,0 +1,139 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "kadaster-deltaplan-agrarisch-waterbeheer-ogc-v1",
+  "title": "Projecten Deltaplan Agrarisch Waterbeheer (OGC API)",
+  "description": "Overzicht van projecten waarin agrariërs, waterschappen en andere partijen onder de vlag van het Deltaplan Agrarisch Waterbeheer werken aan een betere waterkwaliteit, beter omgaan met zoetwaterbeschikbaarheid en betere agrarische bedrijfsresultaten.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "infoMapAccessService",
+    "deltaplan agrarisch waterbeheer",
+    "daw",
+    "water",
+    "waterkwaliteit",
+    "waterkwantiteit",
+    "waterbeheer",
+    "grondwater",
+    "oppervlaktewater",
+    "natuur en milieu",
+    "binnenwater",
+    "landbouw en veeteelt",
+    "infofeatureaccessservice"
+  ],
+  "providers": [
+    {
+      "name": "Kadaster",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.657292,
+          48.040502,
+          12.431727,
+          56.11059
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/kadaster/deltaplan-agrarisch-waterbeheer/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/kadaster/deltaplan-agrarisch-waterbeheer/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/kadaster/deltaplan-agrarisch-waterbeheer/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/kadaster/deltaplan-agrarisch-waterbeheer/ogc/v1/resources/daw.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-daw-projectgrenzen-punten": {
+      "href": "https://api.pdok.nl/kadaster/deltaplan-agrarisch-waterbeheer/ogc/v1/collections/daw_projectgrenzen_punten/items?f=json",
+      "type": "application/geo+json",
+      "title": "DAW Projectgrenzen Punten (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-daw-projectgrenzen-vlakken": {
+      "href": "https://api.pdok.nl/kadaster/deltaplan-agrarisch-waterbeheer/ogc/v1/collections/daw_projectgrenzen_vlakken/items?f=json",
+      "type": "application/geo+json",
+      "title": "DAW Projectgrenzen Vlakken (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/kadaster/deltaplan-agrarisch-waterbeheer/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "CC0 1.0"
+    }
+  ]
+}

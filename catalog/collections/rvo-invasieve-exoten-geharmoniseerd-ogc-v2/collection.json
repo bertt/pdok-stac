@@ -1,0 +1,123 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "rvo-invasieve-exoten-geharmoniseerd-ogc-v2",
+  "title": "Invasieve Exoten (INSPIRE geharmoniseerd) (OGC API)",
+  "description": "Invasieve exoten in Nederland conform de aanlevering aan Europa",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Nationaal",
+    "Spreiding van soorten",
+    "Verspreiding van invasieve exoten (verordening invasieve uitheemse soorten)",
+    "HVD",
+    "Aardobservatie en milieu"
+  ],
+  "providers": [
+    {
+      "name": "RVO",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.657292,
+          48.040502,
+          12.431727,
+          56.11059
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/invasieve-exoten-geharmoniseerd/ogc/v2?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/rvo/invasieve-exoten-geharmoniseerd/ogc/v2/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/rvo/invasieve-exoten-geharmoniseerd/ogc/v2/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rvo/invasieve-exoten-geharmoniseerd/ogc/v2/resources/invasieveexoten.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-species-distribution": {
+      "href": "https://api.pdok.nl/rvo/invasieve-exoten-geharmoniseerd/ogc/v2/collections/species_distribution/items?f=json",
+      "type": "application/geo+json",
+      "title": "Invasieve exoten (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/rvo/invasieve-exoten-geharmoniseerd/ogc/v2",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "CC0 1.0"
+    }
+  ]
+}

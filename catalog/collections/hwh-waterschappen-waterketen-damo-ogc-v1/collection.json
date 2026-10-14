@@ -1,0 +1,264 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "hwh-waterschappen-waterketen-damo-ogc-v1",
+  "title": "Waterschappen Waterketen DAMO (OGC API)",
+  "description": "Deze dataset is gebaseerd op (geharmoniseerde) data van alle waterschappen in Nederland conform DAMO Waterketen waarbij we zoveel mogelijk rekening hebben gehouden met het Gegevenswoordenboek Stedelijk Water (GWSW). De dataset bevat de volgende DAMO objecten: Zuiveringseenheid, Afsluiter, Afvoerpunt, IBA, Kabel, KathodischeBescherming, Leiding, Leidingsegment, Loostopafvoerpunt, Lozingspunt, Mantelbuis, Nooduitlaat, Ontluchter, Overnamepunt, Overnamepuntgebied, Pigginginstallatie, Pomp, Put, Rioleringsgebied, Rioolgemaal, RWZI en Transportstelsel De data zijn afkomstig van de individuele waterschappen, maar worden via PDOK als één landsdekkend bestand uitgeleverd. Individuele waterschappen bieden hun actuele gegevens hiervoor aan via het 'Gegevensknooppunt waterschappen' (GkW) van Het Waterschapshuis. Alle waterschappen zijn aangesloten op deze voorziening, maar nog niet elk waterschap levert de complete set gegevens aan. Voor informatie over de inhoud van de data kan contact worden opgenomen met het desbetreffende waterschap. Dit is te herkennen aan de waterschapscode die als kenmerk is opgenomen bij ieder object in de dataset. Voor algemene informatie over de dataset en de herkomst via het GkW kan contact worden opgenomen met Het Waterschapshuis via datastromen@hetwaterschapshuis.nl.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Kunstwerken",
+    "Riolering",
+    "Waterschap",
+    "Beheer",
+    "Afvalwaterketen",
+    "Afvalwatersysteem",
+    "Rioolwaterzuivering",
+    "GWSW",
+    "Stedelijk water",
+    "Waterketen"
+  ],
+  "providers": [
+    {
+      "name": "Het Waterschapshuis",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          2.527125,
+          50.212863,
+          7.374026,
+          55.72116
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/resources/Zuiveringseenheid.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-afsluiter": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/afsluiter/items?f=json",
+      "type": "application/geo+json",
+      "title": "Afsluiter (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-iba": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/iba/items?f=json",
+      "type": "application/geo+json",
+      "title": "IBA (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-kabel": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/kabel/items?f=json",
+      "type": "application/geo+json",
+      "title": "Kabel (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-kathodischebescherming": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/kathodischebescherming/items?f=json",
+      "type": "application/geo+json",
+      "title": "KathodischeBescherming (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-leiding": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/leiding/items?f=json",
+      "type": "application/geo+json",
+      "title": "Leiding (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-leidingsegment": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/leidingsegment/items?f=json",
+      "type": "application/geo+json",
+      "title": "Leidingsegment (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-lozingspunt": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/lozingspunt/items?f=json",
+      "type": "application/geo+json",
+      "title": "Lozingspunt (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-mantelbuis": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/mantelbuis/items?f=json",
+      "type": "application/geo+json",
+      "title": "Mantelbuis (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-nooduitlaat": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/nooduitlaat/items?f=json",
+      "type": "application/geo+json",
+      "title": "Nooduitlaat (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-ontluchter": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/ontluchter/items?f=json",
+      "type": "application/geo+json",
+      "title": "Ontluchter (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-overnamepunt": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/overnamepunt/items?f=json",
+      "type": "application/geo+json",
+      "title": "Overnamepunt (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-overnamepuntgebied": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/overnamepuntgebied/items?f=json",
+      "type": "application/geo+json",
+      "title": "Overnamepuntgebied (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-pigginginstallatie": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/pigginginstallatie/items?f=json",
+      "type": "application/geo+json",
+      "title": "Pigginginstallatie (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-put": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/put/items?f=json",
+      "type": "application/geo+json",
+      "title": "Put (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-rwzi": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/rwzi/items?f=json",
+      "type": "application/geo+json",
+      "title": "RWZI (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-rioleringsgebied": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/rioleringsgebied/items?f=json",
+      "type": "application/geo+json",
+      "title": "Rioleringsgebied (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-rioolgemaal": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/rioolgemaal/items?f=json",
+      "type": "application/geo+json",
+      "title": "Rioolgemaal (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-zuiveringseenheid": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1/collections/zuiveringseenheid/items?f=json",
+      "type": "application/geo+json",
+      "title": "Zuiveringseenheid (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/hwh/waterschappen-waterketen-damo/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by-sa/4.0/deed.nl",
+      "type": "text/html",
+      "title": "Gebruiksvoorwaarden (CC-BY-SA)"
+    }
+  ]
+}

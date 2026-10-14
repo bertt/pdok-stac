@@ -1,0 +1,90 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "kadaster-location-api-v1",
+  "title": "PDOK Location API",
+  "description": "De PDOK Location API maakt het mogelijk om tekstgebaseerd te zoeken in de opgenomen OGC API Features collections.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "geocoding",
+    "geocoderen",
+    "geocoder",
+    "location",
+    "locatie",
+    "text search",
+    "zoeken",
+    "adres omzetten",
+    "suggesties",
+    "auto-aanvullen"
+  ],
+  "providers": [
+    {
+      "name": "Kadaster",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "api": {
+      "href": "https://api.pdok.nl/kadaster/location-api/v1",
+      "type": "text/html",
+      "title": "PDOK Location API",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/kadaster/location-api/v1",
+      "type": "text/html",
+      "title": "PDOK API"
+    }
+  ]
+}

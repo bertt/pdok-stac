@@ -1,0 +1,135 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "rws-weggegevens-ogc-v1",
+  "title": "Weggegevens (WEGGEG) (OGC API)",
+  "description": "Dit is de OGC API Features service van de dataset Weggegevens (WEGGEG). Deze dataset bevat de rijstroken en maximumsnelheden uit de weggegevens van de Nederlandse Rijkswegen. Deze kunnen gekoppeld worden aan de wegvakken uit NWB wegen. Deze dataset is aangemerkt als As-Is bron voor EU-doelen.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Vervoersnetwerken",
+    "Infrastructuur",
+    "Wegen",
+    "Verkeer",
+    "Rijstroken",
+    "Maximum snelheden",
+    "Weggeg",
+    "HVD",
+    "Aardobservatie en milieu"
+  ],
+  "providers": [
+    {
+      "name": "Rijkswaterstaat",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          2.35417303,
+          50.71447164,
+          7.5553525,
+          55.66948102
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rws/weggegevens/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/rws/weggegevens/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/rws/weggegevens/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rws/weggegevens/ogc/v1/resources/weggeg.jpg",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-wegvak-max-snelheden": {
+      "href": "https://api.pdok.nl/rws/weggegevens/ogc/v1/collections/wegvak_max_snelheden/items?f=json",
+      "type": "application/geo+json",
+      "title": "Weggegevens Maximum Snelheden (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-wegvak-rijstroken": {
+      "href": "https://api.pdok.nl/rws/weggegevens/ogc/v1/collections/wegvak_rijstroken/items?f=json",
+      "type": "application/geo+json",
+      "title": "Weggegevens Rijstroken (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/rws/weggegevens/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "CC0 1.0"
+    }
+  ]
+}

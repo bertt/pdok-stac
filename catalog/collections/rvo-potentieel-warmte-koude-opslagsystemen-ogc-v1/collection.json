@@ -1,0 +1,141 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "rvo-potentieel-warmte-koude-opslagsystemen-ogc-v1",
+  "title": "Potentieel koude en warmte uit open en gesloten WKO systemen (GJ/ha.jaar) (OGC API)",
+  "description": "Deze kaart is een weergave van het potentieel aan koude/warmte in GJ/(ha.jaar) dat uit open en gesloten WKO systemen gehaald kan worden.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Energiebronnen",
+    "WKO",
+    "warmte",
+    "koude",
+    "geothermie",
+    "HVD",
+    "Aardobservatie en milieu"
+  ],
+  "providers": [
+    {
+      "name": "RVO",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.657292,
+          48.040502,
+          12.431727,
+          56.11059
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/potentieel-warmte-koude-opslagsystemen/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/rvo/potentieel-warmte-koude-opslagsystemen/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/rvo/potentieel-warmte-koude-opslagsystemen/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rvo/potentieel-warmte-koude-opslagsystemen/ogc/v1/resources/wko.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-gs-koud": {
+      "href": "https://api.pdok.nl/rvo/potentieel-warmte-koude-opslagsystemen/ogc/v1/collections/gs_koud/items?f=json",
+      "type": "application/geo+json",
+      "title": "gs_koud (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-gs-warm": {
+      "href": "https://api.pdok.nl/rvo/potentieel-warmte-koude-opslagsystemen/ogc/v1/collections/gs_warm/items?f=json",
+      "type": "application/geo+json",
+      "title": "gs_warm (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-os-koud-warm": {
+      "href": "https://api.pdok.nl/rvo/potentieel-warmte-koude-opslagsystemen/ogc/v1/collections/os_koud_warm/items?f=json",
+      "type": "application/geo+json",
+      "title": "os_koud_warm (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/rvo/potentieel-warmte-koude-opslagsystemen/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "CC0 1.0"
+    }
+  ]
+}

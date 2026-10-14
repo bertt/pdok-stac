@@ -1,0 +1,128 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "rws-overstromingen-risicogebied-ogc-v2",
+  "title": "Gebieden met Natuurrisico's - Overstromingen - Risicogebied - Richtlijn Overstromingsrisico's (ROR) (INSPIRE geharmoniseerd) (OGC API)",
+  "description": "Naar INSPIRE thema Gebieden met natuurrisico's - Overstromingen - Risicogebied geharmoniseerde data bevat gebieden met potentieel significant overstromingsrisico in Nederland uit het rapport 'Overstromingsrisico's in Nederland, 2018 in het kader van de Europese Richtlijn Overstromingsrisico’s (ROR) 2e cyclus: 2016 – 2021'.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Overstromingsgevaar gebieden - grote kans (Richtlijn Overstromingsrisico's)",
+    "Nationaal",
+    "Richtlijn Overstromingsrisico",
+    "Natuurrisico",
+    "Overstroming",
+    "Overstromingsrisico",
+    "Overstromingsgevaar",
+    "Risicogebied",
+    "Flooding",
+    "RiskArea"
+  ],
+  "providers": [
+    {
+      "name": "Rijkswaterstaat",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          2.527125,
+          50.212863,
+          7.374026,
+          55.72116
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rws/overstromingen-risicogebied/ogc/v2?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/rws/overstromingen-risicogebied/ogc/v2/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/rws/overstromingen-risicogebied/ogc/v2/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rws/overstromingen-risicogebied/ogc/v2/resources/rws_nz_risicogebied.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-risk-zone": {
+      "href": "https://api.pdok.nl/rws/overstromingen-risicogebied/ogc/v2/collections/risk_zone/items?f=json",
+      "type": "application/geo+json",
+      "title": "Risicogebied (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/rws/overstromingen-risicogebied/ogc/v2",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "Open data (CCO)"
+    }
+  ]
+}

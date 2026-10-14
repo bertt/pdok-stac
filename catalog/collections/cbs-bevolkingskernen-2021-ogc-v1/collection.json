@@ -1,0 +1,133 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "cbs-bevolkingskernen-2021-ogc-v1",
+  "title": "CBS Bevolkingskernen 2021 (OGC API)",
+  "description": "Het bestand bevolkingskernen 2021 bevat statistische kerncijfers per bevolkingskern. De afbakening van bevolkingskernen is enige tijd geleden voortgekomen uit een vraag naar cijfers op het niveau van bevolkingskernen in het Volkstellingprogramma 2001 van Eurostat. Het begrip bevolkingskern sluit aan bij het begrip 'locality' dat de Verenigde Naties bezigen in hun aanbevelingen voor het houden van een Volkstelling. In deze omschrijving van het begrip en de toepassing ervan in de praktijk staat de aanwezigheid van aaneengesloten bebouwd gebied met daarin woongebied centraal dat daarnaast aan een aantal voorwaarden in termen van de bebouwing moet voldoen. Meer informatie over deze dataset is te vinden via deze link: https://www.cbs.nl/nl-nl/longread/diversen/2024/bevolkingskernen-in-nederland-2021.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Demografie",
+    "Bevolkingskern",
+    "Statistiek",
+    "Bevolking",
+    "Inwoners",
+    "Leeftijd",
+    "Herkomst",
+    "Woningen",
+    "Sociale_zekerheid",
+    "Woz",
+    "Woningeigendom",
+    "Huur",
+    "Voorziening",
+    "Nabijheid",
+    "Spreiding_van_de_bevolking"
+  ],
+  "providers": [
+    {
+      "name": "CBS",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -59188.44333693248,
+          304984.64144318487,
+          308126.88473339565,
+          858328.516489961
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/cbs/bevolkingskernen-2021/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/cbs/bevolkingskernen-2021/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/cbs/bevolkingskernen-2021/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/bevolkingskernen-2021/ogc/v1/resources/bevolkingskernen_2021.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-bevolkingskernen": {
+      "href": "https://api.pdok.nl/cbs/bevolkingskernen-2021/ogc/v1/collections/bevolkingskernen/items?f=json",
+      "type": "application/geo+json",
+      "title": "CBS Bevolkingskernen 2021 (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/cbs/bevolkingskernen-2021/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/deed.nl",
+      "type": "text/html",
+      "title": "CC BY 4.0"
+    }
+  ]
+}

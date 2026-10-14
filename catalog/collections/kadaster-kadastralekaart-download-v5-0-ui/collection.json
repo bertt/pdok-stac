@@ -1,0 +1,88 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "kadaster-kadastralekaart-download-v5-0-ui",
+  "title": "Kadastralekaart Download API",
+  "description": "Met deze API is het mogelijk om gegevens uit de Kadastralekaart dataset te downloaden. Dit document bevat alleen informatie m.b.t. het gebruik van deze API. De Kadastralekaart-modeldocumentatie met bijbehorend schema(xsd) kun je vinden op https://zakelijk.kadaster.nl/schemas. Een stappenplan voor het downloaden via deze API staat hier beschreven.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Kadaster",
+    "kadastrale percelen",
+    "kadastrale grens",
+    "bebouwing",
+    "nummeraanduidingreeks",
+    "openbareruimte naam",
+    "perceelgrens",
+    "Kadastrale percelen"
+  ],
+  "providers": [
+    {
+      "name": "Kadaster",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "api": {
+      "href": "https://api.pdok.nl/kadaster/kadastralekaart/download/v5_0/ui",
+      "type": "text/html",
+      "title": "Kadastralekaart Download API",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/kadaster/kadastralekaart/download/v5_0/ui",
+      "type": "text/html",
+      "title": "PDOK API"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "cbs-vierkantstatistieken500m-ogc-v1",
+  "title": "CBS Vierkantstatistieken 500m (OGC API)",
+  "description": "Het bestand CBS vierkanten 500m bevat statistische gegevens per 500 meter bij 500 meter vierkant. Met ingang van juni 2025 is het jaar 2024 toegevoegd en zijn het aantal kerncijfers van de jaren 2023 en 2022 aanzienlijk uitgebreid met gegevens over demografie, woningen, energie, inkomen, sociale zekerheid, nabijheid van voorzieningen en dichtheid.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "demografie",
+    "vierkant",
+    "grid",
+    "statistiek",
+    "bevolking",
+    "inwoners",
+    "leeftijd",
+    "herkomst",
+    "woningen",
+    "inkomen",
+    "sociale zekerheid",
+    "woz",
+    "woningeigendom",
+    "huur",
+    "voorziening",
+    "nabijheid",
+    "statistische eenheden",
+    "spreiding van de bevolking"
+  ],
+  "providers": [
+    {
+      "name": "CBS",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.657292,
+          48.040502,
+          12.431727,
+          56.11059
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1971-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/cbs/vierkantstatistieken500m/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/cbs/vierkantstatistieken500m/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/cbs/vierkantstatistieken500m/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/vierkantstatistieken500m/ogc/v1/resources/vierkant_500m.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-vierkant500": {
+      "href": "https://api.pdok.nl/cbs/vierkantstatistieken500m/ogc/v1/collections/vierkant500/items?f=json",
+      "type": "application/geo+json",
+      "title": "Vierkant 500m (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/cbs/vierkantstatistieken500m/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/deed.nl",
+      "type": "text/html",
+      "title": "CC BY 4.0"
+    }
+  ]
+}

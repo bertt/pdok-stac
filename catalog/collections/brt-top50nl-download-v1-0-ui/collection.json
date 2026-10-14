@@ -1,0 +1,89 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "brt-top50nl-download-v1-0-ui",
+  "title": "TOP50NL Download API",
+  "description": "TOP50NL is een digitaal objectgericht topografisch bestand wat ten grondslag ligt aan de topografische kaartseries 1:50.000 en wat veelvuldig in diverse GIS- en CAD-systemen wordt gebruikt voor ondergrond, analyse-, en beheers- en planningsactiviteiten. Met deze API is het mogelijk om gegevens uit de BRT dataset te downloaden. Deze BRT-gegevens zijn te downloaden voor gebruik in eigen GIS-software. De BRT-gegevens zijn als extract in GML-formaat te downloaden. Dit document bevat alleen informatie m.b.t. het gebruik van deze API. De BRT-modeldocumentatie met bijbehorend schema(xsd) en beschrijvingen van de download formaten kun je vinden op: https://register.geostandaarden.nl/?url=brt/index.html. Hieronder worden eerst een aantal algemene begrippen en concepten uitgelegd. Vervolgens wordt elk endpoint individueel beschreven. Een stappenplan voor het downloaden via deze API staat hier beschreven.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Basisregistratie",
+    "Topografie",
+    "BRT",
+    "TOP50NL",
+    "TOP50",
+    "Kadaster",
+    "Automatische generalisatie",
+    "Topografische kaart",
+    "Topografie"
+  ],
+  "providers": [
+    {
+      "name": "Kadaster",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.2,
+          50.75,
+          7.22,
+          53.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "api": {
+      "href": "https://api.pdok.nl/brt/top50nl/download/v1_0/ui",
+      "type": "text/html",
+      "title": "TOP50NL Download API",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/brt/top50nl/download/v1_0/ui",
+      "type": "text/html",
+      "title": "PDOK API"
+    }
+  ]
+}

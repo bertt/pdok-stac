@@ -1,0 +1,122 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "rvo-indicatieve-aandachtsgebieden-funderingsproblematiek-ogc-v1",
+  "title": "Indicatieve aandachtsgebieden funderingsproblematiek (OGC API)",
+  "description": "Deze kaart toont het aantal woningen met een bouwjaar van voor 1970 in regio's met een minder draagkrachtige bodem. De kaart vraagt aandacht voor mogelijke funderingsproblemen bij woningen van voor 1970. De kaart doet geen uitspraken over de specifieke staat van funderingen in specifieke gebieden. De kaart is onderdeel van de funderingsviewer. Meer informatie vindt u op de website van het onafhankelijk Kenniscentrum Aanpak Funderingsproblematiek: https://www.kcaf.nl/",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Fundering",
+    "Bodem",
+    "Bouw",
+    "KCAF"
+  ],
+  "providers": [
+    {
+      "name": "RVO",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.657292,
+          48.040502,
+          12.431727,
+          56.11059
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/indicatieve-aandachtsgebieden-funderingsproblematiek/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/rvo/indicatieve-aandachtsgebieden-funderingsproblematiek/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/rvo/indicatieve-aandachtsgebieden-funderingsproblematiek/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rvo/indicatieve-aandachtsgebieden-funderingsproblematiek/ogc/v1/resources/indgebfunderingsproblematiek.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-indgebfunderingsproblematiek": {
+      "href": "https://api.pdok.nl/rvo/indicatieve-aandachtsgebieden-funderingsproblematiek/ogc/v1/collections/indgebfunderingsproblematiek/items?f=json",
+      "type": "application/geo+json",
+      "title": "Indicatieve aandachtsgebieden funderingsproblematiek (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/rvo/indicatieve-aandachtsgebieden-funderingsproblematiek/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/publicdomain/mark/1.0/deed.nl",
+      "type": "text/html",
+      "title": "Public Domain Mark 1.0"
+    }
+  ]
+}

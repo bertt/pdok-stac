@@ -1,0 +1,143 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "rvo-natuurmeting-op-kaart-2014-ogc-v1",
+  "title": "Natuurmeting op Kaart 2014 (OGC API)",
+  "description": "De Natuurmeting Op Kaart 2014 (NOK2014) geeft een landelijk beeld van de realisatie van de Ecologische Hoofdstructuur (EHS), Recreatie om de Stad (RodS) en Robuuste Ecologische VerbindingsZones (REVZ) op 1 januari 2014. De NOK2014 bevat informatie over: 1) De begrenzing van de planologische EHS, 2) Begrenzingen van rijksdoelen, 3) De status van de verwerving en inrichting van deze rijksdoelen 4) Beheer.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Natuur"
+  ],
+  "providers": [
+    {
+      "name": "RVO",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.657292,
+          48.040502,
+          12.431727,
+          56.11059
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/natuurmeting-op-kaart-2014/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/rvo/natuurmeting-op-kaart-2014/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/rvo/natuurmeting-op-kaart-2014/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rvo/natuurmeting-op-kaart-2014/ogc/v1/resources/nok.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-begrenzing": {
+      "href": "https://api.pdok.nl/rvo/natuurmeting-op-kaart-2014/ogc/v1/collections/begrenzing/items?f=json",
+      "type": "application/geo+json",
+      "title": "Begrenzing (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-beheer": {
+      "href": "https://api.pdok.nl/rvo/natuurmeting-op-kaart-2014/ogc/v1/collections/beheer/items?f=json",
+      "type": "application/geo+json",
+      "title": "Beheer (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-planologischeehs": {
+      "href": "https://api.pdok.nl/rvo/natuurmeting-op-kaart-2014/ogc/v1/collections/planologischeehs/items?f=json",
+      "type": "application/geo+json",
+      "title": "Planologische EHS (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-verwervinginrichting": {
+      "href": "https://api.pdok.nl/rvo/natuurmeting-op-kaart-2014/ogc/v1/collections/verwervinginrichting/items?f=json",
+      "type": "application/geo+json",
+      "title": "Verwerving inrichting (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/rvo/natuurmeting-op-kaart-2014/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/publicdomain/mark/1.0/deed.nl",
+      "type": "text/html",
+      "title": "Public Domain Mark 1.0"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "cbs-bestand-bodemgebruik-2015-ogc-v1",
+  "title": "CBS Bestand Bodemgebruik 2015 (OGC API)",
+  "description": "Het Bestand Bodemgebruik 2015 bevat digitale geometrie van het bodemgebruik in Nederland. Voorbeelden van het bodemgebruik zijn verkeersterreinen, bebouwing, recreatieterreinen en binnen- en buitenwater. De begrenzingen zijn voor een groot deel gebaseerd op de Top10NL (BRT). Bij het interpreteren zijn luchtfoto's leidend. De gegevens zijn ingewonnen in de zomer van 2015.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "landgebruik",
+    "cbs",
+    "bodemgebruik",
+    "land use",
+    "bodemfunctie",
+    "bbg",
+    "bebouwing",
+    "wegen",
+    "spoor",
+    "natuur",
+    "vliegveld",
+    "bedrijfsterrein",
+    "bos",
+    "recreatie",
+    "landbouw",
+    "glastuinbouw",
+    "HVD",
+    "Aardobservatie en milieu"
+  ],
+  "providers": [
+    {
+      "name": "CBS",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.657292,
+          48.040502,
+          12.431727,
+          56.11059
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/cbs/bestand-bodemgebruik-2015/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/cbs/bestand-bodemgebruik-2015/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/cbs/bestand-bodemgebruik-2015/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/bestand-bodemgebruik-2015/ogc/v1/resources/cbs_bestand_bodemgebruik_2015.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-bestand-bodemgebruik-2015": {
+      "href": "https://api.pdok.nl/cbs/bestand-bodemgebruik-2015/ogc/v1/collections/bestand_bodemgebruik_2015/items?f=json",
+      "type": "application/geo+json",
+      "title": "Bestand Bodemgebruik 2015 (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/cbs/bestand-bodemgebruik-2015/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/deed.nl",
+      "type": "text/html",
+      "title": "CC BY 4.0"
+    }
+  ]
+}

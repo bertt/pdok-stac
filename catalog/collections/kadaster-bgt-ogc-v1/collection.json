@@ -1,0 +1,511 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "kadaster-bgt-ogc-v1",
+  "title": "Basisregistratie Grootschalige Topografie (OGC API)",
+  "description": "De Basisregistratie Grootschalige Topografie (BGT) is de gedetailleerde grootschalige basiskaart (digitaal) van Nederland, waarin de ligging van alle fysieke objecten zoals gebouwen, wegen, water, spoorlijnen en (landbouw)terreinen is geregistreerd. Lees meer over de BGT en bekijk de BGT vector tiles in de Vectortile Viewer.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "bgt",
+    "basisregistratie",
+    "gebouwen",
+    "spoorlijnen",
+    "terreinen",
+    "wegen",
+    "topografie",
+    "water",
+    "vector tiles"
+  ],
+  "providers": [
+    {
+      "name": "Kadaster",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.657292,
+          48.040502,
+          12.431727,
+          56.11059
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1970-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/resources/bgt_standaardvisualisatie.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-bak": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/bak/items?f=json",
+      "type": "application/geo+json",
+      "title": "Bak (BAK) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-begroeidterreindeel": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/begroeidterreindeel/items?f=json",
+      "type": "application/geo+json",
+      "title": "Begroeid terreindeel (BTD) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-begroeidterreindeel-kruinlijn": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/begroeidterreindeel_kruinlijn/items?f=json",
+      "type": "application/geo+json",
+      "title": "Begroeid terreindeel kruinlijn (BTD_kruinlijn) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-bord": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/bord/items?f=json",
+      "type": "application/geo+json",
+      "title": "Bord (BRD) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-buurt": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/buurt/items?f=json",
+      "type": "application/geo+json",
+      "title": "Buurt (BRT) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-functioneelgebied": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/functioneelgebied/items?f=json",
+      "type": "application/geo+json",
+      "title": "Functioneel gebied (FUG) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-gebouwinstallatie": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/gebouwinstallatie/items?f=json",
+      "type": "application/geo+json",
+      "title": "Gebouwinstallatie (GBI) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-installatie": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/installatie/items?f=json",
+      "type": "application/geo+json",
+      "title": "Installatie (INS) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-kast": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/kast/items?f=json",
+      "type": "application/geo+json",
+      "title": "Kast (KST) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-kunstwerkdeel-lijn": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/kunstwerkdeel_lijn/items?f=json",
+      "type": "application/geo+json",
+      "title": "Kunstwerkdeel lijn (KWD) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-kunstwerkdeel-punt": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/kunstwerkdeel_punt/items?f=json",
+      "type": "application/geo+json",
+      "title": "Kunstwerkdeel punt (KWD) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-kunstwerkdeel-vlak": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/kunstwerkdeel_vlak/items?f=json",
+      "type": "application/geo+json",
+      "title": "Kunstwerkdeel vlak (KWD) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-mast": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/mast/items?f=json",
+      "type": "application/geo+json",
+      "title": "Mast (MST) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-onbegroeidterreindeel": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/onbegroeidterreindeel/items?f=json",
+      "type": "application/geo+json",
+      "title": "Onbegroeid terreindeel (OTD) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-onbegroeidterreindeel-kruinlijn": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/onbegroeidterreindeel_kruinlijn/items?f=json",
+      "type": "application/geo+json",
+      "title": "Onbegroeid terreindeel kruinlijn (OTD_kruinlijn) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-ondersteunendwaterdeel": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/ondersteunendwaterdeel/items?f=json",
+      "type": "application/geo+json",
+      "title": "Ondersteunend waterdeel (OWT) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-ondersteunendwegdeel": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/ondersteunendwegdeel/items?f=json",
+      "type": "application/geo+json",
+      "title": "Ondersteunend wegdeel (OWG) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-ondersteunendwegdeel-kruinlijn": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/ondersteunendwegdeel_kruinlijn/items?f=json",
+      "type": "application/geo+json",
+      "title": "Ondersteunend wegdeel kruinlijn (OWG_kruinlijn) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-ongeclassificeerdobject": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/ongeclassificeerdobject/items?f=json",
+      "type": "application/geo+json",
+      "title": "Ongeclassificeerd object (Historisch) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-openbareruimte": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/openbareruimte/items?f=json",
+      "type": "application/geo+json",
+      "title": "Openbare ruimte (OPR) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-openbareruimtelabel": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/openbareruimtelabel/items?f=json",
+      "type": "application/geo+json",
+      "title": "Openbare ruimte label (ORL) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-overbruggingsdeel": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/overbruggingsdeel/items?f=json",
+      "type": "application/geo+json",
+      "title": "Overbruggingsdeel (OBD) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-overigbouwwerk": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/overigbouwwerk/items?f=json",
+      "type": "application/geo+json",
+      "title": "Overig bouwwerk (OBW) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-overigescheiding": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/overigescheiding/items?f=json",
+      "type": "application/geo+json",
+      "title": "Overige scheiding (Historisch) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-paal": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/paal/items?f=json",
+      "type": "application/geo+json",
+      "title": "Paal (PAL) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-pand": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/pand/items?f=json",
+      "type": "application/geo+json",
+      "title": "Pand (PND) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-pand-nummeraanduiding": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/pand_nummeraanduiding/items?f=json",
+      "type": "application/geo+json",
+      "title": "Pand nummeraanduiding (PND_huisnr) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-put": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/put/items?f=json",
+      "type": "application/geo+json",
+      "title": "Put (PUT) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-scheiding-lijn": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/scheiding_lijn/items?f=json",
+      "type": "application/geo+json",
+      "title": "Scheiding lijn (SHD) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-scheiding-vlak": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/scheiding_vlak/items?f=json",
+      "type": "application/geo+json",
+      "title": "Scheiding vlak (SHD) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-sensor-lijn": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/sensor_lijn/items?f=json",
+      "type": "application/geo+json",
+      "title": "Sensor lijn (SNS) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-sensor-punt": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/sensor_punt/items?f=json",
+      "type": "application/geo+json",
+      "title": "Sensor punt (SNS) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-spoor": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/spoor/items?f=json",
+      "type": "application/geo+json",
+      "title": "Spoor (SPR) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-stadsdeel": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/stadsdeel/items?f=json",
+      "type": "application/geo+json",
+      "title": "Stadsdeel (STD) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-straatmeubilair": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/straatmeubilair/items?f=json",
+      "type": "application/geo+json",
+      "title": "Straatmeubilair (STM) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-tunneldeel": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/tunneldeel/items?f=json",
+      "type": "application/geo+json",
+      "title": "Tunneldeel (TUN) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-vegetatieobject-lijn": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/vegetatieobject_lijn/items?f=json",
+      "type": "application/geo+json",
+      "title": "Vegetatieobject lijn (VGO) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-vegetatieobject-punt": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/vegetatieobject_punt/items?f=json",
+      "type": "application/geo+json",
+      "title": "Vegetatieobject punt (VGO) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-vegetatieobject-vlak": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/vegetatieobject_vlak/items?f=json",
+      "type": "application/geo+json",
+      "title": "Vegetatieobject vlak (VGO) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterdeel": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/waterdeel/items?f=json",
+      "type": "application/geo+json",
+      "title": "Waterdeel (WTD) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterinrichtingselement-lijn": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/waterinrichtingselement_lijn/items?f=json",
+      "type": "application/geo+json",
+      "title": "Waterinrichtingselement lijn (WTI) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterinrichtingselement-punt": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/waterinrichtingselement_punt/items?f=json",
+      "type": "application/geo+json",
+      "title": "Waterinrichtingselement punt (WTI) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterschap": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/waterschap/items?f=json",
+      "type": "application/geo+json",
+      "title": "Waterschap (WSP) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-wegdeel": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/wegdeel/items?f=json",
+      "type": "application/geo+json",
+      "title": "Wegdeel (WGD) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-wegdeel-kruinlijn": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/wegdeel_kruinlijn/items?f=json",
+      "type": "application/geo+json",
+      "title": "Wegdeel kruinlijn (WGD_kruinlijn) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-weginrichtingselement-lijn": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/weginrichtingselement_lijn/items?f=json",
+      "type": "application/geo+json",
+      "title": "Weginrichtingselement lijn (WGI) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-weginrichtingselement-punt": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/weginrichtingselement_punt/items?f=json",
+      "type": "application/geo+json",
+      "title": "Weginrichtingselement punt (WGI) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-weginrichtingselement-vlak": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/weginrichtingselement_vlak/items?f=json",
+      "type": "application/geo+json",
+      "title": "Weginrichtingselement vlak (WGI) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-wijk": {
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/wijk/items?f=json",
+      "type": "application/geo+json",
+      "title": "Wijk (WYK) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/kadaster/bgt/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "CC0 1.0"
+    }
+  ]
+}

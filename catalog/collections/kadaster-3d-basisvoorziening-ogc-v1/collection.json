@@ -1,0 +1,159 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "kadaster-3d-basisvoorziening-ogc-v1",
+  "title": "3D Basisvoorziening (OGC API)",
+  "description": "De 3D Basisvoorziening is een verzameling van ruimtelijke bestanden die hoogte informatie bevatten. Deze bestanden (collecties) worden op verschillende manieren gegenereerd. Er zijn acht collecties beschikbaar. De 3D Basisvoorziening kan gebruikt worden op schaalniveaus tussen 1:500 en 1:10.000. De bestanden zijn o.a. gebaseerd op topografie uit de Basisregistratie Grootschalige Topografie (BGT), de gebouwen uit de Basisregistratie Adressen en Gebouwen (BAG), en hoogtes uit luchtfotobeelden en het Actueel Hoogtebestand Nederland (AHN). Meer informatie over deze dataset en overige producten zoals het downloaden van deze dataset voor analysedoeleinden of een 3D Viewer zijn te vinden op de website van PDOK en in de productbeschrijving.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "3D Basisbestand",
+    "gebouwen",
+    "terreinen",
+    "water",
+    "wegen",
+    "DTM",
+    "DSM",
+    "AHN",
+    "hoogte attributen"
+  ],
+  "providers": [
+    {
+      "name": "Kadaster",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.657292,
+          48.040502,
+          12.431727,
+          56.11059
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-01T00:00:00Z",
+          "2025-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/kadaster/3d-basisvoorziening/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/kadaster/3d-basisvoorziening/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/kadaster/3d-basisvoorziening/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/kadaster/3d-basisvoorziening/ogc/v1/resources/3d.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-basisbestand-gebouwen": {
+      "href": "https://api.pdok.nl/kadaster/3d-basisvoorziening/ogc/v1/collections/basisbestand_gebouwen/items?f=json",
+      "type": "application/geo+json",
+      "title": "3D Objecten Gebouwen (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-basisbestand-gebouwen-terreinen": {
+      "href": "https://api.pdok.nl/kadaster/3d-basisvoorziening/ogc/v1/collections/basisbestand_gebouwen_terreinen/items?f=json",
+      "type": "application/geo+json",
+      "title": "3D Objecten Gebouwen en Terreinen (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-hoogtestatistieken-gebouwen": {
+      "href": "https://api.pdok.nl/kadaster/3d-basisvoorziening/ogc/v1/collections/hoogtestatistieken_gebouwen/items?f=json",
+      "type": "application/geo+json",
+      "title": "2D Objecten Gebouwen met hoogte attributen (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-digitaaloppervlaktemodel-20cm": {
+      "href": "https://api.pdok.nl/kadaster/3d-basisvoorziening/ogc/v1/collections/digitaaloppervlaktemodel_20cm/items?f=json",
+      "type": "application/geo+json",
+      "title": "Digitaal Oppervlakte Model (DSM) 20 cm (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-digitaaloppervlaktemodel-8cm": {
+      "href": "https://api.pdok.nl/kadaster/3d-basisvoorziening/ogc/v1/collections/digitaaloppervlaktemodel_8cm/items?f=json",
+      "type": "application/geo+json",
+      "title": "Digitaal Oppervlakte Model (DSM) 8 cm (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/kadaster/3d-basisvoorziening/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/deed.nl",
+      "type": "text/html",
+      "title": "CC BY 4.0"
+    }
+  ]
+}

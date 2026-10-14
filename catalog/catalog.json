@@ -1,9 +1,9 @@
 {
   "type": "Catalog",
   "stac_version": "1.0.0",
-  "id": "pdok-datasets",
-  "title": "PDOK datasets",
-  "description": "Unofficial STAC catalog of all datasets listed on https://www.pdok.nl/datasets (generated on 2026-10-13T22:57:37Z).",
+  "id": "pdok-apis",
+  "title": "PDOK APIs",
+  "description": "STAC catalog of all APIs listed in https://api.pdok.nl/index.json (generated on 2026-10-14T06:59:45Z).",
   "links": [
     {
       "rel": "root",
@@ -16,1108 +16,790 @@
       "type": "application/json"
     },
     {
-      "rel": "alternate",
-      "href": "https://www.pdok.nl/datasets",
-      "type": "text/html",
-      "title": "PDOK datasets"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/3d-basisvoorziening-1/collection.json",
-      "type": "application/json",
-      "title": "3D Basisvoorziening"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/3d-geluid-1/collection.json",
-      "type": "application/json",
-      "title": "3D Geluid"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/3d-terugmeldingen/collection.json",
-      "type": "application/json",
-      "title": "3D Terugmeldingen"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/aardkundige-waarden/collection.json",
-      "type": "application/json",
-      "title": "Aardkundige waarden (INSPIRE geharmoniseerd)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/actueel-hoogtebestand-nederland-ahn/collection.json",
-      "type": "application/json",
-      "title": "Actueel Hoogtebestand Nederland (AHN)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/administratieve-eenheden-inspire-geharmoniseerd/collection.json",
+      "rel": "via",
+      "href": "https://api.pdok.nl/index.json",
       "type": "application/json",
-      "title": "Administratieve Eenheden (INSPIRE geharmoniseerd)"
+      "title": "PDOK API index"
     },
     {
       "rel": "child",
-      "href": "./collections/adress-1/collection.json",
+      "href": "./collections/kadaster-3d-basisvoorziening-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Adressen"
+      "title": "3D Basisvoorziening (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/adressen-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/kadaster-3d-geluid-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Adressen (INSPIRE geharmoniseerd)"
+      "title": "3D Geluid (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/agglomeraties-richtlijn-omgevingslawaai-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/kadaster-3d-basisvoorziening-terugmeldingen-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Agglomeraties gemeenten inclusief bevolkingsaantallen volgens Richtlijn Omgevingslawaai 2022 (INSPIRE geharmoniseerd)"
+      "title": "3D Terugmeldingen (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bag-terugmeldingen/collection.json",
+      "href": "./collections/kadaster-brk-administratieve-eenheden-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BAG Terugmeldingen"
+      "title": "Administratieve Eenheden (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/basisregistratie-adressen-en-gebouwen-ba-1/collection.json",
+      "href": "./collections/ienw-agglomeraties-omgevingslawaai-geharmoniseerd-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Basisregistratie Adressen en Gebouwen (BAG)"
+      "title": "Agglomeraties gemeenten inclusief bevolkingsaantallen volgens Richtlijn Omgevingslawaai 2022 (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/basisregistratie-gewaspercelen-brp/collection.json",
+      "href": "./collections/kadaster-bag-terugmeldingen-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Basisregistratie Gewaspercelen (BRP)"
+      "title": "BAG Terugmeldingen (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/basisregistratie-grootschalige-topografie-bgt/collection.json",
+      "href": "./collections/kadaster-bgt-terugmeldingen-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Basisregistratie Grootschalige Topografie (BGT)"
+      "title": "BGT Terugmeldingen (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/basisregistratie-topografie-achtergrondkaarten-brt-a/collection.json",
+      "href": "./collections/tno-bro-grondwatermonitoring-in-samenhang-karakteristieken-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Basisregistratie Topografie (BRT) BRT Achtergrondkaart (BRT-A)"
+      "title": "BRO - Grondwatermonitoring (GM) in samenhang - karakteristieken (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/basisregistratie-topografie-brt-topnl/collection.json",
+      "href": "./collections/kadaster-brt-achtergrondkaart-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Basisregistratie Topografie (BRT) TOPNL"
+      "title": "BRT Achtergrondkaart (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/begrenzingen-van-vergunde-ontgrondingsgebieden-voor-zand-en-grindwinning/collection.json",
+      "href": "./collections/kadaster-brt-top10nl-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Begrenzingen van vergunde ontgrondingsgebieden voor zand- en grindwinning (INSPIRE geharmoniseerd)"
+      "title": "BRT TOP10NL (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/beschermde-gebieden-cultuurhistorie-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/kadaster-brt-terugmeldingen-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Beschermde Gebieden - Cultuurhistorie (INSPIRE geharmoniseerd)"
+      "title": "BRT Terugmeldingen (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bestuurlijke-gebieden/collection.json",
+      "href": "./collections/kadaster-bag-ogc-v2/collection.json",
       "type": "application/json",
-      "title": "Bestuurlijke Gebieden"
+      "title": "Basisregistratie Adressen en Gebouwen (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bestuurlijke-grenzen/collection.json",
+      "href": "./collections/kadaster-bag-ogc-v2-demo/collection.json",
       "type": "application/json",
-      "title": "Bestuurlijke Grenzen"
+      "title": "Basisregistratie Adressen en Gebouwen - Demo (OGC API) (Demo)"
     },
     {
       "rel": "child",
-      "href": "./collections/bgt-terugmeldingen/collection.json",
+      "href": "./collections/rvo-gewaspercelen-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BGT Terugmeldingen"
+      "title": "Basisregistratie Gewaspercelen (BRP) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bodemgebruik-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/kadaster-bgt-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Bodemgebruik - Land Cover (INSPIRE geharmoniseerd)"
+      "title": "Basisregistratie Grootschalige Topografie (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-bodemkaart-sgm/collection.json",
+      "href": "./collections/rce-beschermde-gebieden-cultuurhistorie-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Bodemkaart (SGM)"
+      "title": "Beschermde Gebieden - Cultuurhistorie (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-bodemkundig-booronderzoek-bhr-p/collection.json",
+      "href": "./collections/kadaster-brk-bestuurlijke-gebieden-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Bodemkundig Booronderzoek (BHR-P)"
+      "title": "Bestuurlijke Gebieden (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-bodemkundig-booronderzoek-bhr-p-bodem-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/kadaster-brt-bodemgebruik-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Bodemkundig Booronderzoek (BHR-P) - Bodem (INSPIRE geharmoniseerd)"
+      "title": "Bodemgebruik - Land Cover (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-bodemkundig-booronderzoek-bhr-p-geologie-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/cbs-bestand-bodemgebruik-2010-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Bodemkundig Booronderzoek (BHR-P) - Geologie (INSPIRE geharmoniseerd)"
+      "title": "CBS Bestand Bodemgebruik 2010 (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-booronderzoek-geotechnische-boormonsterbeschrijving-en-boormonsteranalyse-bhr-gt/collection.json",
+      "href": "./collections/cbs-bestand-bodemgebruik-2015-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Booronderzoek: Geotechnische boormonsterbeschrijving en boormonsteranalyse (BHR-GT)"
+      "title": "CBS Bestand Bodemgebruik 2015 (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-digitaal-geologisch-model-dgm/collection.json",
+      "href": "./collections/cbs-bestand-bodemgebruik-2017-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Digitaal Geologisch Model (DGM)"
+      "title": "CBS Bestand Bodemgebruik 2017 (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-geologisch-booronderzoek-bhr-g/collection.json",
+      "href": "./collections/cbs-bevolkingskernen-2011-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Geologisch booronderzoek (BHR-G)"
+      "title": "CBS Bevolkingskernen 2011 (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-geologisch-booronderzoek-bhr-g-geologie-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/cbs-bevolkingskernen-2021-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Geologisch booronderzoek (BHR-G) - Geologie (INSPIRE geharmoniseerd)"
+      "title": "CBS Bevolkingskernen 2021 (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-geomorfologische-kaart-gmm/collection.json",
+      "href": "./collections/cbs-landuse-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Geomorfologische kaart (GMM)"
+      "title": "CBS Existing Land Use (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-geotechnisch-booronderzoek-bhr-gt-geologie-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/cbs-gebiedsindelingen-historisch-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Geotechnisch booronderzoek (BHR-GT) - Geologie (INSPIRE geharmoniseerd)"
+      "title": "CBS Gebiedsindelingen 1995-2015 (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-geotechnisch-sondeeronderzoek-cpt/collection.json",
+      "href": "./collections/cbs-gebiedsindelingen-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Geotechnisch sondeeronderzoek (CPT)"
+      "title": "CBS Gebiedsindelingen 2016 t/m heden (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-geotechnisch-sondeeronderzoek-cpt-geologie-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/cbs-postcode4-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO - Geotechnisch sondeeronderzoek (CPT) – Geologie (INSPIRE geharmoniseerd)"
+      "title": "CBS Postcode4 statistieken (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-geotop-gtm/collection.json",
+      "href": "./collections/cbs-postcode6-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO GeoTOP (GTM)"
+      "title": "CBS Postcode6 statistieken (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-grondwatergebruik-gu-milieubewakingsvoorzieningen-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/cbs-vierkantstatistieken100m-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Grondwatergebruik (GU) - Milieubewakingsvoorzieningen (INSPIRE geharmoniseerd)"
+      "title": "CBS Vierkantstatistieken 100m (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-grondwatergebruiksysteem-guf/collection.json",
+      "href": "./collections/cbs-vierkantstatistieken500m-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Grondwatergebruiksysteem (GUF)"
+      "title": "CBS Vierkantstatistieken 500m (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-grondwatergebruiksysteem-guf-faciliteiten-voor-productie-en-industrie-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/cbs-wijken-en-buurten-2022-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Grondwatergebruiksysteem (GUF) - Faciliteiten voor productie en industrie (INSPIRE geharmoniseerd)"
+      "title": "CBS Wijken en Buurten 2022 (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-grondwatermonitoring-gm-in-samenhang-karakteristieken/collection.json",
+      "href": "./collections/cbs-wijken-en-buurten-2023-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO - Grondwatermonitoring (GM) in samenhang - karakteristieken"
+      "title": "CBS Wijken en Buurten 2023 (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-grondwatermonitoringnet-gmn/collection.json",
+      "href": "./collections/cbs-wijken-en-buurten-2024-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Grondwatermonitoringnet (GMN)"
+      "title": "CBS Wijken en Buurten 2024 (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-grondwatermonitoringput-gmw/collection.json",
+      "href": "./collections/cbs-wijken-en-buurten-2025-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Grondwatermonitoringput (GMW)"
+      "title": "CBS Wijken en Buurten 2025 (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-grondwatermonitoringput-gmw-geologie-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/cbs-wijken-en-buurten-2026-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO - Grondwatermonitoringput (GMW) - Geologie (INSPIRE geharmoniseerd)"
+      "title": "CBS Wijken en Buurten 2026 versie 0 (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-grondwaterproductiedossier-gpd/collection.json",
+      "href": "./collections/cbs-wijken-en-buurten-historisch-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Grondwaterproductiedossier (GPD)"
+      "title": "CBS Wijken en Buurten historisch (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-grondwatersamenstellingsonderzoek-gar/collection.json",
+      "href": "./collections/rws-digitaal-topografisch-bestand-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Grondwatersamenstellingsonderzoek (GAR)"
+      "title": "Digitaal Topografisch Bestand (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-mijnbouwconstructie-epc/collection.json",
+      "href": "./collections/rws-productie-en-industrie-productie-installaties-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO - Mijnbouwconstructie (EPC)"
+      "title": "Faciliteiten voor productie en industrie - Productie-installaties - REV (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-mijnbouwconstructie-epc-geologie-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rws-productie-en-industrie-productiefaciliteiten-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO - Mijnbouwconstructie (EPC) - Geologie (INSPIRE geharmoniseerd)"
+      "title": "Faciliteiten voor productie en industrie - Productiefaciliteiten - REV (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-milieuhygi-c3-abnisch-bodemonderzoek-sad/collection.json",
+      "href": "./collections/rvo-fysisch-geografische-regios-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Milieuhygiënisch bodemonderzoek (SAD)"
+      "title": "Fysisch Geografische Regio's (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-model-grondwaterspiegeldiepte-wdm/collection.json",
+      "href": "./collections/rws-overstromingen-gebeurtenis-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Model Grondwaterspiegeldiepte (WDM)"
+      "title": "Gebieden met Natuurrisico's - Overstromingen - Geobserveerde gebeurtenis - Richtlijn Overstromingsrisico's (ROR) (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-overheidsbesluit-bodemverontreiniging-sld/collection.json",
+      "href": "./collections/rws-overstromingen-risicogebied-ogc-v2/collection.json",
       "type": "application/json",
-      "title": "BRO Overheidsbesluit bodemverontreiniging (SLD)"
+      "title": "Gebieden met Natuurrisico's - Overstromingen - Risicogebied - Richtlijn Overstromingsrisico's (ROR) (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-regis-ii-hgm/collection.json",
+      "href": "./collections/rws-overstromingen-gevarengebied-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO REGIS II (HGM)"
+      "title": "Gebieden met natuurrisico's - Overstromingen - Gevarengebied - Richtlijn Overstromingsrisico's (ROR) (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-wandonderzoek-bodemkunde-sfr/collection.json",
+      "href": "./collections/rws-kwetsbaar-gebied-agglomeraties-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Wandonderzoek - bodemkunde (SFR)"
+      "title": "Gebiedsbeheer eenheden - Kwetsbaar gebied - Agglomeraties - RSA (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/bro-wandonderzoek-sfr-bodem-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rws-kwetsbaar-gebied-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO - Wandonderzoek (SFR) - Bodem (INSPIRE geharmoniseerd)"
+      "title": "Gebiedsbeheer eenheden - Kwetsbaar gebied - RSA (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/brt-terugmeldingen/collection.json",
+      "href": "./collections/kadaster-brt-geografische-namen-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRT Terugmeldingen"
+      "title": "Geografische Namen (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/cbs-bestand-bodemgebruik-2010/collection.json",
+      "href": "./collections/kadaster-omgevingswet-geometrieen-ogc-v2/collection.json",
       "type": "application/json",
-      "title": "CBS Bestand Bodemgebruik 2010"
+      "title": "Geometrieën Omgevingswet API (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/cbs-bestand-bodemgebruik-2015/collection.json",
+      "href": "./collections/rvo-gesloten-gebieden-visserij-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "CBS Bestand Bodemgebruik 2015"
+      "title": "Gesloten Gebieden voor Visserij (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/cbs-bestand-bodemgebruik-2017/collection.json",
+      "href": "./collections/rvo-gewaspercelen-geharmoniseerd-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "CBS Bestand Bodemgebruik 2017"
+      "title": "Gewaspercelen (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/cbs-bevolkingskernen/collection.json",
+      "href": "./collections/rvo-habitatrichtlijn-verspreiding-typen-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "CBS Bevolkingskernen 2011"
+      "title": "Habitatrichtlijn verspreiding van habitattypen (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/cbs-bevolkingskernen-2021/collection.json",
+      "href": "./collections/rvo-habitatrichtlijn-verspreiding-soorten-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "CBS Bevolkingskernen 2021"
+      "title": "Habitatrichtlijn verspreiding van soorten (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/cbs-bevolkingsspreiding-population-distribution/collection.json",
+      "href": "./collections/ienw-hoofd-luchtvervoersnetwerk-omgevingslawaai-geharmoniseerd-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Population Distribution (INSPIRE geharmoniseerd)"
+      "title": "Hoofdluchtvervoersnetwerk volgens Richtlijn Omgevingslawaai 2022 (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/cbs-existing-landuse-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/ienw-hoofdspoorwegen-omgevingslawaai-geharmoniseerd-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "CBS Existing Land Use (INSPIRE geharmoniseerd)"
+      "title": "Hoofdspoorwegen volgens Richtlijn Omgevingslawaai 2022 (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/cbs-gebiedsindelingen/collection.json",
+      "href": "./collections/ienw-hoofdwegen-omgevingslawaai-geharmoniseerd-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "CBS Gebiedsindelingen"
+      "title": "Hoofdwegen volgens Richtlijn Omgevingslawaai 2022 (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/cbs-gebiedsindelingen-1995-2015/collection.json",
+      "href": "./collections/cbs-human-health-statistics-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "CBS Gebiedsindelingen 1995-2015"
+      "title": "Human Health Statistics Netherlands (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/cbs-gezondheid-human-health-statistics-netherlands/collection.json",
+      "href": "./collections/kadaster-brt-hydrografie-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Human Health Statistics Netherlands (INSPIRE geharmoniseerd)"
+      "title": "Hydrografie (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/cbs-postcode4/collection.json",
+      "href": "./collections/rws-hydrografie-netwerk-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "CBS Postcode4"
+      "title": "Hydrografie: Netwerk (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/cbspostcode6/collection.json",
+      "href": "./collections/rvo-indicatieve-aandachtsgebieden-funderingsproblematiek-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "CBS Postcode6"
+      "title": "Indicatieve aandachtsgebieden funderingsproblematiek (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/cbs-vierkantstatistieken-100m/collection.json",
+      "href": "./collections/rvo-invasieve-exoten-geharmoniseerd-ogc-v2/collection.json",
       "type": "application/json",
-      "title": "CBS Vierkantstatistieken 100m"
+      "title": "Invasieve Exoten (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/cbs-vierkantstatistieken-500m/collection.json",
+      "href": "./collections/rvo-krm-beschermde-gebieden-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "CBS Vierkantstatistieken 500m"
+      "title": "KRM Beschermde Gebieden (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/cbs-wijken-en-buurten/collection.json",
+      "href": "./collections/kadaster-brk-kadastrale-kaart-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "CBS Wijken en Buurten"
+      "title": "Kadastrale Kaart (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/dataset-basisregistratie-topografie-brt-topraster/collection.json",
+      "href": "./collections/kadaster-brk-kadastrale-percelen-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Basisregistratie Topografie (BRT) TOPraster"
+      "title": "Kadastrale Percelen (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/faciliteiten-voor-productie-en-industrie-productiefaciliteiten-rev-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rvo-kaderrichtlijn-mariene-strategie-geharmoniseerd-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Faciliteiten voor productie en industrie - Productiefaciliteiten - REV (INSPIRE geharmoniseerd)"
+      "title": "Kaderrichtlijn Mariene Strategie (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/faciliteiten-voor-productie-en-industrie-productie-installaties-rev-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rws-kaderrichtlijn-mariene-strategie-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Faciliteiten voor productie en industrie - Productie-installaties - REV (INSPIRE geharmoniseerd)"
+      "title": "Kaderrichtlijn Mariene Strategie Nederland (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/fysisch-geografische-regio-s/collection.json",
+      "href": "./collections/rvo-mossel-en-oesterhabitats-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Fysisch Geografische Regio’s"
+      "title": "Mossel- en oesterhabitats (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/gebieden-met-natuurrisico-s-overstromingen-gevarengebied-richtlijn-overstromingsrisico-s-ror-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rvo-mosselzaadinvanginstallaties-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Gebieden met natuurrisico's - Overstromingen - Gevarengebied - Richtlijn Overstromingsrisico's (ROR) (INSPIRE geharmoniseerd)"
+      "title": "Mosselzaadinvanginstallaties (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/gebieden-met-natuurrisico-s-overstromingen-risicogebied-richtlijn-overstromingsrisico-s-ror-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rws-nationaal-wegenbestand-vaarwegen-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Gebieden met natuurrisico's - Overstromingen - Risicogebied - Richtlijn Overstromingsrisico's (ROR) (INSPIRE geharmoniseerd)"
+      "title": "NWB - Vaarwegen (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/gebiedsbeheer-eenheden-kwetsbaar-gebied-agglomeraties-rsa-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rws-nationaal-wegenbestand-wegen-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Gebiedsbeheer eenheden - Kwetsbaar gebied - Agglomeraties - RSA (INSPIRE geharmoniseerd)"
+      "title": "NWB - Wegen (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/gebiedsbeheer-eenheden-kwetsbaar-gebied-rsa-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rvo-nationaal-beschermde-gebieden-cdda-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Gebiedsbeheer eenheden - Kwetsbaar gebied - RSA (INSPIRE geharmoniseerd)"
+      "title": "Nationaal Beschermde Gebieden (CDDA) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/gebouwen-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rws-nationaal-hydrologisch-instrumentarium-netwerkschematisatie-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Gebouwen (INSPIRE geharmoniseerd)"
+      "title": "Nationaal Hydrologisch Instrumentarium (NHI) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/geluidzones-rondom-vliegvelden/collection.json",
+      "href": "./collections/rvo-nationale-parken-geharmoniseerd-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Geluidzones rondom vliegvelden (INSPIRE geharmoniseerd)"
+      "title": "Nationale Parken (INSPIRE Geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/geografische-namen-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rvo-nationale-parken-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Geografische Namen (INSPIRE geharmoniseerd)"
+      "title": "Nationale parken (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/geometrie-c3-abn-omgevingswet/collection.json",
+      "href": "./collections/rvo-natura2000-geharmoniseerd-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Geometrieën Omgevingswet"
+      "title": "Natura 2000 (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/gepland-landgebruik-dso-lv-omgevingswet-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rvo-natura2000-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Gepland landgebruik DSO LV Omgevingswet (INSPIRE geharmoniseerd)"
+      "title": "Natura2000 (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/gepland-landgebruik-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rvo-natuurmeting-op-kaart-2014-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Gepland Landgebruik (INSPIRE geharmoniseerd)"
+      "title": "Natuurmeting op Kaart 2014 (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/gewaspercelen-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rws-rioolnetwerk-leidingelementen-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Gewaspercelen (INSPIRE geharmoniseerd)"
+      "title": "Nuts- en Overheidsdiensten - Riool - Leidingelementen - RSA (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/grondwaterbeschermingsgebieden/collection.json",
+      "href": "./collections/rws-rioolnetwerk-milieumanagementvoorziening-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Grondwaterbeschermingsgebieden (INSPIRE geharmoniseerd)"
+      "title": "Nuts- en Overheidsdiensten - Riool - Milieu management voorziening - RSA (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/habitatrichtlijn-verspreiding-van-habitattypen/collection.json",
+      "href": "./collections/kvk-overheidsdiensten-geharmoniseerd-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Habitatrichtlijn verspreiding van habitattypen"
+      "title": "Overheidsdiensten (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/habitatrichtlijn-verspreiding-van-soorten/collection.json",
+      "href": "./collections/cbs-population-distribution-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Habitatrichtlijn verspreiding van soorten"
+      "title": "Population Distribution (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/hoofd-luchtvervoersnetwerk-richtlijn-omgevingslawaai-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rvo-potentieel-warmte-koude-opslagsystemen-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Hoofd Luchtvervoersnetwerk volgens Richtlijn Omgevingslawaai 2022 (INSPIRE geharmoniseerd)"
+      "title": "Potentieel koude en warmte uit open en gesloten WKO systemen (GJ/ha.jaar) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/hoofd-spoorwegen-richtlijn-omgevingslawaai/collection.json",
+      "href": "./collections/rvo-potentiekaart-omgevingswarmte-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Hoofdspoorwegen volgens Richtlijn Omgevingslawaai 2022 (INSPIRE geharmoniseerd)"
+      "title": "Potentiekaart Omgevingswarmte (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/hoofdwegen-richtlijn-omgevingslawaai/collection.json",
+      "href": "./collections/rvo-potentiekaart-reststromen-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Hoofdwegen volgens Richtlijn Omgevingslawaai 2022 (INSPIRE geharmoniseerd)"
+      "title": "Potentiekaart reststromen (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/hoogte-nederland-land-dtm-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rvo-potentiekaart-restwarmte-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Hoogte Nederland - land - DTM (INSPIRE geharmoniseerd)"
+      "title": "Potentiekaart restwarmte (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/hydrografie-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/kadaster-deltaplan-agrarisch-waterbeheer-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Hydrografie (INSPIRE geharmoniseerd)"
+      "title": "Projecten Deltaplan Agrarisch Waterbeheer (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/hydrografie-netwerk-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/kadaster-brk-publiekrechtelijke-beperkingen-wkpb-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Hydrografie: Netwerk (INSPIRE geharmoniseerd)"
+      "title": "Publiekrechtelijke Beperkingen Wkpb (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/indicatieve-aandachtsgebieden-funderingsproblematiek/collection.json",
+      "href": "./collections/kadaster-rdinfo-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Indicatieve aandachtsgebieden funderingsproblematiek"
+      "title": "RD info (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/invasieve-exoten/collection.json",
+      "href": "./collections/rvo-referentiepercelen-geharmoniseerd-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Invasieve Exoten (INSPIRE geharmoniseerd)"
+      "title": "Referentiepercelen (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/kadastrale-kaart/collection.json",
+      "href": "./collections/rvo-referentiepercelen-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Kadastrale kaart"
+      "title": "Referentiepercelen (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/kadastrale-percelen-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rws-richtlijn-stedelijk-afvalwater-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Kadastrale Percelen (INSPIRE geharmoniseerd)"
+      "title": "Richtlijn Stedelijk Afvalwater (RSA) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/kaderrichtlijn-mariene-strategie/collection.json",
+      "href": "./collections/rws-scheepvaart-verkeersscheidingsstelsel-noordzee-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Kaderrichtlijn Mariene Strategie"
+      "title": "Scheepvaart Verkeersscheidingsstelsel Noordzee (Nederlands Continentaal Plat) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/kaderrichtlijn-mariene-strategie-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rvo-schelpdierpercelen-geharmoniseerd-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Kaderrichtlijn Mariene Strategie (INSPIRE geharmoniseerd)"
+      "title": "Schelpdierpercelen (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/kaderrichtlijn-stedelijk-afvalwater/collection.json",
+      "href": "./collections/rvo-schelpdierpercelen-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Richtlijn Stedelijk Afvalwater (RSA)"
+      "title": "Schelpdierpercelen (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/krm-beschermde-gebieden/collection.json",
+      "href": "./collections/prorail-spoorwegen-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "KRM Beschermde Gebieden"
+      "title": "Spoorwegen (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/krw-beschermde-gebieden-drinkwateronttrekking-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/cbs-statistical-units-vector-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "KRW Beschermde Gebieden - Drinkwateronttrekking (INSPIRE geharmoniseerd)"
+      "title": "Statistical Units Vector (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/krw-beschermde-gebieden-schelpdierwater-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rioned-beheer-stedelijk-watersystemen-gwsw-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "KRW Beschermde Gebieden - Schelpdierwater (INSPIRE geharmoniseerd)"
+      "title": "Stedelijk Water (Riolering) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/krw-deelstroomgebieddistricten-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/defensie-luchtvaartobstakels-terugmeldingen-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "KRW Deelstroomgebieddistricten (INSPIRE geharmoniseerd)"
+      "title": "Terugmeldingen op luchtvaartobstakels (AERO) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/krw-grondwaterlichamen-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rws-vaarweg-netwerk-data-service-bevaarbaarheid-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "KRW Grondwaterlichamen (INSPIRE geharmoniseerd)"
+      "title": "Vaarweg Netwerk Data Service - bevaarbaarheid (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/krw-monitoringlocaties-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rws-vaarwegmarkeringen-nederland-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "KRW Monitoringlocaties (INSPIRE geharmoniseerd)"
+      "title": "Vaarwegmarkeringen (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/krw-oppervlaktewaterlichamen-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/kadaster-brt-vervoersnetwerken-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "KRW Oppervlaktewaterlichamen (INSPIRE geharmoniseerd)"
+      "title": "Vervoersnetwerken (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/krw-stroomgebieddistricten-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rws-vervoersnetwerken-waterwegen-netwerk-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "KRW Stroomgebieddistricten (INSPIRE geharmoniseerd)"
+      "title": "Vervoersnetwerken - Waterwegen - Netwerk (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/landelijke-fietsroutes-2/collection.json",
+      "href": "./collections/rws-vervoersnetwerken-wegen-netwerk-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Landelijke fietsroutes"
+      "title": "Vervoersnetwerken - Wegen - Netwerk (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/landelijk-grondgebruik-nederland-lgn/collection.json",
+      "href": "./collections/cbs-vierkant-1km-laea-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Landelijk Grondgebruik Nederland (LGN)"
+      "title": "Vierkant 1 kilometer bij 1 kilometer Nederland LAEA (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/lange-afstandswandelroutes-law/collection.json",
+      "href": "./collections/cbs-vierkant-500m-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Landelijke wandelroutes"
+      "title": "Vierkant 500 meter bij 500 meter Nederland (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/location-api-1/collection.json",
+      "href": "./collections/rvo-visserijmaatregelen-noordzee-geharmoniseerd-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Location API"
+      "title": "Visserijmaatregelen Noordzee (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/luchtfoto-landelijke-voorziening-beeldmateriaal/collection.json",
+      "href": "./collections/rvo-visserijmaatregelen-noordzee-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Luchtfoto / Landelijke Voorziening Beeldmateriaal (Gesloten)"
+      "title": "Visserijmaatregelen Noordzee (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/maatschappij/collection.json",
+      "href": "./collections/rvo-vogelrichtlijn-verspreiding-soorten-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Overheidsdiensten (INSPIRE geharmoniseerd)"
+      "title": "Vogelrichtlijn verspreiding van soorten (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/milieuhygi-c3-abnisch-bodemonderzoek-sad-geologie-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rvo-vogelrichtlijn-verspreidingsgebied-soorten-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "BRO Milieuhygiënisch bodemonderzoek (SAD) - Geologie (INSPIRE geharmoniseerd)"
+      "title": "Vogelrichtlijn verspreidingsgebied van soorten (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/mossel-en-oesterhabitats/collection.json",
+      "href": "./collections/hwh-waterschappen-hydrografie-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Mossel- en oesterhabitats"
+      "title": "Waterschappen Hydrografie (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/mosselzaad-invanginstallaties/collection.json",
+      "href": "./collections/hwh-waterschappen-keringen-imwa-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Mosselzaadinvanginstallaties"
+      "title": "Waterschappen Keringen IMWA (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/nationaal-beschermde-gebieden-cdda/collection.json",
+      "href": "./collections/hwh-waterschappen-kunstwerken-imwa-ogc-v2/collection.json",
       "type": "application/json",
-      "title": "Nationaal Beschermde Gebieden (CDDA)"
+      "title": "Waterschappen Kunstwerken IMWA (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/nationaal-hydrologisch-instrumentarium-nhi/collection.json",
+      "href": "./collections/hwh-waterschappen-oppervlaktewateren-imwa-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Nationaal Hydrologisch Instrumentarium (NHI)"
+      "title": "Waterschappen Oppervlaktewateren IMWA (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/nationaal-wegen-bestand-nwb-vaarwegen/collection.json",
+      "href": "./collections/hwh-waterschappen-waterbeheergebieden-imwa-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Nationaal Wegen Bestand (NWB) - Vaarwegen"
+      "title": "Waterschappen Waterbeheergebieden IMWA (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/nationaal-wegen-bestand-nwb-wegen/collection.json",
+      "href": "./collections/hwh-waterschappen-waterketen-damo-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Nationaal Wegen Bestand (NWB) - Wegen"
+      "title": "Waterschappen Waterketen DAMO (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/nationale-parken/collection.json",
+      "href": "./collections/rioned-waterschappen-waterketen-gwsw-ogc-v1-0/collection.json",
       "type": "application/json",
-      "title": "Nationale Parken"
+      "title": "Waterschappen Waterketen GWSW (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/nationale-parken-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/hwh-waterschappen-zoneringen-imwa-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Nationale Parken (INSPIRE geharmoniseerd)"
+      "title": "Waterschappen Waterstaatskundige zoneringen waterstaatswerk IMWA (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/natura-2000/collection.json",
+      "href": "./collections/rws-weggegevens-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Natura 2000"
+      "title": "Weggegevens (WEGGEG) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/natura2000-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/rvo-wetlands-geharmoniseerd-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Natura 2000 (INSPIRE geharmoniseerd)"
+      "title": "Wetlands (INSPIRE Geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/natuurmeting-op-kaart-nok/collection.json",
+      "href": "./collections/rvo-wetlands-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Natuurmeting Op Kaart 2014 (NOK)"
+      "title": "Wetlands (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/natuurnetwerk-nederland-nnn/collection.json",
+      "href": "./collections/rvo-windsnelheden-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "Natuurnetwerk Nederland (NNN) - Provincies (INSPIRE geharmoniseerd)"
+      "title": "Windsnelheden 100m hoogte (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/novex-gebieden/collection.json",
+      "href": "./collections/kadaster-brt-zeegebieden-ogc-v1/collection.json",
       "type": "application/json",
-      "title": "NOVEX gebieden"
+      "title": "Zeegebieden (INSPIRE geharmoniseerd) (OGC API)"
     },
     {
       "rel": "child",
-      "href": "./collections/novex-woningbouwlocaties/collection.json",
+      "href": "./collections/lv-bgt-download-v1-0-ui/collection.json",
       "type": "application/json",
-      "title": "NOVEX woningbouwlocaties"
+      "title": "BGT Download API"
     },
     {
       "rel": "child",
-      "href": "./collections/nuts-en-overheidsdiensten-riool-leidingelementen-rsa-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/kadaster-kadastralekaart-download-v5-0-ui/collection.json",
       "type": "application/json",
-      "title": "Nuts- en Overheidsdiensten - Riool - Leidingelementen - RSA (INSPIRE geharmoniseerd)"
+      "title": "Kadastralekaart Download API"
     },
     {
       "rel": "child",
-      "href": "./collections/nuts-en-overheidsdiensten-riool-milieu-management-voorziening-rsa-inspire-geharmoniseerd/collection.json",
+      "href": "./collections/kadaster-location-api-v1/collection.json",
       "type": "application/json",
-      "title": "Nuts- en Overheidsdiensten - Riool - Milieu management voorziening - RSA (INSPIRE geharmoniseerd)"
+      "title": "PDOK Location API"
     },
     {
       "rel": "child",
-      "href": "./collections/pdok-locatieserver-1/collection.json",
+      "href": "./collections/bzk-locatieserver-search-v3-1-ui/collection.json",
       "type": "application/json",
       "title": "PDOK Locatieserver"
     },
     {
       "rel": "child",
-      "href": "./collections/pdok-luchtfoto-infrarood-open/collection.json",
+      "href": "./collections/brt-top10nl-download-v1-0-ui/collection.json",
       "type": "application/json",
-      "title": "PDOK Luchtfoto Infrarood (Open)"
+      "title": "TOP10NL Download API"
     },
     {
       "rel": "child",
-      "href": "./collections/pdok-luchtfoto-rgb-open/collection.json",
+      "href": "./collections/brt-top50nl-download-v1-0-ui/collection.json",
       "type": "application/json",
-      "title": "PDOK Luchtfoto RGB (Open)"
+      "title": "TOP50NL Download API"
     },
     {
       "rel": "child",
-      "href": "./collections/potentieel-koude-en-warmte-uit-open-en-gesloten-wko-systemen-gj-ha-jaar/collection.json",
+      "href": "./collections/brt-top100nl-download-v1-0-ui/collection.json",
       "type": "application/json",
-      "title": "Potentieel koude en warmte uit open en gesloten WKO systemen (GJ/ha.jaar)"
+      "title": "TOP100NL Download API"
     },
     {
       "rel": "child",
-      "href": "./collections/potentiekaart-omgevingswarmte/collection.json",
+      "href": "./collections/brt-top250nl-download-v1-0-ui/collection.json",
       "type": "application/json",
-      "title": "Potentiekaart Omgevingswarmte"
+      "title": "TOP250NL Download API"
     },
     {
       "rel": "child",
-      "href": "./collections/potentiekaart-reststromen/collection.json",
+      "href": "./collections/brt-top500nl-download-v1-0-ui/collection.json",
       "type": "application/json",
-      "title": "Potentiekaart Reststromen"
+      "title": "TOP500NL Download API"
     },
     {
       "rel": "child",
-      "href": "./collections/potentiekaart-restwarmte/collection.json",
+      "href": "./collections/brt-top1000nl-download-v1-0-ui/collection.json",
       "type": "application/json",
-      "title": "Potentiekaart Restwarmte"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/provinciaal-landschapsbeleid/collection.json",
-      "type": "application/json",
-      "title": "Provinciaal Landschapsbeleid - Provincies (INSPIRE geharmoniseerd)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/provinciale-monumenten/collection.json",
-      "type": "application/json",
-      "title": "Provinciale Monumenten - Provincies (INSPIRE geharmoniseerd)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/publiekrechtelijke-beperkingen-wkpb/collection.json",
-      "type": "application/json",
-      "title": "Publiekrechtelijke Beperkingen Wkpb"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/rdinfo/collection.json",
-      "type": "application/json",
-      "title": "RD info"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/referentiepercelen/collection.json",
-      "type": "application/json",
-      "title": "Referentiepercelen"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/referentiepercelen-inspire-geharmoniseerd/collection.json",
-      "type": "application/json",
-      "title": "Referentiepercelen (INSPIRE geharmoniseerd)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/regionale-fietsnetwerken/collection.json",
-      "type": "application/json",
-      "title": "Regionale fietsnetwerken"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/regionale-wandelnetwerken/collection.json",
-      "type": "application/json",
-      "title": "Regionale wandelnetwerken"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/regionale-woondeals/collection.json",
-      "type": "application/json",
-      "title": "Regionale Woondeals"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/ruimtelijke-plannen/collection.json",
-      "type": "application/json",
-      "title": "Ruimtelijke plannen"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/schelpdierenpercelen/collection.json",
-      "type": "application/json",
-      "title": "Schelpdierpercelen (INSPIRE geharmoniseerd)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/schelpdierpercelen/collection.json",
-      "type": "application/json",
-      "title": "Schelpdierpercelen"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/spoorwegen/collection.json",
-      "type": "application/json",
-      "title": "Spoorwegen"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/statistical-units-vector-inspire-geharmoniseerd/collection.json",
-      "type": "application/json",
-      "title": "Statistical Units Vector (INSPIRE geharmoniseerd)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/stedelijk-water-riolering/collection.json",
-      "type": "application/json",
-      "title": "Stedelijk Water (Riolering) GWSW"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/stiltegebieden/collection.json",
-      "type": "application/json",
-      "title": "Stiltegebieden - Provincies (INSPIRE geharmoniseerd)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/terugmeldingen-luchtvaartobstakels-aero/collection.json",
-      "type": "application/json",
-      "title": "Terugmeldingen luchtvaartobstakels (AERO)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/terugmeldingen-voor-bronhouders-gesloten/collection.json",
-      "type": "application/json",
-      "title": "Terugmeldingen voor Bronhouders (Gesloten)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/vaarwegmarkeringen-nederland/collection.json",
-      "type": "application/json",
-      "title": "Vaarwegmarkeringen Nederland"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/vaarweg-netwerk-data-service-vnds/collection.json",
-      "type": "application/json",
-      "title": "Vaarweg Netwerk Data Service (VNDS) - bevaarbaarheid"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/verkeersscheidingsstelsel/collection.json",
-      "type": "application/json",
-      "title": "Scheepvaart Verkeersscheidingsstelsel Noordzee"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/vervoersnetwerken/collection.json",
-      "type": "application/json",
-      "title": "Vervoersnetwerken (INSPIRE geharmoniseerd) (Kadaster)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/vervoersnetwerken-waterwegen-netwerk-inspire-geharmoniseerd/collection.json",
-      "type": "application/json",
-      "title": "Vervoersnetwerken - Waterwegen - Netwerk (INSPIRE geharmoniseerd)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/vervoersnetwerken-wegen-netwerk-inspire-geharmoniseerd/collection.json",
-      "type": "application/json",
-      "title": "Vervoersnetwerken - Wegen - Netwerk (INSPIRE geharmoniseerd)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/vierkant-1-kilometer-bij-1-kilometer-nederland-laea/collection.json",
-      "type": "application/json",
-      "title": "Vierkant 1 kilometer bij 1 kilometer Nederland LAEA"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/vierkant-500-meter-bij-500-meter-nederland-1/collection.json",
-      "type": "application/json",
-      "title": "Vierkant 500 meter bij 500 meter Nederland"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/visserijmaatregelen-noordzee/collection.json",
-      "type": "application/json",
-      "title": "Visserijmaatregelen Noordzee"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/visserijmaatregelen-noordzee-inspire-geharmoniseerd/collection.json",
-      "type": "application/json",
-      "title": "Visserijmaatregelen Noordzee (INSPIRE geharmoniseerd)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/vogelrichtlijn-verspreidingsgebied-van-soorten/collection.json",
-      "type": "application/json",
-      "title": "Vogelrichtlijn verspreidingsgebied van soorten"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/vogelrichtlijn-verspreiding-van-soorten/collection.json",
-      "type": "application/json",
-      "title": "Vogelrichtlijn verspreiding van soorten"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/waterschappen-administratieve-eenheden-inspire-geharmoniseerd/collection.json",
-      "type": "application/json",
-      "title": "Waterschappen Administratieve Eenheden (INSPIRE geharmoniseerd)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/waterschappen-hydrografie-inspire-geharmoniseerd/collection.json",
-      "type": "application/json",
-      "title": "Waterschappen Hydrografie (INSPIRE geharmoniseerd)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/waterschappen-keringen-imwa/collection.json",
-      "type": "application/json",
-      "title": "Waterschappen Keringen IMWA"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/waterschappen-kunstwerken-imwa/collection.json",
-      "type": "application/json",
-      "title": "Waterschappen Kunstwerken IMWA"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/waterschappen-nuts-overheidsdiensten-inspire-geharmoniseerd/collection.json",
-      "type": "application/json",
-      "title": "Waterschappen Nuts-Overheidsdiensten (INSPIRE geharmoniseerd)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/waterschappen-oppervlaktewateren-imwa/collection.json",
-      "type": "application/json",
-      "title": "Waterschappen Oppervlaktewateren IMWA"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/waterschappen-waterbeheergebieden-imwa/collection.json",
-      "type": "application/json",
-      "title": "Waterschappen Waterbeheergebieden IMWA"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/waterschappen-waterketen-damo/collection.json",
-      "type": "application/json",
-      "title": "Waterschappen Waterketen DAMO"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/waterschappen-waterschapsgrenzen-imso/collection.json",
-      "type": "application/json",
-      "title": "Waterschappen Waterschapsgrenzen IMSO"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/waterschappen-waterstaatskundige-zoneringen-waterstaatswerk-imwa/collection.json",
-      "type": "application/json",
-      "title": "Waterschappen Waterstaatskundige zoneringen waterstaatswerk IMWA"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/weggegevens/collection.json",
-      "type": "application/json",
-      "title": "Weggegevens"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/wetlands/collection.json",
-      "type": "application/json",
-      "title": "Wetlands"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/wetlands-inspire-geharmoniseerd/collection.json",
-      "type": "application/json",
-      "title": "Wetlands (INSPIRE geharmoniseerd)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/windsnelheden-100m-hoogte/collection.json",
-      "type": "application/json",
-      "title": "Windsnelheden 100m hoogte"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/zeegebieden/collection.json",
-      "type": "application/json",
-      "title": "Zeegebieden (INSPIRE geharmoniseerd)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/zwemwaterkwaliteit-provinciaal-en-rijkswateren-uit-zwemwaterregister/collection.json",
-      "type": "application/json",
-      "title": "Zwemwaterkwaliteit (provinciaal en Rijkswateren) uit Zwemwaterregister (INSPIRE geharmoniseerd)"
-    },
-    {
-      "rel": "child",
-      "href": "./collections/zwemwater-provinciaal-en-rijkswateren/collection.json",
-      "type": "application/json",
-      "title": "Zwemwater (Provinciaal en Rijkswateren) uit Zwemwaterregister (INSPIRE geharmoniseerd)"
+      "title": "TOP1000NL Download API"
     }
   ]
 }

@@ -1,0 +1,227 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "rioned-waterschappen-waterketen-gwsw-ogc-v1-0",
+  "title": "Waterschappen Waterketen GWSW (OGC API)",
+  "description": "Deze dataset is gebaseerd op (niet geharmoniseerde) data van alle waterschappen in Nederland conform het Gegevenswoordenboek Stedelijk Water (GWSW). De dataset bevat de volgende GWSW objecten: Constructieonderdelen, IBA, Kabels, Leidingen, Leidingsegmenten, Lozingspunt, Mantelbuis, Nooduitlaat, Overnamepunt, Put, Rioleringsgebied, Rioolgemaal, RWZI en Zuiveringseenheid.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Waterschap",
+    "Gwsw",
+    "Stedelijk water",
+    "Afvalwaterketen",
+    "Riolering"
+  ],
+  "providers": [
+    {
+      "name": "RIONED",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.657292,
+          48.040502,
+          12.431727,
+          56.11059
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0/resources/wswaterketen.jpg",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-waterschap-constructieonderdeel": {
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0/collections/waterschap_constructieonderdeel/items?f=json",
+      "type": "application/geo+json",
+      "title": "Constructieonderdeel (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterschap-iba": {
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0/collections/waterschap_iba/items?f=json",
+      "type": "application/geo+json",
+      "title": "IBA (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterschap-kabel": {
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0/collections/waterschap_kabel/items?f=json",
+      "type": "application/geo+json",
+      "title": "Kabel (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterschap-leiding": {
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0/collections/waterschap_leiding/items?f=json",
+      "type": "application/geo+json",
+      "title": "Leiding (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterschap-leidingsegment": {
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0/collections/waterschap_leidingsegment/items?f=json",
+      "type": "application/geo+json",
+      "title": "Leidingsegment (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterschap-lozingspunt": {
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0/collections/waterschap_lozingspunt/items?f=json",
+      "type": "application/geo+json",
+      "title": "Lozingspunt (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterschap-mantelbuis": {
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0/collections/waterschap_mantelbuis/items?f=json",
+      "type": "application/geo+json",
+      "title": "Mantelbuis (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterschap-nooduitlaat": {
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0/collections/waterschap_nooduitlaat/items?f=json",
+      "type": "application/geo+json",
+      "title": "Nooduitlaat (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterschap-overnamepunt": {
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0/collections/waterschap_overnamepunt/items?f=json",
+      "type": "application/geo+json",
+      "title": "Overnamepunt (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterschap-put": {
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0/collections/waterschap_put/items?f=json",
+      "type": "application/geo+json",
+      "title": "Put (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterschap-rwzi": {
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0/collections/waterschap_rwzi/items?f=json",
+      "type": "application/geo+json",
+      "title": "RWZI (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterschap-rioleringsgebied": {
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0/collections/waterschap_rioleringsgebied/items?f=json",
+      "type": "application/geo+json",
+      "title": "Rioleringsgebied (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterschap-rioolgemaal": {
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0/collections/waterschap_rioolgemaal/items?f=json",
+      "type": "application/geo+json",
+      "title": "Rioolgemaal (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterschap-zuiveringseenheid": {
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0/collections/waterschap_zuiveringseenheid/items?f=json",
+      "type": "application/geo+json",
+      "title": "Zuiveringseenheid (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/rioned/waterschappen-waterketen-gwsw/ogc/v1_0",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "CC0 1.0"
+    }
+  ]
+}

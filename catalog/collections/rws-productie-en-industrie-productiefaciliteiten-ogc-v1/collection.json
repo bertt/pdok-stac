@@ -1,0 +1,181 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "rws-productie-en-industrie-productiefaciliteiten-ogc-v1",
+  "title": "Faciliteiten voor productie en industrie - Productiefaciliteiten - REV (INSPIRE geharmoniseerd) (OGC API)",
+  "description": "De OGC API Features service Faciliteiten voor productie en industrie - Productie-faciliteiten bevat de, meest actuele, naar INSPIRE thema Nuts- en Overheidsdiensten geharmoniseerde faciteiten voor activiteiten die vallen onder NACE Rev.2 categorieën B, C, D, E (deels), F, H uit Register Externe Veiligheidsrisico's (REV) | Aanmerkingsregister",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Register Externe Veiligheid",
+    "REV",
+    "Veiligheid",
+    "Milieu",
+    "Beheer",
+    "Faciliteit",
+    "Mijnbouw",
+    "Steengroeven",
+    "Delfstoffen",
+    "Productie",
+    "Stroomvoorziening",
+    "Gasvoorziening",
+    "Stoomvoorziening",
+    "Airconditioningvoorziening",
+    "Watervoorziening",
+    "Riolering",
+    "Afvalbeheer",
+    "Sanering",
+    "Bouw",
+    "Transportdiensten",
+    "Opslagdiensten",
+    "HVD",
+    "Aardobservatie en milieu"
+  ],
+  "providers": [
+    {
+      "name": "Rijkswaterstaat",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          2.35417303,
+          50.71447164,
+          7.5553525,
+          55.66948102
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rws/productie-en-industrie-productiefaciliteiten/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/rws/productie-en-industrie-productiefaciliteiten/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/rws/productie-en-industrie-productiefaciliteiten/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rws/productie-en-industrie-productiefaciliteiten/ogc/v1/resources/productiefaciliteiten.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-production-facility-f": {
+      "href": "https://api.pdok.nl/rws/productie-en-industrie-productiefaciliteiten/ogc/v1/collections/production_facility_f/items?f=json",
+      "type": "application/geo+json",
+      "title": "Bouw (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-production-facility-c": {
+      "href": "https://api.pdok.nl/rws/productie-en-industrie-productiefaciliteiten/ogc/v1/collections/production_facility_c/items?f=json",
+      "type": "application/geo+json",
+      "title": "Productie (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-production-facility-d": {
+      "href": "https://api.pdok.nl/rws/productie-en-industrie-productiefaciliteiten/ogc/v1/collections/production_facility_d/items?f=json",
+      "type": "application/geo+json",
+      "title": "Stroom, gas, stoom, airco (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-production-facility-h": {
+      "href": "https://api.pdok.nl/rws/productie-en-industrie-productiefaciliteiten/ogc/v1/collections/production_facility_h/items?f=json",
+      "type": "application/geo+json",
+      "title": "Transport en opslagdiensten (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-production-facility-e": {
+      "href": "https://api.pdok.nl/rws/productie-en-industrie-productiefaciliteiten/ogc/v1/collections/production_facility_e/items?f=json",
+      "type": "application/geo+json",
+      "title": "Watervoorziening, riolering, afvalbeheer, sanering (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-production-facility-b": {
+      "href": "https://api.pdok.nl/rws/productie-en-industrie-productiefaciliteiten/ogc/v1/collections/production_facility_b/items?f=json",
+      "type": "application/geo+json",
+      "title": "Winning van delfstoffen (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/rws/productie-en-industrie-productiefaciliteiten/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "CC0 1.0"
+    }
+  ]
+}

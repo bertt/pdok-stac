@@ -1,0 +1,158 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "kadaster-brk-bestuurlijke-gebieden-ogc-v1",
+  "title": "Bestuurlijke Gebieden (OGC API)",
+  "description": "Overzicht van de bestuurlijke indeling van Nederland in gemeenten en provincies alsmede de rijksgrens. Gegevens zijn afgeleid uit de Basisregistratie Kadaster (BRK). Lees meer over de Bestuurlijke gebieden en bekijk de vector tiles in de Vectortile Viewer.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Nationaal",
+    "Globaal",
+    "Lokaal",
+    "Gemeentegebied",
+    "Provinciegebied",
+    "Landgebied",
+    "Gebieden",
+    "Administratieve gebieden",
+    "Administratieve eenheden",
+    "Rijksgrens",
+    "Basisset NOVEX",
+    "OGC API",
+    "API",
+    "HVD",
+    "Geospatiale data",
+    "Gemeentegrens",
+    "Provinciegrens",
+    "Landsgrens",
+    "Grenzen",
+    "Provincie",
+    "Gemeente",
+    "Gemeenten",
+    "Provincies",
+    "Nederland"
+  ],
+  "providers": [
+    {
+      "name": "Kadaster",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.657292,
+          48.040502,
+          12.431727,
+          56.11059
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/kadaster/brk-bestuurlijke-gebieden/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/kadaster/brk-bestuurlijke-gebieden/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/kadaster/brk-bestuurlijke-gebieden/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/kadaster/brk-bestuurlijke-gebieden/ogc/v1/resources/bestuurlijke_gebieden.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-gemeentegebied": {
+      "href": "https://api.pdok.nl/kadaster/brk-bestuurlijke-gebieden/ogc/v1/collections/gemeentegebied/items?f=json",
+      "type": "application/geo+json",
+      "title": "Gemeentegebied (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-provinciegebied": {
+      "href": "https://api.pdok.nl/kadaster/brk-bestuurlijke-gebieden/ogc/v1/collections/provinciegebied/items?f=json",
+      "type": "application/geo+json",
+      "title": "Provinciegebied (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-landgebied": {
+      "href": "https://api.pdok.nl/kadaster/brk-bestuurlijke-gebieden/ogc/v1/collections/landgebied/items?f=json",
+      "type": "application/geo+json",
+      "title": "Landgebied (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/kadaster/brk-bestuurlijke-gebieden/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/deed.nl",
+      "type": "text/html",
+      "title": "CC BY 4.0"
+    }
+  ]
+}

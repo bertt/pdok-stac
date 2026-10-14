@@ -1,0 +1,156 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "hwh-waterschappen-oppervlaktewateren-imwa-ogc-v1",
+  "title": "Waterschappen Oppervlaktewateren IMWA (OGC API)",
+  "description": "Deze dataset bestaat uit de volgende lagen (niet alle lagen zijn op dit moment gevuld met data): Hydroobject/Oppervlaktewaterlichaam,  Oever, Ondersteunendwaterdeel, Profielverdediging, Waterdeel.De data is gestructureerd volgens het Informatiemodel Water (IMWA), onderdeel van de Aquo-standaard. Meer informatie hierover is te vinden op de Aquo-website.De gegevens worden in Geopackage-formaat geleverd in het RD-New coördinatenstelsel.De data zijn afkomstig van de individuele waterschappen, maar worden via PDOK als één landsdekkend bestand uitgeleverd. Individuele waterschappen bieden hun actuele gegevens hiervoor aan via het Gegevensknooppunt Waterschappen (GkW) van Het Waterschapshuis. Alle waterschappen zijn aangesloten op deze voorziening, maar nog niet elk waterschap levert de complete set gegevens aan.Voor informatie over de inhoud van de data kan contact worden opgenomen met het desbetreffende waterschap. Dit is te herkennen aan de waterschapscode die als kenmerk is opgenomen bij ieder object in de dataset. Voor algemene informatie over de dataset en de herkomst via het GkW kan contact worden opgenomen met Het Waterschapshuis via datastromen@hetwaterschapshuis.nl.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Hydroobject",
+    "Oppervlaktewaterlichaam",
+    "Oever",
+    "Profielverdediging",
+    "Ondersteunendwaterdeel",
+    "Waterdeel."
+  ],
+  "providers": [
+    {
+      "name": "Het Waterschapshuis",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -59188.44333693248,
+          304984.64144318487,
+          308126.88473339565,
+          858328.516489961
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-oppervlaktewateren-imwa/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-oppervlaktewateren-imwa/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-oppervlaktewateren-imwa/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-oppervlaktewateren-imwa/ogc/v1/resources/Oppervlaktewateren.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-oever": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-oppervlaktewateren-imwa/ogc/v1/collections/oever/items?f=json",
+      "type": "application/geo+json",
+      "title": "Oever (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-ondersteunendwaterdeel": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-oppervlaktewateren-imwa/ogc/v1/collections/ondersteunendwaterdeel/items?f=json",
+      "type": "application/geo+json",
+      "title": "OndersteunendWaterdeel (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-oppervlaktewaterlichaam": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-oppervlaktewateren-imwa/ogc/v1/collections/oppervlaktewaterlichaam/items?f=json",
+      "type": "application/geo+json",
+      "title": "Oppervlaktewaterlichaam (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-profielverdediging": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-oppervlaktewateren-imwa/ogc/v1/collections/profielverdediging/items?f=json",
+      "type": "application/geo+json",
+      "title": "Profielverdediging (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterdeel": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-oppervlaktewateren-imwa/ogc/v1/collections/waterdeel/items?f=json",
+      "type": "application/geo+json",
+      "title": "Waterdeel (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/hwh/waterschappen-oppervlaktewateren-imwa/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "CC0 1.0"
+    }
+  ]
+}

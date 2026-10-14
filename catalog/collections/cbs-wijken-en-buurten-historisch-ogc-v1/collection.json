@@ -1,0 +1,145 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "cbs-wijken-en-buurten-historisch-ogc-v1",
+  "title": "CBS Wijken en Buurten historisch (OGC API)",
+  "description": "Het CBS Wijken en Buurten historisch bevat de geometrie van alle gemeenten, wijken en buurten in Nederland met als attribuut een aantal statistische kerncijfers. De begrenzingen van wijken en buurten zijn gebaseerd op wat de gemeenten aan het CBS doorgeven. De gemeentegrens is afkomstig uit de BRK van het Kadaster. De land-watergrens uit het Bestand Bodemgebruik.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "CBS",
+    "Wijken",
+    "Buurten",
+    "Gemeenten",
+    "Statistiek",
+    "Bevolkingdichtheid",
+    "Inwoners",
+    "Herkomst",
+    "Autos",
+    "Huishoudens",
+    "Nabijheid"
+  ],
+  "providers": [
+    {
+      "name": "CBS",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -59188.44333693248,
+          304984.64144318487,
+          308126.88473339565,
+          858328.516489961
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2012-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/cbs/wijken-en-buurten-historisch/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/cbs/wijken-en-buurten-historisch/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/cbs/wijken-en-buurten-historisch/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/cbs/wijken-en-buurten-historisch/ogc/v1/resources/dataset.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-buurten": {
+      "href": "https://api.pdok.nl/cbs/wijken-en-buurten-historisch/ogc/v1/collections/buurten/items?f=json",
+      "type": "application/geo+json",
+      "title": "buurten (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-gemeenten": {
+      "href": "https://api.pdok.nl/cbs/wijken-en-buurten-historisch/ogc/v1/collections/gemeenten/items?f=json",
+      "type": "application/geo+json",
+      "title": "gemeenten (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-wijken": {
+      "href": "https://api.pdok.nl/cbs/wijken-en-buurten-historisch/ogc/v1/collections/wijken/items?f=json",
+      "type": "application/geo+json",
+      "title": "wijken (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/cbs/wijken-en-buurten-historisch/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/deed.nl",
+      "type": "text/html",
+      "title": "CC BY 4.0"
+    }
+  ]
+}

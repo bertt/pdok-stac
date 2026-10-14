@@ -1,0 +1,152 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "rws-richtlijn-stedelijk-afvalwater-ogc-v1",
+  "title": "Richtlijn Stedelijk Afvalwater (RSA) (OGC API)",
+  "description": "Deze Richtlijn Stedelijk Afvalwater API bevat de meest actuele versie van agglomeraties, rioolwaterzuiveringsinstallaties (RWZI's), lozingspunten en kwetsbare gebieden zoals gerapporteerd naar de Europese Commissie tbv EU rapportage",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Richtlijn Stedelijk Afvalwater",
+    "Richtlijn 91/271/EEG",
+    "31991L0271",
+    "Lozingspunten",
+    "Rioolwaterzuivering",
+    "Rwzi",
+    "Agglomeraties",
+    "Kwetsbaargebied",
+    "HVD",
+    "Aardobservatie en milieu"
+  ],
+  "providers": [
+    {
+      "name": "Rijkswaterstaat",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.657292,
+          48.040502,
+          12.431727,
+          56.11059
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rws/richtlijn-stedelijk-afvalwater/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/rws/richtlijn-stedelijk-afvalwater/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/rws/richtlijn-stedelijk-afvalwater/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rws/richtlijn-stedelijk-afvalwater/ogc/v1/resources/rsa.jpg",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-rsa-agglomeraties": {
+      "href": "https://api.pdok.nl/rws/richtlijn-stedelijk-afvalwater/ogc/v1/collections/rsa_agglomeraties/items?f=json",
+      "type": "application/geo+json",
+      "title": "RSA agglomeraties (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-rsa-kwetsbaargebied": {
+      "href": "https://api.pdok.nl/rws/richtlijn-stedelijk-afvalwater/ogc/v1/collections/rsa_kwetsbaargebied/items?f=json",
+      "type": "application/geo+json",
+      "title": "RSA kwetsbaargebied (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-rsa-lozingspunten": {
+      "href": "https://api.pdok.nl/rws/richtlijn-stedelijk-afvalwater/ogc/v1/collections/rsa_lozingspunten/items?f=json",
+      "type": "application/geo+json",
+      "title": "RSA lozingspunten (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-rsa-rwzi": {
+      "href": "https://api.pdok.nl/rws/richtlijn-stedelijk-afvalwater/ogc/v1/collections/rsa_rwzi/items?f=json",
+      "type": "application/geo+json",
+      "title": "RSA rioolwaterzuiveringsinstallaties (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/rws/richtlijn-stedelijk-afvalwater/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "CC0 1.0"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # PDOK STAC catalog
 
-Unofficial static [STAC](https://stacspec.org) catalog of all datasets listed on <https://www.pdok.nl/datasets>.
+Static [STAC](https://stacspec.org) catalog of all APIs listed in <https://api.pdok.nl/index.json>.
 
 Live catalog: <https://bertt.github.io/pdok-stac/catalog.json>
 
@@ -13,30 +13,33 @@ Browse it online: <https://browser.moregeo.it/external/bertt.github.io/pdok-stac
 ```
 catalog/
   catalog.json                        root catalog
-  collections/<id>/collection.json    one collection per PDOK dataset
+  collections/<id>/collection.json    one collection per PDOK API
   index.html                          simple human-readable index
 ```
 
 All links are relative, so the catalog works under any GitHub Pages sub-path.
 
-Each collection contains the title, description, producer (e.g. Kadaster), thumbnail, a link to the PDOK dataset page and links to its service sub pages (`service-doc`). The services themselves are STAC assets with role `data`, scraped from the dataset's *(OGC) Webservices*, *(OGC) API's* and *ATOM Downloadservices* pages: `wms`, `wfs`, `wmts`, `wcs`, `atom`, `ogc-api` and `download-api` (a numeric suffix such as `wms-2` is added when a dataset has several of the same type).
-
-The WMS and WMTS services are also added as [Web Map Links](https://github.com/stac-extensions/web-map-links) (`rel: wms` / `rel: wmts`, with the first layer of the service from its GetCapabilities as default layer), so clients like STAC Browser can show them on a map. The extension does not cover WFS, ATOM or OGC API, so those are only available as assets. In QGIS, copy the `href` of an asset and add it via the Data Source Manager (WMS/WMTS, WFS or OGC API Features). the spatial extent is a generic bounding box of the Netherlands, the temporal extent is open and the license is `other`, because this information is not available on the overview page.
+Each collection is one PDOK API from <https://api.pdok.nl/index.json>. Title, description and keywords come from that index; for OGC APIs the landing page and `/collections` add the license link, thumbnail, the real spatial/temporal extent (union of all collections) and assets: `ogc-api` (landing page), `openapi`, `conformance` and one `items-<collection>` asset per feature collection. Other APIs (download APIs, Locatieserver, Location API) get a single `api` asset. No HTML is scraped. WMS/WFS/WMTS/ATOM services are not in the index and therefore no longer included.
 
 ## Regenerate
 
-Requires Python 3.9+ (standard library only):
+Requires Node.js 18+ (no dependencies):
 
 ```
-python build_catalog.py
+node build_catalog.mjs
 ```
 
-The script scrapes the dataset overview page and every dataset page, then rewrites the `catalog/` folder.
+## Known gaps
+
+Two APIs return HTTP 404 on some requests at the time of writing; the generator logs them and continues, so these collections have less metadata:
+
+- `https://api.pdok.nl/kadaster/bag/ogc/v2-demo` (landing page and `/collections`): the BAG demo API. The collection only has the title and description from the index, no keywords, license, thumbnail, `ogc-api` extras or real extent (it falls back to the Netherlands bounding box).
+- `https://api.pdok.nl/kadaster/brt-achtergrondkaart/ogc/v1/collections`: the BRT Achtergrondkaart is a tiles-only API without feature collections, so it has no `items-*` assets and a Netherlands bounding box.
 
 ## Host on GitHub Pages
 
 1. Push this repository to GitHub.
-2. Go to **Settings → Pages** and set the source to **GitHub Actions**. The workflow in `.github/workflows/pages.yml` publishes the `catalog/` folder on every push to `main`.
+2. Go to **Settings → Pages** and set the source to **GitHub Actions**. The workflow in `.github/workflows/pages.yml` regenerates the catalog with `node build_catalog.mjs` and publishes it on every push to `main`, manually, and weekly (Mondays 04:00 UTC).
 3. The catalog is available at `https://<user>.github.io/<repo>/catalog.json`.
 
 It can be browsed with [STAC Browser](https://radiantearth.github.io/stac-browser/) by passing that URL.

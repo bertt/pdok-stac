@@ -1,0 +1,134 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "rws-nationaal-wegenbestand-vaarwegen-ogc-v1",
+  "title": "NWB - Vaarwegen (OGC API)",
+  "description": "Deze OGC API Features service bevat alleen de vaarwegvakken en kilometermarkeringen van het NWB - Vaarwegen (Nationaal Wegen Bestand).",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Vervoersnetwerken",
+    "Vaarwegen",
+    "Schepen",
+    "Scheepvaart",
+    "Vaarwegvakken",
+    "Kilometermarkering",
+    "HVD",
+    "Mobiliteit"
+  ],
+  "providers": [
+    {
+      "name": "Rijkswaterstaat",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          2.35417303,
+          50.71447164,
+          7.5553525,
+          55.66948102
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rws/nationaal-wegenbestand-vaarwegen/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/rws/nationaal-wegenbestand-vaarwegen/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/rws/nationaal-wegenbestand-vaarwegen/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rws/nationaal-wegenbestand-vaarwegen/ogc/v1/resources/nwb_vaarwegen.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-kmmarkeringen": {
+      "href": "https://api.pdok.nl/rws/nationaal-wegenbestand-vaarwegen/ogc/v1/collections/kmmarkeringen/items?f=json",
+      "type": "application/geo+json",
+      "title": "Kmmarkeringen (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-vaarwegvakken": {
+      "href": "https://api.pdok.nl/rws/nationaal-wegenbestand-vaarwegen/ogc/v1/collections/vaarwegvakken/items?f=json",
+      "type": "application/geo+json",
+      "title": "Vaarwegvakken (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/rws/nationaal-wegenbestand-vaarwegen/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "CC0 1.0"
+    }
+  ]
+}

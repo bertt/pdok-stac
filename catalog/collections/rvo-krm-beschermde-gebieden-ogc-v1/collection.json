@@ -1,0 +1,129 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "rvo-krm-beschermde-gebieden-ogc-v1",
+  "title": "KRM Beschermde Gebieden (OGC API)",
+  "description": "Deze dataset bevat de gebieden die zijn beschermd op basis van de Kaderrichtlijn Mariene Strategie (KRM) ten behoeve van de bescherming van de zeebodem en het zeebodemhabitat. De KRM heeft tot doel om in Europese zeeën en oceanen de goede toestand van het mariene milieu te behalen en waar nodig te herstellen. Er kunnen geen rechten aan deze dataset worden ontleend.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Nationaal",
+    "vissen",
+    "vogels",
+    "milieu",
+    "Noordzee",
+    "MSFD",
+    "Marine strategy framework directive",
+    "Richtlijn 2008/56/EG",
+    "Water",
+    "Zee",
+    "Mariene regio's (Kaderrichtlijn Mariene strategie)"
+  ],
+  "providers": [
+    {
+      "name": "RVO",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          2.527125,
+          50.212863,
+          7.374026,
+          55.72116
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1970-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/rvo/krm-beschermde-gebieden/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/rvo/krm-beschermde-gebieden/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/rvo/krm-beschermde-gebieden/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/rvo/krm-beschermde-gebieden/ogc/v1/resources/KRM.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-krm-gebieden": {
+      "href": "https://api.pdok.nl/rvo/krm-beschermde-gebieden/ogc/v1/collections/krm_gebieden/items?f=json",
+      "type": "application/geo+json",
+      "title": "KRM beschermde gebieden (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/rvo/krm-beschermde-gebieden/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "Open data (CCO)"
+    }
+  ]
+}

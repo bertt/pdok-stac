@@ -1,0 +1,353 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "hwh-waterschappen-keringen-imwa-ogc-v1",
+  "title": "Waterschappen Keringen IMWA (OGC API)",
+  "description": "Deze dataset is gebaseerd op (geharmoniseerde) data van alle waterschappen in Nederland conform het Informatiemodel water (IMWA). De dataset bevat de volgende IMWA objecten:Anker, Ankerveld, Basismateriaal, Bestorting,  Bodembescherming, Bodemlaag, DrainageBuis, DrainagePut, FilterVlijlaag, FlexibeleWaterkering, Geotextiel, Hydraulischerandvoorwaarde,  Invloedslijn, KenmerkendeProfiellijn, Kistdam, Kwelscherm, Paal, Referentiepunt, TeenconstructieOvergangsconstructie, Toplaag, Uitvullaag, Vegetatieobject, Wandconstructie, Waterkering, WaterkeringReferentiestelsel, Waterkeringsectie, Weesconstructie en Waterkeringsectie.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Anker",
+    "Ankerveld",
+    "Basismateriaal",
+    "Bestorting",
+    "Bodembescherming",
+    "Bodemlaag",
+    "DrainageBuis",
+    "DrainagePut",
+    "FilterVlijlaag",
+    "FlexibeleWaterkering",
+    "Geotextiel",
+    "Hydraulischerandvoorwaarde",
+    "Invloedslijn",
+    "KenmerkendeProfiellijn",
+    "Kistdam",
+    "Kwelscherm",
+    "Paal",
+    "Referentiepunt",
+    "TeenconstructieOvergangsconstructie",
+    "Toplaag",
+    "Uitvullaag",
+    "Vegetatieobject",
+    "Wandconstructie",
+    "Waterkering",
+    "WaterkeringReferentiestelsel",
+    "Waterkeringsectie",
+    "Weesconstructie en Waterkeringsectie."
+  ],
+  "providers": [
+    {
+      "name": "Het Waterschapshuis",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -59188.44333693248,
+          304984.64144318487,
+          308126.88473339565,
+          858328.516489961
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/resources/Keringen.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-anker": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/anker/items?f=json",
+      "type": "application/geo+json",
+      "title": "Anker (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-ankerveld": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/ankerveld/items?f=json",
+      "type": "application/geo+json",
+      "title": "Ankerveld (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-basismateriaal": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/basismateriaal/items?f=json",
+      "type": "application/geo+json",
+      "title": "Basismateriaal (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-bestorting": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/bestorting/items?f=json",
+      "type": "application/geo+json",
+      "title": "Bestorting (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-bodembescherming": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/bodembescherming/items?f=json",
+      "type": "application/geo+json",
+      "title": "Bodembescherming (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-bodemlaag": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/bodemlaag/items?f=json",
+      "type": "application/geo+json",
+      "title": "Bodemlaag (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-drainagebuis": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/drainagebuis/items?f=json",
+      "type": "application/geo+json",
+      "title": "DrainageBuis (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-drainageput": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/drainageput/items?f=json",
+      "type": "application/geo+json",
+      "title": "DrainagePut (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-filtervlijlaag": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/filtervlijlaag/items?f=json",
+      "type": "application/geo+json",
+      "title": "FilterVlijlaag (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-flexibelewaterkering": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/flexibelewaterkering/items?f=json",
+      "type": "application/geo+json",
+      "title": "FlexibeleWaterkering (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-geotextiel": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/geotextiel/items?f=json",
+      "type": "application/geo+json",
+      "title": "Geotextiel (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-hydraulischerandvoorwaarde": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/hydraulischerandvoorwaarde/items?f=json",
+      "type": "application/geo+json",
+      "title": "Hydraulischerandvoorwaarde (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-invloedslijn": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/invloedslijn/items?f=json",
+      "type": "application/geo+json",
+      "title": "Invloedslijn (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-kenmerkendeprofiellijn": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/kenmerkendeprofiellijn/items?f=json",
+      "type": "application/geo+json",
+      "title": "KenmerkendeProfiellijn (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-kistdam": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/kistdam/items?f=json",
+      "type": "application/geo+json",
+      "title": "Kistdam (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-kwelscherm": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/kwelscherm/items?f=json",
+      "type": "application/geo+json",
+      "title": "Kwelscherm (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-paal": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/paal/items?f=json",
+      "type": "application/geo+json",
+      "title": "Paal (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-referentiepunt": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/referentiepunt/items?f=json",
+      "type": "application/geo+json",
+      "title": "Referentiepunt (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-teenconstructieovergangsconstructie": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/teenconstructieovergangsconstructie/items?f=json",
+      "type": "application/geo+json",
+      "title": "TeenconstructieOvergangsconstructie (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-toplaag": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/toplaag/items?f=json",
+      "type": "application/geo+json",
+      "title": "Toplaag (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-uitvullaag": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/uitvullaag/items?f=json",
+      "type": "application/geo+json",
+      "title": "Uitvullaag (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-vegetatieobject": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/vegetatieobject/items?f=json",
+      "type": "application/geo+json",
+      "title": "Vegetatieobject (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-wandconstructie": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/wandconstructie/items?f=json",
+      "type": "application/geo+json",
+      "title": "Wandconstructie (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterkering": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/waterkering/items?f=json",
+      "type": "application/geo+json",
+      "title": "Waterkering (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-waterkeringsectie": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/waterkeringsectie/items?f=json",
+      "type": "application/geo+json",
+      "title": "Waterkeringsectie (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-weesconstructie": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/weesconstructie/items?f=json",
+      "type": "application/geo+json",
+      "title": "Weesconstructie (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-zinkstuk": {
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1/collections/zinkstuk/items?f=json",
+      "type": "application/geo+json",
+      "title": "Zinkstuk (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/hwh/waterschappen-keringen-imwa/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "CC0 1.0"
+    }
+  ]
+}

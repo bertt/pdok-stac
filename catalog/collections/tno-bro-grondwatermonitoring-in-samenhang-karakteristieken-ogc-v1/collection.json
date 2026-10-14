@@ -1,0 +1,184 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "tno-bro-grondwatermonitoring-in-samenhang-karakteristieken-ogc-v1",
+  "title": "BRO - Grondwatermonitoring (GM) in samenhang - karakteristieken (OGC API)",
+  "description": "Deze dataset bevat de gegevens van nederlandse grondwatermonitoring afkomstig uit de Basisregistratie Ondergrond (BRO). Het betreft de meest karakteristieke (ken)gegevens van grondwatermonitoringputten en de daarmee samenhangende kengegevens van de grondwatermonitoringnetten waarvoor die putten zijn gebruikt, plus de karakteristieken van in die putten gemeten grondwaterstands- en grondwatersamenstellingsgegevens. Grondwatermonitoring houdt in dat de toestand van het grondwater in een bepaald gebied, of eigenlijk in een bepaald deel van de ondergrond, over langere tijd gevolgd wordt. De grootte van het gebied en de diepte van monitoring verschillen per grondwatermonitoringnet. Er wordt daarbij gekeken naar de grondwaterstand (kwantiteit) en/of naar de samenstelling van het grondwater (kwaliteit). Hiervoor worden periodiek metingen uitgevoerd. Een beschrijving van deze dataset is opgenomen op de BRO Productomgeving.",
+  "license": "other",
+  "keywords": [
+    "PDOK",
+    "Basisregistratie Ondergrond",
+    "BRO",
+    "Grondwatermonitoring",
+    "karakteristieken",
+    "GAR",
+    "GLD",
+    "GMN",
+    "GMW",
+    "Grondwater",
+    "Grondwatermonitoringput",
+    "Grondwaterstandonderzoek",
+    "Grondwatersamenstellingsonderzoek",
+    "Grondwatermonitoringnet",
+    "Meetnet",
+    "Monitoringnet",
+    "peilbuis",
+    "grondwaterstand",
+    "stijghoogtegrondwaterkwaliteit"
+  ],
+  "providers": [
+    {
+      "name": "TNO",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "name": "PDOK",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.pdok.nl"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.657292,
+          48.040502,
+          12.431727,
+          56.11059
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "ogc-api": {
+      "href": "https://api.pdok.nl/tno/bro-grondwatermonitoring-in-samenhang-karakteristieken/ogc/v1?f=json",
+      "type": "application/json",
+      "title": "OGC API landing page",
+      "roles": [
+        "data"
+      ]
+    },
+    "openapi": {
+      "href": "https://api.pdok.nl/tno/bro-grondwatermonitoring-in-samenhang-karakteristieken/ogc/v1/api?f=json",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The JSON OpenAPI 3.0 document that describes the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conformance": {
+      "href": "https://api.pdok.nl/tno/bro-grondwatermonitoring-in-samenhang-karakteristieken/ogc/v1/conformance?f=json",
+      "type": "application/json",
+      "title": "OGC API conformance classes implemented by the API offered at this endpoint",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://api.pdok.nl/tno/bro-grondwatermonitoring-in-samenhang-karakteristieken/ogc/v1/resources/Domein_Grondwatermonitoring.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "items-gm-gmw": {
+      "href": "https://api.pdok.nl/tno/bro-grondwatermonitoring-in-samenhang-karakteristieken/ogc/v1/collections/gm_gmw/items?f=json",
+      "type": "application/geo+json",
+      "title": "Grondwatermonitoringput (GMW) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-gm-gmw-monitoringtube": {
+      "href": "https://api.pdok.nl/tno/bro-grondwatermonitoring-in-samenhang-karakteristieken/ogc/v1/collections/gm_gmw_monitoringtube/items?f=json",
+      "type": "application/geo+json",
+      "title": "GMW - Monitoringbuis (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-gm-gmn": {
+      "href": "https://api.pdok.nl/tno/bro-grondwatermonitoring-in-samenhang-karakteristieken/ogc/v1/collections/gm_gmn/items?f=json",
+      "type": "application/geo+json",
+      "title": "Grondwatermonitoringnet (GMN) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-gm-gmn-measuringpoint": {
+      "href": "https://api.pdok.nl/tno/bro-grondwatermonitoring-in-samenhang-karakteristieken/ogc/v1/collections/gm_gmn_measuringpoint/items?f=json",
+      "type": "application/geo+json",
+      "title": "GMN - Meetpunt (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-gm-gmn-reference": {
+      "href": "https://api.pdok.nl/tno/bro-grondwatermonitoring-in-samenhang-karakteristieken/ogc/v1/collections/gm_gmn_reference/items?f=json",
+      "type": "application/geo+json",
+      "title": "GM - Verwijzing naar GMN (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-gm-gld": {
+      "href": "https://api.pdok.nl/tno/bro-grondwatermonitoring-in-samenhang-karakteristieken/ogc/v1/collections/gm_gld/items?f=json",
+      "type": "application/geo+json",
+      "title": "Grondwaterstandonderzoek (GLD) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    },
+    "items-gm-gar": {
+      "href": "https://api.pdok.nl/tno/bro-grondwatermonitoring-in-samenhang-karakteristieken/ogc/v1/collections/gm_gar/items?f=json",
+      "type": "application/geo+json",
+      "title": "Grondwatersamenstellingsonderzoek (GAR) (OGC API Features)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://api.pdok.nl/tno/bro-grondwatermonitoring-in-samenhang-karakteristieken/ogc/v1",
+      "type": "application/json",
+      "title": "PDOK API"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
+      "type": "text/html",
+      "title": "CC0 1.0"
+    }
+  ]
+}
