@@ -21,6 +21,34 @@ catalog/
 
 All links are relative, so the catalog works under any GitHub Pages sub-path.
 
+## Main groups
+
+The root catalog <https://bertt.github.io/pdok-stac/catalog.json> has one sub catalog per provider (215 collections in total, one per PDOK API or dataset):
+
+| Group | Collections |
+|---|---|
+| [Kadaster](https://bertt.github.io/pdok-stac/kadaster/catalog.json) | 52 |
+| [Rijksdienst voor Ondernemend Nederland](https://bertt.github.io/pdok-stac/rijksdienst-voor-ondernemend-nederland/catalog.json) | 34 |
+| [Ministerie van Binnenlandse Zaken en Koninkrijksrelaties](https://bertt.github.io/pdok-stac/ministerie-van-binnenlandse-zaken-en-koninkrijksrelaties/catalog.json) | 33 |
+| [Centraal Bureau voor de Statistiek](https://bertt.github.io/pdok-stac/centraal-bureau-voor-de-statistiek/catalog.json) | 26 |
+| [Rijkswaterstaat](https://bertt.github.io/pdok-stac/rijkswaterstaat/catalog.json) | 24 |
+| [Provincies](https://bertt.github.io/pdok-stac/provincies/catalog.json) | 10 |
+| [Het Waterschapshuis](https://bertt.github.io/pdok-stac/het-waterschapshuis/catalog.json) | 10 |
+| [Informatiehuis Water](https://bertt.github.io/pdok-stac/informatiehuis-water/catalog.json) | 7 |
+| [Ministerie van Infrastructuur en Waterstaat](https://bertt.github.io/pdok-stac/ministerie-van-infrastructuur-en-waterstaat/catalog.json) | 4 |
+| [Stichting Landelijk Fietsplatform](https://bertt.github.io/pdok-stac/stichting-landelijk-fietsplatform/catalog.json) | 2 |
+| [RIONED](https://bertt.github.io/pdok-stac/rioned/catalog.json) | 2 |
+| [Stichting Wandelnet](https://bertt.github.io/pdok-stac/stichting-wandelnet/catalog.json) | 2 |
+| [Rijksdienst voor het Cultureel Erfgoed](https://bertt.github.io/pdok-stac/rijksdienst-voor-het-cultureel-erfgoed/catalog.json) | 2 |
+| [Publieke Dienstverlening Op de Kaart](https://bertt.github.io/pdok-stac/publieke-dienstverlening-op-de-kaart/catalog.json) | 2 |
+| [ProRail](https://bertt.github.io/pdok-stac/prorail/catalog.json) | 1 |
+| [Kamer van Koophandel](https://bertt.github.io/pdok-stac/kamer-van-koophandel/catalog.json) | 1 |
+| [TNO](https://bertt.github.io/pdok-stac/tno/catalog.json) | 1 |
+| [Wageningen University & Research](https://bertt.github.io/pdok-stac/wageningen-university-research/catalog.json) | 1 |
+| [Defensie](https://bertt.github.io/pdok-stac/defensie/catalog.json) | 1 |
+
+The counts are a snapshot; the catalog is rebuilt weekly.
+
 Each collection is one PDOK API from <https://api.pdok.nl/index.json>. Title, description and keywords come from that index; for OGC APIs the landing page and `/collections` add the license link, thumbnail, the real spatial/temporal extent (union of all collections) and assets: `ogc-api` (landing page), `openapi`, `conformance` and one `items-<collection>` asset per feature collection. Other APIs (download APIs, Locatieserver, Location API) get a single `api` asset. The index has no WMS/WFS/WMTS/WCS/ATOM services, so those are the only thing scraped from the pdok.nl dataset pages. They are added as assets (`wms`, `wfs`, `wmts`, `wcs`, `atom`, `download-api`) to the API collection with the same `<provider>/<dataset>` URL path. Datasets without an OGC API get their own collection (thumbnail from the overview page). WMS and WMTS services are also added as [Web Map Links](https://github.com/stac-extensions/web-map-links) (`rel: wms` / `rel: wmts`, first layer from GetCapabilities) so STAC Browser can show them on a map; capabilities that cannot be fetched are skipped with a log line.
 
 Each collection has items so that STAC clients (e.g. GeoLibre) show content: a services item with all service assets, and for OGC APIs one item per feature collection (asset items links to the OGC API Features endpoint, with bbox and thumbnail from /collections).
